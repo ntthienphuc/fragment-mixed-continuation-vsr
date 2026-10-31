@@ -44,6 +44,11 @@ driver identities and the 101-file native-reference graph. It then reproduces
 model/clip paths, transcripts and edit counts, six diagnostic aggregates and
 four diagnostic intervals. It needs no GPU, model weights or video downloads.
 
+Frozen source and data bytes are hash-checked without normalization. For regenerated
+diagnostic text exports, the Git verifier permits only CRLF versus LF line-ending
+differences across Windows and Linux. Every numerical digit and record must still
+match exactly. The original Windows release verifier is preserved unchanged.
+
 The root verifier can also run the 27 original CPU tests with a separate Python
 interpreter containing Torch, NumPy, SentencePiece and preparation dependencies:
 

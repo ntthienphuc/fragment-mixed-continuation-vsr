@@ -43,8 +43,8 @@ def main():
     if args.test_python:
         command.extend(["--test-python", str(args.test_python.resolve())])
     run(command, output, "primary")
-    run([sys.executable, "-B", str(ROOT / "Greedy_Diagnostic/Code/verify_supplement.py"),
-         "--package", str(ROOT / "Greedy_Diagnostic"), "--output", str(output / "Greedy")], output, "greedy")
+    run([sys.executable, "-B", str(ROOT / "verify_greedy.py"),
+         "--output", str(output / "Greedy")], output, "greedy")
     result = {"utc": datetime.now(timezone.utc).isoformat(), "status": "passed",
               "payload_files": len(manifest["files"]), "primary_aggregates": 60,
               "primary_paired_intervals": 49, "diagnostic_clip_model_records": 37422,
