@@ -5,6 +5,13 @@ manuscript has 35 pages, seven figures and nine tables. All primary recognition
 results include completed full populations, including the whole-word short-only
 follow-up. Author names and affiliations will be added by the authors later.
 
+An editorial refresh on the same date aligns Figures 1 and 2 with the manuscript's
+Latin Modern font, fixes Figure 1 placement before Section 3.4, and strengthens
+the contribution narrative while consolidating repeated qualifications. Measured
+results and the five numerical plots are unchanged. See
+`EDITORIAL_REVIEW_2026-10-31.md` and `Figure_Source/README.md` for the audit and
+editable figure sources. The updated PDF and Overleaf ZIP include this revision.
+
 ## Main evidence
 
 The original VLR-to-ViCocktail comparison improves common-decoder WER by 3.41

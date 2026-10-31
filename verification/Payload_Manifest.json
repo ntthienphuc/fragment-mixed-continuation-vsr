@@ -71,14 +71,14 @@
       "sha256": "505f61d6078b36532dad508779a4c22ac56f6c81ce8f20ffc99512d70bfbb93c"
     },
     {
-      "path": "Data/Length_Counts.csv",
-      "bytes": 2140,
-      "sha256": "7f7974bc2c300f1da1a097cb3897af315a0d0c58d570d605f25fff16aceb2349"
-    },
-    {
       "path": "Data/LICENSE-DATA-CC-BY-4.0.txt",
       "bytes": 888,
       "sha256": "fa72d5ff9b027dbd8ce32d578e7dd0342b3ff17fdc002e276ad11ee9442a8541"
+    },
+    {
+      "path": "Data/Length_Counts.csv",
+      "bytes": 2140,
+      "sha256": "7f7974bc2c300f1da1a097cb3897af315a0d0c58d570d605f25fff16aceb2349"
     },
     {
       "path": "Data/Loss_Reduction/Analysis_Plan.json",
@@ -216,21 +216,6 @@
       "sha256": "ae4d7bbfa4927b58d5a6150500e8d16c0b9e84012d95a678d92ea7aaf4e9a681"
     },
     {
-      "path": "Data/Short_Only/assessment/Paired_Comparisons.csv",
-      "bytes": 667,
-      "sha256": "00de54a5a7dca7f43c61f055b920949a586299fab1fee7463e9ba8e36a684a99"
-    },
-    {
-      "path": "Data/Short_Only/assessment/Per_Clip_Counts.csv",
-      "bytes": 501374,
-      "sha256": "99d1a7cdcd3a3ba16201f9d834163a605aa3ef4ec219fb91a074ef62abdc5980"
-    },
-    {
-      "path": "Data/Short_Only/assessment/Results.csv",
-      "bytes": 464,
-      "sha256": "24f6ecc80d6185868d43ca5439ac6bdef0cb700d000c22e0bb624c5332d1845f"
-    },
-    {
       "path": "Data/Short_Only/Comparison_Plan.json",
       "bytes": 1491,
       "sha256": "3ac6bd11b00f450b64373701cdbced43490132e0ff33738ada75502330eba317"
@@ -239,21 +224,6 @@
       "path": "Data/Short_Only/Execution_Comparability.json",
       "bytes": 2456,
       "sha256": "7270afcd21adf9a78044d7043c5fa7904584b4fb509fbf52c270e2a5b34d558a"
-    },
-    {
-      "path": "Data/Short_Only/source/Paired_Comparisons.csv",
-      "bytes": 662,
-      "sha256": "8cd9987485f74791c32a859b0dd9cad9dee3aa5d605f671af9dbccb48adf45f8"
-    },
-    {
-      "path": "Data/Short_Only/source/Per_Clip_Counts.csv",
-      "bytes": 4872641,
-      "sha256": "1d1afb19ed5a3390e8ff0dcd42b13287077d4d5b20dee934e6de42a8f9723771"
-    },
-    {
-      "path": "Data/Short_Only/source/Results.csv",
-      "bytes": 466,
-      "sha256": "bd16227eb7725ca7e92e2f5f4f0f9a0599e15c31c23291c4dca4551574b337ac"
     },
     {
       "path": "Data/Short_Only/Summary.json",
@@ -269,6 +239,36 @@
       "path": "Data/Short_Only/Training_Verification.json",
       "bytes": 1989,
       "sha256": "481d8afa6eab61e745b2bd2bcff09b3f007eedd68dc7bca24dd98d79b3449e31"
+    },
+    {
+      "path": "Data/Short_Only/assessment/Paired_Comparisons.csv",
+      "bytes": 667,
+      "sha256": "00de54a5a7dca7f43c61f055b920949a586299fab1fee7463e9ba8e36a684a99"
+    },
+    {
+      "path": "Data/Short_Only/assessment/Per_Clip_Counts.csv",
+      "bytes": 501374,
+      "sha256": "99d1a7cdcd3a3ba16201f9d834163a605aa3ef4ec219fb91a074ef62abdc5980"
+    },
+    {
+      "path": "Data/Short_Only/assessment/Results.csv",
+      "bytes": 464,
+      "sha256": "24f6ecc80d6185868d43ca5439ac6bdef0cb700d000c22e0bb624c5332d1845f"
+    },
+    {
+      "path": "Data/Short_Only/source/Paired_Comparisons.csv",
+      "bytes": 662,
+      "sha256": "8cd9987485f74791c32a859b0dd9cad9dee3aa5d605f671af9dbccb48adf45f8"
+    },
+    {
+      "path": "Data/Short_Only/source/Per_Clip_Counts.csv",
+      "bytes": 4872641,
+      "sha256": "1d1afb19ed5a3390e8ff0dcd42b13287077d4d5b20dee934e6de42a8f9723771"
+    },
+    {
+      "path": "Data/Short_Only/source/Results.csv",
+      "bytes": 466,
+      "sha256": "bd16227eb7725ca7e92e2f5f4f0f9a0599e15c31c23291c4dca4551574b337ac"
     },
     {
       "path": "Data/Source_Comparisons.csv",
@@ -491,16 +491,6 @@
       "sha256": "d5ef698ccaf57c99d5de00ceb6c28c9df535c298f9d28e66afe140c17574cadf"
     },
     {
-      "path": "Greedy_Diagnostic/Data/Inputs/assessment_Cohort.jsonl",
-      "bytes": 411964,
-      "sha256": "d24c60641aa3c979d38b3f3a88b5b37e5e941c531aba732ba6ee4798a8d1f272"
-    },
-    {
-      "path": "Greedy_Diagnostic/Data/Inputs/assessment_Common.csv",
-      "bytes": 501374,
-      "sha256": "99d1a7cdcd3a3ba16201f9d834163a605aa3ef4ec219fb91a074ef62abdc5980"
-    },
-    {
       "path": "Greedy_Diagnostic/Data/Inputs/Assets_Complete.json",
       "bytes": 855,
       "sha256": "395066ce30ebd40b1c24a29e870adc7b962b55ae59127d26a5332580db5e71be"
@@ -529,6 +519,16 @@
       "path": "Greedy_Diagnostic/Data/Inputs/Provenance.json",
       "bytes": 1606,
       "sha256": "2afa304e248f4c8e19b6cf25ad82e01f51f1a416b3c9e77155bf0419f11ec362"
+    },
+    {
+      "path": "Greedy_Diagnostic/Data/Inputs/assessment_Cohort.jsonl",
+      "bytes": 411964,
+      "sha256": "d24c60641aa3c979d38b3f3a88b5b37e5e941c531aba732ba6ee4798a8d1f272"
+    },
+    {
+      "path": "Greedy_Diagnostic/Data/Inputs/assessment_Common.csv",
+      "bytes": 501374,
+      "sha256": "99d1a7cdcd3a3ba16201f9d834163a605aa3ef4ec219fb91a074ef62abdc5980"
     },
     {
       "path": "Greedy_Diagnostic/Data/Inputs/source_Cohort.jsonl",
@@ -586,11 +586,6 @@
       "sha256": "f24e773cb934f6e95a4f0131205c436a889bde8afa206e972024c102cf2cc5c7"
     },
     {
-      "path": "Greedy_Diagnostic/Project/Research_Greedy_Readout_Diagnostic_2026-10-31/execute_population.py",
-      "bytes": 2723,
-      "sha256": "534e30dee7edfeb13817ed3159ebc699c30182cd0528a5360f8108245c5b7104"
-    },
-    {
       "path": "Greedy_Diagnostic/Project/Research_Greedy_Readout_Diagnostic_2026-10-31/Probe_Verification.json",
       "bytes": 1049,
       "sha256": "327fb01c0626100a64c1489b90d3947b9d0da14e72f7b15d331e9d71a255ce00"
@@ -601,6 +596,11 @@
       "sha256": "37f0c04f3a234cd096fbb21e75e7506905f1dfb0a8d07e34b56d301d8538fae6"
     },
     {
+      "path": "Greedy_Diagnostic/Project/Research_Greedy_Readout_Diagnostic_2026-10-31/execute_population.py",
+      "bytes": 2723,
+      "sha256": "534e30dee7edfeb13817ed3159ebc699c30182cd0528a5360f8108245c5b7104"
+    },
+    {
       "path": "Greedy_Diagnostic/Project/Research_Greedy_Readout_Diagnostic_2026-10-31/run.py",
       "bytes": 6725,
       "sha256": "595bfb93c467e408f0b15ba974b4718859c12f5abec7f2299bfb00ab95936470"
@@ -609,6 +609,11 @@
       "path": "Greedy_Diagnostic/README.md",
       "bytes": 4272,
       "sha256": "458808af5c72bd65c1511ac8878036ec07c3b6db416ba97ce647437410e487ea"
+    },
+    {
+      "path": "Greedy_Diagnostic/Results/Summary.json",
+      "bytes": 8864,
+      "sha256": "a9f14f0e224fc8baecbb0b90238dee7284cac4b9e9c623b0d55d80274d09f385"
     },
     {
       "path": "Greedy_Diagnostic/Results/assessment/Aggregate.csv",
@@ -661,11 +666,6 @@
       "sha256": "b90fadea224882d83aca65bf08bbbc2acc3a2e8149a349ee5263c2150ba330b8"
     },
     {
-      "path": "Greedy_Diagnostic/Results/Summary.json",
-      "bytes": 8864,
-      "sha256": "a9f14f0e224fc8baecbb0b90238dee7284cac4b9e9c623b0d55d80274d09f385"
-    },
-    {
       "path": "Greedy_Diagnostic/Source/main.tex",
       "bytes": 4707,
       "sha256": "e91ba8724694210688d85b60d7e28298859ab2627450190567fd9b227f017f59"
@@ -681,19 +681,169 @@
       "sha256": "223d874fbc1935fe5049641aa12de119c8751927649e913e3583218fa3d0da65"
     },
     {
+      "path": "Manuscript/EDITORIAL_REVIEW_2026-10-31.md",
+      "bytes": 3801,
+      "sha256": "f65eacaa58fabcc2b2ce1a242202e20cb814d68892b69d9e2cc306984b37c0c6"
+    },
+    {
+      "path": "Manuscript/Figure_Source/Frame_Preservation.json",
+      "bytes": 9130,
+      "sha256": "511cf03c43be8f0c0cc20f355aa9cd6941a979a8b91e440001853d5c95456e48"
+    },
+    {
+      "path": "Manuscript/Figure_Source/README.md",
+      "bytes": 1571,
+      "sha256": "a8dd5192bf193e1be0363411146567a2550cd5e15fb06e43465674621c1efa26"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/LRS2_1.png",
+      "bytes": 5709,
+      "sha256": "a2e73ee257e49e13f16fd6038f32dc236b6a204dcb13edd17a7dfada91463c08"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/LRS2_2.png",
+      "bytes": 5985,
+      "sha256": "c9ff3d7475345d46e49a181889833aeb47252adb7711471393358014f4cd466c"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/LRS2_3.png",
+      "bytes": 5904,
+      "sha256": "b5eec808947880ae03278025315c8fa721082d8b288d9211abebd4370a152a06"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/LRS2_4.png",
+      "bytes": 5789,
+      "sha256": "a5b6aab93a4bb1ec3e5055db9a33b5f69a8d976e5abd03ed21916e46bc2a82a0"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/LRS2_5.png",
+      "bytes": 5934,
+      "sha256": "6069eba8da6d0bc5bd3d9810829b8d0775934c3edb1cbe746e9fb68182c0e07c"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/LRS2_6.png",
+      "bytes": 5901,
+      "sha256": "393e577887cc767838aa8bd6dc87ed2cd510f1c19cf2def7342f0c749c73e892"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/VLR_1.png",
+      "bytes": 8041,
+      "sha256": "5de66cbb07e10a587674567bb4469e8d80abfd6f4d2f85f9868173ae2324c2e6"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/VLR_2.png",
+      "bytes": 7803,
+      "sha256": "248854a91f6ac85f4be0831daa39e05a576b2fada739e6fd9977b24062cdbfc5"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/VLR_3.png",
+      "bytes": 8009,
+      "sha256": "ba976fff96581fef6282d9c8d79858ff83e6bf63e42b700de0812d14ea74598a"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/VLR_4.png",
+      "bytes": 8048,
+      "sha256": "85f5320100f531da83544fb543d95dec1f1185092526eca9602a50900151f1e0"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/VLR_5.png",
+      "bytes": 8045,
+      "sha256": "b60467ef77ea025b48601aadf0b0c0920e0643988bd06529f82ad70d764eb91d"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/VLR_6.png",
+      "bytes": 7857,
+      "sha256": "00395769480f78acf408200794df7d677db354d417f810c120994229e0a194fa"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/ViCocktail_1.png",
+      "bytes": 7509,
+      "sha256": "dc0dea72ed78a2a00b5cf3ae9ed84d958f464ba5fcd9948d0bc4b05f0aa1c570"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/ViCocktail_2.png",
+      "bytes": 7569,
+      "sha256": "a9324a28eaf505ae031b3d45804fce86629c4ef7aab3499eb56422d39efcbd70"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/ViCocktail_3.png",
+      "bytes": 7722,
+      "sha256": "0de5ab011c03b86b3010901a4c81d7b2463822a905e9e0862fd05f8806dcc00d"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/ViCocktail_4.png",
+      "bytes": 7472,
+      "sha256": "f7f58077999bb629279855524ae30ce2555376ca9c52ac6d549a3eb6e95afc4c"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/ViCocktail_5.png",
+      "bytes": 7256,
+      "sha256": "0a4159014e1e190a42443d8ce5eeb5405207aa914257509c645dc98cdb88e11c"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/ViCocktail_6.png",
+      "bytes": 7401,
+      "sha256": "ce31df137aee93ac00e67a67b9a88289c4b23e560aa7cc87454d2284875db1fd"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/WildVSR_1.png",
+      "bytes": 6810,
+      "sha256": "d94cd7b5429007f6426c06d56b798ca28d72710e3e4da4c2be5a63fcd83fa22d"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/WildVSR_2.png",
+      "bytes": 6804,
+      "sha256": "7272b234cd18661445b5262881666dbd876957d5c4f0633414fd86a8a3065546"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/WildVSR_3.png",
+      "bytes": 6597,
+      "sha256": "0d60755936c04ff7041493b55a53ee87442cf17fd47b61616a42afbf1b993a6b"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/WildVSR_4.png",
+      "bytes": 6612,
+      "sha256": "71fdc50d93d4c102a3f4352aa02c2b669e83b766b7f66817856def55aa3c246b"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/WildVSR_5.png",
+      "bytes": 6292,
+      "sha256": "7a02fdbcec84c6f555b716c5629733987248a4fb0ff61c4f78bc2cddc18109a3"
+    },
+    {
+      "path": "Manuscript/Figure_Source/assets/WildVSR_6.png",
+      "bytes": 6442,
+      "sha256": "26f632cfbc113ccc1973663532f4cb0c9aa634507282062295cb6f5f3341a076"
+    },
+    {
+      "path": "Manuscript/Figure_Source/build_figures.py",
+      "bytes": 1923,
+      "sha256": "a1a8504883fb0fa7d19161068d17f1f44b9de8b7f5c759b6df7627205e4c0f16"
+    },
+    {
+      "path": "Manuscript/Figure_Source/dataset_examples.tex",
+      "bytes": 1997,
+      "sha256": "244678f6b0e613f57c04add34572c29a7036a489e5e0547c6a63654f9eb82798"
+    },
+    {
+      "path": "Manuscript/Figure_Source/training_design.tex",
+      "bytes": 3413,
+      "sha256": "8f2f4041ddf9b7233973737e8bd7e14b356ba2a8ab06f44af1894adab3665928"
+    },
+    {
       "path": "Manuscript/Manuscript.pdf",
-      "bytes": 654141,
-      "sha256": "3527be9e4987a6f931d1dd5b4beec71f8a45c36a526e1a9d3f98709885fbf099"
+      "bytes": 665962,
+      "sha256": "11b54a9bcf49e6e17a923cb5e24e15b6e11b7187e5624df39e613ee4d664dd49"
     },
     {
       "path": "Manuscript/Overleaf_Source.zip",
-      "bytes": 343139,
-      "sha256": "f93f7bf80982466cc5c03e756d0e047fb087a0eeafae47a05b56b20722d3821e"
+      "bytes": 630176,
+      "sha256": "0fcb4ee7e789c551dbed1e0459d276038c4ce8f0490436c79823cb1237ce4902"
     },
     {
       "path": "Manuscript/RELEASE_README.md",
-      "bytes": 5716,
-      "sha256": "7798012bdb3d3271267166f0308fff68dac05c8d4f9f578c7579a546893cb428"
+      "bytes": 6186,
+      "sha256": "a2d80adbf23b37a84b7da03f08f79178f50365de462a70678af13da6365c906d"
     },
     {
       "path": "Manuscript/Source/elsarticle-num.bst",
@@ -707,8 +857,8 @@
     },
     {
       "path": "Manuscript/Source/figures/dataset_examples.pdf",
-      "bytes": 213435,
-      "sha256": "f45edf70c89f9b9ecc9731ffb6dadc6a0033effaace929ac017617ecb7348a2d"
+      "bytes": 227292,
+      "sha256": "8b4dd59668ff6315646ddf2f94340fe7c7fc130450dbeda39423a48486ef389e"
     },
     {
       "path": "Manuscript/Source/figures/edit_changes.pdf",
@@ -737,13 +887,13 @@
     },
     {
       "path": "Manuscript/Source/figures/training_design.pdf",
-      "bytes": 35402,
-      "sha256": "4ca5961c32df9f92ebf3f594b3ca3a66f3fe5fe2fa6ef37d955b6c9986570c17"
+      "bytes": 110353,
+      "sha256": "7bde75790ea4d9bddbe90bbc60c8d16fdc6a292d905948e2d639ef256162f589"
     },
     {
       "path": "Manuscript/Source/main.tex",
-      "bytes": 3235,
-      "sha256": "26a4063924b20ff1873d09bba4efdbba5248497fc4370eb36bee948d83cbb3dd"
+      "bytes": 3255,
+      "sha256": "4a9629189522b90c41e7656f81d4ba0f86189939465c552bdeba679bcfa5def3"
     },
     {
       "path": "Manuscript/Source/references.bib",
@@ -752,13 +902,13 @@
     },
     {
       "path": "Manuscript/Source/sections/conclusion.tex",
-      "bytes": 1460,
-      "sha256": "0a410a996540d23bbc6beedf62e02b71bc3757af9e4ede909cdc2b5bca050232"
+      "bytes": 1511,
+      "sha256": "f6d80091c6a07b443143059fe522736231e65bcfd5df88740aa4e3f87e150f44"
     },
     {
       "path": "Manuscript/Source/sections/discussion.tex",
-      "bytes": 6299,
-      "sha256": "900124f1c1e3d5a9b7b7d2d24cdebd4225881e180e60d107fa90fcd02698efb1"
+      "bytes": 5945,
+      "sha256": "1d5c9968567ca4abe54cadf28194dbe7aa49981b2e75fcf5b7f51812891a43aa"
     },
     {
       "path": "Manuscript/Source/sections/experiments.tex",
@@ -767,13 +917,13 @@
     },
     {
       "path": "Manuscript/Source/sections/introduction.tex",
-      "bytes": 4694,
-      "sha256": "79c8195f1c624f12dbd6a6ed349304adb1e2c4bba3d40c0f68ce5fb3bb6d7cee"
+      "bytes": 4803,
+      "sha256": "2efe15dffe34099fabc4914fd81ad8dc69d681ad5577217e3531827e960a8096"
     },
     {
       "path": "Manuscript/Source/sections/method.tex",
       "bytes": 11092,
-      "sha256": "2aba0c5af0eb96d2ba468fe4a36b5e4de5d7784aee9d3847d6ead41bc2462eb9"
+      "sha256": "19d297b26c017e24c78b27153cd2ef6cfa30585ed7ea4606911be95aad8bd2b7"
     },
     {
       "path": "Manuscript/Source/sections/related_work.tex",
@@ -826,6 +976,11 @@
       "sha256": "223d874fbc1935fe5049641aa12de119c8751927649e913e3583218fa3d0da65"
     },
     {
+      "path": "Matched_Training_Source/Drivers/native/Protocol.md",
+      "bytes": 2948,
+      "sha256": "4b2fc7465d7f5d53857b9411209a69f5a66d1bc707ee0a6e91d5827bcbdee842"
+    },
+    {
       "path": "Matched_Training_Source/Drivers/native/configuration.py",
       "bytes": 7036,
       "sha256": "c06c837f4c081175e7a45c50846aab901ba397bea1f4fb3e7f91c1b190017f32"
@@ -836,14 +991,14 @@
       "sha256": "7a8b3ae1a377f728209ff7e996bd31b54fc7735d33b46e92d14fd71682c2e6d5"
     },
     {
-      "path": "Matched_Training_Source/Drivers/native/Protocol.md",
-      "bytes": 2948,
-      "sha256": "4b2fc7465d7f5d53857b9411209a69f5a66d1bc707ee0a6e91d5827bcbdee842"
-    },
-    {
       "path": "Matched_Training_Source/Drivers/native/run.py",
       "bytes": 7639,
       "sha256": "eaabd153416a88247e1f6f9198ac85cd0e757f8d4fba458cb1fc5d7b5bbcc048"
+    },
+    {
+      "path": "Matched_Training_Source/Drivers/normalized/Protocol.md",
+      "bytes": 1860,
+      "sha256": "7d58d26cf511121b8340e3e8d7f9350ea9ece062a9bdfc24d12c6d2333044573"
     },
     {
       "path": "Matched_Training_Source/Drivers/normalized/configuration.py",
@@ -861,11 +1016,6 @@
       "sha256": "159285b9ee64e669ebcc10d1c377877e5173d60a4084916c14b7063b615ce043"
     },
     {
-      "path": "Matched_Training_Source/Drivers/normalized/Protocol.md",
-      "bytes": 1860,
-      "sha256": "7d58d26cf511121b8340e3e8d7f9350ea9ece062a9bdfc24d12c6d2333044573"
-    },
-    {
       "path": "Matched_Training_Source/Drivers/normalized/reduction.py",
       "bytes": 1211,
       "sha256": "0d3738a82db4708b59b766a7e5584de1dbe97a99ebff61071c2eeccd5ae1cad0"
@@ -874,6 +1024,11 @@
       "path": "Matched_Training_Source/Drivers/normalized/run.py",
       "bytes": 7767,
       "sha256": "a64841c300c80ce509b6117bf1fb72cb1a79cbac9578b5f1bc623de9c30e0cf7"
+    },
+    {
+      "path": "Matched_Training_Source/Drivers/short_only/Protocol.md",
+      "bytes": 3649,
+      "sha256": "3f9f635db98ee1e341c9c122fe52118be6462443b67d4a0a85f1a358b22c6a6a"
     },
     {
       "path": "Matched_Training_Source/Drivers/short_only/configuration.py",
@@ -889,11 +1044,6 @@
       "path": "Matched_Training_Source/Drivers/short_only/objective.py",
       "bytes": 3415,
       "sha256": "174e181e6049c8ad207b2233503f7bb57ae1b913fc166a8e36e40a6ec0696ebe"
-    },
-    {
-      "path": "Matched_Training_Source/Drivers/short_only/Protocol.md",
-      "bytes": 3649,
-      "sha256": "3f9f635db98ee1e341c9c122fe52118be6462443b67d4a0a85f1a358b22c6a6a"
     },
     {
       "path": "Matched_Training_Source/Drivers/short_only/run.py",
@@ -1016,14 +1166,14 @@
       "sha256": "0bd5c458afedc35be81b4a03616447effed3341acebae28ebd83096ba31863e5"
     },
     {
-      "path": "Matched_Training_Source/Preparation/Short_Only/prepare_schedule.py",
-      "bytes": 7215,
-      "sha256": "bde3d50fee3778a7997e279da94590b20545160bd9c2e27c377f2d096b2ab148"
-    },
-    {
       "path": "Matched_Training_Source/Preparation/Short_Only/Protocol.md",
       "bytes": 3589,
       "sha256": "3b35129100b3bc1ce95b2ba4228d8a9e5cb8517705345df87ffbd59ad5409582"
+    },
+    {
+      "path": "Matched_Training_Source/Preparation/Short_Only/prepare_schedule.py",
+      "bytes": 7215,
+      "sha256": "bde3d50fee3778a7997e279da94590b20545160bd9c2e27c377f2d096b2ab148"
     },
     {
       "path": "Matched_Training_Source/Preparation/Short_Only/verify_schedule.py",
@@ -1052,13 +1202,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4656,
-      "sha256": "6b0fa0d8c6211583422d08a5305442cc1bbdd15d99b638ba32725495fd6506fd"
-    },
-    {
-      "path": "requirements.txt",
-      "bytes": 13,
-      "sha256": "5e7cb66d2a3374454132a5ff73596f40061357a52fe40d3f100840077d8cc547"
+      "bytes": 5044,
+      "sha256": "f5958407bdfea3f41f2741915672c6195ff453e4646b238346f4ccab7767b747"
     },
     {
       "path": "Research_Code/Assembly.json",
@@ -1094,541 +1239,6 @@
       "path": "Research_Code/Metadata/Training_Identities.json",
       "bytes": 7944,
       "sha256": "a3a1b1fbc54a7d1fb15d1b7865bbbbcf67faf96455b6b6a05c2bd42c24761a54"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/01_results/project_campaign/graphs/vicocktail/w0_vc_calib/center/decode.log",
-      "bytes": 274923,
-      "sha256": "e63871a100ee3e5653f2b5295f9de142fe9596c5e22e67a0c2342833d4f0128b"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/average_checkpoints.py",
-      "bytes": 980,
-      "sha256": "5f6a5d1e12dabc706456d477ba4e91d7ba5aa029b9b42b974e1805f636967f88"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/cosine.py",
-      "bytes": 922,
-      "sha256": "50bd9f5eb01f62b2ce0758dc7eea276f75708cadee5f44c282ef9bdfa33818cb"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/datamodule/av_dataset.py",
-      "bytes": 7253,
-      "sha256": "4a5bc37329ff1d9aeeeb076db80aae282b9b04fd0b4dda6230d96ca0e80bff17"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/datamodule/data_module.py",
-      "bytes": 11970,
-      "sha256": "d84e612413081c02992b0b97b5381010efb84cf7068a09686ca38c6fd5797a7f"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/datamodule/transforms.py",
-      "bytes": 6304,
-      "sha256": "0e650726bf39e391231d5d77920e46f2b9c6298bed9cb34b9136bb65f444090d"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/batch_beam_search.py",
-      "bytes": 13345,
-      "sha256": "4d319866d432a94f68969cb46a3569f7b9f99abd9c6df9eb1d53f68a1467ff6e"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/beam_search.py",
-      "bytes": 19122,
-      "sha256": "600a9434bdcf44312de002ac509e55ca936ede6df270b49f2887299cc29df2df"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/ctc_prefix_score.py",
-      "bytes": 13899,
-      "sha256": "c26e5ce6f4884cfbf329e3bd8ac75089a47e4a4e79355db024dc0056b48da6c9"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/e2e_asr_common.py",
-      "bytes": 6856,
-      "sha256": "e24670378092040db8bded6a9383f9d2859fc5d6db5946f7409e4df5b23278ff"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/ctc.py",
-      "bytes": 9342,
-      "sha256": "39c589343af0943663029e8d68e04ef04642e2b38d7499d052b860ddcf2ecee0"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/decoder/transformer_decoder.py",
-      "bytes": 13613,
-      "sha256": "3c9c8745dd33e440ecd34eb3903d559d6f5213e52e89598713d3dad56fc5d762"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_conformer.py",
-      "bytes": 3063,
-      "sha256": "144c68cb2e696eb3735617770f21c9c0fe7e0e359cac77ae05a17dec5c0095b7"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_count.py",
-      "bytes": 4011,
-      "sha256": "60f29683136fe95cb23d352eb941415302e0c3f3121bfeaeabce5ae1dc13eb4b"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_interctc.py",
-      "bytes": 8770,
-      "sha256": "8caaa18dfbf5f2eda364b4d0491980c1cc5ac47810e305ccb52c56087ca067df"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_mdbridge.py",
-      "bytes": 4825,
-      "sha256": "8d00b9edfe75354aaf78e72f10f716f5203cbcc9c81f422ea192a8b182ac75f9"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_pavir.py",
-      "bytes": 8435,
-      "sha256": "ab61a7cd53fa174e21acab4847b22469e799b6681a82c06b058f80cde77c284f"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_signer.py",
-      "bytes": 8700,
-      "sha256": "64e6030889db66b03dfe46ed5d08f0cf23873c23ae5f72bf4948391a5700a52c"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_structured.py",
-      "bytes": 6966,
-      "sha256": "d11027089b85e8d482cadc61411c2a8dc9475c5ab59153ca616644480fc734e1"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_visyll.py",
-      "bytes": 9134,
-      "sha256": "8475db788502b08d065823a4d57d380d5021e951b0485bdea7879b7c9f62ffb2"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_xbridge.py",
-      "bytes": 5193,
-      "sha256": "11f5e72497b179c0567fa3536cf859bb746bcf0c38dec4894d170c1937780382"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/encoder/conformer_encoder.py",
-      "bytes": 11348,
-      "sha256": "ed595f814ebba45b1e2853555c85b0bb197ed2e14e8b730c6b1368b384a8e790"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/frontend/resnet.py",
-      "bytes": 7053,
-      "sha256": "4097c6ff8675ec76bcf74e3290d1fe06b5e536f194a2784ccdd4b81029afbbfb"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/frontend/resnet1d.py",
-      "bytes": 7274,
-      "sha256": "2b3d1e4cd68ea9ccce5813689234e7e95e6cb327181ca1335c6d63058da13a18"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/nets_utils.py",
-      "bytes": 9904,
-      "sha256": "34f0c4ef9f19f7e9526f0436a508371a0e68b6c4bebb687ca6372cf1d2ab638d"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/__init__.py",
-      "bytes": 30,
-      "sha256": "aba1b9ff25a1b69d8a6905e7ed877205b5b8af6f3d1d9e82bb28b8aaed9aaeee"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/add_sos_eos.py",
-      "bytes": 958,
-      "sha256": "e73c11b60af9a67467bde1e53b031d43ccd00cd55e5f85813c4e6d757114c7ce"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/attention.py",
-      "bytes": 8195,
-      "sha256": "ed4cf0a1bbb9551f66586338ea19d6e5cc12fd897b989fbd51a0d9a11304ed6d"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/embedding.py",
-      "bytes": 6860,
-      "sha256": "08157dc9be6e1363653c8689af94ec51f82b56a7acf8cea46711b009ca8c491c"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/label_smoothing_loss.py",
-      "bytes": 2164,
-      "sha256": "70f6a14a1f8749c1dfa39a96469d9633246856572d2140cddd0378857598e265"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/layer_norm.py",
-      "bytes": 874,
-      "sha256": "9685ea76896c4624ebd0db5afc2e7b7b77a1f467ae33ca0bd8876c802d46beb3"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/mask.py",
-      "bytes": 1047,
-      "sha256": "dbc6b6d7e1449404c7463ce3a89a193f9c0c9a57e381b32572821af3ba1f9275"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/positionwise_feed_forward.py",
-      "bytes": 899,
-      "sha256": "c4db61e228ba3c55158d20ce53a1d5ec13e87a34148d38164230d4ac93d506b2"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/repeat.py",
-      "bytes": 1219,
-      "sha256": "a441c579cc57d25721ecf59ec357a0ab64e68abddadc4b955bc4fa01f643f0f8"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/scorer_interface.py",
-      "bytes": 5902,
-      "sha256": "bfb21dd5b99f892fa9880764a47032729735bce3dd3b143d396e13ce1f31fc27"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/scorers/__init__.py",
-      "bytes": 30,
-      "sha256": "aba1b9ff25a1b69d8a6905e7ed877205b5b8af6f3d1d9e82bb28b8aaed9aaeee"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/scorers/ctc.py",
-      "bytes": 4953,
-      "sha256": "556c10c796866c703398bcbc72dcf7d7557fe781431e8efc44f62d69c853a4fe"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/scorers/length_bonus.py",
-      "bytes": 1740,
-      "sha256": "8c0aea891ef3aca25387acfafedbbec4210938cd3f9df14323eeb9fd36af9f78"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/scorers/word_ngram.py",
-      "bytes": 6724,
-      "sha256": "36e8be8a2993bba3735d61d65403bd6e5284de543c6c4c348e63571888d4a173"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/eval.py",
-      "bytes": 8244,
-      "sha256": "763e554eeb4562087526512f2697bbcc8c99f69e98cc07f5b9723521a26b6503"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/lightning.py",
-      "bytes": 42524,
-      "sha256": "5f7b89c79e98ac0505890a5c75d14e8768e6c5be70a871f583a524b35278f753"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/__init__.py",
-      "bytes": 614,
-      "sha256": "f6bb85aaf04831e47b9398abf16d57fdfbe0383e8f413b0372bca2cdfbdbe47c"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/artifacts.py",
-      "bytes": 31417,
-      "sha256": "8bb71e275e6fcea02c974de4cf3178b18adee9dc06e5155babc81f57dc3bffce"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/campaign.py",
-      "bytes": 69480,
-      "sha256": "ade02c6e747b1c8837fb9dd4c16472ec01d2844b321695373c7f3bbc9f894454"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/ctc_posterior.py",
-      "bytes": 10662,
-      "sha256": "13df7b1d5aa656ee956963fd0683ea4ed385ecf3996c77f017044edc4cd68301"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/deterministic_pool.py",
-      "bytes": 7721,
-      "sha256": "95844cc4097647e22534b17edf65bd42ab71289c3b8fdf22c943066ad4d1b00e"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/event_derangement.py",
-      "bytes": 5606,
-      "sha256": "7d7ebe82aa5d71dcabf11b90da95e71ca8e07bb989468bc04f7be65f9cf74337"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/identifiability.py",
-      "bytes": 6032,
-      "sha256": "a875df7316fa38edb85c885a432b52047f2f8d14ef31987aef1379a5fb38c4a1"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/mincost_derangement.py",
-      "bytes": 12795,
-      "sha256": "7837e594d472dc1fc76175b64464db6fe2cdcc537bedab95d0e7af0c08bcf8be"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/offline.py",
-      "bytes": 7473,
-      "sha256": "b8ff80b53ff89f6ec690270a9c710253170af8d8680acb9d1592184355448b94"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/route_confirm_v3.py",
-      "bytes": 44260,
-      "sha256": "eaa62faf0ff1137015d75cabd1a80b186a59b8f86b3188da8ccfefa9744b9c75"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/route_confirm_v3_activation.py",
-      "bytes": 46783,
-      "sha256": "56ec51ae754e6d53373775fe8098c51e4386d9d640b34d0e62a7598f593b901e"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/route_confirm_v3_g2.py",
-      "bytes": 41218,
-      "sha256": "ef1fa5c0cc5270566833cfe9cc93618ae812c2a59359bd6f84bbe5ccf0918f06"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/route_confirm_v3_g2_activity.py",
-      "bytes": 29016,
-      "sha256": "90d4a7da1777d3f892d3ff420d99640a6b717fffee010a1ce318111ce9472911"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/route_confirm_v3_g2_prototypes.py",
-      "bytes": 30910,
-      "sha256": "ed0d442592ca1a068e4bb0e0293e378081cff53bd1b3fe519796d94c8e076381"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/route_confirm_v3_g3.py",
-      "bytes": 18358,
-      "sha256": "ed6423ea4a2f53b681a5553988fa450b099bf0bb1740d77bf8c4b5d690d283e0"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/route_confirm_v3_io.py",
-      "bytes": 25616,
-      "sha256": "4e270eaf9fb351a61a01320518f9d778ce4772a1ff6801f53ef0f7f50890c5e8"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/route_confirm_v3_runner.py",
-      "bytes": 69499,
-      "sha256": "7c44777ba3e28a9fe6c9fd4915baa8c073cb55d45c9761883e115a31200e342f"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/routing.py",
-      "bytes": 14616,
-      "sha256": "1d38b6b0db2797265333f019a7fd4940eb5c9c60d215bfffcc4238851222454b"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/stratified_derangement.py",
-      "bytes": 24743,
-      "sha256": "87218ccb1211a48157c79c5daa31012393e711725dd90510d781574b2a0453df"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_artifacts.py",
-      "bytes": 7560,
-      "sha256": "dc4ffedeeb229547ada1cac00e264c63c20bf0a33be783b65f7d700f3f4b9b8e"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_batching_contract.py",
-      "bytes": 658,
-      "sha256": "7b22c9ba3386ac2096154c6d704e33d965b632a64cb6232b1e74248ee9e8f832"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_campaign.py",
-      "bytes": 13643,
-      "sha256": "ea722fe7b24416ac7103501333d3b5a62e41f6dc6e14e81dcaed000c87afd9f3"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_ctc_posterior.py",
-      "bytes": 5750,
-      "sha256": "af9b1de42cbe9a9a2052fd91ae943ccea2595ea280feeb2302cafed909708de9"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_deterministic_pool.py",
-      "bytes": 4766,
-      "sha256": "7dbc4dd11a2de3bc216ae066f56923c8ed584ce209973dc265fa2c504945a6a7"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_event_derangement.py",
-      "bytes": 9319,
-      "sha256": "cb8e100396cfd41ec194b378e154054648ffdae49029468be3e00d7fdec51440"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_extract_artifacts.py",
-      "bytes": 10175,
-      "sha256": "c43d117e401bc570f9abeabde1e6110464c1adc4fe06d2777c29acc1dea2adba"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_freeze_config.py",
-      "bytes": 5886,
-      "sha256": "3d1407ea80dd0500a7c67a557393d7219b82a6577632f317a5e7c88969384822"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_gradient_calibration_math.py",
-      "bytes": 1247,
-      "sha256": "a49b0d814a183e7153a65549dd302b9f0d03ee2c8351fc98618621d5d8cee7fe"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_identifiability.py",
-      "bytes": 1595,
-      "sha256": "d84921e34fd236a00adff5498edce06728c1edf528d02fd2bfdfcbf924f5c34e"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_mincost_derangement.py",
-      "bytes": 4389,
-      "sha256": "8a4e7413be08494f74e421626796cf52bb94e46b798e284547d158dec02877d5"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_model_contract.py",
-      "bytes": 5658,
-      "sha256": "31233c7224346dd2bdf3c0be8c6886a9c1cac4f22d26d5622dbc92944beaf1fc"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_offline.py",
-      "bytes": 1641,
-      "sha256": "aff4cf6a5c8dd972fe01b0f411ac2a11fc345f90678bf0ee11a5c8c57ea88115"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_offline_token_spans.py",
-      "bytes": 1149,
-      "sha256": "ee57aab20b2e771832d354099befb689d0f8d4086218920e186924f24e0e54bb"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_route_confirm_v3.py",
-      "bytes": 22014,
-      "sha256": "080f7ceca52140eed0602082033d9e79dc76a5c5a570e00a0cad3b9127b8bbe9"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_route_confirm_v3_activation.py",
-      "bytes": 16204,
-      "sha256": "20352923285762639b463eb6dd2c4fcfc9657e802ed7cc498ffca989a906c5c0"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_route_confirm_v3_g2.py",
-      "bytes": 13841,
-      "sha256": "c4b823bd97bcb26133748cac39c4f0a829d012a1e4649c4ee8debb6cb166b9d0"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_route_confirm_v3_g2_activity.py",
-      "bytes": 8509,
-      "sha256": "eebaa1e5e15c9252be5d5acabefa3c5ba6fd52bbfd87941e99a31eb7816746ee"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_route_confirm_v3_g2_prototypes.py",
-      "bytes": 14864,
-      "sha256": "79a586815d6a1a746166fe541a89960877c2036b2b967badffa3604a52f5fc5f"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_route_confirm_v3_g3.py",
-      "bytes": 6520,
-      "sha256": "689861e17ad6d9030e1bb549e88e9dae658ab0d09abd21416ae8e996c711bfab"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_route_confirm_v3_io.py",
-      "bytes": 7195,
-      "sha256": "0f022d81b1e7d140857848d11afacad8df0d380ae070efc4399306727c841440"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_route_confirm_v3_runner.py",
-      "bytes": 7697,
-      "sha256": "969265411441ed8dc13a809ac6456deee203885128a24789c990013f2ed5e960"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_routing.py",
-      "bytes": 5067,
-      "sha256": "a54d07b2b239d1571f9282a41e510ac9b8d55b920d6a46cfe83fdb3eac8666a0"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_spatial_stability_alignment.py",
-      "bytes": 736,
-      "sha256": "19af61a52dcd9be6efaf06720a871477f9b89acc605f2d36c83f1082bfe468e7"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_utility.py",
-      "bytes": 7561,
-      "sha256": "fa52e776c2829a228b10555a70e8e15105a29b88210cc1fa5b778b239a6a5b09"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_video_views.py",
-      "bytes": 599,
-      "sha256": "06c0f65bb1f9934f5b9a58d88e28d9674d3f5072affa13bb3215bee4a1a85a9d"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/utility.py",
-      "bytes": 24935,
-      "sha256": "46fdffcdc1dbe438eae5d1add37a2cfc794586902837593369fbcc14169e0345"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/asr_infer.py",
-      "bytes": 3427,
-      "sha256": "6300b41638b6587d7d0219c6b4734ae8f413075373391f4059a2df3e58a6ea82"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/data/data_module.py",
-      "bytes": 2343,
-      "sha256": "8434aa197d56bb7c8fff5ffaa88f887d0d87001f37198dca06c8bc8ab293ff07"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/detectors/mediapipe/detector.py",
-      "bytes": 2916,
-      "sha256": "a9296173fd7c63e5e8e8561f68ba53a1c6a859c8c1e6006cbc8fc43f4800bc2d"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/detectors/mediapipe/video_process.py",
-      "bytes": 7654,
-      "sha256": "986632fbb7f3ec189f4be9ab58e8f6ae4e782274290d3cfa1a7df4d5c99d2060"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/detectors/retinaface/detector.py",
-      "bytes": 1354,
-      "sha256": "efad479c4f56da915646bea1d087ddae4dc5d7f8f91082ade60a0e2355002b97"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/detectors/retinaface/video_process.py",
-      "bytes": 7593,
-      "sha256": "d3bbd6ac32ac5985d9e46484e2232449085f0dbeb204b2a96657b41018a577b2"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/limit_length.py",
-      "bytes": 1189,
-      "sha256": "2d85707ac21e2a178c51d5925f4795d8dfded779cc8c6a0e7ce849c66a0110ed"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/merge.py",
-      "bytes": 2220,
-      "sha256": "8c939f4f026a83f676098592a8a295d593e8a821bc284459647156d4254ab25a"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/preprocess_lrs2lrs3.py",
-      "bytes": 10105,
-      "sha256": "57a874d62b17514bd83e677176f3fc5c84d7c7464cbc026a95f929b6e911b753"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/preprocess_vox2.py",
-      "bytes": 4803,
-      "sha256": "f427067873e71b4398d2728a878d18210bd5caa29aa9a78493b0a86c57869cfa"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/transforms.py",
-      "bytes": 5453,
-      "sha256": "98fd83bd33ab450e3672354b6ce3089ca1d3c91b34be2328d3139289bc239036"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/utils.py",
-      "bytes": 2703,
-      "sha256": "60159deee2648184417e8a59733de473c489ac85b3504bef7bdd1d598ef4322e"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/spm/spm_encode.py",
-      "bytes": 3328,
-      "sha256": "368d21f11c00d78f50c297f1f5e0f93a1af7e689b10e254223fedf1bc2b506b9"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/spm/spm_train.py",
-      "bytes": 346,
-      "sha256": "497c1712d7498ffd98ab73faee0a8f200703712f787be229869663774a74a0da"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/train.py",
-      "bytes": 60839,
-      "sha256": "cab0ffafb3ee708e64574b94e36621d9d81564e0da72d7f3762311303cd8b4b3"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/scripts/activate_pavir_env.sh",
-      "bytes": 443,
-      "sha256": "58a724f35d857f47988622e6c628297e3bdd253f3bd463b1808ab4c4377081f3"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/scripts/run_vicocktail_w0_calib_decodes.sh",
-      "bytes": 3804,
-      "sha256": "9be665870f0264f4faab91e44def05c6cd76e187ea38eb8f73a88c116c27597e"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/04_artifacts/tokenizer/vi_unigram_2000.auto_avsr_units.txt",
-      "bytes": 21904,
-      "sha256": "90b0875aa114daad969c70d48589db7bfb49da548ea4d0f86bd07dab0514dfda"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/04_artifacts/tokenizer/vi_unigram_2000.model",
-      "bytes": 29678,
-      "sha256": "6b8c7e138d86282217fad89d7e2be9452a90d398a4e034d9d390586c145e499b"
-    },
-    {
-      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/MANIFEST.json",
-      "bytes": 6552109,
-      "sha256": "97ffbd8f9df728dc7203864d124bbba98ccf2c5650959af3fc74fae30ef55f96"
     },
     {
       "path": "Research_Code/Project/PatternRecognition_CrossCorpus_Draft_2026-10-29/Code/LICENSE",
@@ -1806,11 +1416,6 @@
       "sha256": "734e881bd841c098787758b884524cc5c1f7f7f7bef531f752c7efbcb7587f6d"
     },
     {
-      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/analyze_full_f0.py",
-      "bytes": 8786,
-      "sha256": "38584a21c1f9d25f8f6c8e55d6d9f643553f788901aca8efa8ab4b3e67406a92"
-    },
-    {
       "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/Assessment_Analysis_01/Summary.json",
       "bytes": 18257,
       "sha256": "5e2eb6eab9af793654e3dcf29d94dc312aa1ab67ceecb627ba0c0d9aaf06de3a"
@@ -1819,11 +1424,6 @@
       "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/Assessment_Task_Manifest.json",
       "bytes": 2151,
       "sha256": "a306a0b090ff388d49eeabc7c6fb7cccae837e34f36dc8fb5a1624ca833135f8"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/collect_full_results.py",
-      "bytes": 5252,
-      "sha256": "9631ae4eb211a77340b1f718f04e5e3b50d30bfe371845c839ede912582abee2"
     },
     {
       "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/Completion_Receipt.json",
@@ -1851,11 +1451,6 @@
       "sha256": "6cd1c6d7684e934565aee6f5a189ff0508f1626fc535bdff755d98ff2a298f7e"
     },
     {
-      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/execution_common.py",
-      "bytes": 6855,
-      "sha256": "af283bfc6d761817e22e89e42d46712dbae0a92c203c7003565f369f852e0847"
-    },
-    {
       "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/Execution_Lock.json",
       "bytes": 63081,
       "sha256": "6605ec9048d031b9edb912fb30e6bc72eb6c16be2e3f7fd416bd31c882c6a455"
@@ -1864,26 +1459,6 @@
       "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/Execution_Verification_01.json",
       "bytes": 1060,
       "sha256": "abd24b0dee27ed72f660538bb248cf946487e1cf8b6549873595c16bd23df973"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/experiment_core.py",
-      "bytes": 5352,
-      "sha256": "9b30da8e1cb6cbc25a86bafc4f1b20aa7fc9cffe3d8f4c414eee9336a485620c"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/full_analysis_core.py",
-      "bytes": 2162,
-      "sha256": "c4eb54d379314de92a849a588650918f9f8effec8fd5a2b6e1da910034147cb2"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/mechanism_common.py",
-      "bytes": 1545,
-      "sha256": "cd8c1ec92b822f2cb8adb558ff47e16ed5d7c965b683583e873c29e9df559b97"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/model_registry.json",
-      "bytes": 2522,
-      "sha256": "d8cf3157e985c63c9ec129db047299d0a61674b800e2376bc55beced4245adc6"
     },
     {
       "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/Parent_Count_Import_Verification_01.json",
@@ -1896,11 +1471,6 @@
       "sha256": "17ff25a0e332aa961e46d0de132e01750d9053926254c8187ff4a07ba39d001d"
     },
     {
-      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/prepare.py",
-      "bytes": 5400,
-      "sha256": "c331ff663ede844bef2de9149753ffd7da395744e12b21b8ab65ab43c963bc9a"
-    },
-    {
       "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/Protocol.md",
       "bytes": 3254,
       "sha256": "1f7a6bd4a18069e083a5a4137a99978b1e3a7ac41273b28dc39456ad140d6ec7"
@@ -1909,26 +1479,6 @@
       "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/README.md",
       "bytes": 4238,
       "sha256": "bce0cf84a134e2f5bdee0e9cfcb252c86ccf5d432dee92607a4d5c3a876b8d51"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/reconcile_gpu_preflight.py",
-      "bytes": 8415,
-      "sha256": "bd75e4c2b10d4d4b1e2e8e2e13a1e8e2bfc603f885a920344e82e8d074efc3d8"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/run_cpu_integration.py",
-      "bytes": 4772,
-      "sha256": "1df762e97934c56b2d9bd1152131cae6dbacb29b53cce280269449b134f63938"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/run_cpu_preflight.py",
-      "bytes": 5410,
-      "sha256": "817e0b1dd6aa682469447e468df9860dbbc1cc5c0806f277e8e344ac9e238059"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/run_full_task.py",
-      "bytes": 4456,
-      "sha256": "bac9feeafcddb9a30e2334c29b6ffd23687b7cedf74378f8f8281520f517d633"
     },
     {
       "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_00/Complete.json",
@@ -2331,6 +1881,86 @@
       "sha256": "58809c3dfa8b8b37d6d40e95028355ed33706996d18c7d89a81a97ab0213f14e"
     },
     {
+      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/Source_Grid_CPU_01/Complete.json",
+      "bytes": 442,
+      "sha256": "faf8ac35eb6ca4f282f6420c82dd04eef4da5b742cdc25897be9bfcd2caa3ea0"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/Source_Grid_CPU_01/Proofs/EN_F0_LAST/Complete.json",
+      "bytes": 6561,
+      "sha256": "5321facba8c38d1ee28e9d9394f1edcd4d519be5bd684b09085abd02119d1906"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/Vast_Preflight_GPU_0/Canonical_Runtime_Proof.json",
+      "bytes": 6604,
+      "sha256": "c928b8e0f3d0ec5794355aff874afd73dbb75f3ac850d64424944abded554e98"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/Vast_Preflight_GPU_1/Canonical_Runtime_Proof.json",
+      "bytes": 6604,
+      "sha256": "e84cbccf0f47348822a069218b8868dbbb97d1fcac086ce93d0b2279912f21e2"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/analyze_full_f0.py",
+      "bytes": 8786,
+      "sha256": "38584a21c1f9d25f8f6c8e55d6d9f643553f788901aca8efa8ab4b3e67406a92"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/collect_full_results.py",
+      "bytes": 5252,
+      "sha256": "9631ae4eb211a77340b1f718f04e5e3b50d30bfe371845c839ede912582abee2"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/execution_common.py",
+      "bytes": 6855,
+      "sha256": "af283bfc6d761817e22e89e42d46712dbae0a92c203c7003565f369f852e0847"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/experiment_core.py",
+      "bytes": 5352,
+      "sha256": "9b30da8e1cb6cbc25a86bafc4f1b20aa7fc9cffe3d8f4c414eee9336a485620c"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/full_analysis_core.py",
+      "bytes": 2162,
+      "sha256": "c4eb54d379314de92a849a588650918f9f8effec8fd5a2b6e1da910034147cb2"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/mechanism_common.py",
+      "bytes": 1545,
+      "sha256": "cd8c1ec92b822f2cb8adb558ff47e16ed5d7c965b683583e873c29e9df559b97"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/model_registry.json",
+      "bytes": 2522,
+      "sha256": "d8cf3157e985c63c9ec129db047299d0a61674b800e2376bc55beced4245adc6"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/prepare.py",
+      "bytes": 5400,
+      "sha256": "c331ff663ede844bef2de9149753ffd7da395744e12b21b8ab65ab43c963bc9a"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/reconcile_gpu_preflight.py",
+      "bytes": 8415,
+      "sha256": "bd75e4c2b10d4d4b1e2e8e2e13a1e8e2bfc603f885a920344e82e8d074efc3d8"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/run_cpu_integration.py",
+      "bytes": 4772,
+      "sha256": "1df762e97934c56b2d9bd1152131cae6dbacb29b53cce280269449b134f63938"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/run_cpu_preflight.py",
+      "bytes": 5410,
+      "sha256": "817e0b1dd6aa682469447e468df9860dbbc1cc5c0806f277e8e344ac9e238059"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/run_full_task.py",
+      "bytes": 4456,
+      "sha256": "bac9feeafcddb9a30e2334c29b6ffd23687b7cedf74378f8f8281520f517d633"
+    },
+    {
       "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/runtime_bridge.py",
       "bytes": 2337,
       "sha256": "86f472f842d355c936c803b57c58b01e6b386ada08f98e7a4b40f45a7cd0e498"
@@ -2344,16 +1974,6 @@
       "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/select_full_decoder.py",
       "bytes": 3397,
       "sha256": "b3970418e2e78542b2b5b18315d64d12df4dc7920b87e7499fb40dec31b1474c"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/Source_Grid_CPU_01/Complete.json",
-      "bytes": 442,
-      "sha256": "faf8ac35eb6ca4f282f6420c82dd04eef4da5b742cdc25897be9bfcd2caa3ea0"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/Source_Grid_CPU_01/Proofs/EN_F0_LAST/Complete.json",
-      "bytes": 6561,
-      "sha256": "5321facba8c38d1ee28e9d9394f1edcd4d519be5bd684b09085abd02119d1906"
     },
     {
       "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/source_grid_probe.py",
@@ -2381,16 +2001,6 @@
       "sha256": "9a48dfdde40cdb4f0b70d20e4f7883c5379be2b5779c0501ea6bd2e8563958e5"
     },
     {
-      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/Vast_Preflight_GPU_0/Canonical_Runtime_Proof.json",
-      "bytes": 6604,
-      "sha256": "c928b8e0f3d0ec5794355aff874afd73dbb75f3ac850d64424944abded554e98"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/Vast_Preflight_GPU_1/Canonical_Runtime_Proof.json",
-      "bytes": 6604,
-      "sha256": "e84cbccf0f47348822a069218b8868dbbb97d1fcac086ce93d0b2279912f21e2"
-    },
-    {
       "path": "Research_Code/Project/Research_English_Full_Corpus_Control_2026-10-28/verify_full_records.py",
       "bytes": 2493,
       "sha256": "4538b3b7259f1be2c89c221355443d72088d10325b4117d9014ecfcfcd7ae7a2"
@@ -2416,16 +2026,6 @@
       "sha256": "8f73721b6f7637e9d137518c1678c0fff5f14637ba0d952f98ee953e5280602a"
     },
     {
-      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/admission.py",
-      "bytes": 5515,
-      "sha256": "ba724dc7ddd5cada08aff8cffa39a5a9175431b0263d6cc89467342dd0b6c49c"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/analyze_complete.py",
-      "bytes": 7450,
-      "sha256": "daa65ca1832f39d2e088c7b08f9c9888f05614aed78ef40e56d3382e1f8b5926"
-    },
-    {
       "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/Assessment.jsonl",
       "bytes": 1852959,
       "sha256": "d9b4ebbe945234b2233e3336d2e1a97cf64d9c8ae94f441989614e04cb642cc5"
@@ -2439,11 +2039,6 @@
       "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/Assessment_Task_Manifest.json",
       "bytes": 7745,
       "sha256": "e156b1b848a582036f91f7c4da6eb63c478246d9903a7ca80e9b3b5cc9dfe7f6"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/collect_results.py",
-      "bytes": 4171,
-      "sha256": "ad3550d3022854591bdc4d183ce224ef9342cf01efd27b57f84e5951760cf6d1"
     },
     {
       "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/Completion_Receipt.json",
@@ -2466,24 +2061,9 @@
       "sha256": "f6c46b2e9e401f93f385b8908a6b15a221981a09a4d731984118ec995f65b9c0"
     },
     {
-      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/english_common.py",
-      "bytes": 1791,
-      "sha256": "5f3ebb0fa7f99b9cc9effc7069925ff982dc122845282ea579d84c7d9d782f1b"
-    },
-    {
       "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/Execution_Lock.json",
       "bytes": 249586,
       "sha256": "b4ce920a70ba2db8d0d2470920251b8a4f971a7760c38f28aed8e9450ac8d699"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/local_resources.py",
-      "bytes": 1373,
-      "sha256": "4169733e6b79c8ab117155c00cb1a719fc0922d683bc3185230dec3b85b6bf24"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/model_registry.json",
-      "bytes": 6429,
-      "sha256": "817abdf9c3d1bea196f6f76ee32d54896afc0bdf5a059d27ccc81481d13820c6"
     },
     {
       "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/Plan.json",
@@ -2491,34 +2071,14 @@
       "sha256": "3c604eecef2a00cc4e885a860fbd502a081474dc8f6de09c8a93e5849b5267a1"
     },
     {
-      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/preflight.py",
-      "bytes": 3476,
-      "sha256": "65b272834012525e10f88e44e1323f53d08e7eaa66cd2a279bc8254a31f8067d"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/prepare_plan.py",
-      "bytes": 6140,
-      "sha256": "b0bb073e4dcfc2bc5b3f83ea2ece4d3bc0264f6a12cffb3ec554ab26736dba8e"
-    },
-    {
       "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/Protocol.md",
       "bytes": 4726,
       "sha256": "c833a97bd9fb9e270c75ba3adfca7195440c536d8e818775849dbbde6c214950"
     },
     {
-      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/queue_local.py",
-      "bytes": 9200,
-      "sha256": "f5311a57dc627b1bea32d244dd6ca33310b5257b5a421b6ed5639b117e2e46c3"
-    },
-    {
       "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/README.md",
       "bytes": 2605,
       "sha256": "0ad049f99cbaeca874fd6a3f3c43fc2f1d39465fcc6deb37798c308e497eed4d"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/run_task.py",
-      "bytes": 5208,
-      "sha256": "d7837066bce9f4965f9055116aa6826ce4232c46a5e002580f707d789dfafe7e"
     },
     {
       "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/Runs/Local_01/development_EN_B0_00/Predictions.jsonl",
@@ -3161,24 +2721,14 @@
       "sha256": "dc459ff58931bee17e403716d69960b5cd2043e3f41b956aa4dc69793c780cdd"
     },
     {
-      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/runtime_bridge.py",
-      "bytes": 6185,
-      "sha256": "83d1b3d4df1d080be442c302e7f8f092e93e1fa63befb1b620b3e63961f7b6b1"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/seal_execution.py",
-      "bytes": 2289,
-      "sha256": "61e537c101a51fa69adda6e388c7117a0380f5a761b0df95b922ecf988e413ce"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/select_decoder.py",
-      "bytes": 3360,
-      "sha256": "0ba408ec3439e4d3fef2fe31df1906503bce75c16bd773cd06cf217b05b3029a"
-    },
-    {
       "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/Server_Locations.json",
       "bytes": 302,
       "sha256": "b82ea464c01a0878981f11ff7e8b1cd2f31c345323a68c0088bfe75701481f11"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/Source_Caches.json",
+      "bytes": 1751,
+      "sha256": "8fa377e2bcf1110d4bb7d7092d2081651e564ec01396c2a01d2d8ea9a277d78e"
     },
     {
       "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/Source_Caches/EN_B0.jsonl",
@@ -3201,9 +2751,74 @@
       "sha256": "175736cbe3b9e306d093f60a40dc4fc94103b4fb2f756dd4a198761cf33ea8e8"
     },
     {
-      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/Source_Caches.json",
-      "bytes": 1751,
-      "sha256": "8fa377e2bcf1110d4bb7d7092d2081651e564ec01396c2a01d2d8ea9a277d78e"
+      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/Tests_02/Verification.json",
+      "bytes": 1817,
+      "sha256": "5fda03bc0ad73c1915c7a679e31a4e88122ec7648ac91c10b3e48a2f74f06243"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/admission.py",
+      "bytes": 5515,
+      "sha256": "ba724dc7ddd5cada08aff8cffa39a5a9175431b0263d6cc89467342dd0b6c49c"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/analyze_complete.py",
+      "bytes": 7450,
+      "sha256": "daa65ca1832f39d2e088c7b08f9c9888f05614aed78ef40e56d3382e1f8b5926"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/collect_results.py",
+      "bytes": 4171,
+      "sha256": "ad3550d3022854591bdc4d183ce224ef9342cf01efd27b57f84e5951760cf6d1"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/english_common.py",
+      "bytes": 1791,
+      "sha256": "5f3ebb0fa7f99b9cc9effc7069925ff982dc122845282ea579d84c7d9d782f1b"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/local_resources.py",
+      "bytes": 1373,
+      "sha256": "4169733e6b79c8ab117155c00cb1a719fc0922d683bc3185230dec3b85b6bf24"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/model_registry.json",
+      "bytes": 6429,
+      "sha256": "817abdf9c3d1bea196f6f76ee32d54896afc0bdf5a059d27ccc81481d13820c6"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/preflight.py",
+      "bytes": 3476,
+      "sha256": "65b272834012525e10f88e44e1323f53d08e7eaa66cd2a279bc8254a31f8067d"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/prepare_plan.py",
+      "bytes": 6140,
+      "sha256": "b0bb073e4dcfc2bc5b3f83ea2ece4d3bc0264f6a12cffb3ec554ab26736dba8e"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/queue_local.py",
+      "bytes": 9200,
+      "sha256": "f5311a57dc627b1bea32d244dd6ca33310b5257b5a421b6ed5639b117e2e46c3"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/run_task.py",
+      "bytes": 5208,
+      "sha256": "d7837066bce9f4965f9055116aa6826ce4232c46a5e002580f707d789dfafe7e"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/runtime_bridge.py",
+      "bytes": 6185,
+      "sha256": "83d1b3d4df1d080be442c302e7f8f092e93e1fa63befb1b620b3e63961f7b6b1"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/seal_execution.py",
+      "bytes": 2289,
+      "sha256": "61e537c101a51fa69adda6e388c7117a0380f5a761b0df95b922ecf988e413ce"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/select_decoder.py",
+      "bytes": 3360,
+      "sha256": "0ba408ec3439e4d3fef2fe31df1906503bce75c16bd773cd06cf217b05b3029a"
     },
     {
       "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/task_design.py",
@@ -3216,24 +2831,9 @@
       "sha256": "9d44ad8b4186add7e6348cad154d82a8ea64f5d5399b862ab644c0e388849713"
     },
     {
-      "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/Tests_02/Verification.json",
-      "bytes": 1817,
-      "sha256": "5fda03bc0ad73c1915c7a679e31a4e88122ec7648ac91c10b3e48a2f74f06243"
-    },
-    {
       "path": "Research_Code/Project/Research_English_Transfer_Benchmark_2026-10-28/verify_task.py",
       "bytes": 7121,
       "sha256": "638e9513990f4147b472f77c3bb53c2ef4d2275e91eb9fc37713e65f2892918f"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/Development_Encoding/encode_model.py",
-      "bytes": 6350,
-      "sha256": "400b60e52d2a86623693a003dc0e8e3eb2d218341a30d24fa02b5ee7c4b53c33"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/Development_Encoding/encoding_common.py",
-      "bytes": 2019,
-      "sha256": "6ac3db710404f63ce17147ed1c77f303af88e80080ef166b54d4263b3d5b09ee"
     },
     {
       "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/Development_Encoding/Local_01/EN_B0/Complete.json",
@@ -3261,6 +2861,21 @@
       "sha256": "410e94db0c5978a91a3dd46ebc05ea375cc911fec57fb4b0ecc4ec905c08d09f"
     },
     {
+      "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/Development_Encoding/Verification_01.json",
+      "bytes": 2638,
+      "sha256": "9eb4037a6137fc46b4fcabf2fd1900dfdd942b2beb5769e9733bbbc4f9c146d4"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/Development_Encoding/encode_model.py",
+      "bytes": 6350,
+      "sha256": "400b60e52d2a86623693a003dc0e8e3eb2d218341a30d24fa02b5ee7c4b53c33"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/Development_Encoding/encoding_common.py",
+      "bytes": 2019,
+      "sha256": "6ac3db710404f63ce17147ed1c77f303af88e80080ef166b54d4263b3d5b09ee"
+    },
+    {
       "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/Development_Encoding/prepare_encoding.py",
       "bytes": 2553,
       "sha256": "efcf6308ace354dcee058d03d6882dee91e4f7689c5c496c379623123bd6c1ca"
@@ -3271,19 +2886,19 @@
       "sha256": "6a6a7d1428a7e9d1e5fc421440b57a2baad6bb20c637be707269b27f72158c0c"
     },
     {
-      "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/Development_Encoding/Verification_01.json",
-      "bytes": 2638,
-      "sha256": "9eb4037a6137fc46b4fcabf2fd1900dfdd942b2beb5769e9733bbbc4f9c146d4"
+      "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/Runtime_Validation/Lock.json",
+      "bytes": 13811,
+      "sha256": "339aaa6008b22b6b35874590ca9eb4f4e8647d042f014b64ea1d3a795ba46112"
+    },
+    {
+      "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/Runtime_Validation/Verification_01.json",
+      "bytes": 1261,
+      "sha256": "60e93d238f06c3355f20fe0d867da562ad67cda0c3c5dfa3ad58fb68b99ae0de"
     },
     {
       "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/Runtime_Validation/common.py",
       "bytes": 1099,
       "sha256": "6fba572ca263dab678493d7ddfa69d65dff579648e5b2e19e06dc5326a8933ee"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/Runtime_Validation/Lock.json",
-      "bytes": 13811,
-      "sha256": "339aaa6008b22b6b35874590ca9eb4f4e8647d042f014b64ea1d3a795ba46112"
     },
     {
       "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/Runtime_Validation/preflight.py",
@@ -3306,19 +2921,9 @@
       "sha256": "530333b9c9b29aaa71337c7a0981005d8dc6c8fec54a8c97eaf76881d0e7863a"
     },
     {
-      "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/Runtime_Validation/Verification_01.json",
-      "bytes": 1261,
-      "sha256": "60e93d238f06c3355f20fe0d867da562ad67cda0c3c5dfa3ad58fb68b99ae0de"
-    },
-    {
       "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/Strict_Input_Check_01/Verification.json",
       "bytes": 1284,
       "sha256": "c664ba5b5d41b2ad2b2d1fb2a1087bcc48bcc615494ea513536927e503a6d7ce"
-    },
-    {
-      "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/strict_inputs.py",
-      "bytes": 1693,
-      "sha256": "0f40b2c6ca4b4cbc7ad050ec5e5a71e9ea795db93d995ec394d151b457a038ca"
     },
     {
       "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/Transfer_Inputs_01/Assessment.jsonl",
@@ -3336,6 +2941,11 @@
       "sha256": "817abdf9c3d1bea196f6f76ee32d54896afc0bdf5a059d27ccc81481d13820c6"
     },
     {
+      "path": "Research_Code/Project/Research_English_Transfer_Readiness_2026-10-27/strict_inputs.py",
+      "bytes": 1693,
+      "sha256": "0f40b2c6ca4b4cbc7ad050ec5e5a71e9ea795db93d995ec394d151b457a038ca"
+    },
+    {
       "path": "Research_Code/Project/Research_Interval_Transfer_2026-10-27/Cohort.jsonl",
       "bytes": 2724311,
       "sha256": "5d7b679762eba94e1a60c628bb491f24124f124af986c976d12027380e8030fe"
@@ -3351,6 +2961,11 @@
       "sha256": "54a7eccf33e9a6f329d678981928311ac7e01b819b56d437cee93c76d31fa953"
     },
     {
+      "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/Analysis_Tools_01/README.md",
+      "bytes": 3338,
+      "sha256": "e674fce6ad28b3357931db2171844def07300da968f701a9ee883d3504de7384"
+    },
+    {
       "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/Analysis_Tools_01/collect_population.py",
       "bytes": 8945,
       "sha256": "a3bad6232cd7473f0b201fa8facfecdbdc3ec6741e69dbe15a0091835285f1bc"
@@ -3361,11 +2976,6 @@
       "sha256": "223de2f9b55fcc6752565638cdb72a9c39eda60533e5d25bdda369fb0e41461f"
     },
     {
-      "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/Analysis_Tools_01/README.md",
-      "bytes": 3338,
-      "sha256": "e674fce6ad28b3357931db2171844def07300da968f701a9ee883d3504de7384"
-    },
-    {
       "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/Analysis_Tools_01/summarize_population.py",
       "bytes": 4489,
       "sha256": "17e7b9663328a36ac167f12d0aa1fab3518ac165e3078f0f7b2d152398e3734b"
@@ -3374,6 +2984,31 @@
       "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/Analysis_Tools_01/verify_tools.py",
       "bytes": 8825,
       "sha256": "968b50402a997f687d36e3669ab81594fb6e7326319b934b0e35f86b92213d0d"
+    },
+    {
+      "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/Code_Lock.json",
+      "bytes": 1981,
+      "sha256": "74d43b50799f808ce9cdddab91b00cef220b77987cff56e80f5a2756aecc7dee"
+    },
+    {
+      "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/Plan.json",
+      "bytes": 5145,
+      "sha256": "78ff15fb08be918c76ed6bcb58d26b6782237e447df867b4a06cb81010edf593"
+    },
+    {
+      "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/Plan_Initial_Windows_Binding.json",
+      "bytes": 5006,
+      "sha256": "8926798a265573563c22b82cb1fda5564d7642a95d61f5c066ed64372ad4a441"
+    },
+    {
+      "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/Post_Cleanup_Verification.json",
+      "bytes": 159,
+      "sha256": "788faa6440900f3f98033675179513dc1175a3f479168e919ba3c9049fc452a2"
+    },
+    {
+      "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/Protocol.md",
+      "bytes": 5091,
+      "sha256": "a5e3ff5e7b45a60d1a0cadbb37edc8b11238cecac8d26ed1fe5aac107a53bf7b"
     },
     {
       "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/bind_whole_word.py",
@@ -3394,11 +3029,6 @@
       "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/check_selection.py",
       "bytes": 2934,
       "sha256": "5740ae7c705c72c35f5134aa9029ccf6efb41c8a19b97698cfb41ca6b970ccc2"
-    },
-    {
-      "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/Code_Lock.json",
-      "bytes": 1981,
-      "sha256": "74d43b50799f808ce9cdddab91b00cef220b77987cff56e80f5a2756aecc7dee"
     },
     {
       "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/common.py",
@@ -3431,29 +3061,9 @@
       "sha256": "ec7e17a4ff205ec7075505ff90eb6b94a5ec6127f1a6e9d04013088a277c7a0c"
     },
     {
-      "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/Plan.json",
-      "bytes": 5145,
-      "sha256": "78ff15fb08be918c76ed6bcb58d26b6782237e447df867b4a06cb81010edf593"
-    },
-    {
-      "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/Plan_Initial_Windows_Binding.json",
-      "bytes": 5006,
-      "sha256": "8926798a265573563c22b82cb1fda5564d7642a95d61f5c066ed64372ad4a441"
-    },
-    {
-      "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/Post_Cleanup_Verification.json",
-      "bytes": 159,
-      "sha256": "788faa6440900f3f98033675179513dc1175a3f479168e919ba3c9049fc452a2"
-    },
-    {
       "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/prepare.py",
       "bytes": 5103,
       "sha256": "293d1c29c2af8af888bb6527c3653b74a47869bdcc0087c9066b0a782d415ea5"
-    },
-    {
-      "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/Protocol.md",
-      "bytes": 5091,
-      "sha256": "a5e3ff5e7b45a60d1a0cadbb37edc8b11238cecac8d26ed1fe5aac107a53bf7b"
     },
     {
       "path": "Research_Code/Project/Research_Matched_Continuation_Assessment_2026-10-30/recover_dependency.py",
@@ -3501,39 +3111,14 @@
       "sha256": "ba3989b1768e353820f229e17c3911acfeb85bbdbff9c4563e6e7809549887d2"
     },
     {
-      "path": "Research_Code/Project/Research_Normalized_Continuation_Assessment_2026-10-30/bind_normalized.py",
-      "bytes": 4862,
-      "sha256": "5e913e3667c78d384f41a77c520671c7d35b53fc7d3bdbfacfeaab36321f6285"
-    },
-    {
-      "path": "Research_Code/Project/Research_Normalized_Continuation_Assessment_2026-10-30/check_protocol.py",
-      "bytes": 5931,
-      "sha256": "7e1e42c74bdd3957bd98325da37a8314e12ddee139f52ee5e25f06adaf113899"
-    },
-    {
       "path": "Research_Code/Project/Research_Normalized_Continuation_Assessment_2026-10-30/Code_Lock.json",
       "bytes": 2056,
       "sha256": "d4880a0c5c1828bcf811eb8abd2d1b88e4b2ca64b4549a3d155e20b0ca06b944"
     },
     {
-      "path": "Research_Code/Project/Research_Normalized_Continuation_Assessment_2026-10-30/common.py",
-      "bytes": 1157,
-      "sha256": "d43e25a3228b0b3fdf8ac227e6bd8f302a65d9333a36a9afb74b7599a54805c1"
-    },
-    {
-      "path": "Research_Code/Project/Research_Normalized_Continuation_Assessment_2026-10-30/data_tasks.py",
-      "bytes": 5466,
-      "sha256": "fef121041611d380b0e9ef4c83a5eb59d95dc05b52ecb12c81388dce80ac6175"
-    },
-    {
       "path": "Research_Code/Project/Research_Normalized_Continuation_Assessment_2026-10-30/Deployment_Manifest.json",
       "bytes": 3129,
       "sha256": "7c6e7f77498ed2b0d6592218423231afb86562ad1f3b53b87d89b168ea72bfc4"
-    },
-    {
-      "path": "Research_Code/Project/Research_Normalized_Continuation_Assessment_2026-10-30/execution.py",
-      "bytes": 3177,
-      "sha256": "1225817d802c35d9b04c5ca0716515743338eb9d6336200213a0a39ddd18cc87"
     },
     {
       "path": "Research_Code/Project/Research_Normalized_Continuation_Assessment_2026-10-30/Plan.json",
@@ -3549,6 +3134,31 @@
       "path": "Research_Code/Project/Research_Normalized_Continuation_Assessment_2026-10-30/README.md",
       "bytes": 2846,
       "sha256": "d304afa07c37e67baee665c5a9f1c9eb54fe877ddfc01b5dc94bfd250837dcd4"
+    },
+    {
+      "path": "Research_Code/Project/Research_Normalized_Continuation_Assessment_2026-10-30/bind_normalized.py",
+      "bytes": 4862,
+      "sha256": "5e913e3667c78d384f41a77c520671c7d35b53fc7d3bdbfacfeaab36321f6285"
+    },
+    {
+      "path": "Research_Code/Project/Research_Normalized_Continuation_Assessment_2026-10-30/check_protocol.py",
+      "bytes": 5931,
+      "sha256": "7e1e42c74bdd3957bd98325da37a8314e12ddee139f52ee5e25f06adaf113899"
+    },
+    {
+      "path": "Research_Code/Project/Research_Normalized_Continuation_Assessment_2026-10-30/common.py",
+      "bytes": 1157,
+      "sha256": "d43e25a3228b0b3fdf8ac227e6bd8f302a65d9333a36a9afb74b7599a54805c1"
+    },
+    {
+      "path": "Research_Code/Project/Research_Normalized_Continuation_Assessment_2026-10-30/data_tasks.py",
+      "bytes": 5466,
+      "sha256": "fef121041611d380b0e9ef4c83a5eb59d95dc05b52ecb12c81388dce80ac6175"
+    },
+    {
+      "path": "Research_Code/Project/Research_Normalized_Continuation_Assessment_2026-10-30/execution.py",
+      "bytes": 3177,
+      "sha256": "1225817d802c35d9b04c5ca0716515743338eb9d6336200213a0a39ddd18cc87"
     },
     {
       "path": "Research_Code/Project/Research_Normalized_Continuation_Assessment_2026-10-30/run_task.py",
@@ -3571,6 +3181,21 @@
       "sha256": "9ae17f5aec85c9fbfbe3049253265ca0139ec74abfec67cc55d3aceffcf97b1e"
     },
     {
+      "path": "Research_Code/Project/Research_Phase_05_2026-10-13/Bundle_Manifest.json",
+      "bytes": 10431,
+      "sha256": "aa1ca8bf333d971e73668fdd946f070839a30731b22c335ad390ab22d251606f"
+    },
+    {
+      "path": "Research_Code/Project/Research_Phase_05_2026-10-13/Method_Mapping.csv",
+      "bytes": 1081,
+      "sha256": "348ce6a1a30a3bddeb656f4d63d984aba372e2f20252610b6667c4c9c6b8da4c"
+    },
+    {
+      "path": "Research_Code/Project/Research_Phase_05_2026-10-13/Protocol.md",
+      "bytes": 10039,
+      "sha256": "5139d4d628323980ade13fc7c60a0ff747f1916fd336e4cb3d335f2175f3eae3"
+    },
+    {
       "path": "Research_Code/Project/Research_Phase_05_2026-10-13/assets/tokenizers/en.model",
       "bytes": 327113,
       "sha256": "2c1d648ccf5fdce6612ecbea2ffbd1cab5aabc90458781186175c3911c4bdb1e"
@@ -3591,11 +3216,6 @@
       "sha256": "90b0875aa114daad969c70d48589db7bfb49da548ea4d0f86bd07dab0514dfda"
     },
     {
-      "path": "Research_Code/Project/Research_Phase_05_2026-10-13/Bundle_Manifest.json",
-      "bytes": 10431,
-      "sha256": "aa1ca8bf333d971e73668fdd946f070839a30731b22c335ad390ab22d251606f"
-    },
-    {
       "path": "Research_Code/Project/Research_Phase_05_2026-10-13/configs/audit_vlr.json",
       "bytes": 504,
       "sha256": "02783ed3ac1eb68c4c3472a70cb55aa908f1a4527c019589e9ee4d4667b008fd"
@@ -3614,11 +3234,6 @@
       "path": "Research_Code/Project/Research_Phase_05_2026-10-13/configs/vlr.json",
       "bytes": 501,
       "sha256": "8abced4f71dccb680ee0852068ac86dad62ab81727b5937ffd1c4871247e999e"
-    },
-    {
-      "path": "Research_Code/Project/Research_Phase_05_2026-10-13/Method_Mapping.csv",
-      "bytes": 1081,
-      "sha256": "348ce6a1a30a3bddeb656f4d63d984aba372e2f20252610b6667c4c9c6b8da4c"
     },
     {
       "path": "Research_Code/Project/Research_Phase_05_2026-10-13/phase5/__init__.py",
@@ -3781,11 +3396,6 @@
       "sha256": "8f98d3a56ad0dd49971f6e16bb3a4d0167e6a9dffc9807b8a5c86ba9d77bcd3f"
     },
     {
-      "path": "Research_Code/Project/Research_Phase_05_2026-10-13/Protocol.md",
-      "bytes": 10039,
-      "sha256": "5139d4d628323980ade13fc7c60a0ff747f1916fd336e4cb3d335f2175f3eae3"
-    },
-    {
       "path": "Research_Code/Project/Research_Phase_05_2026-10-13/requirements.txt",
       "bytes": 230,
       "sha256": "037d6d1b4ef9fbf2def64640464a047bc8d823f6a1e541bf1e94bf62153d2172"
@@ -3844,6 +3454,11 @@
       "path": "Research_Code/Project/Research_Phase_05_2026-10-13/tests/test_transfer.py",
       "bytes": 3149,
       "sha256": "73936ae99ddc8354e5967356824f287bcc4f53465c4caf4902d932c88284c0fc"
+    },
+    {
+      "path": "Research_Code/Project/Research_Phase_05_2026-10-13/vendor/auto_avsr/LICENSE",
+      "bytes": 11368,
+      "sha256": "cc79c028bb1e288cd290b1b43bbdc0c66c2b159b536120914627956f00560f90"
     },
     {
       "path": "Research_Code/Project/Research_Phase_05_2026-10-13/vendor/auto_avsr/espnet/nets/batch_beam_search.py",
@@ -4006,11 +3621,6 @@
       "sha256": "36e8be8a2993bba3735d61d65403bd6e5284de543c6c4c348e63571888d4a173"
     },
     {
-      "path": "Research_Code/Project/Research_Phase_05_2026-10-13/vendor/auto_avsr/LICENSE",
-      "bytes": 11368,
-      "sha256": "cc79c028bb1e288cd290b1b43bbdc0c66c2b159b536120914627956f00560f90"
-    },
-    {
       "path": "Research_Code/Project/Research_Phase_05_2026-10-13/vendor/auto_avsr/preparation/detectors/mediapipe/20words_mean_face.npy",
       "bytes": 1168,
       "sha256": "dbf68b2044171e1160716df7c53e8bbfaa0ee8c61fb41171d04cb6092bb81422"
@@ -4029,6 +3639,11 @@
       "path": "Research_Code/Project/Research_Search_Horizon_Control_2026-10-15/horizon_search.py",
       "bytes": 2419,
       "sha256": "e5b117c1ba5a6521b4aaaec954077ec0dadc8fbec87915c1761c81a1961faa49"
+    },
+    {
+      "path": "Research_Code/Project/Research_Server_Confirmation_2026-10-19/VC_Model_Registry.json",
+      "bytes": 3136,
+      "sha256": "f623c1c538cdb3f1bd087c41bbfd03980777b4db651bbff5b4fa449445cfbeeb"
     },
     {
       "path": "Research_Code/Project/Research_Server_Confirmation_2026-10-19/confirmation_common.py",
@@ -4071,14 +3686,14 @@
       "sha256": "8488abeb2584b33fefcaef1e1a45a30a8e894ecc3f17d0cf5e0e1586f3d770df"
     },
     {
-      "path": "Research_Code/Project/Research_Server_Confirmation_2026-10-19/VC_Model_Registry.json",
-      "bytes": 3136,
-      "sha256": "f623c1c538cdb3f1bd087c41bbfd03980777b4db651bbff5b4fa449445cfbeeb"
-    },
-    {
       "path": "Research_Code/Project/Research_Server_Confirmation_2026-10-19/vicocktail_runtime.py",
       "bytes": 15017,
       "sha256": "13092cab856852d3cb4257337c32e3c5615b45b4082189799c6c77bb7c64d1f0"
+    },
+    {
+      "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/Analysis_Tools/README.md",
+      "bytes": 1681,
+      "sha256": "06fc83f2e78d7c9f57010d11a72e895c6aabd560f31ee165224cf7bb97c51e9d"
     },
     {
       "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/Analysis_Tools/analyze.py",
@@ -4131,24 +3746,24 @@
       "sha256": "1c77d4ef9b8a415a95a14a8c22c891c34a25be8ed27946bcf38852477f14e543"
     },
     {
-      "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/Analysis_Tools/README.md",
-      "bytes": 1681,
-      "sha256": "06fc83f2e78d7c9f57010d11a72e895c6aabd560f31ee165224cf7bb97c51e9d"
-    },
-    {
       "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/Analysis_Tools/restore_inputs.py",
       "bytes": 11352,
       "sha256": "fcd470feab49d310cf5cd5e8d20312897a27fffb96c3989daabdf44c4910e186"
     },
     {
-      "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/Assessment/bind.py",
-      "bytes": 2653,
-      "sha256": "599c1fb03b722ef792c9f87a542e95682d622155c301d69f476391b8c1f1fe22"
-    },
-    {
       "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/Assessment/Code_Lock.json",
       "bytes": 2055,
       "sha256": "935c944bc72f4316ba6ea0235700336eaa9d5fc7a1c6e98f464b29daa547f53d"
+    },
+    {
+      "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/Assessment/Plan.json",
+      "bytes": 4719,
+      "sha256": "d42907694523182aa3c18749b38bfcbb210cd43bc546105b1ac5caaf6110b93b"
+    },
+    {
+      "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/Assessment/bind.py",
+      "bytes": 2653,
+      "sha256": "599c1fb03b722ef792c9f87a542e95682d622155c301d69f476391b8c1f1fe22"
     },
     {
       "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/Assessment/common.py",
@@ -4164,11 +3779,6 @@
       "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/Assessment/execution.py",
       "bytes": 3232,
       "sha256": "528a1342e03a92adbd236ddb14c99bc2db983c91d2417cd978043b8e9237ac1e"
-    },
-    {
-      "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/Assessment/Plan.json",
-      "bytes": 4719,
-      "sha256": "d42907694523182aa3c18749b38bfcbb210cd43bc546105b1ac5caaf6110b93b"
     },
     {
       "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/Assessment/queue.py",
@@ -4191,6 +3801,11 @@
       "sha256": "9ae17f5aec85c9fbfbe3049253265ca0139ec74abfec67cc55d3aceffcf97b1e"
     },
     {
+      "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/Driver/Protocol.md",
+      "bytes": 3649,
+      "sha256": "3f9f635db98ee1e341c9c122fe52118be6462443b67d4a0a85f1a358b22c6a6a"
+    },
+    {
       "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/Driver/configuration.py",
       "bytes": 7189,
       "sha256": "03f481b85196244bcc7541bee9c776f790f0fe191028b6da73b2cd0175b7230d"
@@ -4206,19 +3821,9 @@
       "sha256": "174e181e6049c8ad207b2233503f7bb57ae1b913fc166a8e36e40a6ec0696ebe"
     },
     {
-      "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/Driver/Protocol.md",
-      "bytes": 3649,
-      "sha256": "3f9f635db98ee1e341c9c122fe52118be6462443b67d4a0a85f1a358b22c6a6a"
-    },
-    {
       "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/Driver/run.py",
       "bytes": 7760,
       "sha256": "2847682a915818b1f657195f63ab87d8d57b41a7fa40b265f7ba284f0176539b"
-    },
-    {
-      "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/prepare_schedule.py",
-      "bytes": 7215,
-      "sha256": "bde3d50fee3778a7997e279da94590b20545160bd9c2e27c377f2d096b2ab148"
     },
     {
       "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/Protocol.md",
@@ -4241,19 +3846,24 @@
       "sha256": "eafd2f9ae7612cb87025a8ed17d9cf2014f092e225a139374c921e3eeea0add2"
     },
     {
+      "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/prepare_schedule.py",
+      "bytes": 7215,
+      "sha256": "bde3d50fee3778a7997e279da94590b20545160bd9c2e27c377f2d096b2ab148"
+    },
+    {
       "path": "Research_Code/Project/Research_Short_Only_Control_2026-10-30/verify_schedule.py",
       "bytes": 3479,
       "sha256": "ca62672890923a303633c868283a029bd79adef5411c3e085b5d2d81c1bdcccf"
     },
     {
-      "path": "Research_Code/Project/Research_Source_Retention_2026-10-29/Analysis_01/collect.py",
-      "bytes": 8572,
-      "sha256": "b60168d956332092e5a9628f8eff55d411497c5392c383dd3943824b210e169b"
-    },
-    {
       "path": "Research_Code/Project/Research_Source_Retention_2026-10-29/Analysis_01/Protocol.md",
       "bytes": 4022,
       "sha256": "cad56893ef424f3e715d630a5e9199f41c3b223e0310c0dc0cc21a9ca0bc8836"
+    },
+    {
+      "path": "Research_Code/Project/Research_Source_Retention_2026-10-29/Analysis_01/collect.py",
+      "bytes": 8572,
+      "sha256": "b60168d956332092e5a9628f8eff55d411497c5392c383dd3943824b210e169b"
     },
     {
       "path": "Research_Code/Project/Research_Source_Retention_2026-10-29/Analysis_01/summarize.py",
@@ -4266,14 +3876,14 @@
       "sha256": "555e203cce68a9b540e96f900f004f311de4a08ae61a7ddd702c175e938b3043"
     },
     {
-      "path": "Research_Code/Project/Research_Source_Retention_2026-10-29/Assessment_01/assessment_common.py",
-      "bytes": 820,
-      "sha256": "06d07ce36c885b6208aadb696c38d0eb696acb687cbe7b07461a3340ad42f17e"
-    },
-    {
       "path": "Research_Code/Project/Research_Source_Retention_2026-10-29/Assessment_01/Plan.json",
       "bytes": 1251119,
       "sha256": "42a023aaa74808961aa3cb5e2fdefcb0c2009cfa12a94ee02ee086bb84140a94"
+    },
+    {
+      "path": "Research_Code/Project/Research_Source_Retention_2026-10-29/Assessment_01/assessment_common.py",
+      "bytes": 820,
+      "sha256": "06d07ce36c885b6208aadb696c38d0eb696acb687cbe7b07461a3340ad42f17e"
     },
     {
       "path": "Research_Code/Project/Research_Source_Retention_2026-10-29/Assessment_01/prepare_assessment.py",
@@ -4296,6 +3906,16 @@
       "sha256": "bf56e94190102756c38287e557ef6132ea86f8841b030a88e97134f4226aa1d4"
     },
     {
+      "path": "Research_Code/Project/Research_Source_Retention_2026-10-29/Source_Profile_01/Protocol.md",
+      "bytes": 1514,
+      "sha256": "dd6c366bff157b4d37f9aabe7a8856ec65087ab0562fd9a09501a2259b0a3c2b"
+    },
+    {
+      "path": "Research_Code/Project/Research_Source_Retention_2026-10-29/Source_Profile_01/profile.py",
+      "bytes": 5087,
+      "sha256": "7ed8011811352899831a04c6961efe87c474c58b83df64f4a96ba6b066b175ea"
+    },
+    {
       "path": "Research_Code/Project/Research_Source_Retention_2026-10-29/prepare.py",
       "bytes": 3352,
       "sha256": "0b36eef224b14f23b52a768438a9da29a50f81b1ab2bb406f74eebe607210e1d"
@@ -4309,16 +3929,6 @@
       "path": "Research_Code/Project/Research_Source_Retention_2026-10-29/retention_common.py",
       "bytes": 4373,
       "sha256": "6e678ec5cc044ae564319867c5092b6859bc90e76060599ff4973f2f337e0771"
-    },
-    {
-      "path": "Research_Code/Project/Research_Source_Retention_2026-10-29/Source_Profile_01/profile.py",
-      "bytes": 5087,
-      "sha256": "7ed8011811352899831a04c6961efe87c474c58b83df64f4a96ba6b066b175ea"
-    },
-    {
-      "path": "Research_Code/Project/Research_Source_Retention_2026-10-29/Source_Profile_01/Protocol.md",
-      "bytes": 1514,
-      "sha256": "dd6c366bff157b4d37f9aabe7a8856ec65087ab0562fd9a09501a2259b0a3c2b"
     },
     {
       "path": "Research_Code/Project/Research_Span_Projection_2026-10-15/projection.py",
@@ -4356,14 +3966,14 @@
       "sha256": "f766abfa31894a520ca59956bf269e2b8f07b8c3838b75cccd60e2ba9cbb1051"
     },
     {
-      "path": "Research_Code/Project/Research_Training_Label_Profile_2026-10-29/profile.py",
-      "bytes": 9025,
-      "sha256": "0a7034057a3a44b21c6bf592ff8ce958b6b6b7bae8f5184288a7c1e7c224e424"
-    },
-    {
       "path": "Research_Code/Project/Research_Training_Label_Profile_2026-10-29/Protocol.md",
       "bytes": 2637,
       "sha256": "833c0816c0c18e31d60854836ef96f2bdf1f7bbf3dde4053bb1e55a6b4842885"
+    },
+    {
+      "path": "Research_Code/Project/Research_Training_Label_Profile_2026-10-29/profile.py",
+      "bytes": 9025,
+      "sha256": "0a7034057a3a44b21c6bf592ff8ce958b6b6b7bae8f5184288a7c1e7c224e424"
     },
     {
       "path": "Research_Code/Project/Research_Training_Label_Profile_2026-10-29/record_findings.py",
@@ -4391,21 +4001,6 @@
       "sha256": "ee539a58ae90d95247189a075086a0e99e35e6072b20aeee614f436f23f9ed07"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Decoder_Anchor_2026-10-28/Analysis_01/analyze_anchor.py",
-      "bytes": 5207,
-      "sha256": "31f139de9067d27b97deb69fe06be0fb853cc07d0b01f1647c73d83e5c26b900"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Decoder_Anchor_2026-10-28/Analysis_01/collect_anchor.py",
-      "bytes": 5923,
-      "sha256": "4e343c20188efc29f8f747247dd54a83713ecf7472651fbd2f217a197e9c0a19"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Decoder_Anchor_2026-10-28/Analysis_01/freeze_analysis.py",
-      "bytes": 1537,
-      "sha256": "9307a51808de4e3c63dfec0a9d984085a0945508b634619017116b3145509084"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Decoder_Anchor_2026-10-28/Analysis_01/README.md",
       "bytes": 1646,
       "sha256": "31303c72fdaa1f76c7465b53885611bd5499983e94b5fdae58ceb8e0a56c9ecd"
@@ -4414,11 +4009,6 @@
       "path": "Research_Code/Project/Research_Transfer_Decoder_Anchor_2026-10-28/Analysis_01/Results_01/Summary.json",
       "bytes": 60493,
       "sha256": "ad97aec0088145e55e365708e7d34bb12ae45176b5e6f7b9fb5917a759176af4"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Decoder_Anchor_2026-10-28/Analysis_01/test_analysis.py",
-      "bytes": 3860,
-      "sha256": "9af1608071a3179df0db2bedf67a35fcdc956e7f80f9d499baa578b07cb93795"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Decoder_Anchor_2026-10-28/Analysis_01/Verification_01.json",
@@ -4434,6 +4024,26 @@
       "path": "Research_Code/Project/Research_Transfer_Decoder_Anchor_2026-10-28/Analysis_01/Verification_03.json",
       "bytes": 878,
       "sha256": "d334c223296b68a31451d84c8f86b33eb2582d9eccda874f393b9531f8b8ef28"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Decoder_Anchor_2026-10-28/Analysis_01/analyze_anchor.py",
+      "bytes": 5207,
+      "sha256": "31f139de9067d27b97deb69fe06be0fb853cc07d0b01f1647c73d83e5c26b900"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Decoder_Anchor_2026-10-28/Analysis_01/collect_anchor.py",
+      "bytes": 5923,
+      "sha256": "4e343c20188efc29f8f747247dd54a83713ecf7472651fbd2f217a197e9c0a19"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Decoder_Anchor_2026-10-28/Analysis_01/freeze_analysis.py",
+      "bytes": 1537,
+      "sha256": "9307a51808de4e3c63dfec0a9d984085a0945508b634619017116b3145509084"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Decoder_Anchor_2026-10-28/Analysis_01/test_analysis.py",
+      "bytes": 3860,
+      "sha256": "9af1608071a3179df0db2bedf67a35fcdc956e7f80f9d499baa578b07cb93795"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Decoder_Anchor_2026-10-28/Analysis_01/wait_finalize.py",
@@ -4454,11 +4064,6 @@
       "path": "Research_Code/Project/Research_Transfer_Decoder_Anchor_2026-10-28/Preassessment_Server_Status.json",
       "bytes": 162896,
       "sha256": "aaadd5b2e72c6e51f759faa8fb33b2f93d7c276cf4d0dd2bfb4c6453b92c7f7b"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Decoder_Anchor_2026-10-28/prepare.py",
-      "bytes": 7913,
-      "sha256": "df85b04c4a2b7c6d36cafeb2365f2fe725e4da10c53579aeb65e00658b6b4d73"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Decoder_Anchor_2026-10-28/Runs/Local_01/anchor_VLR_B0_00/Complete.json",
@@ -5511,6 +5116,11 @@
       "sha256": "b0dcb46e7487a3ed122deed0a73311d16eae9983921d1a04f85ea67d79ab9d6d"
     },
     {
+      "path": "Research_Code/Project/Research_Transfer_Decoder_Anchor_2026-10-28/prepare.py",
+      "bytes": 7913,
+      "sha256": "df85b04c4a2b7c6d36cafeb2365f2fe725e4da10c53579aeb65e00658b6b4d73"
+    },
+    {
       "path": "Research_Code/Project/Research_Transfer_Decoder_Controls_2026-10-27/Blank_01/VLR_T0.jsonl",
       "bytes": 1313644,
       "sha256": "3ccf1b7ad0e5124145b98b2c9fd33eef95833d5d61511f76d1f370bca3085be9"
@@ -5681,16 +5291,6 @@
       "sha256": "f84b6fc80fc29ef77d25c30b407fc10958ada57156af6d169e0befe37f1fe406"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/admission.py",
-      "bytes": 7016,
-      "sha256": "43d3157b25d47df238cb6d00a71b75f42cbfefab6632f4e7c437548998f35c41"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/analyze_assessment.py",
-      "bytes": 9357,
-      "sha256": "6386b5e11da41007a78561845df4f96605d516091f723c02868de7353bb379b6"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/Assessment.jsonl",
       "bytes": 1322167,
       "sha256": "725116e5d36ca0a8c925f4feba4ac8f42a7dbf5cf75c95011cf2d3ef00f5d1f5"
@@ -5699,11 +5299,6 @@
       "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/Assessment_Analysis_01/Summary.json",
       "bytes": 34307,
       "sha256": "584f748a0a065a100cbb684680473562605bf503d895f62e2c2523be15324b2c"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/common.py",
-      "bytes": 1134,
-      "sha256": "2e9995f7bbbf7065e2cd23f9079d7a4e7b4e39245bb956180372e71c8a41a0b7"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/Completion_Receipt.json",
@@ -5806,24 +5401,9 @@
       "sha256": "c833e30ce0318798837a918a8efd18fec88fa86ba167a57030631f484812d20e"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/freeze_execution.py",
-      "bytes": 2977,
-      "sha256": "ad606d93310ee0f2d1802ff7746fcb07fd0855f625b45833e81278f3949f86b1"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/Lineage_01/Summary.json",
       "bytes": 2341,
       "sha256": "4f8f54a6904b442af0da859c81bcb5ed8109cd2b7397e2828c6e927d14ed9f6c"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/merge_development.py",
-      "bytes": 4769,
-      "sha256": "1c95af04e783015747892093546ceffdc642af09321c54a841afdfebf53ba498"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/model_registry.json",
-      "bytes": 9438,
-      "sha256": "4f40619ed9faabd509b671c000e0f2395dbb786ff8863be1f80b391b5f40648a"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/Native_Reference_Registry.json",
@@ -5851,16 +5431,6 @@
       "sha256": "2a638694a67ccf416bd54f6526fefb5b154cb54b4150dd4ae22220726ba495ac"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/prepare.py",
-      "bytes": 9740,
-      "sha256": "51118b936520c35437c9b002b4247dfc6ef86d2caab3e513f15b31fa46bfc492"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/prepare_payload.py",
-      "bytes": 5301,
-      "sha256": "11a0fd1918f271330b6f5ae00abd835f8973545226ae86ca0c03941ea3fa819e"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/Protocol.md",
       "bytes": 4977,
       "sha256": "8c578f62e9e2f2f766c7d994d9be743981e376a2824eade257219b364ace82a0"
@@ -5874,21 +5444,6 @@
       "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/README.md",
       "bytes": 6283,
       "sha256": "367e72bd2d292297267621878a1b397fb867d8411f4cd5c6a73a958ee85f735b"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/reuse_development.py",
-      "bytes": 4954,
-      "sha256": "778704d45c43ec423f49e800ef139678578c0a3205dafc53b5f3821ae50d7ca9"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/run_local_preflight.py",
-      "bytes": 2686,
-      "sha256": "c973f4615f62e2f9c052c60d5d3c699e634296d0507826bacb80490ccd6ee2a3"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/run_task.py",
-      "bytes": 4501,
-      "sha256": "faaa775e93c5aee9af7345eae5d3ac20018920b365866c4dd44d52028b7625cb"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VC_NATIVE_00/Complete.json",
@@ -6971,6 +6526,66 @@
       "sha256": "84f931d34b977cc8c1ceb3b2bf9872c12d3e1aba502350d216c0a3002df9c21a"
     },
     {
+      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/Selection_Verification.json",
+      "bytes": 541,
+      "sha256": "2bff64b55850cf4a01b0d353b7186d4c25657398bd2ccc2031aace6811b8250f"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/admission.py",
+      "bytes": 7016,
+      "sha256": "43d3157b25d47df238cb6d00a71b75f42cbfefab6632f4e7c437548998f35c41"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/analyze_assessment.py",
+      "bytes": 9357,
+      "sha256": "6386b5e11da41007a78561845df4f96605d516091f723c02868de7353bb379b6"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/common.py",
+      "bytes": 1134,
+      "sha256": "2e9995f7bbbf7065e2cd23f9079d7a4e7b4e39245bb956180372e71c8a41a0b7"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/freeze_execution.py",
+      "bytes": 2977,
+      "sha256": "ad606d93310ee0f2d1802ff7746fcb07fd0855f625b45833e81278f3949f86b1"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/merge_development.py",
+      "bytes": 4769,
+      "sha256": "1c95af04e783015747892093546ceffdc642af09321c54a841afdfebf53ba498"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/model_registry.json",
+      "bytes": 9438,
+      "sha256": "4f40619ed9faabd509b671c000e0f2395dbb786ff8863be1f80b391b5f40648a"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/prepare.py",
+      "bytes": 9740,
+      "sha256": "51118b936520c35437c9b002b4247dfc6ef86d2caab3e513f15b31fa46bfc492"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/prepare_payload.py",
+      "bytes": 5301,
+      "sha256": "11a0fd1918f271330b6f5ae00abd835f8973545226ae86ca0c03941ea3fa819e"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/reuse_development.py",
+      "bytes": 4954,
+      "sha256": "778704d45c43ec423f49e800ef139678578c0a3205dafc53b5f3821ae50d7ca9"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/run_local_preflight.py",
+      "bytes": 2686,
+      "sha256": "c973f4615f62e2f9c052c60d5d3c699e634296d0507826bacb80490ccd6ee2a3"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/run_task.py",
+      "bytes": 4501,
+      "sha256": "faaa775e93c5aee9af7345eae5d3ac20018920b365866c4dd44d52028b7625cb"
+    },
+    {
       "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/runtime_bridge.py",
       "bytes": 3847,
       "sha256": "557d8dd7b5ce5e95394f73fa25c7e446301f31e90b5328e60883024565edf4ef"
@@ -6984,11 +6599,6 @@
       "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/select_decoder.py",
       "bytes": 4478,
       "sha256": "79fcfc194351bade64ff39ddf868467131bc908bc9cf440529678280c7fcafc3"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/Selection_Verification.json",
-      "bytes": 541,
-      "sha256": "2bff64b55850cf4a01b0d353b7186d4c25657398bd2ccc2031aace6811b8250f"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Full_Benchmark_2026-10-27/task_design.py",
@@ -7041,24 +6651,9 @@
       "sha256": "f5da88bf954b6b268051b880a20b9bdcf82b5bbc401ed24afc860bddf4f218a7"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Initialization_2026-10-27/Beam_Execution/common.py",
-      "bytes": 2000,
-      "sha256": "ecffc3b3bbc1ce280e3b8cde8b00f4970e57d44f3fe29c67c9dbbfa59a79ad9c"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Initialization_2026-10-27/Beam_Execution/Execution_Lock.json",
       "bytes": 37341,
       "sha256": "8922a9228fa885be3880337145ec83390d7ca9ba1e79e2a550c60ec69e21d633"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Initialization_2026-10-27/Beam_Execution/independent.py",
-      "bytes": 3348,
-      "sha256": "9d77fc33b29889dccffaa350eeefa83becef272ede2cec2c335eb3d2c1635a5e"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Initialization_2026-10-27/Beam_Execution/portable_runtime.py",
-      "bytes": 2685,
-      "sha256": "107efe357a977ba9d89da30346f3e1d94615fc7864583bce1125846a3594bf64"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Initialization_2026-10-27/Beam_Execution/Runs/Local_01/VLR_B0_00/Predictions.jsonl",
@@ -7301,6 +6896,21 @@
       "sha256": "5476caf81edb156c87a8f9d9a5abe1d721a1ec76094166bb3f52539d3665de4d"
     },
     {
+      "path": "Research_Code/Project/Research_Transfer_Initialization_2026-10-27/Beam_Execution/common.py",
+      "bytes": 2000,
+      "sha256": "ecffc3b3bbc1ce280e3b8cde8b00f4970e57d44f3fe29c67c9dbbfa59a79ad9c"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Initialization_2026-10-27/Beam_Execution/independent.py",
+      "bytes": 3348,
+      "sha256": "9d77fc33b29889dccffaa350eeefa83becef272ede2cec2c335eb3d2c1635a5e"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Initialization_2026-10-27/Beam_Execution/portable_runtime.py",
+      "bytes": 2685,
+      "sha256": "107efe357a977ba9d89da30346f3e1d94615fc7864583bce1125846a3594bf64"
+    },
+    {
       "path": "Research_Code/Project/Research_Transfer_Initialization_2026-10-27/Beam_Execution/server_entry.py",
       "bytes": 787,
       "sha256": "4c7024bad988e44a1053f4e8acd50d6b44771bad8dcb18577218ccc0d310c78f"
@@ -7366,14 +6976,29 @@
       "sha256": "8488abeb2584b33fefcaef1e1a45a30a8e894ecc3f17d0cf5e0e1586f3d770df"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/analyze.py",
-      "bytes": 4136,
-      "sha256": "42725a9aed42ee07f99f58a19fa0c134e6bca24c29fefb53fc66c39148c59252"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/Export_Repair_01/Verification.json",
       "bytes": 1470,
       "sha256": "dbc21ca6a25d4900ea321158e168024c344d52d68fce07f11ec9e54dda0c3d4c"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/Lock.json",
+      "bytes": 4839,
+      "sha256": "c9c844945479be87e816b467d96db444159e2ca528d347c173add455a59987e9"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/Protocol.md",
+      "bytes": 2208,
+      "sha256": "341396571cac6a7652f01254257002d94050ba154e695b6174d481be95aeeabe"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/Verification_01.json",
+      "bytes": 3327,
+      "sha256": "ad8eab70908d204d948a18a7e09b5823b9d9ab1c02952d902111142c1bbc046d"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/analyze.py",
+      "bytes": 4136,
+      "sha256": "42725a9aed42ee07f99f58a19fa0c134e6bca24c29fefb53fc66c39148c59252"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/freeze.py",
@@ -7386,19 +7011,9 @@
       "sha256": "2bf996a187d5ea0d48524a3807d178b916225b2ca295b7074df6020e175c03dd"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/Lock.json",
-      "bytes": 4839,
-      "sha256": "c9c844945479be87e816b467d96db444159e2ca528d347c173add455a59987e9"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/parent_tables.py",
       "bytes": 5286,
       "sha256": "5e858de78761510e0328d81361db5305d2161bb8881c2f009d390ff3c210ce81"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/Protocol.md",
-      "bytes": 2208,
-      "sha256": "341396571cac6a7652f01254257002d94050ba154e695b6174d481be95aeeabe"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/test_analysis.py",
@@ -7409,21 +7024,6 @@
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/transfer_statistics.py",
       "bytes": 5905,
       "sha256": "add21b0f60420653f8ffd8abc58ced23f07a12e8939bf7a0f97be3f442fb4bee"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/Verification_01.json",
-      "bytes": 3327,
-      "sha256": "ad8eab70908d204d948a18a7e09b5823b9d9ab1c02952d902111142c1bbc046d"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Bounded_Word_Control_01/lrs2_short_slots.jsonl.gz",
-      "bytes": 5055829,
-      "sha256": "840953602d4d6517f22331d58344fa64ec276b69a25a81a834d14a63cab0c3ca"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Bounded_Word_Control_01/prepare.py",
-      "bytes": 2736,
-      "sha256": "377b9b217dbbf8fd36bac3c5343685144106c78b91c9a87e673ccbbabd5761ff"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Bounded_Word_Control_01/Protocol.md",
@@ -7441,6 +7041,16 @@
       "sha256": "4401d5baa7407ccf64948030337ac5c765d0164b50f43c1386509e39bdc1116e"
     },
     {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Bounded_Word_Control_01/lrs2_short_slots.jsonl.gz",
+      "bytes": 5055829,
+      "sha256": "840953602d4d6517f22331d58344fa64ec276b69a25a81a834d14a63cab0c3ca"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Bounded_Word_Control_01/prepare.py",
+      "bytes": 2736,
+      "sha256": "377b9b217dbbf8fd36bac3c5343685144106c78b91c9a87e673ccbbabd5761ff"
+    },
+    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Bounded_Word_Control_01/verify.py",
       "bytes": 5412,
       "sha256": "17dfd752ba85a5f5cb58bef18d209f4625ab18dfc9e492c385d7e0cfac6eda0f"
@@ -7456,14 +7066,14 @@
       "sha256": "0bad4e7e617294a20782a73dfcb9169282def4c426d1107b67c6468fc1bd7324"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Component_Normalization_01/check_reduction.py",
-      "bytes": 5125,
-      "sha256": "38497677f2be9074b6bf908e73208f8e15c6305e9ce817506c8af7398a6bedc0"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Component_Normalization_01/Protocol.md",
       "bytes": 2860,
       "sha256": "f6311fc65349a87e75399f30f525c7b70dd41262d3b41178785fe5899921ca17"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Component_Normalization_01/check_reduction.py",
+      "bytes": 5125,
+      "sha256": "38497677f2be9074b6bf908e73208f8e15c6305e9ce817506c8af7398a6bedc0"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Component_Normalization_01/reduction.py",
@@ -7486,19 +7096,24 @@
       "sha256": "235ae9916fe0553320a4a79ba11a39a856360296c52c302cd6600094a9b20939"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/probe_support.py",
-      "bytes": 3348,
-      "sha256": "0e0cef1dfc64261b56dfe94f55ed432bcb4780cf076340f8611182349e3a23e0"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/Protocol.md",
       "bytes": 3531,
       "sha256": "c645740a6276f57ced945885ba1b2cfde82eea1464908483b71e3b2cab5476de"
     },
     {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/probe_support.py",
+      "bytes": 3348,
+      "sha256": "0e0cef1dfc64261b56dfe94f55ed432bcb4780cf076340f8611182349e3a23e0"
+    },
+    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/run_probe.py",
       "bytes": 8380,
       "sha256": "673eb6bcd49b9b032cfa12753e591011188bac06d0961657bd73fd0ead198ed9"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/Manifest.json",
+      "bytes": 8076,
+      "sha256": "fa1b18384801f9e0f77d7122764a5d7a6e97ea8705e571bbcf9f5d99f15f3535"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/assets/tokenizers/en.model",
@@ -7509,11 +7124,6 @@
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/assets/tokenizers/vi.model",
       "bytes": 29678,
       "sha256": "6b8c7e138d86282217fad89d7e2be9452a90d398a4e034d9d390586c145e499b"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/Manifest.json",
-      "bytes": 8076,
-      "sha256": "fa1b18384801f9e0f77d7122764a5d7a6e97ea8705e571bbcf9f5d99f15f3535"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/phase5/__init__.py",
@@ -7876,29 +7486,19 @@
       "sha256": "2d41f1627252a7bdac84679d217ee0d6208b6b374f3afeb669edea23cd54e3f6"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Loss_Control_01/prepare_weights.py",
-      "bytes": 8018,
-      "sha256": "eceb7a034bc3ae7fd029157b08b577eef928be7eb2895ecc248d04de1bc54580"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Loss_Control_01/Protocol.md",
       "bytes": 3771,
       "sha256": "4a8dc664ba9a1bf065fc2086ee259364b390af0b0105b3e06069b1568c13d68a"
     },
     {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Loss_Control_01/prepare_weights.py",
+      "bytes": 8018,
+      "sha256": "eceb7a034bc3ae7fd029157b08b577eef928be7eb2895ecc248d04de1bc54580"
+    },
+    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Loss_Control_01/verify_weights.py",
       "bytes": 8706,
       "sha256": "9733031ddf85099ac71595788e5e1a221ab0b8bd6cee05791290c0b0a9722df7"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Matched_Schedule_01/lrs2.jsonl.gz",
-      "bytes": 5132489,
-      "sha256": "8f53e9a9376b302e78065ebc66579a6496fd7c7e1096394f487f6e30d8096673"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Matched_Schedule_01/prepare.py",
-      "bytes": 6590,
-      "sha256": "4f5f943c0c584de0f2d7b1ff1060d4b4a77d392d47dc5bc0669c14022a64ceba"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Matched_Schedule_01/Protocol.md",
@@ -7916,6 +7516,16 @@
       "sha256": "7d6bbeed1902daa940da5d231c56e58955226782b30a97dbb6fe45d71bbc21b7"
     },
     {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Matched_Schedule_01/lrs2.jsonl.gz",
+      "bytes": 5132489,
+      "sha256": "8f53e9a9376b302e78065ebc66579a6496fd7c7e1096394f487f6e30d8096673"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Matched_Schedule_01/prepare.py",
+      "bytes": 6590,
+      "sha256": "4f5f943c0c584de0f2d7b1ff1060d4b4a77d392d47dc5bc0669c14022a64ceba"
+    },
+    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Matched_Schedule_01/verify.py",
       "bytes": 9604,
       "sha256": "5ad22b3cce884cb74f75e97284d154b1e9b58a8bd50130bce0fea68e1dacd3e3"
@@ -7926,16 +7536,6 @@
       "sha256": "ac96a53acaef5088569b025da61f3024cc04675d574a0399ba73a48cacdadad9"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Matched_Training_Runner_01/data_io.py",
-      "bytes": 6087,
-      "sha256": "b8ee86e460345151ab3b76cbc9cf7585fa4639d059944b6b04371429a165c5d1"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Matched_Training_Runner_01/engine.py",
-      "bytes": 2544,
-      "sha256": "d1deb74136312d7f9737649861fbe62301e4a8d42cf7c38932c4244c3ad6cba7"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Matched_Training_Runner_01/Protocol.md",
       "bytes": 2065,
       "sha256": "3f4478cdde2c8fa60cbfbe8df8a4b5954fa468e9709fcf9ad20b0f6310e9b5df"
@@ -7944,6 +7544,16 @@
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Matched_Training_Runner_01/Resume_Verification.json",
       "bytes": 593,
       "sha256": "4128e63e409f2eb2318d1c68e728f55b7d2b65ed10e96d9c7d18c348c033cd2e"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Matched_Training_Runner_01/data_io.py",
+      "bytes": 6087,
+      "sha256": "b8ee86e460345151ab3b76cbc9cf7585fa4639d059944b6b04371429a165c5d1"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Matched_Training_Runner_01/engine.py",
+      "bytes": 2544,
+      "sha256": "d1deb74136312d7f9737649861fbe62301e4a8d42cf7c38932c4244c3ad6cba7"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Matched_Training_Runner_01/run.py",
@@ -7961,14 +7571,14 @@
       "sha256": "d546549bc2b27856daed5e8ba7361b1577b76d5935e807c94c66f7fd11ef3873"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Native_Matched_Adapter_01/adapter.py",
-      "bytes": 5430,
-      "sha256": "2d41f1627252a7bdac84679d217ee0d6208b6b374f3afeb669edea23cd54e3f6"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Native_Matched_Adapter_01/Protocol.md",
       "bytes": 2423,
       "sha256": "c5765e04347b8c1fd8a968acde7136773b185ae02af963e7bfd444c7ad2034b3"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Native_Matched_Adapter_01/adapter.py",
+      "bytes": 5430,
+      "sha256": "2d41f1627252a7bdac84679d217ee0d6208b6b374f3afeb669edea23cd54e3f6"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Native_Matched_Adapter_01/verify_native.py",
@@ -7976,24 +7586,24 @@
       "sha256": "4074e7797e0c99f52505486d9ab3c27c53d22e0972cc0813283be35854aa3d6b"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Portable_Data_01/portable_data.py",
-      "bytes": 10059,
-      "sha256": "156666894971efefee1ad6054dad1891d1568d1fc2fad8452c6e8fcd04aa0aca"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Portable_Data_01/Protocol.md",
       "bytes": 2294,
       "sha256": "8d8d457d8afa78ab1ed9259091237aac4bbd4081a1be4ba4d0f095f1ace6412b"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Portable_Data_01/stage_and_verify.py",
-      "bytes": 4248,
-      "sha256": "1cd94f62a03af9957d68c9d74dc6d56d04cdff3f823f412d22b28cf634da868e"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Portable_Data_01/Verification_Error.txt",
       "bytes": 805,
       "sha256": "76ce772af159ccad791bebdd69ca5d396d2f9589c9173dc1460624f2b6e42f81"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Portable_Data_01/portable_data.py",
+      "bytes": 10059,
+      "sha256": "156666894971efefee1ad6054dad1891d1568d1fc2fad8452c6e8fcd04aa0aca"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Portable_Data_01/stage_and_verify.py",
+      "bytes": 4248,
+      "sha256": "1cd94f62a03af9957d68c9d74dc6d56d04cdff3f823f412d22b28cf634da868e"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Portable_Data_01/verify_runtime.py",
@@ -8006,19 +7616,9 @@
       "sha256": "e77b5b497474260b5f92f884fea3b66a3ac5f04f2cc9e30f5c028582487ded3c"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Readiness_02/lrs2_short_slots.jsonl.gz",
-      "bytes": 5006004,
-      "sha256": "c2dc84e396f5e745e31658a8660dfc4ee12187c09066955924afd832848de2ba"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Readiness_02/Media_Plan.json",
       "bytes": 2427,
       "sha256": "c1b86f7e227a6cc8fa30d21d96082f36964afa048c46cdcb2e4637273a49b126"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Readiness_02/prepare.py",
-      "bytes": 7565,
-      "sha256": "6194386ae632fa0b37ccb1cd566a51e17a95f84b5492d31055bcd05a2a788bda"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Readiness_02/Protocol.md",
@@ -8031,14 +7631,29 @@
       "sha256": "911812c869c6a37f264ce453ed5f9ec215440a7eb7e54ebbd646d6ca792f8505"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Readiness_02/test_word_span.py",
-      "bytes": 1809,
-      "sha256": "e8e1cad5cd923f65c72ffe81c65549035af0744ccc983fea1613124a388eb599"
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Readiness_02/VLR_Raw_Hashes.jsonl.gz",
+      "bytes": 2542779,
+      "sha256": "5bde46d263e874ae9603e7b8e8a43ee90e104210a7baa8344a242bc8605887fe"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Readiness_02/Verification.json",
       "bytes": 1742,
       "sha256": "8473d35ccaa61b6006d8629b73d5947c0f47d2f81f134d6d384bb56a42916d3b"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Readiness_02/lrs2_short_slots.jsonl.gz",
+      "bytes": 5006004,
+      "sha256": "c2dc84e396f5e745e31658a8660dfc4ee12187c09066955924afd832848de2ba"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Readiness_02/prepare.py",
+      "bytes": 7565,
+      "sha256": "6194386ae632fa0b37ccb1cd566a51e17a95f84b5492d31055bcd05a2a788bda"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Readiness_02/test_word_span.py",
+      "bytes": 1809,
+      "sha256": "e8e1cad5cd923f65c72ffe81c65549035af0744ccc983fea1613124a388eb599"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Readiness_02/verify.py",
@@ -8051,11 +7666,6 @@
       "sha256": "04b9ca0bab82608b4d7a05f7716467399eaf370231b0428d0f32cd362ddc245c"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Readiness_02/VLR_Raw_Hashes.jsonl.gz",
-      "bytes": 2542779,
-      "sha256": "5bde46d263e874ae9603e7b8e8a43ee90e104210a7baa8344a242bc8605887fe"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Readiness_02/vlr_short_slots.jsonl.gz",
       "bytes": 5093528,
       "sha256": "e6609525d9348d9522a518085f84ab5e656ee4f3cd38c8e1937c12121bd18d0d"
@@ -8064,11 +7674,6 @@
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Readiness_02/word_span.py",
       "bytes": 2622,
       "sha256": "0bd5c458afedc35be81b4a03616447effed3341acebae28ebd83096ba31863e5"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/collect_full_results.py",
-      "bytes": 5477,
-      "sha256": "a506044260d612f91d611ca4ff418112cec2ca77716cec235d0842b7dbde00e5"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Completion_Receipt.json",
@@ -8086,19 +7691,9 @@
       "sha256": "da0539f186b39725ae6951e635e608106a120cc8fee4dfbb09864a590f1dfaf2"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/execution_common.py",
-      "bytes": 7631,
-      "sha256": "050701b97c1bb23dba53ab8302a57b07db145ba17c0e8e3482d1fce6108ba92b"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Execution_Lock.json",
       "bytes": 185657,
       "sha256": "d2680ccaa1a012cc36d34b76f4b53f07c2805fe97f823bac59d711a0c1f07b5d"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Execution_Revision_02/finalize.py",
-      "bytes": 4090,
-      "sha256": "f2d6a1f93650b78bdaad615bbb32e5958bd741828868e0e9dbb9e86c526b5436"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Execution_Revision_02/Intent.json",
@@ -8106,14 +7701,19 @@
       "sha256": "3e592923e0f542d6e1c507bbab5c3b91387d4a69a5d3347b5ab74ed71742d502"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Execution_Revision_03/finalize.py",
-      "bytes": 3650,
-      "sha256": "c24b9735d8f676c812c125c0ca53fef19e9f3d7a1cea1eda19e68c3aa627ca29"
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Execution_Revision_02/finalize.py",
+      "bytes": 4090,
+      "sha256": "f2d6a1f93650b78bdaad615bbb32e5958bd741828868e0e9dbb9e86c526b5436"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Execution_Revision_03/Intent.json",
       "bytes": 785,
       "sha256": "4e8fb9be05303d7289f042bc782cb0b84d82508fe63210e20aff5056a1a64a01"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Execution_Revision_03/finalize.py",
+      "bytes": 3650,
+      "sha256": "c24b9735d8f676c812c125c0ca53fef19e9f3d7a1cea1eda19e68c3aa627ca29"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Execution_Verification_01.json",
@@ -8131,26 +7731,6 @@
       "sha256": "ba1da976d6eeb1c4b64ccbe44b94dc2e34ddd1fccfb5417279114c309312fdc4"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/experiment_core.py",
-      "bytes": 5352,
-      "sha256": "9b30da8e1cb6cbc25a86bafc4f1b20aa7fc9cffe3d8f4c414eee9336a485620c"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/freeze_execution.py",
-      "bytes": 1823,
-      "sha256": "86afa0d7fd5a20f233296322cd769c322bc8cd57b986f1f641dd8a73df78b371"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/mechanism_common.py",
-      "bytes": 1545,
-      "sha256": "cd8c1ec92b822f2cb8adb558ff47e16ed5d7c965b683583e873c29e9df559b97"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/model_registry.json",
-      "bytes": 8453,
-      "sha256": "969934b48477efdc46710cdbc41fc42f2ebd16d45e011744ad8a3dfb90610b24"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Plan.json",
       "bytes": 232865,
       "sha256": "8d3e81d8fed2ef8a6b795d7bae28cf89068c0c430ef38c8b1335c9732daceaf5"
@@ -8166,11 +7746,6 @@
       "sha256": "b2c82a5740706a7e99fd09aca009b8bfad32254564b7f4cddd5640ac46e9d8f8"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/prepare.py",
-      "bytes": 5990,
-      "sha256": "3011279fc1efe8bd0e3274a916e6f68e1257c908f7de787fde82c5fa6c3b51f6"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Protocol.md",
       "bytes": 3752,
       "sha256": "d6d9e654dd7b48bdcffe7c8989998f7484ce0afd4c7f2878fd7542d32652dd2f"
@@ -8179,26 +7754,6 @@
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/README.md",
       "bytes": 8013,
       "sha256": "3057fe455015f5edf98af0a6495c39afc6c6a07f3092fc0e5bf6bb3b958cee77"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/repair_preparation.py",
-      "bytes": 4180,
-      "sha256": "989291919ff542d7a6cb60c00e080469828c6caf91674bab3eae6f34a8ae1a19"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/run_full_task.py",
-      "bytes": 4476,
-      "sha256": "c21fc0ef1ac8265f491bd07ce061bce2d6a537add4090cb0a67ec43cbd372ace"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/run_runtime_smoke.py",
-      "bytes": 4414,
-      "sha256": "30f16f360869fb47c19497e0ddd5a8ba0e353f729043aa1731ce14aa4cb1c4cb"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/run_source_grid.py",
-      "bytes": 4666,
-      "sha256": "d2a0776107965ff3c32907e06dcf54184b4c6648140d1eb22eed316866bc37ea"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T2_LAST_00/Complete.json",
@@ -9001,24 +8556,19 @@
       "sha256": "ff1f1fce62731582f433c010448527079a7bb21df555f01cb8f9df8ac1018eb5"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/runtime_bridge.py",
-      "bytes": 2337,
-      "sha256": "86f472f842d355c936c803b57c58b01e6b386ada08f98e7a4b40f45a7cd0e498"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/select_full_decoder.py",
-      "bytes": 4145,
-      "sha256": "2b9570e335165a830473ae187550500e5d8430c7264c40a77dc65beecf6e5e65"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Source_Grid_CPU_01/Complete.json",
       "bytes": 1182,
       "sha256": "55a6c29f1d904ad4cdcc90fb89a435c773b217b3b9bd9e122aba976c80e12312"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/source_grid_probe.py",
-      "bytes": 5958,
-      "sha256": "37818ff8b10cd75f2c18796a92b531feb3f7efb7029b46be21807242eef7bdca"
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Source_Retention_Readiness_01/Prepared_Plan.json",
+      "bytes": 37479,
+      "sha256": "57043031647da4c158d8b83b5680d4e2031dfbd8ec1d85af4d21c7521851e084"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Source_Retention_Readiness_01/Protocol.md",
+      "bytes": 3601,
+      "sha256": "ec8152947fd2a9d7f131aec58a9eb679fef7ace7f7149c40df9d94bdfc1c4284"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Source_Retention_Readiness_01/check.py",
@@ -9036,16 +8586,6 @@
       "sha256": "eca9dab5288bc6df70edcb10b09896ffd326d4a80303aa50e3f997c503d05dc4"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Source_Retention_Readiness_01/Prepared_Plan.json",
-      "bytes": 37479,
-      "sha256": "57043031647da4c158d8b83b5680d4e2031dfbd8ec1d85af4d21c7521851e084"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Source_Retention_Readiness_01/Protocol.md",
-      "bytes": 3601,
-      "sha256": "ec8152947fd2a9d7f131aec58a9eb679fef7ace7f7149c40df9d94bdfc1c4284"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Source_Retention_Readiness_01/vlr_Pixel_Manifest.jsonl",
       "bytes": 1680916,
       "sha256": "e2529f24994ec6c06552b02ac57eacd94365463255032fa44619f4698caee025"
@@ -9056,19 +8596,89 @@
       "sha256": "b8bdf3e846012c022424450c93ae79fbaf84569dc85e31668244cee442f61a6b"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Source_Retention_Runtime_01/source_loader.py",
-      "bytes": 5011,
-      "sha256": "9158e1980f1c162b53c2957de63f957f63278b2761c76563a4175cc9a4fe9a42"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Source_Retention_Runtime_01/Verification.json",
       "bytes": 4652,
       "sha256": "c5c2d53689702748ad4e58f815557a94c9393e2f494b60baf4586636be5a8df1"
     },
     {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Source_Retention_Runtime_01/source_loader.py",
+      "bytes": 5011,
+      "sha256": "9158e1980f1c162b53c2957de63f957f63278b2761c76563a4175cc9a4fe9a42"
+    },
+    {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/Source_Retention_Runtime_01/verify_loader.py",
       "bytes": 4014,
       "sha256": "2eb35b1fb168b37714071101d063645c5bb313cd8aa35b11d895651863678bd9"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/collect_full_results.py",
+      "bytes": 5477,
+      "sha256": "a506044260d612f91d611ca4ff418112cec2ca77716cec235d0842b7dbde00e5"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/execution_common.py",
+      "bytes": 7631,
+      "sha256": "050701b97c1bb23dba53ab8302a57b07db145ba17c0e8e3482d1fce6108ba92b"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/experiment_core.py",
+      "bytes": 5352,
+      "sha256": "9b30da8e1cb6cbc25a86bafc4f1b20aa7fc9cffe3d8f4c414eee9336a485620c"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/freeze_execution.py",
+      "bytes": 1823,
+      "sha256": "86afa0d7fd5a20f233296322cd769c322bc8cd57b986f1f641dd8a73df78b371"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/mechanism_common.py",
+      "bytes": 1545,
+      "sha256": "cd8c1ec92b822f2cb8adb558ff47e16ed5d7c965b683583e873c29e9df559b97"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/model_registry.json",
+      "bytes": 8453,
+      "sha256": "969934b48477efdc46710cdbc41fc42f2ebd16d45e011744ad8a3dfb90610b24"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/prepare.py",
+      "bytes": 5990,
+      "sha256": "3011279fc1efe8bd0e3274a916e6f68e1257c908f7de787fde82c5fa6c3b51f6"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/repair_preparation.py",
+      "bytes": 4180,
+      "sha256": "989291919ff542d7a6cb60c00e080469828c6caf91674bab3eae6f34a8ae1a19"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/run_full_task.py",
+      "bytes": 4476,
+      "sha256": "c21fc0ef1ac8265f491bd07ce061bce2d6a537add4090cb0a67ec43cbd372ace"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/run_runtime_smoke.py",
+      "bytes": 4414,
+      "sha256": "30f16f360869fb47c19497e0ddd5a8ba0e353f729043aa1731ce14aa4cb1c4cb"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/run_source_grid.py",
+      "bytes": 4666,
+      "sha256": "d2a0776107965ff3c32907e06dcf54184b4c6648140d1eb22eed316866bc37ea"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/runtime_bridge.py",
+      "bytes": 2337,
+      "sha256": "86f472f842d355c936c803b57c58b01e6b386ada08f98e7a4b40f45a7cd0e498"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/select_full_decoder.py",
+      "bytes": 4145,
+      "sha256": "2b9570e335165a830473ae187550500e5d8430c7264c40a77dc65beecf6e5e65"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/source_grid_probe.py",
+      "bytes": 5958,
+      "sha256": "37818ff8b10cd75f2c18796a92b531feb3f7efb7029b46be21807242eef7bdca"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Mechanism_Benchmark_2026-10-28/test_execution.py",
@@ -9116,64 +8726,9 @@
       "sha256": "7244efbe698b92f453998e4e8c208a4048108f687a0c2374dfa8ab0e8bb19e7f"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/analyze_complete.py",
-      "bytes": 7697,
-      "sha256": "7643b4ff62af1f2ce4d6aaf51516cdba17550de0262626ed56dcde6a434ae504"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/backup_preparation.py",
-      "bytes": 1667,
-      "sha256": "b5d4dee18368c1ba1f048b5212f8513723c861b1bff53f529d4a62cd0d511e04"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/assemble_resume.py",
-      "bytes": 2182,
-      "sha256": "f29ba9d3c45772dc7868671b2405873cd66a5f8c5b46bf6724479bfbe8c657ab"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/cloud.py",
-      "bytes": 1770,
-      "sha256": "8eafdfdd4d3413694fa723a079e228750b83fe34a592495e5ec2d9e3ab23ef13"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/common.py",
-      "bytes": 1561,
-      "sha256": "68d0bc5fbb0ab77953f5118b7958e6e58e21fd54b7f2421155e4cbfe4c8e9df2"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/deploy_ready.py",
-      "bytes": 4684,
-      "sha256": "a218451460c1efa6a3d7995b2e1f75f192553600c5b7d45c074601d875f0f343"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/Execution_Lock.json",
       "bytes": 32028,
       "sha256": "9acbc5cbc80ad36c02c75462c6eb570101e703ef912ba79e2bcafaf755d8c9a9"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/independent.py",
-      "bytes": 3348,
-      "sha256": "9d77fc33b29889dccffaa350eeefa83becef272ede2cec2c335eb3d2c1635a5e"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/portable_runtime.py",
-      "bytes": 2685,
-      "sha256": "107efe357a977ba9d89da30346f3e1d94615fc7864583bce1125846a3594bf64"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/probe_runtime.py",
-      "bytes": 3909,
-      "sha256": "8b775dd016930634ec760043b1ffffb6387e2b7928ecadfe5684de77f95eb764"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/remote_bootstrap.py",
-      "bytes": 4710,
-      "sha256": "9b22326c0c1379f01f3968e53e7f82a511558fb0c53a3dbdc01767c5fbecad26"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/remote_monitor.py",
-      "bytes": 3363,
-      "sha256": "dcf3237585e1d5985d80d8736348bf016583d66145228de8761495d8834e83ec"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/Runs/Server_01/VLR_T0_29_LAST_00/Predictions.jsonl",
@@ -9336,6 +8891,51 @@
       "sha256": "c1f115f2a0eea73aa25481b7dddb34ffb59d05c805744ffcf0c78969acabf3bb"
     },
     {
+      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/assemble_resume.py",
+      "bytes": 2182,
+      "sha256": "f29ba9d3c45772dc7868671b2405873cd66a5f8c5b46bf6724479bfbe8c657ab"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/cloud.py",
+      "bytes": 1770,
+      "sha256": "8eafdfdd4d3413694fa723a079e228750b83fe34a592495e5ec2d9e3ab23ef13"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/common.py",
+      "bytes": 1561,
+      "sha256": "68d0bc5fbb0ab77953f5118b7958e6e58e21fd54b7f2421155e4cbfe4c8e9df2"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/deploy_ready.py",
+      "bytes": 4684,
+      "sha256": "a218451460c1efa6a3d7995b2e1f75f192553600c5b7d45c074601d875f0f343"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/independent.py",
+      "bytes": 3348,
+      "sha256": "9d77fc33b29889dccffaa350eeefa83becef272ede2cec2c335eb3d2c1635a5e"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/portable_runtime.py",
+      "bytes": 2685,
+      "sha256": "107efe357a977ba9d89da30346f3e1d94615fc7864583bce1125846a3594bf64"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/probe_runtime.py",
+      "bytes": 3909,
+      "sha256": "8b775dd016930634ec760043b1ffffb6387e2b7928ecadfe5684de77f95eb764"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/remote_bootstrap.py",
+      "bytes": 4710,
+      "sha256": "9b22326c0c1379f01f3968e53e7f82a511558fb0c53a3dbdc01767c5fbecad26"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/remote_monitor.py",
+      "bytes": 3363,
+      "sha256": "dcf3237585e1d5985d80d8736348bf016583d66145228de8761495d8834e83ec"
+    },
+    {
       "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Beam_Execution/server_entry.py",
       "bytes": 810,
       "sha256": "5af99f7e50a3306fe4f47d3ca13738d98b5c419f61c3dbf45b054a4e56b59326"
@@ -9386,24 +8986,9 @@
       "sha256": "3c5800dd66b303e83448b7cc3129d6742d34c1d5079d0bb933e1220d47b918a8"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/calibration.py",
-      "bytes": 3671,
-      "sha256": "5f00f9520edc2fd6385b9cf3e7bef6718ac4c5507d06ae47a49f46978a168e33"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/common.py",
-      "bytes": 4636,
-      "sha256": "7038d5e3adf0110eb42fe69b3dfc349b045ab785dccadcf21447094f94634cd6"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Completion_Receipt.json",
       "bytes": 258,
       "sha256": "3ce533b0043f7a73001901fbd0b047a57f60e767332bb5179f32c3cef6d5015c"
-    },
-    {
-      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/encode.py",
-      "bytes": 5255,
-      "sha256": "888d63b32ce8e609da2e98a0f5c14d9090d6ce01fcdb02b69e7b9a0b5f55ec2c"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Greedy_01/VLR_T0_29_LAST/Predictions.jsonl",
@@ -9436,14 +9021,39 @@
       "sha256": "4a257e8aab1806725969113cae92c230aa1f8fb730f332a5c76b1c223bc33ab0"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/model_registry.json",
-      "bytes": 4543,
-      "sha256": "bd798b639efd3afdce3a7d701dbb7b82c522098b5ef429b1e057dad9bae9c975"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/Plan.json",
       "bytes": 3793,
       "sha256": "4813106b1f70ae5024ddbab85d0072fac12c98ccc0c6783f61773ce4faf19a15"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/analyze_complete.py",
+      "bytes": 7697,
+      "sha256": "7643b4ff62af1f2ce4d6aaf51516cdba17550de0262626ed56dcde6a434ae504"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/backup_preparation.py",
+      "bytes": 1667,
+      "sha256": "b5d4dee18368c1ba1f048b5212f8513723c861b1bff53f529d4a62cd0d511e04"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/calibration.py",
+      "bytes": 3671,
+      "sha256": "5f00f9520edc2fd6385b9cf3e7bef6718ac4c5507d06ae47a49f46978a168e33"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/common.py",
+      "bytes": 4636,
+      "sha256": "7038d5e3adf0110eb42fe69b3dfc349b045ab785dccadcf21447094f94634cd6"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/encode.py",
+      "bytes": 5255,
+      "sha256": "888d63b32ce8e609da2e98a0f5c14d9090d6ce01fcdb02b69e7b9a0b5f55ec2c"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/model_registry.json",
+      "bytes": 4543,
+      "sha256": "bd798b639efd3afdce3a7d701dbb7b82c522098b5ef429b1e057dad9bae9c975"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Seed29_2026-10-27/prepare_execution.py",
@@ -9506,14 +9116,14 @@
       "sha256": "f9e751d6fd79d7cf76a3175f9459ff93a53eab36778915a903a9afcd6628db96"
     },
     {
-      "path": "Research_Code/Project/Research_Transfer_Training_Exposure_2026-10-27/common.py",
-      "bytes": 1853,
-      "sha256": "d091b8b22082b8cb984a37e380f583a31398e3a87aeeafc1b2995eb5d614d8c4"
-    },
-    {
       "path": "Research_Code/Project/Research_Transfer_Training_Exposure_2026-10-27/Protocol.md",
       "bytes": 2461,
       "sha256": "b455a68d17796e396e810a408a9327efe47e1d5781b41768302952687387816f"
+    },
+    {
+      "path": "Research_Code/Project/Research_Transfer_Training_Exposure_2026-10-27/common.py",
+      "bytes": 1853,
+      "sha256": "d091b8b22082b8cb984a37e380f583a31398e3a87aeeafc1b2995eb5d614d8c4"
     },
     {
       "path": "Research_Code/Project/Research_Transfer_Training_Exposure_2026-10-27/reconstruct.py",
@@ -9571,6 +9181,11 @@
       "sha256": "03c3de0b32e5b82ad2449731b41f0fc772e3ba3a04cb59f1219ad36f782c6906"
     },
     {
+      "path": "Research_Code/Project/Research_Vast_Source_2026-10-29/Linux_Execution_01/Driver/Protocol.md",
+      "bytes": 2948,
+      "sha256": "4b2fc7465d7f5d53857b9411209a69f5a66d1bc707ee0a6e91d5827bcbdee842"
+    },
+    {
       "path": "Research_Code/Project/Research_Vast_Source_2026-10-29/Linux_Execution_01/Driver/configuration.py",
       "bytes": 7036,
       "sha256": "c06c837f4c081175e7a45c50846aab901ba397bea1f4fb3e7f91c1b190017f32"
@@ -9581,14 +9196,14 @@
       "sha256": "7a8b3ae1a377f728209ff7e996bd31b54fc7735d33b46e92d14fd71682c2e6d5"
     },
     {
-      "path": "Research_Code/Project/Research_Vast_Source_2026-10-29/Linux_Execution_01/Driver/Protocol.md",
-      "bytes": 2948,
-      "sha256": "4b2fc7465d7f5d53857b9411209a69f5a66d1bc707ee0a6e91d5827bcbdee842"
-    },
-    {
       "path": "Research_Code/Project/Research_Vast_Source_2026-10-29/Linux_Execution_01/Driver/run.py",
       "bytes": 7639,
       "sha256": "eaabd153416a88247e1f6f9198ac85cd0e757f8d4fba458cb1fc5d7b5bbcc048"
+    },
+    {
+      "path": "Research_Code/Project/Research_Vast_Source_2026-10-29/Linux_Execution_01/Normalized_Driver_02/Protocol.md",
+      "bytes": 1860,
+      "sha256": "7d58d26cf511121b8340e3e8d7f9350ea9ece062a9bdfc24d12c6d2333044573"
     },
     {
       "path": "Research_Code/Project/Research_Vast_Source_2026-10-29/Linux_Execution_01/Normalized_Driver_02/configuration.py",
@@ -9604,11 +9219,6 @@
       "path": "Research_Code/Project/Research_Vast_Source_2026-10-29/Linux_Execution_01/Normalized_Driver_02/objective.py",
       "bytes": 2672,
       "sha256": "159285b9ee64e669ebcc10d1c377877e5173d60a4084916c14b7063b615ce043"
-    },
-    {
-      "path": "Research_Code/Project/Research_Vast_Source_2026-10-29/Linux_Execution_01/Normalized_Driver_02/Protocol.md",
-      "bytes": 1860,
-      "sha256": "7d58d26cf511121b8340e3e8d7f9350ea9ece062a9bdfc24d12c6d2333044573"
     },
     {
       "path": "Research_Code/Project/Research_Vast_Source_2026-10-29/Linux_Execution_01/Normalized_Driver_02/reduction.py",
@@ -9691,6 +9301,541 @@
       "sha256": "69deb4a7b2c25ce13e1718ada6d2498a128eaf226283b7b3794169dadfcaab5e"
     },
     {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/01_results/project_campaign/graphs/vicocktail/w0_vc_calib/center/decode.log",
+      "bytes": 274923,
+      "sha256": "e63871a100ee3e5653f2b5295f9de142fe9596c5e22e67a0c2342833d4f0128b"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/average_checkpoints.py",
+      "bytes": 980,
+      "sha256": "5f6a5d1e12dabc706456d477ba4e91d7ba5aa029b9b42b974e1805f636967f88"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/cosine.py",
+      "bytes": 922,
+      "sha256": "50bd9f5eb01f62b2ce0758dc7eea276f75708cadee5f44c282ef9bdfa33818cb"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/datamodule/av_dataset.py",
+      "bytes": 7253,
+      "sha256": "4a5bc37329ff1d9aeeeb076db80aae282b9b04fd0b4dda6230d96ca0e80bff17"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/datamodule/data_module.py",
+      "bytes": 11970,
+      "sha256": "d84e612413081c02992b0b97b5381010efb84cf7068a09686ca38c6fd5797a7f"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/datamodule/transforms.py",
+      "bytes": 6304,
+      "sha256": "0e650726bf39e391231d5d77920e46f2b9c6298bed9cb34b9136bb65f444090d"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/batch_beam_search.py",
+      "bytes": 13345,
+      "sha256": "4d319866d432a94f68969cb46a3569f7b9f99abd9c6df9eb1d53f68a1467ff6e"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/beam_search.py",
+      "bytes": 19122,
+      "sha256": "600a9434bdcf44312de002ac509e55ca936ede6df270b49f2887299cc29df2df"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/ctc_prefix_score.py",
+      "bytes": 13899,
+      "sha256": "c26e5ce6f4884cfbf329e3bd8ac75089a47e4a4e79355db024dc0056b48da6c9"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/e2e_asr_common.py",
+      "bytes": 6856,
+      "sha256": "e24670378092040db8bded6a9383f9d2859fc5d6db5946f7409e4df5b23278ff"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/ctc.py",
+      "bytes": 9342,
+      "sha256": "39c589343af0943663029e8d68e04ef04642e2b38d7499d052b860ddcf2ecee0"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/decoder/transformer_decoder.py",
+      "bytes": 13613,
+      "sha256": "3c9c8745dd33e440ecd34eb3903d559d6f5213e52e89598713d3dad56fc5d762"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_conformer.py",
+      "bytes": 3063,
+      "sha256": "144c68cb2e696eb3735617770f21c9c0fe7e0e359cac77ae05a17dec5c0095b7"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_count.py",
+      "bytes": 4011,
+      "sha256": "60f29683136fe95cb23d352eb941415302e0c3f3121bfeaeabce5ae1dc13eb4b"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_interctc.py",
+      "bytes": 8770,
+      "sha256": "8caaa18dfbf5f2eda364b4d0491980c1cc5ac47810e305ccb52c56087ca067df"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_mdbridge.py",
+      "bytes": 4825,
+      "sha256": "8d00b9edfe75354aaf78e72f10f716f5203cbcc9c81f422ea192a8b182ac75f9"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_pavir.py",
+      "bytes": 8435,
+      "sha256": "ab61a7cd53fa174e21acab4847b22469e799b6681a82c06b058f80cde77c284f"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_signer.py",
+      "bytes": 8700,
+      "sha256": "64e6030889db66b03dfe46ed5d08f0cf23873c23ae5f72bf4948391a5700a52c"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_structured.py",
+      "bytes": 6966,
+      "sha256": "d11027089b85e8d482cadc61411c2a8dc9475c5ab59153ca616644480fc734e1"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_visyll.py",
+      "bytes": 9134,
+      "sha256": "8475db788502b08d065823a4d57d380d5021e951b0485bdea7879b7c9f62ffb2"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/e2e_asr_xbridge.py",
+      "bytes": 5193,
+      "sha256": "11f5e72497b179c0567fa3536cf859bb746bcf0c38dec4894d170c1937780382"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/encoder/conformer_encoder.py",
+      "bytes": 11348,
+      "sha256": "ed595f814ebba45b1e2853555c85b0bb197ed2e14e8b730c6b1368b384a8e790"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/frontend/resnet.py",
+      "bytes": 7053,
+      "sha256": "4097c6ff8675ec76bcf74e3290d1fe06b5e536f194a2784ccdd4b81029afbbfb"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/frontend/resnet1d.py",
+      "bytes": 7274,
+      "sha256": "2b3d1e4cd68ea9ccce5813689234e7e95e6cb327181ca1335c6d63058da13a18"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/nets_utils.py",
+      "bytes": 9904,
+      "sha256": "34f0c4ef9f19f7e9526f0436a508371a0e68b6c4bebb687ca6372cf1d2ab638d"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/__init__.py",
+      "bytes": 30,
+      "sha256": "aba1b9ff25a1b69d8a6905e7ed877205b5b8af6f3d1d9e82bb28b8aaed9aaeee"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/add_sos_eos.py",
+      "bytes": 958,
+      "sha256": "e73c11b60af9a67467bde1e53b031d43ccd00cd55e5f85813c4e6d757114c7ce"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/attention.py",
+      "bytes": 8195,
+      "sha256": "ed4cf0a1bbb9551f66586338ea19d6e5cc12fd897b989fbd51a0d9a11304ed6d"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/embedding.py",
+      "bytes": 6860,
+      "sha256": "08157dc9be6e1363653c8689af94ec51f82b56a7acf8cea46711b009ca8c491c"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/label_smoothing_loss.py",
+      "bytes": 2164,
+      "sha256": "70f6a14a1f8749c1dfa39a96469d9633246856572d2140cddd0378857598e265"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/layer_norm.py",
+      "bytes": 874,
+      "sha256": "9685ea76896c4624ebd0db5afc2e7b7b77a1f467ae33ca0bd8876c802d46beb3"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/mask.py",
+      "bytes": 1047,
+      "sha256": "dbc6b6d7e1449404c7463ce3a89a193f9c0c9a57e381b32572821af3ba1f9275"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/positionwise_feed_forward.py",
+      "bytes": 899,
+      "sha256": "c4db61e228ba3c55158d20ce53a1d5ec13e87a34148d38164230d4ac93d506b2"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/pytorch_backend/transformer/repeat.py",
+      "bytes": 1219,
+      "sha256": "a441c579cc57d25721ecf59ec357a0ab64e68abddadc4b955bc4fa01f643f0f8"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/scorer_interface.py",
+      "bytes": 5902,
+      "sha256": "bfb21dd5b99f892fa9880764a47032729735bce3dd3b143d396e13ce1f31fc27"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/scorers/__init__.py",
+      "bytes": 30,
+      "sha256": "aba1b9ff25a1b69d8a6905e7ed877205b5b8af6f3d1d9e82bb28b8aaed9aaeee"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/scorers/ctc.py",
+      "bytes": 4953,
+      "sha256": "556c10c796866c703398bcbc72dcf7d7557fe781431e8efc44f62d69c853a4fe"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/scorers/length_bonus.py",
+      "bytes": 1740,
+      "sha256": "8c0aea891ef3aca25387acfafedbbec4210938cd3f9df14323eeb9fd36af9f78"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/espnet/nets/scorers/word_ngram.py",
+      "bytes": 6724,
+      "sha256": "36e8be8a2993bba3735d61d65403bd6e5284de543c6c4c348e63571888d4a173"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/eval.py",
+      "bytes": 8244,
+      "sha256": "763e554eeb4562087526512f2697bbcc8c99f69e98cc07f5b9723521a26b6503"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/lightning.py",
+      "bytes": 42524,
+      "sha256": "5f7b89c79e98ac0505890a5c75d14e8768e6c5be70a871f583a524b35278f753"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/__init__.py",
+      "bytes": 614,
+      "sha256": "f6bb85aaf04831e47b9398abf16d57fdfbe0383e8f413b0372bca2cdfbdbe47c"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/artifacts.py",
+      "bytes": 31417,
+      "sha256": "8bb71e275e6fcea02c974de4cf3178b18adee9dc06e5155babc81f57dc3bffce"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/campaign.py",
+      "bytes": 69480,
+      "sha256": "ade02c6e747b1c8837fb9dd4c16472ec01d2844b321695373c7f3bbc9f894454"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/ctc_posterior.py",
+      "bytes": 10662,
+      "sha256": "13df7b1d5aa656ee956963fd0683ea4ed385ecf3996c77f017044edc4cd68301"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/deterministic_pool.py",
+      "bytes": 7721,
+      "sha256": "95844cc4097647e22534b17edf65bd42ab71289c3b8fdf22c943066ad4d1b00e"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/event_derangement.py",
+      "bytes": 5606,
+      "sha256": "7d7ebe82aa5d71dcabf11b90da95e71ca8e07bb989468bc04f7be65f9cf74337"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/identifiability.py",
+      "bytes": 6032,
+      "sha256": "a875df7316fa38edb85c885a432b52047f2f8d14ef31987aef1379a5fb38c4a1"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/mincost_derangement.py",
+      "bytes": 12795,
+      "sha256": "7837e594d472dc1fc76175b64464db6fe2cdcc537bedab95d0e7af0c08bcf8be"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/offline.py",
+      "bytes": 7473,
+      "sha256": "b8ff80b53ff89f6ec690270a9c710253170af8d8680acb9d1592184355448b94"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/route_confirm_v3.py",
+      "bytes": 44260,
+      "sha256": "eaa62faf0ff1137015d75cabd1a80b186a59b8f86b3188da8ccfefa9744b9c75"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/route_confirm_v3_activation.py",
+      "bytes": 46783,
+      "sha256": "56ec51ae754e6d53373775fe8098c51e4386d9d640b34d0e62a7598f593b901e"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/route_confirm_v3_g2.py",
+      "bytes": 41218,
+      "sha256": "ef1fa5c0cc5270566833cfe9cc93618ae812c2a59359bd6f84bbe5ccf0918f06"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/route_confirm_v3_g2_activity.py",
+      "bytes": 29016,
+      "sha256": "90d4a7da1777d3f892d3ff420d99640a6b717fffee010a1ce318111ce9472911"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/route_confirm_v3_g2_prototypes.py",
+      "bytes": 30910,
+      "sha256": "ed0d442592ca1a068e4bb0e0293e378081cff53bd1b3fe519796d94c8e076381"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/route_confirm_v3_g3.py",
+      "bytes": 18358,
+      "sha256": "ed6423ea4a2f53b681a5553988fa450b099bf0bb1740d77bf8c4b5d690d283e0"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/route_confirm_v3_io.py",
+      "bytes": 25616,
+      "sha256": "4e270eaf9fb351a61a01320518f9d778ce4772a1ff6801f53ef0f7f50890c5e8"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/route_confirm_v3_runner.py",
+      "bytes": 69499,
+      "sha256": "7c44777ba3e28a9fe6c9fd4915baa8c073cb55d45c9761883e115a31200e342f"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/routing.py",
+      "bytes": 14616,
+      "sha256": "1d38b6b0db2797265333f019a7fd4940eb5c9c60d215bfffcc4238851222454b"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/stratified_derangement.py",
+      "bytes": 24743,
+      "sha256": "87218ccb1211a48157c79c5daa31012393e711725dd90510d781574b2a0453df"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_artifacts.py",
+      "bytes": 7560,
+      "sha256": "dc4ffedeeb229547ada1cac00e264c63c20bf0a33be783b65f7d700f3f4b9b8e"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_batching_contract.py",
+      "bytes": 658,
+      "sha256": "7b22c9ba3386ac2096154c6d704e33d965b632a64cb6232b1e74248ee9e8f832"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_campaign.py",
+      "bytes": 13643,
+      "sha256": "ea722fe7b24416ac7103501333d3b5a62e41f6dc6e14e81dcaed000c87afd9f3"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_ctc_posterior.py",
+      "bytes": 5750,
+      "sha256": "af9b1de42cbe9a9a2052fd91ae943ccea2595ea280feeb2302cafed909708de9"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_deterministic_pool.py",
+      "bytes": 4766,
+      "sha256": "7dbc4dd11a2de3bc216ae066f56923c8ed584ce209973dc265fa2c504945a6a7"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_event_derangement.py",
+      "bytes": 9319,
+      "sha256": "cb8e100396cfd41ec194b378e154054648ffdae49029468be3e00d7fdec51440"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_extract_artifacts.py",
+      "bytes": 10175,
+      "sha256": "c43d117e401bc570f9abeabde1e6110464c1adc4fe06d2777c29acc1dea2adba"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_freeze_config.py",
+      "bytes": 5886,
+      "sha256": "3d1407ea80dd0500a7c67a557393d7219b82a6577632f317a5e7c88969384822"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_gradient_calibration_math.py",
+      "bytes": 1247,
+      "sha256": "a49b0d814a183e7153a65549dd302b9f0d03ee2c8351fc98618621d5d8cee7fe"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_identifiability.py",
+      "bytes": 1595,
+      "sha256": "d84921e34fd236a00adff5498edce06728c1edf528d02fd2bfdfcbf924f5c34e"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_mincost_derangement.py",
+      "bytes": 4389,
+      "sha256": "8a4e7413be08494f74e421626796cf52bb94e46b798e284547d158dec02877d5"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_model_contract.py",
+      "bytes": 5658,
+      "sha256": "31233c7224346dd2bdf3c0be8c6886a9c1cac4f22d26d5622dbc92944beaf1fc"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_offline.py",
+      "bytes": 1641,
+      "sha256": "aff4cf6a5c8dd972fe01b0f411ac2a11fc345f90678bf0ee11a5c8c57ea88115"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_offline_token_spans.py",
+      "bytes": 1149,
+      "sha256": "ee57aab20b2e771832d354099befb689d0f8d4086218920e186924f24e0e54bb"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_route_confirm_v3.py",
+      "bytes": 22014,
+      "sha256": "080f7ceca52140eed0602082033d9e79dc76a5c5a570e00a0cad3b9127b8bbe9"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_route_confirm_v3_activation.py",
+      "bytes": 16204,
+      "sha256": "20352923285762639b463eb6dd2c4fcfc9657e802ed7cc498ffca989a906c5c0"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_route_confirm_v3_g2.py",
+      "bytes": 13841,
+      "sha256": "c4b823bd97bcb26133748cac39c4f0a829d012a1e4649c4ee8debb6cb166b9d0"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_route_confirm_v3_g2_activity.py",
+      "bytes": 8509,
+      "sha256": "eebaa1e5e15c9252be5d5acabefa3c5ba6fd52bbfd87941e99a31eb7816746ee"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_route_confirm_v3_g2_prototypes.py",
+      "bytes": 14864,
+      "sha256": "79a586815d6a1a746166fe541a89960877c2036b2b967badffa3604a52f5fc5f"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_route_confirm_v3_g3.py",
+      "bytes": 6520,
+      "sha256": "689861e17ad6d9030e1bb549e88e9dae658ab0d09abd21416ae8e996c711bfab"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_route_confirm_v3_io.py",
+      "bytes": 7195,
+      "sha256": "0f022d81b1e7d140857848d11afacad8df0d380ae070efc4399306727c841440"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_route_confirm_v3_runner.py",
+      "bytes": 7697,
+      "sha256": "969265411441ed8dc13a809ac6456deee203885128a24789c990013f2ed5e960"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_routing.py",
+      "bytes": 5067,
+      "sha256": "a54d07b2b239d1571f9282a41e510ac9b8d55b920d6a46cfe83fdb3eac8666a0"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_spatial_stability_alignment.py",
+      "bytes": 736,
+      "sha256": "19af61a52dcd9be6efaf06720a871477f9b89acc605f2d36c83f1082bfe468e7"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_utility.py",
+      "bytes": 7561,
+      "sha256": "fa52e776c2829a228b10555a70e8e15105a29b88210cc1fa5b778b239a6a5b09"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/tests/test_video_views.py",
+      "bytes": 599,
+      "sha256": "06c0f65bb1f9934f5b9a58d88e28d9674d3f5072affa13bb3215bee4a1a85a9d"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/pavir/utility.py",
+      "bytes": 24935,
+      "sha256": "46fdffcdc1dbe438eae5d1add37a2cfc794586902837593369fbcc14169e0345"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/asr_infer.py",
+      "bytes": 3427,
+      "sha256": "6300b41638b6587d7d0219c6b4734ae8f413075373391f4059a2df3e58a6ea82"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/data/data_module.py",
+      "bytes": 2343,
+      "sha256": "8434aa197d56bb7c8fff5ffaa88f887d0d87001f37198dca06c8bc8ab293ff07"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/detectors/mediapipe/detector.py",
+      "bytes": 2916,
+      "sha256": "a9296173fd7c63e5e8e8561f68ba53a1c6a859c8c1e6006cbc8fc43f4800bc2d"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/detectors/mediapipe/video_process.py",
+      "bytes": 7654,
+      "sha256": "986632fbb7f3ec189f4be9ab58e8f6ae4e782274290d3cfa1a7df4d5c99d2060"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/detectors/retinaface/detector.py",
+      "bytes": 1354,
+      "sha256": "efad479c4f56da915646bea1d087ddae4dc5d7f8f91082ade60a0e2355002b97"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/detectors/retinaface/video_process.py",
+      "bytes": 7593,
+      "sha256": "d3bbd6ac32ac5985d9e46484e2232449085f0dbeb204b2a96657b41018a577b2"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/limit_length.py",
+      "bytes": 1189,
+      "sha256": "2d85707ac21e2a178c51d5925f4795d8dfded779cc8c6a0e7ce849c66a0110ed"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/merge.py",
+      "bytes": 2220,
+      "sha256": "8c939f4f026a83f676098592a8a295d593e8a821bc284459647156d4254ab25a"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/preprocess_lrs2lrs3.py",
+      "bytes": 10105,
+      "sha256": "57a874d62b17514bd83e677176f3fc5c84d7c7464cbc026a95f929b6e911b753"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/preprocess_vox2.py",
+      "bytes": 4803,
+      "sha256": "f427067873e71b4398d2728a878d18210bd5caa29aa9a78493b0a86c57869cfa"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/transforms.py",
+      "bytes": 5453,
+      "sha256": "98fd83bd33ab450e3672354b6ce3089ca1d3c91b34be2328d3139289bc239036"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/preparation/utils.py",
+      "bytes": 2703,
+      "sha256": "60159deee2648184417e8a59733de473c489ac85b3504bef7bdd1d598ef4322e"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/spm/spm_encode.py",
+      "bytes": 3328,
+      "sha256": "368d21f11c00d78f50c297f1f5e0f93a1af7e689b10e254223fedf1bc2b506b9"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/spm/spm_train.py",
+      "bytes": 346,
+      "sha256": "497c1712d7498ffd98ab73faee0a8f200703712f787be229869663774a74a0da"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/baselines/auto_avsr/train.py",
+      "bytes": 60839,
+      "sha256": "cab0ffafb3ee708e64574b94e36621d9d81564e0da72d7f3762311303cd8b4b3"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/scripts/activate_pavir_env.sh",
+      "bytes": 443,
+      "sha256": "58a724f35d857f47988622e6c628297e3bdd253f3bd463b1808ab4c4377081f3"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/02_code/current/Lip_Final/scripts/run_vicocktail_w0_calib_decodes.sh",
+      "bytes": 3804,
+      "sha256": "9be665870f0264f4faab91e44def05c6cd76e187ea38eb8f73a88c116c27597e"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/04_artifacts/tokenizer/vi_unigram_2000.auto_avsr_units.txt",
+      "bytes": 21904,
+      "sha256": "90b0875aa114daad969c70d48589db7bfb49da548ea4d0f86bd07dab0514dfda"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/04_artifacts/tokenizer/vi_unigram_2000.model",
+      "bytes": 29678,
+      "sha256": "6b8c7e138d86282217fad89d7e2be9452a90d398a4e034d9d390586c145e499b"
+    },
+    {
+      "path": "Research_Code/Project/experiments/_archive_sources/pavir_2026_08/MANIFEST.json",
+      "bytes": 6552109,
+      "sha256": "97ffbd8f9df728dc7203864d124bbba98ccf2c5650959af3fc74fae30ef55f96"
+    },
+    {
       "path": "Research_Code/README.md",
       "bytes": 3769,
       "sha256": "4e0363773fe6f01022253a39307a3b387653fec70854745e4a27a19728843072"
@@ -9722,8 +9867,8 @@
     },
     {
       "path": "Submission/Cover_Letter_Draft.md",
-      "bytes": 2404,
-      "sha256": "d091501378997d3b7c9e99273b48b980e1270f17c62a90db8eb9f2f28f9baba6"
+      "bytes": 2643,
+      "sha256": "0fd112b78bcf6b40b7a167361ee43a0d026b79a8660895089ccc995653a2cf7e"
     },
     {
       "path": "Submission/Highlights.txt",
@@ -9734,6 +9879,16 @@
       "path": "Submission/Teacher_Brief_VI.md",
       "bytes": 7079,
       "sha256": "e4b6828be3acf211758c49a125c6de71b1248daf1f32b1c1608fb1a61d819ea6"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 13,
+      "sha256": "5e7cb66d2a3374454132a5ff73596f40061357a52fe40d3f100840077d8cc547"
+    },
+    {
+      "path": "verification/Editorial_2026-10-31.json",
+      "bytes": 1791,
+      "sha256": "07255b062778af7ade5e2699c071726545518423deed89f968d7f2e8ea1e7110"
     },
     {
       "path": "verification/Source_Packages.json",

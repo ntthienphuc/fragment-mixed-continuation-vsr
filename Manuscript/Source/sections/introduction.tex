@@ -47,8 +47,9 @@ therefore includes conventional whole-word mixing, which improves transfer and
 outperforms fixed-time mixing by 0.459 WER points. A paired token-normalized loss
 control retains the fixed-time gain. The whole-word short-only control further
 tests the contribution of scheduled full-clip presentations, using the same
-source order and unchanged whole-utterance assessment. These comparisons separate
-the supervision schedule from claims of a unique fixed-time boundary rule.
+source order and unchanged whole-utterance assessment. Together, these controls
+test how temporal schedule, fragment labelling and loss reduction shape source
+retention and destination recognition.
 The short-only state is worse than whole-word mixing by 7.328 destination WER
 points and 6.238 source points, with substantially more deletions. Retaining
 scheduled full views is therefore beneficial in this comparison; increasing
@@ -70,5 +71,6 @@ The paper contributes three results:
  \item Comparisons of temporal schedule, crop labelling, loss reduction and
  same-target context, supported by edit-error and exposure measurements.
 \end{itemize}
-The contribution is the controlled account of transfer and source retention
-after continuation, rather than temporal cropping alone.
+Together, these results characterize when mixed temporal supervision improves
+transfer, how retaining full utterances contributes, and the source-retention
+cost of the resulting continuation strategy.

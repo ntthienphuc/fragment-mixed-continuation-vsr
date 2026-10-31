@@ -1,0 +1,46 @@
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[paperwidth=160mm,paperheight=101.75mm,margin=0pt,noheadfoot]{geometry}
+\usepackage{graphicx,tikz}
+\pagestyle{empty}
+\definecolor{ink}{HTML}{263440}
+\definecolor{muted}{HTML}{53606A}
+\definecolor{rulegray}{HTML}{CED5D9}
+\definecolor{vietnamese}{HTML}{246A9A}
+\definecolor{english}{HTML}{19786E}
+\newcommand{\corpusrow}[5]{%
+  \node[anchor=north west,text=#5,font=\fontsize{10.6}{13}\selectfont\bfseries]
+    at (1.5,#2+1.5) {#1};
+  \node[anchor=north west,text=ink,font=\fontsize{9}{11}\selectfont]
+    at (1.5,#2+7.2) {#3 corpus};
+  \node[anchor=north west,text=muted,font=\fontsize{8.8}{11}\selectfont]
+    at (1.5,#2+12.3) {#4};
+  \foreach \index in {1,...,6}{%
+    \pgfmathsetmacro{\imageleft}{34.5+(\index-1)*20.7}
+    \node[anchor=north west,inner sep=0pt] at (\imageleft,#2)
+      {\includegraphics[width=19mm,height=19mm]{assets/#1_\index.png}};
+    \draw[rulegray,line width=0.3pt] (\imageleft,#2) rectangle ++(19,19);
+  }%
+}
+\begin{document}
+\noindent\begin{tikzpicture}[remember picture,overlay,x=1mm,y=-1mm,inner sep=0pt]
+\coordinate (origin) at (current page.north west);
+\begin{scope}[shift={(origin)}]
+  \node[anchor=north west,text=muted,font=\fontsize{9}{11}\selectfont]
+    at (1.5,1) {Corpus};
+  \node[anchor=north west,text=muted,font=\fontsize{9}{11}\selectfont]
+    at (34.5,1) {Time from first illustrated frame};
+  \foreach \time [count=\index] in {0.00,0.16,0.32,0.48,0.64,0.80}{%
+    \pgfmathsetmacro{\labelx}{44+(\index-1)*20.7}
+    \node[anchor=north,text=ink,font=\fontsize{9}{11}\selectfont]
+      at (\labelx,7.1) {+\time\ s};
+  }
+  \corpusrow{VLR}{14.2}{Source}{Vietnamese}{vietnamese}
+  \corpusrow{ViCocktail}{36.2}{Destination}{Vietnamese}{vietnamese}
+  \draw[rulegray,line width=0.55pt] (1.5,57.5) -- (157.5,57.5);
+  \corpusrow{LRS2}{60.2}{Source}{English}{english}
+  \corpusrow{WildVSR}{82.2}{Destination}{English}{english}
+\end{scope}
+\end{tikzpicture}\null
+\end{document}

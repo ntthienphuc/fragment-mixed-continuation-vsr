@@ -1,0 +1,297 @@
+{
+  "source_figure_sha256": "f45edf70c89f9b9ecc9731ffb6dadc6a0033effaace929ac017617ecb7348a2d",
+  "method": "Extract existing embedded PNGs without resampling, retouching or synthesis.",
+  "note": "The released figure embeds 132x132 RGB renderings of the documented 88x88 grayscale crops.",
+  "original_data_provenance": "../../Data/Dataset_Figure_Provenance.json",
+  "original_frame_indices": "../../Data/Dataset_Figure_Frames.csv",
+  "frames": [
+    {
+      "file": "VLR_1.png",
+      "original_image": "I1",
+      "display_order": 1,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "5fb401bc3c92d53efc7ef09c5f65a4b4e541e69299be47e010ba439326914e3e",
+      "file_sha256": "5de66cbb07e10a587674567bb4469e8d80abfd6f4d2f85f9868173ae2324c2e6"
+    },
+    {
+      "file": "VLR_2.png",
+      "original_image": "I2",
+      "display_order": 2,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "d268770facda15849fedfb5ee610bf578bf93534d64dcfd3523b86e147b6f868",
+      "file_sha256": "248854a91f6ac85f4be0831daa39e05a576b2fada739e6fd9977b24062cdbfc5"
+    },
+    {
+      "file": "VLR_3.png",
+      "original_image": "I3",
+      "display_order": 3,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "4c2ea81eea51167c6041e00119b877cd0b64eee66b9dcdaa8ac4dd3a95052fd9",
+      "file_sha256": "ba976fff96581fef6282d9c8d79858ff83e6bf63e42b700de0812d14ea74598a"
+    },
+    {
+      "file": "VLR_4.png",
+      "original_image": "I4",
+      "display_order": 4,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "9bcd81c9f03e76ee19f601718eb967bd2614a3cb17c8f0b2bcd9e802e5b95e2b",
+      "file_sha256": "85f5320100f531da83544fb543d95dec1f1185092526eca9602a50900151f1e0"
+    },
+    {
+      "file": "VLR_5.png",
+      "original_image": "I5",
+      "display_order": 5,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "98b492d11f2bc371b778fce0afaa129e3f8606f30563223e94b12486af2061f6",
+      "file_sha256": "b60467ef77ea025b48601aadf0b0c0920e0643988bd06529f82ad70d764eb91d"
+    },
+    {
+      "file": "VLR_6.png",
+      "original_image": "I6",
+      "display_order": 6,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "ddff0a89e069c5c54234a9428d65dd21211a6c7d945738b4524a340e671d4cf8",
+      "file_sha256": "00395769480f78acf408200794df7d677db354d417f810c120994229e0a194fa"
+    },
+    {
+      "file": "ViCocktail_1.png",
+      "original_image": "I7",
+      "display_order": 7,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "d793ceb87b62afe2b1361a3305bf98cae0242b268e4da7e46658c502eaf5a553",
+      "file_sha256": "dc0dea72ed78a2a00b5cf3ae9ed84d958f464ba5fcd9948d0bc4b05f0aa1c570"
+    },
+    {
+      "file": "ViCocktail_2.png",
+      "original_image": "I8",
+      "display_order": 8,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "e8c8140a0029e391b63717d19deafb7197f7ee84edbb62d84b52e0bfb166468f",
+      "file_sha256": "a9324a28eaf505ae031b3d45804fce86629c4ef7aab3499eb56422d39efcbd70"
+    },
+    {
+      "file": "ViCocktail_3.png",
+      "original_image": "I9",
+      "display_order": 9,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "1cbc9c12d2e6120ed29f47b8e4bea4f7eacd19db4a3269ac38767beee1e88b3c",
+      "file_sha256": "0de5ab011c03b86b3010901a4c81d7b2463822a905e9e0862fd05f8806dcc00d"
+    },
+    {
+      "file": "ViCocktail_4.png",
+      "original_image": "I10",
+      "display_order": 10,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "43be370989612c3a69c27c30401bab6d25242c006a1cde9cb553826965effcf1",
+      "file_sha256": "f7f58077999bb629279855524ae30ce2555376ca9c52ac6d549a3eb6e95afc4c"
+    },
+    {
+      "file": "ViCocktail_5.png",
+      "original_image": "I11",
+      "display_order": 11,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "482b14bc6d5bddb17d69e26147d6cfe37bf676c57924631258f6e82a0e29d5c6",
+      "file_sha256": "0a4159014e1e190a42443d8ce5eeb5405207aa914257509c645dc98cdb88e11c"
+    },
+    {
+      "file": "ViCocktail_6.png",
+      "original_image": "I12",
+      "display_order": 12,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "19bd4f94d8e5e15198177d4aaf705eb7d6875bdb40009973a8e273bfb87c9cfb",
+      "file_sha256": "ce31df137aee93ac00e67a67b9a88289c4b23e560aa7cc87454d2284875db1fd"
+    },
+    {
+      "file": "LRS2_1.png",
+      "original_image": "I13",
+      "display_order": 13,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "117cd6816f3fbc588fb89aceffcbfa1b140558e57bd1db4e65ab8e72d5e07f24",
+      "file_sha256": "a2e73ee257e49e13f16fd6038f32dc236b6a204dcb13edd17a7dfada91463c08"
+    },
+    {
+      "file": "LRS2_2.png",
+      "original_image": "I14",
+      "display_order": 14,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "3c2f83830d7dd8aacceb52998d6170d0ed86e06264d6de5da98a888423f32693",
+      "file_sha256": "c9ff3d7475345d46e49a181889833aeb47252adb7711471393358014f4cd466c"
+    },
+    {
+      "file": "LRS2_3.png",
+      "original_image": "I15",
+      "display_order": 15,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "86d496c6726e69804c32669802596a051eccf4c0b347be3dd8e7a56cdfe0b705",
+      "file_sha256": "b5eec808947880ae03278025315c8fa721082d8b288d9211abebd4370a152a06"
+    },
+    {
+      "file": "LRS2_4.png",
+      "original_image": "I16",
+      "display_order": 16,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "65cb7a6ac2287572bd6379cfa120c80782490dc16100824b0b0200d4a7c9e90f",
+      "file_sha256": "a5b6aab93a4bb1ec3e5055db9a33b5f69a8d976e5abd03ed21916e46bc2a82a0"
+    },
+    {
+      "file": "LRS2_5.png",
+      "original_image": "I17",
+      "display_order": 17,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "e356d7c959ea1a47e6fe2e8dc7d7c71ecbe3314cf48e24f8e8a9d535c8c612b6",
+      "file_sha256": "6069eba8da6d0bc5bd3d9810829b8d0775934c3edb1cbe746e9fb68182c0e07c"
+    },
+    {
+      "file": "LRS2_6.png",
+      "original_image": "I18",
+      "display_order": 18,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "fa2796be22fd637948cf30fb634a2f7768f048476c79b5692a8b99ac500dda26",
+      "file_sha256": "393e577887cc767838aa8bd6dc87ed2cd510f1c19cf2def7342f0c749c73e892"
+    },
+    {
+      "file": "WildVSR_1.png",
+      "original_image": "I19",
+      "display_order": 19,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "5304f237be108a86ee89221167346f6a98cf5d064dfc9f3e1b99583bbfb6b6f0",
+      "file_sha256": "d94cd7b5429007f6426c06d56b798ca28d72710e3e4da4c2be5a63fcd83fa22d"
+    },
+    {
+      "file": "WildVSR_2.png",
+      "original_image": "I20",
+      "display_order": 20,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "6cb5475df8ab165e1996b49b177fc31055582af876aa3e81f507cbaefc5592c6",
+      "file_sha256": "7272b234cd18661445b5262881666dbd876957d5c4f0633414fd86a8a3065546"
+    },
+    {
+      "file": "WildVSR_3.png",
+      "original_image": "I21",
+      "display_order": 21,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "7a32c0db2caf81529bbf05dfd77c459f7fc4bfdd85212c664c951a0f13e00fb3",
+      "file_sha256": "0d60755936c04ff7041493b55a53ee87442cf17fd47b61616a42afbf1b993a6b"
+    },
+    {
+      "file": "WildVSR_4.png",
+      "original_image": "I22",
+      "display_order": 22,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "410aefef8790a1333e92e40c6e4b6a821eae1335929e8446f832bc7ce0cd83f7",
+      "file_sha256": "71fdc50d93d4c102a3f4352aa02c2b669e83b766b7f66817856def55aa3c246b"
+    },
+    {
+      "file": "WildVSR_5.png",
+      "original_image": "I23",
+      "display_order": 23,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "f96fce7abf4102e600b91347c4be4560d725200fde40359341cccec107f08836",
+      "file_sha256": "7a02fdbcec84c6f555b716c5629733987248a4fb0ff61c4f78bc2cddc18109a3"
+    },
+    {
+      "file": "WildVSR_6.png",
+      "original_image": "I24",
+      "display_order": 24,
+      "size": [
+        132,
+        132
+      ],
+      "mode": "RGB",
+      "pixel_sha256": "05cffe59b39da0eeb61441424a00d290ed833ac4e2e40d933d38a6f13be93fd6",
+      "file_sha256": "26f632cfbc113ccc1973663532f4cb0c9aa634507282062295cb6f5f3341a076"
+    }
+  ]
+}

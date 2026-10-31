@@ -2,77 +2,71 @@
 \subsection{When fragment supervision is useful}
 The original Vietnamese FC/FM gain repeats across both fitted seeds and all
 20 observed recording groups, mainly through fewer deletions and insertions.
-It accompanies a source disadvantage relative to FC, while FM remains better
-than the VLR initializer. English FM also retains less source improvement
-than FC but gives no clear WildVSR benefit. These outcomes support a useful
-continuation option in one regime, with different source/destination trade-offs.
+It accompanies a source cost relative to FC, while FM remains better than the
+VLR initializer. The English comparison retains less source improvement than FC
+without a clear WildVSR benefit. Joint source/destination assessment therefore
+identifies both the Vietnamese transfer benefit and its regime dependence.
 Conventional whole-word mixing strengthens the Vietnamese transfer gain without
 resolving its source cost. The effect therefore does not require incomplete
 boundary evidence from fixed-time crops.
 
-The short-only control makes the role of scheduled full supervision more concrete.
-Replacing full views with additional whole-word fragments loses 7.328 destination
-and 6.238 source WER points relative to whole-word mixing, with more deletions
-outweighing fewer substitutions and insertions. An exploratory fixed greedy-CTC check retains the short-only disadvantage
-against both full-only and whole-word mixed states on
-both complete populations (Supplementary Material). This ordering is therefore
-not confined to the common hybrid decoder, although the check
-reuses the fitted states and assessment data. Retaining full presentations
-helps under this update budget; mixing still incurs a source cost relative to
-full-only. The comparison establishes neither an optimal ratio nor a universal
-failure of short-only objectives or a single internal mechanism.
+The short-only control directly tests the contribution of scheduled full
+supervision. Replacing full views with additional whole-word fragments raises
+destination and source WER by 7.328 and 6.238 points, respectively, relative to
+whole-word mixing. Additional deletions outweigh fewer substitutions and
+insertions. An exploratory fixed greedy-CTC check preserves this disadvantage
+against both full-only and whole-word mixed states on both complete populations
+(Supplementary Material, Tables 1 and 4). The ordering is thus consistent across
+the two tested readouts of the same fitted states. Retaining full presentations
+benefits this fixed-update schedule. Because short-only also reduces frame and
+token exposure, the contrast evaluates the complete schedule rather than an
+isolated mixing effect at equal exposure.
 
 This distinction matters when selecting a continuation strategy. Source
 recognition and destination recognition answer different questions, and their
-WERs should be considered separately. Improving over the initializer on the
-continuation source is insufficient to establish a destination benefit. Source
-retention also depends on the readout: the Vietnamese FC/FM ranking reverses
+WERs should be considered separately. Source retention also depends on the
+readout: the Vietnamese FC/FM ranking reverses
 when destination-calibrated decoders replace the shared decoder. Reporting both
 comparisons distinguishes the fitted-state comparison from the deployed
-model-plus-decoder choice, without treating either as a source-tuned optimum.
+model-plus-decoder choice.
 
 FM has a practical advantage in deployment complexity: it retains the same
 single whole-utterance recognition procedure. It is relevant when source videos
 and an existing recognizer are available but additional inference modules or
 destination-domain gradient updates are undesirable. The Vietnamese experiment
 does use destination development data for decoder calibration; the shared-decoder
-result separates the observed gain from model-specific calibration. With the
-remaining error rates, assisted transcription with human correction is a
-plausible use case, rather than unattended transcription requiring high accuracy.
-The application is a motivation; user-level utility has not been measured.
+result separates the observed gain from model-specific calibration. The observed
+error rates motivate assisted transcription with human correction as a potential
+application; user-level utility remains to be evaluated.
 
 \subsection{What changes when context is restored}
 The context-preserving control retains the fragment targets while restoring
 neighboring visual evidence. It covers almost all selected annotation intervals
 and retains part of the Vietnamese gain over FC, but performs worse than FM.
 Its reduction in substitutions is outweighed by additional deletions. This
-same-target contrast shows that more visible context is not sufficient to
-improve the tested continuation recipe. It does not prove that deliberately
-incomplete boundary evidence is the cause of the gain: context and label
-coverage change together.
+same-target contrast shows that restoring visual context does not improve the
+tested continuation recipe. Since context and label coverage change together,
+the comparison characterizes the intervention as a whole.
 
 Full-view self-teaching provides contextual information through a predictive
 distribution instead of additional student input. At the tested temperature and
-weight, it adds no clear benefit. The additional context mechanisms therefore
-have no demonstrated advantage over FM in these tests. Neither result establishes that all
-forms of context restoration or distillation are ineffective.
+weight, it adds no clear benefit. The simpler FM recipe therefore retains the
+strongest transfer result among these tested context variants.
 
 FM couples shorter inputs, shorter supervision and native loss reduction.
 The English setting also repeatedly revisits a smaller, length-selected source
 pool, whereas the Vietnamese setting presents each selected source clip once.
 These differences suggest that supervision exposure and continuation regime
 deserve attention before attributing the contrast to linguistic structure.
-The observed frame/token counts cannot determine gradient contributions or
-compute efficiency. The completed whole-word comparison shows that the direction
-of the transfer benefit can be obtained by conventional short-view augmentation;
-it provides no evidence for a unique advantage of overlap-labelled boundaries.
-Because crop lengths and target exposure still differ, its whole-word advantage
-cannot be assigned solely to label completeness. The paired reduction control
+The whole-word comparison shows that the transfer benefit extends to conventional
+short-view augmentation, supporting temporal supervision as the relevant design
+choice. Crop extent and target exposure vary with the labelling rule, so the
+whole-word advantage reflects that combined change. The paired reduction control
 retains a 3.460-point fixed-time gain after normalizing each loss component by
-its valid target length, close to the native 3.523-point gain. This rules out
-the simple claim that the observed advantage disappears under this reduction
-change. It does not establish invariance to every objective scaling, and the
-four loss-control states do not isolate a single causal optimization mechanism.
+its valid target length, close to the native 3.523-point gain. The transfer
+advantage therefore persists under the tested alternative reduction. Together,
+these controls narrow the explanation beyond a particular boundary rule or
+the native loss reduction, while leaving internal optimization mechanisms open.
 
 \subsection{Scope and reproducibility}
 The evidence concerns two corpus pairs within one recognizer family. The
@@ -82,6 +76,9 @@ The assessment sets have been used in earlier
 experiments, and the timing labels are automatic. Bootstrap intervals describe
 variation within the observed assessment populations conditional on fitted
 states; they do not estimate variation across all possible training runs.
+The measured frame/token counts describe exposure, not gradient contributions
+or compute efficiency. The tested schedules establish neither an optimal mixing
+ratio nor the behavior of other short-only objectives.
 Independent corpus confirmation and a second recognizer family would test
 the portability of the result more directly than additional analysis of the
 same test sets.

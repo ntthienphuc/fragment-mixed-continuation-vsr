@@ -1,0 +1,62 @@
+{
+  "utc": "2026-10-31T02:19:06.514655+00:00",
+  "status": "passed",
+  "manuscript_pages": 35,
+  "supplement_pages": 4,
+  "figure_pages": [
+    9,
+    14
+  ],
+  "figure_fonts": {
+    "training_design": [
+      "LMRoman10-Bold",
+      "LMRoman12-Bold",
+      "LMRoman9-Bold",
+      "LMRoman9-Regular"
+    ],
+    "dataset_examples": [
+      "LMRoman10-Bold",
+      "LMRoman9-Regular"
+    ]
+  },
+  "unchanged_plot_files": [
+    "edit_changes.pdf",
+    "mechanism_gains.pdf",
+    "paired_gains.pdf",
+    "source_destination_profile.pdf",
+    "training_context_budget.pdf"
+  ],
+  "unchanged_tables": 9,
+  "preserved_display_images": 24,
+  "frame_pixels_identical": true,
+  "figure_one_between_completed_paragraph_and_subsection": true,
+  "main_contrasts": [
+    {
+      "population": "source",
+      "additional_errors": 14096,
+      "reference_units": 225960,
+      "wer_difference_pp": 6.2382722605770935
+    },
+    {
+      "population": "assessment",
+      "additional_errors": 2205,
+      "reference_units": 30091,
+      "wer_difference_pp": 7.327772423648267
+    }
+  ],
+  "primary_aggregates": 60,
+  "primary_intervals": 49,
+  "diagnostic_saved_clip_model_records": 37422,
+  "neural_rerun": false,
+  "visual_review_required": false,
+  "manuscript_sha256": "11b54a9bcf49e6e17a923cb5e24e15b6e11b7187e5624df39e613ee4d664dd49",
+  "visual_review_completed_pages": 35,
+  "supplement_clean_compile_page_text_equal": true,
+  "previous_manuscript_sha256": "3527be9e4987a6f931d1dd5b4beec71f8a45c36a526e1a9d3f98709885fbf099",
+  "numerical_verification_runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "overleaf_source_sha256": "0fcb4ee7e789c551dbed1e0459d276038c4ce8f0490436c79823cb1237ce4902",
+  "overleaf_zip_entries": 54
+}

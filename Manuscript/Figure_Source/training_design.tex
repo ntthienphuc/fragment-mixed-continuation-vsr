@@ -1,0 +1,67 @@
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[paperwidth=160mm,paperheight=124.84mm,margin=0pt,noheadfoot]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\pagestyle{empty}
+\definecolor{ink}{HTML}{263440}
+\definecolor{muted}{HTML}{53606A}
+\definecolor{rulegray}{HTML}{CED5D9}
+\definecolor{full}{HTML}{246A9A}
+\definecolor{mixed}{HTML}{19786E}
+\definecolor{teach}{HTML}{77508C}
+\definecolor{context}{HTML}{A26322}
+\definecolor{word}{HTML}{B45D33}
+\definecolor{short}{HTML}{A33245}
+\newcommand{\studyrow}[5]{%
+  \begin{scope}[shift={(#1,#2)}]
+    \draw[#3,line width=1.5pt] (0,0) -- (0,15.8);
+    \node[anchor=north west,text=ink,font=\fontsize{10}{12}\selectfont\bfseries]
+      at (2.3,-0.6) {#4};
+    \node[anchor=north west,text=ink,align=left,text width=69mm,
+      font=\fontsize{9.2}{11.6}\selectfont] at (2.3,5.1) {#5};
+    \draw[rulegray,line width=0.35pt] (2.3,18.1) -- (74.2,18.1);
+  \end{scope}%
+}
+\begin{document}
+\noindent\begin{tikzpicture}[remember picture,overlay,x=1mm,y=-1mm,inner sep=0pt]
+\coordinate (origin) at (current page.north west);
+\begin{scope}[shift={(origin)}]
+  \node[anchor=north west,text=ink,font=\fontsize{11}{13}\selectfont\bfseries]
+    at (1.5,2) {(a) Original comparison};
+  \node[anchor=north west,text=ink,font=\fontsize{11}{13}\selectfont\bfseries]
+    at (83.5,2) {(b) Matched supervision};
+  \node[anchor=north west,text=muted,font=\fontsize{9}{11}\selectfont]
+    at (1.5,8.3) {FC / FM and same-target context controls};
+  \node[anchor=north west,text=muted,font=\fontsize{8.8}{11}\selectfont]
+    at (83.5,8.3) {Same source order, seed and 6,000 updates};
+  \draw[rulegray,line width=0.45pt] (79.5,16) -- (79.5,100.5);
+  \studyrow{1.5}{17}{full}{FC: Full clips}
+    {Complete input\\Complete transcript}
+  \studyrow{1.5}{39}{mixed}{FM: Full + fixed-time views}
+    {Alternate full clips and 2 s crops\\Crop labels include overlapping words}
+  \studyrow{1.5}{61}{teach}{FM-ST: Full-view self-teaching}
+    {FM inputs + detached full-view targets\\Tests predictive context}
+  \studyrow{1.5}{83}{context}{CP: Context-preserving views}
+    {Restore neighboring input frames\\Retain the same crop transcript}
+  \studyrow{83.5}{17}{full}{Full-only}
+    {48,000 complete inputs\\Complete transcript at every presentation}
+  \studyrow{83.5}{39}{mixed}{Fixed-time mixed}
+    {24,317 full + 23,683 short views\\2 s crops with overlap-based labels}
+  \studyrow{83.5}{61}{word}{Whole-word mixed}
+    {24,317 full + 23,683 short views\\2.00--3.28 s word-aligned spans}
+  \studyrow{83.5}{83}{short}{Whole-word short-only}
+    {47,402 short views + 598 full fallbacks\\Same word-span rule; no source clip dropped}
+  \node[anchor=north west,text=muted,font=\fontsize{9}{11}\selectfont\bfseries]
+    at (1.5,106.5) {Assessment: all states};
+  \tikzset{flow/.style={draw=rulegray,fill=black!2,line width=0.5pt,
+    minimum height=7.7mm,text=ink,font=\fontsize{9.3}{11}\selectfont}}
+  \node[flow,minimum width=39mm] (input) at (21,117) {Complete video};
+  \node[flow,minimum width=56mm] (model) at (80,117) {Unchanged recognizer};
+  \node[flow,minimum width=39mm] (output) at (139,117) {Complete transcript};
+  \draw[-{Stealth[length=1.7mm]},muted,line width=0.65pt] (input.east) -- (model.west);
+  \draw[-{Stealth[length=1.7mm]},muted,line width=0.65pt] (model.east) -- (output.west);
+\end{scope}
+\end{tikzpicture}\null
+\end{document}

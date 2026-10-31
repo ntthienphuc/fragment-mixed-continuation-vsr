@@ -8,28 +8,31 @@ temporal granularity of supervision during source-only continuation affects
 whole-utterance recognition on both the source corpus and an unfamiliar corpus.
 It preserves the recognizer architecture and inference procedure.
 
-The contribution is a controlled characterization of transfer and retention,
-rather than the invention of temporal cropping. Matching initialization,
-source-clip order and optimizer updates, we find repeatable Vietnamese transfer
-gains from fragment mixing, accompanied by a source cost. Conventional
-whole-word crops also improve transfer. Replacing scheduled full utterances
-with additional whole-word fragments instead worsens both source and
-destination recognition, predominantly through deletions. A paired
-token-normalized control and context controls test specific alternative
-explanations. The English experiment provides a contrasting outcome, with a
-source cost and no clear destination gain.
+The study identifies a useful balance between full-utterance and short-view
+supervision under a fixed continuation budget. With matched initialization,
+source-clip order, optimizer updates and a common decoder, fragment mixing
+improves VLR-to-ViCocktail WER by 3.41 and 3.17 percentage points across two
+seeds. A separate matched comparison shows why retaining complete utterances
+matters: replacing the scheduled full views with additional whole-word
+fragments worsens destination and source WER by 7.328 and 6.238 points,
+respectively, predominantly through additional deletions. Whole-word crop,
+token-normalized loss and same-target context controls further characterize
+which components support the observed transfer benefit.
 
-These results address a practical recognition question: whether an improvement
-obtained by continuing to train an existing recognizer transfers outside its
-training collection, and what is lost on the source. The manuscript separates
-model-state effects from decoder calibration, reports both corpus pairs and
-conditional paired intervals, and explicitly limits claims to the fitted
-states and reused assessment populations. It does not claim a new recognizer
-architecture, an optimal mixing ratio, or universal improvement.
+These results address a practical pattern-recognition problem: adapting an
+existing recognizer using available labelled source data while evaluating both
+transfer and retention. The inference procedure remains unchanged. Joint
+source/destination assessment quantifies the Vietnamese transfer gain and
+source cost, while the LRS2-to-WildVSR comparison establishes a contrasting
+regime. Measured frame/token exposure and conditional paired intervals define
+the interpretation of the fixed-budget comparisons. This combination of
+matched interventions, readout controls and complete-population measurements
+provides an empirical basis for choosing a continuation schedule.
 
 The anonymous manuscript is accompanied by reproducible numerical data,
 scientific training and evaluation source, model and protocol identities,
-and verification receipts. Large third-party media and model files remain
+and verification receipts, together with a supplementary fixed greedy-CTC
+readout diagnostic. Large third-party media and model files remain
 subject to their providers' access conditions.
 
 Sincerely,

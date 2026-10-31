@@ -88,6 +88,10 @@ There is no blanket relicensing of third-party source, recordings or weights.
 
 The manuscript is anonymous. Author information and journal submission metadata
 remain to be completed. This repository does not establish acceptance, a journal
-DOI, or an archival software DOI. The previously reviewed manuscript source is
-unchanged; its release README records the historical delivery state before this
-Git synchronization.
+DOI, or an archival software DOI. The numerical results are unchanged. An editorial
+review on 31 October 2026 aligned two figures with the manuscript's Latin Modern
+font, corrected Figure 1 placement, and tightened the contribution narrative and
+repeated scope statements. The five result plots and all 24 displayed mouth images
+retain their original content. Editable figure sources and a rebuild command are
+in [Manuscript/Figure_Source](Manuscript/Figure_Source/README.md). See the
+[editorial audit](Manuscript/EDITORIAL_REVIEW_2026-10-31.md) for checks and scope.

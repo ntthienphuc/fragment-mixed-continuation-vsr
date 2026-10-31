@@ -67,19 +67,7 @@ tokens or gradient magnitudes. We measure the first two directly in
 Section~\ref{sec:exposure}; no proportional relationship between token count and
 the final optimizer update is assumed.
 
-\begin{figure}[tbp]
- \centering
- \includegraphics[width=\linewidth]{training_design.pdf}
- \caption{Training interventions with unchanged whole-utterance inference.
- (a) The original comparison tests full-clip continuation (FC), fragment mixing
- (FM), full-view self-teaching (FM-ST/T2), and restored visual context (CP/T4).
- (b) The matched comparison includes full-only, fixed-time mixed, whole-word
- mixed and whole-word short-only supervision. The mixed states share fallback
- positions; the short-only state also replaces the scheduled full views when
- an admissible word span exists. The two panels represent distinct fitted-state comparisons;
- all variants recognize the complete video at assessment. Schematic only.}
- \label{fig:design}
-\end{figure}
+
 
 \subsection{Conventional whole-word mixing}
 \label{sec:wordviews}
@@ -99,6 +87,20 @@ the whole-word and fixed-time arms use the complete clip at that presentation.
 Sharing these fallback positions prevents a difference in example coverage from
 being mistaken for a crop effect. The comparison changes crop extent and target
 content together; it does not hold input frames or target tokens exactly equal.
+
+\begin{figure}[H]
+ \centering
+ \includegraphics[width=\linewidth]{training_design.pdf}
+ \caption{Training interventions with unchanged whole-utterance inference.
+ (a) The original comparison tests full-clip continuation (FC), fragment mixing
+ (FM), full-view self-teaching (FM-ST/T2), and restored visual context (CP/T4).
+ (b) The matched comparison includes full-only, fixed-time mixed, whole-word
+ mixed and whole-word short-only supervision. The mixed states share fallback
+ positions; the short-only state also replaces the scheduled full views when
+ an admissible word span exists. The two panels represent distinct fitted-state comparisons;
+ all variants recognize the complete video at assessment. Schematic only.}
+ \label{fig:design}
+\end{figure}
 
 \subsection{Whole-word short-only supervision}
 \label{sec:shortonly}
