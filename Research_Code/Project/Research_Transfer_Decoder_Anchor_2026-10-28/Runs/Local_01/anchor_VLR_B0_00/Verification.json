@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "utc": "2026-10-27T23:10:13.979884+00:00",
+  "task": "anchor_VLR_B0_00",
+  "model": "VLR_B0",
+  "clips": 146,
+  "independent_count_checks": 146,
+  "fresh_pixel_replays": [
+    {
+      "clip_id": "F2lyXr1rKNk_00005_000000_4_-1.00",
+      "score_error": 0.0
+    },
+    {
+      "clip_id": "F2lyXr1rKNk_00010_000000_18_-1.00",
+      "score_error": 0.0
+    }
+  ],
+  "checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+  "predictions_sha256": "471878f131a801a38ee7241902a3378c0637c1472b8d11edf71e53e14ab34db2",
+  "execution_lock_sha256": "bee2e30ec47a840e052ff6a4ca92a6e22b2839f54ce30f55bc0a74493b328dee",
+  "plan_sha256": "cc2e84f1a8cb2434f106419781ae982e325f21419227c01515cb97bfbd34b194",
+  "admission_sha256": "db377852916ff95084bd0b48373ecb94f48c321976228ee75bb86690cec735a1"
+}

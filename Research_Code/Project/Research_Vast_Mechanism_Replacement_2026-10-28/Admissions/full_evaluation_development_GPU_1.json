@@ -1,0 +1,73 @@
+{
+  "utc": "2026-10-28T11:49:52.632718+00:00",
+  "status": "bounded_mechanism_execution_admitted",
+  "purpose": "full_evaluation",
+  "stages": [
+    "development"
+  ],
+  "models": [
+    "VLR_T2_LAST",
+    "VLR_T4_LAST",
+    "EN_T2_LAST",
+    "EN_T4_LAST"
+  ],
+  "tasks": [
+    "development_VLR_T4_LAST_00",
+    "development_VLR_T4_LAST_01",
+    "development_VLR_T4_LAST_02",
+    "development_VLR_T4_LAST_03",
+    "development_VLR_T4_LAST_04",
+    "development_VLR_T4_LAST_05",
+    "development_VLR_T4_LAST_06",
+    "development_VLR_T4_LAST_07",
+    "development_EN_T4_LAST_00",
+    "development_EN_T4_LAST_01",
+    "development_EN_T4_LAST_02",
+    "development_EN_T4_LAST_03",
+    "development_EN_T4_LAST_04",
+    "development_EN_T4_LAST_05",
+    "development_EN_T4_LAST_06",
+    "development_EN_T4_LAST_07"
+  ],
+  "plan_sha256": "8d3e81d8fed2ef8a6b795d7bae28cf89068c0c430ef38c8b1335c9732daceaf5",
+  "execution_lock_sha256": "d2680ccaa1a012cc36d34b76f4b53f07c2805fe97f823bac59d711a0c1f07b5d",
+  "analysis_lock_sha256": "c9c844945479be87e816b467d96db444159e2ca528d347c173add455a59987e9",
+  "admitted_unix": 1793188192.6327162,
+  "deadline_unix": 1793198808.904296,
+  "maximum_seconds": 10616.271579742432,
+  "execution_location": "server",
+  "paid_allocation": true,
+  "device": "cuda",
+  "threads": 2,
+  "usd_per_hour": 0.9,
+  "maximum_cost_usd": 4.2,
+  "observed_balance_usd": 5.29,
+  "reserved_balance_usd": 1.05,
+  "provider_guard_verified": true,
+  "backup_restore_verified": true,
+  "provider_proof_sha256": "7fd9c4731fb0027f2358d8dce8c660833675a6fb6f7e5b3f470d05b23739f4fd",
+  "input_restore_sha256": "7b3c881ac115675623b8b694dac8b9323835162b1fe80e98b8d04eca3d0b3304",
+  "backup_roundtrip_sha256": "763afb4fe2027b37d37de2fdcd8dd205f33c41157083d8f6909e977583808517",
+  "runtime_preflights": {
+    "VLR_T2_LAST": {
+      "path": "Research_Vast_Mechanism_Replacement_2026-10-28/Source_Grid/VLR_T2_LAST/Complete.json",
+      "sha256": "e90688bd0d07354c0c5438be385659cc77bbee6133c26f475e2dfb7d9f935695"
+    },
+    "EN_T2_LAST": {
+      "path": "Research_Vast_Mechanism_Replacement_2026-10-28/Source_Grid/EN_T2_LAST/Complete.json",
+      "sha256": "40d3d4587c760305145d39db558545307bb8b96b5ec7f786fa0a8afc64d7242c"
+    },
+    "VLR_T4_LAST": {
+      "path": "Research_Vast_Mechanism_Replacement_2026-10-28/Source_Grid/VLR_T4_LAST/Complete.json",
+      "sha256": "03c3de0b32e5b82ad2449731b41f0fc772e3ba3a04cb59f1219ad36f782c6906"
+    },
+    "EN_T4_LAST": {
+      "path": "Research_Vast_Mechanism_Replacement_2026-10-28/Source_Grid/EN_T4_LAST/Complete.json",
+      "sha256": "248a13091fda3ce7e84abab7db95532b78b82b1054dc3bab592e3f4f0ad3247a"
+    }
+  },
+  "physical_gpu": 1,
+  "locations_path": "Research_Vast_Mechanism_Replacement_2026-10-28/Locations.json",
+  "locations_sha256": "4d354ec90b7e4667a8b197ea53a0d80278770aeb9b6b88a38034aec6bb972117",
+  "operations_lock_sha256": "6439e676064be0048c2ad3b735901bbf30fd73a83854e0580d8ecc5063bce159"
+}

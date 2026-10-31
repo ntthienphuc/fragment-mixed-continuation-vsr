@@ -1,0 +1,75 @@
+\documentclass[preprint,review,12pt]{elsarticle}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,booktabs,array}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage[a4paper,margin=25mm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\journal{Pattern Recognition}
+\makeatletter
+\let\ps@pprintTitle\ps@plain
+\gdef\@blstr{1.655}
+\makeatother
+\doublespacing
+\graphicspath{{figures/}}
+\setlength{\emergencystretch}{2em}
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.85}
+\newcommand{\ctc}{\mathrm{CTC}}
+\newcommand{\att}{\mathrm{att}}
+\newcommand{\sg}{\operatorname{sg}}
+\newcommand{\KL}{\operatorname{KL}}
+\begin{document}
+\begin{frontmatter}
+\title{Fragment-Mixed Continuation for Cross-Corpus Visual Speech Recognition}
+\author{Anonymous authors}
+\begin{abstract}
+Improving a visual speech recognizer on its training corpus need not improve
+transcription of an unfamiliar video collection. We study temporal supervision
+granularity during source-only continuation, preserving the architecture and
+whole-utterance inference. Fragment-mixed continuation alternates complete
+utterances with short, transcript-labelled views of the same videos. Comparisons
+match initialization, source-clip order and 6,000 optimizer updates. On 1,167
+ViCocktail clips after VLR continuation, fixed-time mixing reduces common-decoder
+word error rate (WER) by 3.41 and 3.17 percentage points across two seeds.
+A separate matched comparison obtains 67.37\% WER with full-only continuation,
+63.85\% with fixed-time mixing and 63.39\% with whole-word mixing. Replacing the
+scheduled full views with additional whole-word fragments raises destination
+WER to 70.72\% and source WER to 44.84\%, compared with 38.61\% source WER for
+whole-word mixing. Increased deletions outweigh fewer substitutions and insertions.
+Retaining full-utterance presentations therefore benefits both populations in
+this fixed-budget comparison. Relative to full-only continuation, the two mixed
+states still incur source costs of 0.55 and 0.58 WER points. The fixed-time
+transfer gain persists at 3.46 points after component-wise token normalization.
+In LRS2-to-WildVSR transfer, mixing gives up 1.46 source WER points without a
+clear destination gain. These results support mixed temporal supervision in
+the studied Vietnamese continuation setting, while showing that its value depends
+on the training regime and must be assessed jointly on source and destination.
+\end{abstract}
+\begin{keyword}
+Visual speech recognition \sep Lip reading \sep Cross-corpus transfer \sep
+Fragment-mixed continuation \sep Temporal supervision
+\end{keyword}
+\end{frontmatter}
+
+\input{sections/introduction}
+\input{sections/related_work}
+\input{sections/method}
+\input{sections/experiments}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/conclusion}
+\bibliographystyle{elsarticle-num}
+\begingroup
+\interlinepenalty=10000
+\bibliography{references}
+\endgroup
+\end{document}

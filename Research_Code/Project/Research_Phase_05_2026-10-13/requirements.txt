@@ -1,0 +1,9 @@
+# Python 3.11. Install the matching torch CUDA wheel separately; see README.
+numpy==1.26.4
+sentencepiece==0.2.0
+av==16.0.1
+mediapipe==0.10.21
+opencv-contrib-python==4.11.0.86
+scikit-image==0.24.0
+jax==0.7.1
+jaxlib==0.7.1

@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-28T07:30:28.221488+00:00",
+  "status": "complete_pending_independent_verification",
+  "task": "assessment_EN_F0_LAST_06",
+  "model": "EN_F0_LAST",
+  "split": "assessment",
+  "purpose": "full_evaluation",
+  "clips": 356,
+  "candidate_order": [
+    "beam_c0.1"
+  ],
+  "peak_gpu_mib": 1985.97509765625,
+  "seconds": 942.3299334049225,
+  "predictions_sha256": "ce08242e31d6575f7a780c9931b743dc6b2998f3624dfe05f777b9ae738d4326",
+  "identity_sha256": "9c68c073abecd5d212f19e62ed319ce9df4f806249cfb6ca183f51da6218ea8d",
+  "plan_sha256": "17ff25a0e332aa961e46d0de132e01750d9053926254c8187ff4a07ba39d001d",
+  "execution_lock_sha256": "6605ec9048d031b9edb912fb30e6bc72eb6c16be2e3f7fd416bd31c882c6a455"
+}

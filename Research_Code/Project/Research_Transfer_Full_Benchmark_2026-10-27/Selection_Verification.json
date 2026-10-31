@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-27T16:01:10.459937+00:00",
+  "status": "passed",
+  "invalid_inputs_rejected": 6,
+  "pooled_vs_mean_wer_counterexample_passed": true,
+  "frozen_tie_order_passed": true,
+  "historical_prediction_counts_checked": 5841,
+  "current_full_benchmark_decoder_locked": false,
+  "test_outcomes_read": false,
+  "code_sha256": {
+    "select_decoder.py": "10729134ac3688c5c3b3bc2bdd28450cb452ae75abb8299ab0047b766b7a99b3",
+    "test_selection.py": "d86e759ed81fc8b4545bf81ea38a44a53133e5a97af34d367aefc7cfebb0e2c4"
+  }
+}

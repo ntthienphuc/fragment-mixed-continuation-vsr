@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-27T19:13:26.267855+00:00",
+  "status": "plan_coverage_and_inputs_verified",
+  "tasks": 80,
+  "predictions": 18418,
+  "model_counts": {
+    "vi": 6,
+    "en": 4
+  },
+  "assessment_tasks_not_started": 48,
+  "plan_sha256": "cc2e84f1a8cb2434f106419781ae982e325f21419227c01515cb97bfbd34b194"
+}

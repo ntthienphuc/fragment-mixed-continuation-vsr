@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "utc": "2026-10-27T20:45:12.381659+00:00",
+  "task": "assessment_VLR_B0_01",
+  "model": "VLR_B0",
+  "split": "assessment",
+  "clips": 146,
+  "independent_count_checks": 146,
+  "fresh_pixel_replays": [
+    {
+      "clip_id": "bf2cw7HgaCU_00048_000000_3_-1.00",
+      "decoder": "greedy_b-1.0",
+      "score_error": 0
+    },
+    {
+      "clip_id": "eOulw3RRE9g_00048_000000_3_-1.00",
+      "decoder": "greedy_b-1.0",
+      "score_error": 0
+    }
+  ],
+  "predictions_sha256": "95aae04a85f74592b62de34a93b00a981ebfe5102cbb45554e46bf8101647edd",
+  "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+  "checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+  "candidate_order": [
+    "greedy_b-1.0"
+  ],
+  "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+}

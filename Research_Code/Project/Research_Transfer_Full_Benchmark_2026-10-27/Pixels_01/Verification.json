@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-27T16:09:12.072100+00:00",
+  "status": "all_full_videos_decoded_in_both_input_conventions",
+  "clips": {
+    "development": 768,
+    "assessment": 1167
+  },
+  "decoded_arrays_checked": 3870,
+  "existing_model_clip_pixel_hashes_reproduced": 2655,
+  "seconds": 238.7029999999795,
+  "index_sha256": "bb77eb036522d6324a181681628e5532cf95ed5f836c939a52447471e8e0d61d",
+  "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44",
+  "code_sha256": "373d29280d0b85ff12ec652f812177a5f9867b97dc17b4cd65e103ab27b9e833",
+  "gpu_used": false,
+  "recognition_run": false,
+  "reference_transcripts_changed": false
+}

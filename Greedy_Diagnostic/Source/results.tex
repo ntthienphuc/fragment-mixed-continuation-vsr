@@ -1,0 +1,67 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Complete-population WER (percent). $\Delta$ is greedy minus common; smaller WER is better.}
+\begin{tabular}{llrrr}
+\toprule
+Corpus & State & Common WER & Greedy WER & $\Delta$ (pp)\\
+\midrule
+VLR & FC & 38.029 & 42.477 & +4.449\\
+VLR & WW & 38.606 & 43.151 & +4.545\\
+VLR & SO & 44.844 & 47.060 & +2.216\\
+ViCocktail & FC & 67.369 & 69.187 & +1.818\\
+ViCocktail & WW & 63.388 & 64.385 & +0.997\\
+ViCocktail & SO & 70.715 & 72.424 & +1.708\\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[htbp]
+\centering\small
+\caption{Greedy substitutions, deletions, insertions and total predicted whitespace units.}
+\begin{tabular}{llrrrr}
+\toprule
+Corpus & State & S & D & I & Output units\\
+\midrule
+VLR & FC & 71889 & 18524 & 5569 & 213005\\
+VLR & WW & 68426 & 23396 & 5683 & 208247\\
+VLR & SO & 56572 & 46994 & 2771 & 181737\\
+ViCocktail & FC & 9660 & 10595 & 564 & 20060\\
+ViCocktail & WW & 10163 & 8896 & 315 & 21510\\
+ViCocktail & SO & 6734 & 14960 & 99 & 15230\\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[htbp]
+\centering\small
+\caption{Readout descriptions (percent). Output/reference uses transcript units; blank statistics are weighted by all encoded frames, not averaged equally over clips.}
+\begin{tabular}{llrrr}
+\toprule
+Corpus & State & Output/reference & Blank argmax & Mean $p(\mathrm{blank})$\\
+\midrule
+VLR & FC & 94.267 & 85.530 & 83.288\\
+VLR & WW & 92.161 & 85.806 & 83.470\\
+VLR & SO & 80.429 & 87.652 & 85.241\\
+ViCocktail & FC & 66.664 & 87.293 & 82.991\\
+ViCocktail & WW & 71.483 & 86.288 & 81.963\\
+ViCocktail & SO & 50.613 & 90.285 & 85.312\\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[htbp]
+\centering\small
+\caption{Paired archived-source-group contrasts under the fixed greedy readout. Positive differences favor SO.}
+\begin{tabular}{llrr}
+\toprule
+Corpus & Contrast & Difference (pp) & 95\% interval\\
+\midrule
+VLR & FC--SO & -4.583 & [-4.874, -4.325]\\
+VLR & WW--SO & -3.909 & [-4.172, -3.673]\\
+ViCocktail & FC--SO & -3.237 & [-3.826, -2.390]\\
+ViCocktail & WW--SO & -8.039 & [-9.668, -6.163]\\
+\bottomrule
+\end{tabular}
+\end{table}
+\clearpage
+On VLR, SO minus FC is +4.583 WER points and SO minus WW is +3.909 points. The corresponding deletion-count differences are +28470 and +23598, respectively.
+
+On ViCocktail, SO minus FC is +3.237 WER points and SO minus WW is +8.039 points. The corresponding deletion-count differences are +4365 and +6064, respectively.
+

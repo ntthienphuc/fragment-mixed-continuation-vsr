@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "utc": "2026-10-27T21:48:29.210508+00:00",
+  "task": "assessment_VC_NATIVE_04",
+  "model": "VC_NATIVE",
+  "split": "assessment",
+  "clips": 146,
+  "independent_count_checks": 146,
+  "fresh_pixel_replays": [
+    {
+      "clip_id": "F2lyXr1rKNk_00010_000000_18_-1.00",
+      "decoder": "beam_c0.1",
+      "score_error": 0.0
+    },
+    {
+      "clip_id": "F2lyXr1rKNk_00010_000000_36_-1.00",
+      "decoder": "beam_c0.1",
+      "score_error": 0.0
+    }
+  ],
+  "predictions_sha256": "45c6f77017b48a55686be024a6cefe502f1253c258a32026c6654a4ebc7f4a58",
+  "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+  "checkpoint_sha256": "6a41d0a3acf15075a0e2f75ead2215b5b8fcc38697885de8ee851eb3ff576c00",
+  "candidate_order": [
+    "beam_c0.1"
+  ],
+  "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+}

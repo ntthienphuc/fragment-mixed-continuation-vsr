@@ -1,0 +1,23 @@
+\begin{table}[tbp]
+\centering\small
+\caption{Predeclared comparisons with whole-word short-only continuation.
+Differences are reference minus short-only WER in percentage points;
+positive values favor short-only. Mixed denotes whole-word mixing.}
+\label{tab:shortonly}
+\begin{tabular}{llrr}
+\toprule
+Population & Contrast & Difference & 95\% interval\\
+\midrule
+VLR & Mixed--short-only & -6.238 & [-6.592, -5.887]\\
+VLR & Full--short-only & -6.815 & [-7.207, -6.440]\\
+ViCocktail & Mixed--short-only & -7.328 & [-8.864, -5.488]\\
+ViCocktail & Full--short-only & -3.347 & [-4.773, -1.341]\\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{\linewidth}\footnotesize
+Pointwise intervals use 10,000 paired bootstrap resamples of 61 archived
+VLR source groups or 20 ViCocktail recording groups, conditional on the fitted
+states. Whole-word mixed versus short-only is the primary contrast;
+full-only versus short-only is the reference contrast.
+\end{minipage}
+\end{table}

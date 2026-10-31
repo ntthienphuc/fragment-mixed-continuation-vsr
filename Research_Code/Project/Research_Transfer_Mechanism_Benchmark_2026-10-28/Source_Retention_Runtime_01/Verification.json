@@ -1,0 +1,137 @@
+{
+  "utc": "2026-10-28T23:34:52.390478+00:00",
+  "status": "real_source_loader_checks_passed",
+  "seconds": 42.54700000000048,
+  "corpora": {
+    "vlr": {
+      "complete_cohort": 11307,
+      "reference_units": 225960,
+      "minimum_frames": 2,
+      "maximum_frames": 1491,
+      "real_pixel_loads": [
+        {
+          "position": 0,
+          "frames": 138,
+          "pixel_sha256": "276d5127dcaae195e953c3042452333c1431ba57546336750f385d4897afa602"
+        },
+        {
+          "position": 4745,
+          "frames": 127,
+          "pixel_sha256": "32ce5cf8290a46f21a979758a80b63d719ea0981991928bfa890a99a7df84cc7"
+        },
+        {
+          "position": 4971,
+          "frames": 129,
+          "pixel_sha256": "8f0e3fda8761510414be25f61213b17c02bf07ebceaa6eb799aa241dcca7e8b5"
+        },
+        {
+          "position": 5990,
+          "frames": 216,
+          "pixel_sha256": "4dbdcb7d7e52d7f9249acd025d3fd6c58f5ae26d2e58110f563c22119615066c"
+        },
+        {
+          "position": 6785,
+          "frames": 152,
+          "pixel_sha256": "61354d343e0c01d7b34d71c4e03ed5d0b63cb43b8cfa9bf9df05ccf2a49715f0"
+        },
+        {
+          "position": 7617,
+          "frames": 2,
+          "pixel_sha256": "1ca386d718787ee31765400cf18e80befb24a5c5118cf9823aec37a6fcca6acb"
+        },
+        {
+          "position": 8536,
+          "frames": 141,
+          "pixel_sha256": "723c875d86165ecd22eb05b4356e2f6aa51db6c50dfedd9171688562c31105fa"
+        },
+        {
+          "position": 8552,
+          "frames": 150,
+          "pixel_sha256": "9ea963e64ade3e17112673e7a0dcc7b18f597bb8b91d1227d65c305d0128f724"
+        },
+        {
+          "position": 8974,
+          "frames": 1491,
+          "pixel_sha256": "97c2fa8ece5f65016ef5d8f87e9ac0e4c8469580486a9b861c7a71edf708cebb"
+        },
+        {
+          "position": 11306,
+          "frames": 96,
+          "pixel_sha256": "8a059cf307eea68161dc3ae869916c654aa4230482ffb96bc03ea7b628ddb195"
+        }
+      ],
+      "out_of_cohort_rejections": 3,
+      "corruption_rejections": 2,
+      "archive_handle_open_during_reads": true,
+      "archive_handle_closed_after_context": true
+    },
+    "lrs2": {
+      "complete_cohort": 1243,
+      "reference_units": 6660,
+      "minimum_frames": 15,
+      "maximum_frames": 145,
+      "real_pixel_loads": [
+        {
+          "position": 0,
+          "frames": 62,
+          "pixel_sha256": "42d1834a0d4b1f7cb9f586cd68f0b8337b48ef19e905ac572d657f1191267956"
+        },
+        {
+          "position": 41,
+          "frames": 145,
+          "pixel_sha256": "66217c085679151496f6a3e2e9687929215f733405b28fcc69f93023129e9736"
+        },
+        {
+          "position": 455,
+          "frames": 15,
+          "pixel_sha256": "0f18c06fe05f06681ecf60175fc71ce205a7e31a84f62a3986a5b7a47ca5aff5"
+        },
+        {
+          "position": 593,
+          "frames": 58,
+          "pixel_sha256": "dca9af7a9164aff212e032abac10e92882eee2a8aa109c9d873d5a511f7a99b7"
+        },
+        {
+          "position": 621,
+          "frames": 38,
+          "pixel_sha256": "f3dc6a382ba7ddfaca7a665a1e469fd6c6d91b78458507794e751c94dac96da0"
+        },
+        {
+          "position": 748,
+          "frames": 33,
+          "pixel_sha256": "dfebf2976c0898538adbc7ca1f9b50d2d54bcf1228a3f0642396b266425db9e6"
+        },
+        {
+          "position": 848,
+          "frames": 41,
+          "pixel_sha256": "89c742bc9558beacd86860814756526278cc69825b632782dd33e3fa4608732d"
+        },
+        {
+          "position": 1069,
+          "frames": 35,
+          "pixel_sha256": "2b075780cbab23c75335a25275f0e9b5946ce50a595eb6108d3a4c0bbe10809b"
+        },
+        {
+          "position": 1171,
+          "frames": 36,
+          "pixel_sha256": "07098f5f7bdd36549e17c41db35d88ae429fcaec5cc0f778df0e8ef1044bf9c5"
+        },
+        {
+          "position": 1242,
+          "frames": 27,
+          "pixel_sha256": "951aa9a153ab9f9e06170d7ae7018f9715505886070a7f03bb48b5811ccd6d10"
+        }
+      ],
+      "out_of_cohort_rejections": 3,
+      "corruption_rejections": 2,
+      "archive_handle_open_during_reads": true,
+      "archive_handle_closed_after_context": true
+    }
+  },
+  "prepared_plan_sha256": "57043031647da4c158d8b83b5680d4e2031dfbd8ec1d85af4d21c7521851e084",
+  "source_sha256": "9158e1980f1c162b53c2957de63f957f63278b2761c76563a4175cc9a4fe9a42",
+  "verifier_sha256": "2eb35b1fb168b37714071101d063645c5bb313cd8aa35b11d895651863678bd9",
+  "new_recognition_results": false,
+  "files_extracted": 0,
+  "inference_admitted": false
+}

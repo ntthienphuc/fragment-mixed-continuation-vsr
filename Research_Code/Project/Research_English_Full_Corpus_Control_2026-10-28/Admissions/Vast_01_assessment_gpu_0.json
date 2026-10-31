@@ -1,0 +1,48 @@
+{
+  "utc": "2026-10-28T06:58:35.146862+00:00",
+  "execution_location": "server",
+  "paid_allocation": true,
+  "admitted_unix": 1793170715.1468751,
+  "deadline_unix": 1793186755.319905,
+  "maximum_seconds": 16040.173029899597,
+  "usd_per_hour": 0.77,
+  "maximum_cost_usd": 7.0,
+  "observed_balance_usd": 10.0,
+  "reserved_balance_usd": 2.0,
+  "provider_guard_verified": true,
+  "backup_restore_verified": true,
+  "operations_lock_sha256": "1fc00164f7c6fb6c3081b3bb304f9aa59de377a0cbf070ec30fb5953d37cce11",
+  "stages": [
+    "assessment"
+  ],
+  "tasks": [
+    "assessment_EN_F0_LAST_00",
+    "assessment_EN_F0_LAST_01",
+    "assessment_EN_F0_LAST_02",
+    "assessment_EN_F0_LAST_03",
+    "assessment_EN_F0_LAST_04",
+    "assessment_EN_F0_LAST_05",
+    "assessment_EN_F0_LAST_06",
+    "assessment_EN_F0_LAST_07"
+  ],
+  "plan_sha256": "17ff25a0e332aa961e46d0de132e01750d9053926254c8187ff4a07ba39d001d",
+  "execution_lock_sha256": "6605ec9048d031b9edb912fb30e6bc72eb6c16be2e3f7fd416bd31c882c6a455",
+  "locations_path": "Research_English_Transfer_Benchmark_2026-10-28/Server_Locations.json",
+  "locations_sha256": "b82ea464c01a0878981f11ff7e8b1cd2f31c345323a68c0088bfe75701481f11",
+  "physical_gpu": 0,
+  "visible_cuda_devices": "0",
+  "threads": 2,
+  "queue_lock_sha256": "39b8af24bdf25847303ab0b3c4ba1dc8a7482b34a7080a4d2a6035123881ce39",
+  "status": "bounded_F0_execution_admitted",
+  "models": [
+    "EN_F0_LAST"
+  ],
+  "device": "cuda",
+  "purpose": "full_evaluation",
+  "runtime_preflight": {
+    "path": "Research_English_Full_Corpus_Control_2026-10-28/Vast_Preflight_GPU_0/Canonical_Runtime_Proof.json",
+    "sha256": "c928b8e0f3d0ec5794355aff874afd73dbb75f3ac850d64424944abded554e98"
+  },
+  "selection_sha256": "3c6bd0cd1dd6e2b318148f7bca751b91200a105c8b0230380befa5a9b948c3f4",
+  "parent_completion_sha256": "97e3ef71fe1a286d245b259f5ba7c999ed9f8606d4c5a89a4dfd66e59f367c25"
+}

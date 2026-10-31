@@ -1,0 +1,47 @@
+{
+  "utc": "2026-10-28T00:29:38.412593+00:00",
+  "status": "four_models_three_source_grid_replays_passed",
+  "models": [
+    {
+      "model": "VLR_T2_LAST",
+      "receipt_sha256": "362c99eff3bdd7964c0e96ce3dabfe630efe25a55813c2b902f620329aeb03cd",
+      "frames": [
+        25,
+        113,
+        370
+      ]
+    },
+    {
+      "model": "VLR_T4_LAST",
+      "receipt_sha256": "3b322fe3eb7cdaac935b5c45345b8ad2a2ad1bb6bc8d56822029833b3aaff564",
+      "frames": [
+        25,
+        113,
+        370
+      ]
+    },
+    {
+      "model": "EN_T2_LAST",
+      "receipt_sha256": "d762a82ae0af0af4ccc91b7f06114421d00d97c307c9b7dc8c3526b90f6dd0ab",
+      "frames": [
+        14,
+        46,
+        153
+      ]
+    },
+    {
+      "model": "EN_T4_LAST",
+      "receipt_sha256": "44a8b6b8be4cbfb307ad4879964a06bed803d1a311e8e69daa65930af426f3e2",
+      "frames": [
+        14,
+        46,
+        153
+      ]
+    }
+  ],
+  "seconds": 1950.8782756328583,
+  "lock_sha256": "078e19250b29ee6b820d400b2576f09063b8ccbd6b37b68c8a71b3b231fc86a4",
+  "independent_grid_comparisons": 132,
+  "performance_claim": false,
+  "GPU_admission_granted": false
+}

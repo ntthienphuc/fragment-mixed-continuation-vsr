@@ -1,0 +1,1696 @@
+{
+  "utc": "2026-10-30T06:06:04.225659+00:00",
+  "status": "complete_requested_matched_populations_recounted",
+  "stage": "source",
+  "readout": "common",
+  "models": [
+    "MATCHED_FC17",
+    "MATCHED_FT17",
+    "MATCHED_WW17"
+  ],
+  "results": [
+    {
+      "model": "MATCHED_FC17",
+      "stage": "source",
+      "readout": "common",
+      "decoder": "beam_c0.1",
+      "clips": 11307,
+      "errors": 85930,
+      "substitutions": 71468,
+      "deletions": 8164,
+      "insertions": 6298,
+      "units": 225960,
+      "wer_percent": 38.02885466454239
+    },
+    {
+      "model": "MATCHED_FT17",
+      "stage": "source",
+      "readout": "common",
+      "decoder": "beam_c0.1",
+      "clips": 11307,
+      "errors": 87175,
+      "substitutions": 69303,
+      "deletions": 11605,
+      "insertions": 6267,
+      "units": 225960,
+      "wer_percent": 38.579837139316695
+    },
+    {
+      "model": "MATCHED_WW17",
+      "stage": "source",
+      "readout": "common",
+      "decoder": "beam_c0.1",
+      "clips": 11307,
+      "errors": 87234,
+      "substitutions": 68626,
+      "deletions": 12525,
+      "insertions": 6083,
+      "units": 225960,
+      "wer_percent": 38.605947955390334
+    }
+  ],
+  "comparisons": [
+    {
+      "reference": "MATCHED_FC17",
+      "comparison": "MATCHED_FT17",
+      "stage": "source",
+      "readout": "common",
+      "reference_decoder": "beam_c0.1",
+      "comparison_decoder": "beam_c0.1",
+      "reference_minus_comparison_pp": -0.5509824747742963,
+      "ci95_low_pp": -0.6639649426721106,
+      "ci95_high_pp": -0.43879116647148586,
+      "source_groups": 61,
+      "source_order": [
+        "BAIGI2/AYTHO52",
+        "BAIGI2/BAICA28",
+        "BAIGI2/BAICA29",
+        "BAIGI2/CAUCA35",
+        "BAIGI2/CHIEU30",
+        "BAIGI2/CHIEU31",
+        "BAIGI2/CHIPH32",
+        "BAIGI2/CHIPH33",
+        "BAIGI2/CHUNG34",
+        "BAIGI2/HAIUA36",
+        "BAIGI2/HANHP37",
+        "BAIGI2/LEGHE39",
+        "BAIGI2/LUUBI38",
+        "BAIGI2/MOTTH40",
+        "BAIGI2/NGUOI41",
+        "BAIGI2/THUON42",
+        "BAIGI2/TOIYE44",
+        "BAIGI2/TRANG43",
+        "BAIGI2/TUAY-45",
+        "BAIGI2/TUTIN46",
+        "BAIGI2/VANTE48",
+        "BAIGI2/VANTE49",
+        "BAIGI2/VAOPH47",
+        "BAIGI2/VELUA50",
+        "BAIGI2/VOIVA51",
+        "BAIGI5/BANOD154",
+        "BAIGI5/BAYCH155",
+        "BAIGI5/CONHO156",
+        "BAIGI5/GAPLA158",
+        "BAIGI5/GOME-157",
+        "BAIGI5/HAYCA159",
+        "BAIGI5/HAYCA160",
+        "BAIGI5/ILAYM169",
+        "BAIGI5/MOTSO162",
+        "BAIGI5/MUAXU161",
+        "BAIGI5/NGANS163",
+        "BAIGI5/NGUOI164",
+        "BAIGI5/ONGDA170",
+        "BAIGI5/THANG165",
+        "BAIGI5/TROGI167",
+        "BAIGI5/TRONG166",
+        "BAIGI5/VUANH168",
+        "KYNAN5/3CACH113",
+        "KYNAN5/5BUOC114",
+        "KYNAN5/CACHG116",
+        "KYNAN5/CACHT117",
+        "KYNAN5/CACHT118",
+        "KYNAN5/CHECK115",
+        "KYNAN5/COGAI119",
+        "KYNAN5/IEMMA123",
+        "KYNAN5/LAMSA120",
+        "KYNAN5/TAISA122",
+        "KYNAN5/TOP10121",
+        "KYNAN5/UNGDA124",
+        "NGUOI9/ANGKH161",
+        "NGUOI9/HOANG155",
+        "NGUOI9/NICKY156",
+        "NGUOI9/PHUON157",
+        "NGUOI9/THAOT159",
+        "NGUOI9/THIEN158",
+        "NGUOI9/YENTR160"
+      ],
+      "source_error_difference_and_units": [
+        [
+          -50,
+          5760
+        ],
+        [
+          -27,
+          3764
+        ],
+        [
+          -36,
+          2880
+        ],
+        [
+          -46,
+          2586
+        ],
+        [
+          5,
+          1713
+        ],
+        [
+          -40,
+          3380
+        ],
+        [
+          -9,
+          3360
+        ],
+        [
+          -62,
+          9540
+        ],
+        [
+          -42,
+          11120
+        ],
+        [
+          -54,
+          7980
+        ],
+        [
+          -16,
+          3472
+        ],
+        [
+          -17,
+          2293
+        ],
+        [
+          -17,
+          3440
+        ],
+        [
+          -21,
+          3080
+        ],
+        [
+          16,
+          2560
+        ],
+        [
+          -21,
+          3409
+        ],
+        [
+          -8,
+          3732
+        ],
+        [
+          -26,
+          5991
+        ],
+        [
+          -26,
+          2610
+        ],
+        [
+          -27,
+          3640
+        ],
+        [
+          -38,
+          2760
+        ],
+        [
+          -5,
+          3217
+        ],
+        [
+          -18,
+          1680
+        ],
+        [
+          -20,
+          3480
+        ],
+        [
+          -58,
+          10910
+        ],
+        [
+          -25,
+          5240
+        ],
+        [
+          -15,
+          4380
+        ],
+        [
+          -28,
+          4240
+        ],
+        [
+          -16,
+          3340
+        ],
+        [
+          -22,
+          2520
+        ],
+        [
+          -19,
+          5400
+        ],
+        [
+          -18,
+          5400
+        ],
+        [
+          -6,
+          4100
+        ],
+        [
+          -52,
+          5630
+        ],
+        [
+          0,
+          60
+        ],
+        [
+          -6,
+          2000
+        ],
+        [
+          -29,
+          6044
+        ],
+        [
+          -2,
+          3400
+        ],
+        [
+          -42,
+          4340
+        ],
+        [
+          -7,
+          2960
+        ],
+        [
+          -95,
+          7900
+        ],
+        [
+          -16,
+          4820
+        ],
+        [
+          -30,
+          2360
+        ],
+        [
+          -13,
+          1923
+        ],
+        [
+          -15,
+          2300
+        ],
+        [
+          13,
+          1400
+        ],
+        [
+          -16,
+          2878
+        ],
+        [
+          -64,
+          2999
+        ],
+        [
+          -8,
+          620
+        ],
+        [
+          -22,
+          2280
+        ],
+        [
+          31,
+          1532
+        ],
+        [
+          -16,
+          1622
+        ],
+        [
+          -25,
+          3386
+        ],
+        [
+          -8,
+          2050
+        ],
+        [
+          3,
+          2819
+        ],
+        [
+          -25,
+          3980
+        ],
+        [
+          -1,
+          2140
+        ],
+        [
+          -7,
+          2480
+        ],
+        [
+          3,
+          2900
+        ],
+        [
+          9,
+          3140
+        ],
+        [
+          7,
+          3020
+        ]
+      ],
+      "clip_better_worse_equal": [
+        1954,
+        2660,
+        6693
+      ],
+      "bootstrap_unit": "archived_source_id",
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 6435343653271476988,
+      "independent_scalar_checks": 101,
+      "conditional_on_fitted_checkpoints": true,
+      "multiplicity_adjusted": false
+    },
+    {
+      "reference": "MATCHED_FC17",
+      "comparison": "MATCHED_WW17",
+      "stage": "source",
+      "readout": "common",
+      "reference_decoder": "beam_c0.1",
+      "comparison_decoder": "beam_c0.1",
+      "reference_minus_comparison_pp": -0.5770932908479377,
+      "ci95_low_pp": -0.704653806692446,
+      "ci95_high_pp": -0.44831051261895927,
+      "source_groups": 61,
+      "source_order": [
+        "BAIGI2/AYTHO52",
+        "BAIGI2/BAICA28",
+        "BAIGI2/BAICA29",
+        "BAIGI2/CAUCA35",
+        "BAIGI2/CHIEU30",
+        "BAIGI2/CHIEU31",
+        "BAIGI2/CHIPH32",
+        "BAIGI2/CHIPH33",
+        "BAIGI2/CHUNG34",
+        "BAIGI2/HAIUA36",
+        "BAIGI2/HANHP37",
+        "BAIGI2/LEGHE39",
+        "BAIGI2/LUUBI38",
+        "BAIGI2/MOTTH40",
+        "BAIGI2/NGUOI41",
+        "BAIGI2/THUON42",
+        "BAIGI2/TOIYE44",
+        "BAIGI2/TRANG43",
+        "BAIGI2/TUAY-45",
+        "BAIGI2/TUTIN46",
+        "BAIGI2/VANTE48",
+        "BAIGI2/VANTE49",
+        "BAIGI2/VAOPH47",
+        "BAIGI2/VELUA50",
+        "BAIGI2/VOIVA51",
+        "BAIGI5/BANOD154",
+        "BAIGI5/BAYCH155",
+        "BAIGI5/CONHO156",
+        "BAIGI5/GAPLA158",
+        "BAIGI5/GOME-157",
+        "BAIGI5/HAYCA159",
+        "BAIGI5/HAYCA160",
+        "BAIGI5/ILAYM169",
+        "BAIGI5/MOTSO162",
+        "BAIGI5/MUAXU161",
+        "BAIGI5/NGANS163",
+        "BAIGI5/NGUOI164",
+        "BAIGI5/ONGDA170",
+        "BAIGI5/THANG165",
+        "BAIGI5/TROGI167",
+        "BAIGI5/TRONG166",
+        "BAIGI5/VUANH168",
+        "KYNAN5/3CACH113",
+        "KYNAN5/5BUOC114",
+        "KYNAN5/CACHG116",
+        "KYNAN5/CACHT117",
+        "KYNAN5/CACHT118",
+        "KYNAN5/CHECK115",
+        "KYNAN5/COGAI119",
+        "KYNAN5/IEMMA123",
+        "KYNAN5/LAMSA120",
+        "KYNAN5/TAISA122",
+        "KYNAN5/TOP10121",
+        "KYNAN5/UNGDA124",
+        "NGUOI9/ANGKH161",
+        "NGUOI9/HOANG155",
+        "NGUOI9/NICKY156",
+        "NGUOI9/PHUON157",
+        "NGUOI9/THAOT159",
+        "NGUOI9/THIEN158",
+        "NGUOI9/YENTR160"
+      ],
+      "source_error_difference_and_units": [
+        [
+          -35,
+          5760
+        ],
+        [
+          -19,
+          3764
+        ],
+        [
+          -26,
+          2880
+        ],
+        [
+          -50,
+          2586
+        ],
+        [
+          9,
+          1713
+        ],
+        [
+          -46,
+          3380
+        ],
+        [
+          -15,
+          3360
+        ],
+        [
+          -78,
+          9540
+        ],
+        [
+          -75,
+          11120
+        ],
+        [
+          -55,
+          7980
+        ],
+        [
+          -16,
+          3472
+        ],
+        [
+          -35,
+          2293
+        ],
+        [
+          -8,
+          3440
+        ],
+        [
+          -37,
+          3080
+        ],
+        [
+          10,
+          2560
+        ],
+        [
+          -19,
+          3409
+        ],
+        [
+          16,
+          3732
+        ],
+        [
+          -15,
+          5991
+        ],
+        [
+          -28,
+          2610
+        ],
+        [
+          -26,
+          3640
+        ],
+        [
+          -45,
+          2760
+        ],
+        [
+          -16,
+          3217
+        ],
+        [
+          -29,
+          1680
+        ],
+        [
+          -39,
+          3480
+        ],
+        [
+          -59,
+          10910
+        ],
+        [
+          -47,
+          5240
+        ],
+        [
+          -9,
+          4380
+        ],
+        [
+          -22,
+          4240
+        ],
+        [
+          -25,
+          3340
+        ],
+        [
+          -20,
+          2520
+        ],
+        [
+          -27,
+          5400
+        ],
+        [
+          -26,
+          5400
+        ],
+        [
+          -6,
+          4100
+        ],
+        [
+          -63,
+          5630
+        ],
+        [
+          -1,
+          60
+        ],
+        [
+          -8,
+          2000
+        ],
+        [
+          -30,
+          6044
+        ],
+        [
+          -1,
+          3400
+        ],
+        [
+          -25,
+          4340
+        ],
+        [
+          -12,
+          2960
+        ],
+        [
+          -96,
+          7900
+        ],
+        [
+          -15,
+          4820
+        ],
+        [
+          -37,
+          2360
+        ],
+        [
+          -16,
+          1923
+        ],
+        [
+          -19,
+          2300
+        ],
+        [
+          9,
+          1400
+        ],
+        [
+          -28,
+          2878
+        ],
+        [
+          -56,
+          2999
+        ],
+        [
+          -5,
+          620
+        ],
+        [
+          -7,
+          2280
+        ],
+        [
+          25,
+          1532
+        ],
+        [
+          -9,
+          1622
+        ],
+        [
+          -19,
+          3386
+        ],
+        [
+          -2,
+          2050
+        ],
+        [
+          6,
+          2819
+        ],
+        [
+          -23,
+          3980
+        ],
+        [
+          15,
+          2140
+        ],
+        [
+          -7,
+          2480
+        ],
+        [
+          9,
+          2900
+        ],
+        [
+          13,
+          3140
+        ],
+        [
+          16,
+          3020
+        ]
+      ],
+      "clip_better_worse_equal": [
+        2141,
+        2855,
+        6311
+      ],
+      "bootstrap_unit": "archived_source_id",
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 13153564044110697350,
+      "independent_scalar_checks": 101,
+      "conditional_on_fitted_checkpoints": true,
+      "multiplicity_adjusted": false
+    },
+    {
+      "reference": "MATCHED_WW17",
+      "comparison": "MATCHED_FT17",
+      "stage": "source",
+      "readout": "common",
+      "reference_decoder": "beam_c0.1",
+      "comparison_decoder": "beam_c0.1",
+      "reference_minus_comparison_pp": 0.026110816073641352,
+      "ci95_low_pp": -0.04291396785186555,
+      "ci95_high_pp": 0.09091393783447103,
+      "source_groups": 61,
+      "source_order": [
+        "BAIGI2/AYTHO52",
+        "BAIGI2/BAICA28",
+        "BAIGI2/BAICA29",
+        "BAIGI2/CAUCA35",
+        "BAIGI2/CHIEU30",
+        "BAIGI2/CHIEU31",
+        "BAIGI2/CHIPH32",
+        "BAIGI2/CHIPH33",
+        "BAIGI2/CHUNG34",
+        "BAIGI2/HAIUA36",
+        "BAIGI2/HANHP37",
+        "BAIGI2/LEGHE39",
+        "BAIGI2/LUUBI38",
+        "BAIGI2/MOTTH40",
+        "BAIGI2/NGUOI41",
+        "BAIGI2/THUON42",
+        "BAIGI2/TOIYE44",
+        "BAIGI2/TRANG43",
+        "BAIGI2/TUAY-45",
+        "BAIGI2/TUTIN46",
+        "BAIGI2/VANTE48",
+        "BAIGI2/VANTE49",
+        "BAIGI2/VAOPH47",
+        "BAIGI2/VELUA50",
+        "BAIGI2/VOIVA51",
+        "BAIGI5/BANOD154",
+        "BAIGI5/BAYCH155",
+        "BAIGI5/CONHO156",
+        "BAIGI5/GAPLA158",
+        "BAIGI5/GOME-157",
+        "BAIGI5/HAYCA159",
+        "BAIGI5/HAYCA160",
+        "BAIGI5/ILAYM169",
+        "BAIGI5/MOTSO162",
+        "BAIGI5/MUAXU161",
+        "BAIGI5/NGANS163",
+        "BAIGI5/NGUOI164",
+        "BAIGI5/ONGDA170",
+        "BAIGI5/THANG165",
+        "BAIGI5/TROGI167",
+        "BAIGI5/TRONG166",
+        "BAIGI5/VUANH168",
+        "KYNAN5/3CACH113",
+        "KYNAN5/5BUOC114",
+        "KYNAN5/CACHG116",
+        "KYNAN5/CACHT117",
+        "KYNAN5/CACHT118",
+        "KYNAN5/CHECK115",
+        "KYNAN5/COGAI119",
+        "KYNAN5/IEMMA123",
+        "KYNAN5/LAMSA120",
+        "KYNAN5/TAISA122",
+        "KYNAN5/TOP10121",
+        "KYNAN5/UNGDA124",
+        "NGUOI9/ANGKH161",
+        "NGUOI9/HOANG155",
+        "NGUOI9/NICKY156",
+        "NGUOI9/PHUON157",
+        "NGUOI9/THAOT159",
+        "NGUOI9/THIEN158",
+        "NGUOI9/YENTR160"
+      ],
+      "source_error_difference_and_units": [
+        [
+          -15,
+          5760
+        ],
+        [
+          -8,
+          3764
+        ],
+        [
+          -10,
+          2880
+        ],
+        [
+          4,
+          2586
+        ],
+        [
+          -4,
+          1713
+        ],
+        [
+          6,
+          3380
+        ],
+        [
+          6,
+          3360
+        ],
+        [
+          16,
+          9540
+        ],
+        [
+          33,
+          11120
+        ],
+        [
+          1,
+          7980
+        ],
+        [
+          0,
+          3472
+        ],
+        [
+          18,
+          2293
+        ],
+        [
+          -9,
+          3440
+        ],
+        [
+          16,
+          3080
+        ],
+        [
+          6,
+          2560
+        ],
+        [
+          -2,
+          3409
+        ],
+        [
+          -24,
+          3732
+        ],
+        [
+          -11,
+          5991
+        ],
+        [
+          2,
+          2610
+        ],
+        [
+          -1,
+          3640
+        ],
+        [
+          7,
+          2760
+        ],
+        [
+          11,
+          3217
+        ],
+        [
+          11,
+          1680
+        ],
+        [
+          19,
+          3480
+        ],
+        [
+          1,
+          10910
+        ],
+        [
+          22,
+          5240
+        ],
+        [
+          -6,
+          4380
+        ],
+        [
+          -6,
+          4240
+        ],
+        [
+          9,
+          3340
+        ],
+        [
+          -2,
+          2520
+        ],
+        [
+          8,
+          5400
+        ],
+        [
+          8,
+          5400
+        ],
+        [
+          0,
+          4100
+        ],
+        [
+          11,
+          5630
+        ],
+        [
+          1,
+          60
+        ],
+        [
+          2,
+          2000
+        ],
+        [
+          1,
+          6044
+        ],
+        [
+          -1,
+          3400
+        ],
+        [
+          -17,
+          4340
+        ],
+        [
+          5,
+          2960
+        ],
+        [
+          1,
+          7900
+        ],
+        [
+          -1,
+          4820
+        ],
+        [
+          7,
+          2360
+        ],
+        [
+          3,
+          1923
+        ],
+        [
+          4,
+          2300
+        ],
+        [
+          4,
+          1400
+        ],
+        [
+          12,
+          2878
+        ],
+        [
+          -8,
+          2999
+        ],
+        [
+          -3,
+          620
+        ],
+        [
+          -15,
+          2280
+        ],
+        [
+          6,
+          1532
+        ],
+        [
+          -7,
+          1622
+        ],
+        [
+          -6,
+          3386
+        ],
+        [
+          -6,
+          2050
+        ],
+        [
+          -3,
+          2819
+        ],
+        [
+          -2,
+          3980
+        ],
+        [
+          -16,
+          2140
+        ],
+        [
+          0,
+          2480
+        ],
+        [
+          -6,
+          2900
+        ],
+        [
+          -4,
+          3140
+        ],
+        [
+          -9,
+          3020
+        ]
+      ],
+      "clip_better_worse_equal": [
+        1543,
+        1559,
+        8205
+      ],
+      "bootstrap_unit": "archived_source_id",
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 18292086834753083093,
+      "independent_scalar_checks": 101,
+      "conditional_on_fitted_checkpoints": true,
+      "multiplicity_adjusted": false
+    }
+  ],
+  "provenance": {
+    "MATCHED_FC17": {
+      "model": "MATCHED_FC17",
+      "stage": "source",
+      "readout": "common",
+      "candidates": [
+        "beam_c0.1"
+      ],
+      "clips": 11307,
+      "reference_units": 225960,
+      "source_groups": 61,
+      "shards": [
+        {
+          "task": "source_00",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\full\\source_00",
+          "clips": 703,
+          "files": {
+            "Verification.json": "2db51b291fb1a7ecc5b25bfa7013459890bc63c870d6f91fc273d1d9f33c59c6",
+            "Start.json": "1374842d71c42305876958ecdcc76214355feb456de1c5ac1b49d854c2998f6e",
+            "Identity.json": "b7d3040fbf6a49d524ca809e796d1b48b9a02f91043429d046151a509edf9766",
+            "Complete.json": "715224448e1d05a627a099830ff8ef834a6b88a0fbc98bc7bf277e8dbeeb07f0",
+            "Predictions.jsonl": "d88ad04c92e4f1c91cc70d6880e24aedbf84ec24e3b7df967153f9559ad30b63"
+          }
+        },
+        {
+          "task": "source_01",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\full\\source_01",
+          "clips": 707,
+          "files": {
+            "Verification.json": "2a360991317929f327517c7bd4d7e44ecce82ac749f82a43640b5e8ee61c4379",
+            "Start.json": "5c379f6966e04cd2273c58782e05d0372b116afeec5a4719d4d7a6a5cb97d952",
+            "Identity.json": "9151e465cded22d4d2aaa9f5923d3c7bf263a29a5f37e75cfd6395ebb9ad9506",
+            "Complete.json": "19c5a057641e1ad890d2ca6e36629e89cfaca3f99eba97bc31131fd2ab53de24",
+            "Predictions.jsonl": "7c77479c017ce5027625c3713743df891a438e75ca2ebd72afdab0e9305b4c81"
+          }
+        },
+        {
+          "task": "source_02",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\full\\source_02",
+          "clips": 706,
+          "files": {
+            "Verification.json": "46920d6c3ce94d3857b8cbdf3e20ee3f9aa5031fa5b06d0caeeefeb96e224b23",
+            "Start.json": "0507098cf4a94d65e318d9ab5d9ee04e71346b9bc60063ecbf324ac88c5e0492",
+            "Identity.json": "9ac0d52ff330aced78517db480378b3d75fc9b10e611802ecd041e1090cb5fda",
+            "Complete.json": "8973b3220c8f74cb3b2478bbaa30225a49947e4b4e66e2e9a9453cf39e8e6f17",
+            "Predictions.jsonl": "d0f0bdb0d2b604e3d287add9c2f81d7654a283dd9c88232806e2926d23c2d7b4"
+          }
+        },
+        {
+          "task": "source_03",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\full\\source_03",
+          "clips": 706,
+          "files": {
+            "Verification.json": "3259fc1870ff7256b24a442321a156e3590ed277687f120e0149add6089fca3f",
+            "Start.json": "c1fd7b95200123a0bd48cd3ed9c363340da8f4bac39c0cbe6d536d652fd54cf5",
+            "Identity.json": "a866092003215a9afbeddeed3eafa633431d7f5b6e30732af0705922c14abc8b",
+            "Complete.json": "fb02ea4179761a48b441267156309ddf7f80da3f79eb6869510a9b1148f60ec7",
+            "Predictions.jsonl": "e4f7e6fbb9833337b74a23817029cace034813c10f8994a3e80b2b5342870270"
+          }
+        },
+        {
+          "task": "source_04",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\full\\source_04",
+          "clips": 707,
+          "files": {
+            "Verification.json": "96c1921dfab9e6fe8dccb078d2b7369165dc66f13bbe2ac866ae00c5f3f0b1de",
+            "Start.json": "05e27e3e339ae3ae692d75686e5ba9a4bd9116c10082a991225e2a52ef9582b5",
+            "Identity.json": "a2a24a27b16fe385c5ff60da55803124b2b5989915e1df805b7fdaec8d7b818d",
+            "Complete.json": "837122b9971eb8ec212be005b1d84aae80d3e51d87324bf5a5b7018c36272f54",
+            "Predictions.jsonl": "0fd2d7b88bfb38521d58be38ea9cfdbee0556c0cba7b76b714d176ae2fc062c2"
+          }
+        },
+        {
+          "task": "source_05",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\full\\source_05",
+          "clips": 707,
+          "files": {
+            "Verification.json": "952df8d62af8949d632288427b10c65cebe524374c810139fcd9de5a8d17c484",
+            "Start.json": "0db94a00bd07514377120eced9aaf7db476ce5fa3f6747b54f03a033b2a1ebaf",
+            "Identity.json": "da49b034d71036da025307694191c0b8916966f7935df7433aab8554af13c8e7",
+            "Complete.json": "58da77e56a8019ccf10a7e607c0ed6d6ead62a361bd72d45581cbb6de67af85d",
+            "Predictions.jsonl": "2d60e4d7eead97b3ca7b5a788b8cfbad07591b924eb1b90a634a5def204dc7c0"
+          }
+        },
+        {
+          "task": "source_06",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\full\\source_06",
+          "clips": 707,
+          "files": {
+            "Verification.json": "bd7f29c7b852971a3359aef8a783f2d8e2610a025cfe6c63eda15c3ec5fa21a2",
+            "Start.json": "0321ffa845b6f8d7bc0e0afabe9fedef3dfa492a92667b7b1cfdd84b3de5bbfd",
+            "Identity.json": "c80d6562bdbce3a27d0bd519554cf0ea2cf528787873b29e6f510aedb9c22d39",
+            "Complete.json": "0015a6476200e90017493536f929ba7879f38f83b0128cef99b87b6f52871520",
+            "Predictions.jsonl": "3221b87513a7e9e6f5dee5e24054150048941f931db2332b6279b9ed21a8eb76"
+          }
+        },
+        {
+          "task": "source_07",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\full\\source_07",
+          "clips": 708,
+          "files": {
+            "Verification.json": "226539d175228d3489388c3e661d73b314c1dbe68c6e440566bd8c7cd519f7c1",
+            "Start.json": "e57aa5933d52ee2f7f22c64a84c960281762b0534a75faca403234fe5e47edbc",
+            "Identity.json": "699f1f4d14f2f39ef27d6ef33a8c0765960fb8936a3b4b61dffb5a3e9def2202",
+            "Complete.json": "046a423a4a00ff226cdbc367a505a12f90c61f3685cd8b7f24770d10669cfa19",
+            "Predictions.jsonl": "0e8da4c544f04427e9ad305eb4c7a0b4e0a3eb7eef404d9d967dc8dca99588e4"
+          }
+        },
+        {
+          "task": "source_08",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\full\\source_08",
+          "clips": 707,
+          "files": {
+            "Verification.json": "5959ebafe6c8a978f50544dba0a32ece10fe29976b874425a2ff9927e8d816fb",
+            "Start.json": "303eff39ceb6d5339e7d449fa4f9cb25dc4f20ad00860cf6ae98d269d3dce716",
+            "Identity.json": "d2f67a5537c0b57814344077444f7342b0950b7e10980f97d90d24b34c5f06d5",
+            "Complete.json": "9cf8f4c5cc41ead0f2c57598373113710b9c5faad7fac5de499b1aaec77a3fbf",
+            "Predictions.jsonl": "b7fdeec7fe6b7cfd9077ff5cf8cc6750eafa8227afd4ab19b68af90fef215d59"
+          }
+        },
+        {
+          "task": "source_09",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\full\\source_09",
+          "clips": 707,
+          "files": {
+            "Verification.json": "c7f9cceb536cf60fad238a7b94bd850a8b02be8469befc2f2946d7a106d166a7",
+            "Start.json": "6760975323ab4e222b05767117211b8f418ca5ccf6e37b3f997c6e9f3cc5efda",
+            "Identity.json": "5f23991d219d4da995da1d13d251f4a09f6dbd143276da22c7e42f211f13a4dc",
+            "Complete.json": "b5e93dfb3a6cdeb40d542af012a125b3c0d6c3b8ef79cd80f77923d35bc52a0a",
+            "Predictions.jsonl": "7019521b7b1d766a8c680752e5abd583d092fe052f97b8015f941f0e2285f47c"
+          }
+        },
+        {
+          "task": "source_10",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\full\\source_10",
+          "clips": 707,
+          "files": {
+            "Verification.json": "bb5107c1a43323a2e91a299c0528848f84b9d0fb081f540f86d0e82cf049fae8",
+            "Start.json": "966a2a7a6c318daa601ddc6debeb38ea7e3deea67e084eb841e6ef04fa2926d1",
+            "Identity.json": "e6dfd460a94e88ebfa0c2542676b4f6103dc1326fec7d6e9bdd035dd675d903e",
+            "Complete.json": "d774f8035ab2961a96ea3dd51f4e70cbd39100ada3eaa5ebd18803d0c365bd2f",
+            "Predictions.jsonl": "b584c0701f85504c4717d849aae7c46720856ed7c15ba34cbdf7fa1e59b3b56c"
+          }
+        },
+        {
+          "task": "source_11",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\full\\source_11",
+          "clips": 707,
+          "files": {
+            "Verification.json": "f15da44cde1e548fa72a31a32698628ad991d6ab115173a699cd46acbfd100fc",
+            "Start.json": "d9b4882adeb253cbe772341750437d8546bad88485b0b995e7077ed7a07fe094",
+            "Identity.json": "15c2a7aebfd58273bd06c9ca8beb474f325aa22400cbe154b1dcc80de536d517",
+            "Complete.json": "570c6c4a2853f48e1349dc41ab81d80e85cacc98b7ddbb3093f62a7f49079705",
+            "Predictions.jsonl": "7f6cba366d3117ff0f82a01f729ef6cdb14237d7746c8a35335e12d29bccc565"
+          }
+        },
+        {
+          "task": "source_12",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\full\\source_12",
+          "clips": 707,
+          "files": {
+            "Verification.json": "9e6a7852206cc261f546bf027afd701a9bd9fd20696eeec38a83d28501dd6b49",
+            "Start.json": "da341c5572a6476985184118f6ca133185d3c531c6e132fe38f1f906850ca4eb",
+            "Identity.json": "3f1a6601a34bd9f88296b65291a168d6945011fbd3a245217a794736c79344cd",
+            "Complete.json": "cef166b79b1f9df00d3e68577a3c36c88834957286feffbc525174af014862b4",
+            "Predictions.jsonl": "3d75efb7fe1805cc75555b50700767f29e3f1e7646e67f70fb9c8ee7a9bc6d89"
+          }
+        },
+        {
+          "task": "source_13",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\full\\source_13",
+          "clips": 707,
+          "files": {
+            "Verification.json": "8b5c539a7eb5eafb6a04d850b43777b011f7fe327b3cf90651d6c69751f24ae6",
+            "Start.json": "2c7b7147f57aaa32b45770ec7fd995db63172159e644224d44b942c38350c75e",
+            "Identity.json": "cc7a5e1a173aac45265cc50def0249be78c47f231c75dee8ff3528d77ccbe8d2",
+            "Complete.json": "f39c5c69ec78365329a2cb77ada97246b2dcbe2a0d435920ce9846658c931bd2",
+            "Predictions.jsonl": "3caf32d5612f873e6303ed8d333d83efc5f07667e0e59f274d6b81931ed30a92"
+          }
+        },
+        {
+          "task": "source_14",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\full\\source_14",
+          "clips": 707,
+          "files": {
+            "Verification.json": "ba90cd0679bac1c6d77aa9aa69a23abda5d6206e15b5aecf5cb529d47cbc1f61",
+            "Start.json": "5f67b121da6862e133fbede7cb1644ca159b9363e86b968b658196d0a58bdf08",
+            "Identity.json": "4a1795712c40dc7f8feea4c920c2489b3974487a8e8d4a81e82e686d0488727e",
+            "Complete.json": "7fc20bc985b7a8236e1c8427930c32443320da23edf14d9251b9d95750c34e0a",
+            "Predictions.jsonl": "8b8bbaa3b86c05bfcf7938b8033bb0889421086eaa39b8e8a5e177e385f3f930"
+          }
+        },
+        {
+          "task": "source_15",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\full\\source_15",
+          "clips": 707,
+          "files": {
+            "Verification.json": "72ded7b0583a88ed3e7f509e7e73af788dda8db65446c18ca64576f0f32ca309",
+            "Start.json": "ad49035970139a4a2ad2508f3cc146b092f5a0b2974758055f5b296dde0c756d",
+            "Identity.json": "b70f9d42677c2df380ddf51ddddefe0a5f0deb4cbd6afd3340b42b1f73b111ee",
+            "Complete.json": "6007a0a3252ef420d56103c42482b6fb1d7a46a9be355783042c54b408a1a244",
+            "Predictions.jsonl": "ed5f72524c4888ff5b432ed136aee9c6a3a129ad0091827b9bec916fb52ec7e5"
+          }
+        }
+      ],
+      "binding_sha256": "11ff0fed8931e8ddc55d4a892ac8d60c85eb74ec731ed876d11259d16a68ff87",
+      "registry_sha256": "445a6e92a018ab744766919e9d453a497febfac587f29d33056563bf024e38fa",
+      "selection_sha256": null,
+      "development_reverified": null
+    },
+    "MATCHED_FT17": {
+      "model": "MATCHED_FT17",
+      "stage": "source",
+      "readout": "common",
+      "candidates": [
+        "beam_c0.1"
+      ],
+      "clips": 11307,
+      "reference_units": 225960,
+      "source_groups": 61,
+      "shards": [
+        {
+          "task": "source_00",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\fixed_time\\source_00",
+          "clips": 703,
+          "files": {
+            "Verification.json": "d050d6f05ff34d9801203f8aae0e52c5199274e1f5d900362c2097b57966500a",
+            "Start.json": "d78e5264490d3cd708cfa042b830ebe1bdb534f352847dfb42669a2adf45937b",
+            "Identity.json": "639c607bd5008caefe97c7e1ae86de4ed99081a9dd3edd3141f4a6578c0f3e89",
+            "Complete.json": "4ca91dea2a40656d944c73b9fcd49ca4f44535b660e2966a5bbbd87428963f22",
+            "Predictions.jsonl": "db5592837d5387fc56fb941943ef791682c631731af2cbb31c9507acc515a750"
+          }
+        },
+        {
+          "task": "source_01",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\fixed_time\\source_01",
+          "clips": 707,
+          "files": {
+            "Verification.json": "b2ff961fa8f1c626e81835ed70e6d9259b040a4e05ffe77f050f92c5849f9a3c",
+            "Start.json": "8aa6a719ff57370235234b669c472921e851f88708155d4048781c09f333c242",
+            "Identity.json": "231cef0f8e130359bf69ead70ea430986bad68f3afddde81fabcb6012ef44f70",
+            "Complete.json": "a2153739dc4e1501ddee2de429fd9c56d9a3810e66c8106bf33ba085fd161e7f",
+            "Predictions.jsonl": "2f523a42c38c9229c3d8109692eb7f758daba728d8486b9e063e6a69dea0fcf8"
+          }
+        },
+        {
+          "task": "source_02",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\fixed_time\\source_02",
+          "clips": 706,
+          "files": {
+            "Verification.json": "c700201486e548eb3ca75a39194310b0d9bf7f09b41b924e566ebbbf531ba7f0",
+            "Start.json": "faaa0299e402cf4ff749ea6381f7c3557daeb4d7841c2c7d8ede656ed6424a3e",
+            "Identity.json": "79d458be8152caa7cae8cf55502bf9d54bddf63a6a4fd882389a69e8361ee6d7",
+            "Complete.json": "b6514a15a712460ae2ecb02d0e4c4639cb53109e2705e03562b4b3ac09cd8f73",
+            "Predictions.jsonl": "0bb6613da2daac7a8c07e13c61ec9e1ca6898b8dc9ceb2f082b83b5217d26959"
+          }
+        },
+        {
+          "task": "source_03",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\fixed_time\\source_03",
+          "clips": 706,
+          "files": {
+            "Verification.json": "40b19d472aafbdeb8027eee2ddaf8605489ac2cae1a803b9a8e9ea6ee2d39bd0",
+            "Start.json": "0461a90e738a1fa7f92b96f93267a6ea772cbfbc8c0a6dc46f3680b0a2eb087f",
+            "Identity.json": "c7825a6c25e1a276f32656bb780950a2325dd87d5165186707c0848493f3d130",
+            "Complete.json": "808c34075a607505d8ca9c4a35df6e5d5a01a0a75fa24720a864db0abda36774",
+            "Predictions.jsonl": "dc79eacab53b38e0f9babce2f023ba56eba62bb1d98c6f300753a89f845e3736"
+          }
+        },
+        {
+          "task": "source_04",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\fixed_time\\source_04",
+          "clips": 707,
+          "files": {
+            "Verification.json": "d3c077bc920e863c5ee1d62b20a2921ca68c1430e8fceeb754789239960047ec",
+            "Start.json": "8bb8699b993aea485ccde779395633848a9fbb6d50d3fcdc70d541b6cdc2abdb",
+            "Identity.json": "996c9e35c32b1bec456eb83edd9abfc03e83bedd4ab9f18f6d15bca1b0a14bd2",
+            "Complete.json": "a0d1d8f65869f97e152c713bd1ec68bc66bf06d735c23003e1b84795a041f266",
+            "Predictions.jsonl": "5e27610495fa6362537ad3b493f60b9be283ea2aecd3742ae8400e66fba81714"
+          }
+        },
+        {
+          "task": "source_05",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\fixed_time\\source_05",
+          "clips": 707,
+          "files": {
+            "Verification.json": "b2199ff5a9ad34473473859784ecaa8dbebd992c7760dbfea05d1180c361f795",
+            "Start.json": "7d82ea80d9b63654d4e9ed14897c3b9cf226b28e5dc3e698a170478df4a15eed",
+            "Identity.json": "188a2e90648db320023bd3f438384d6a483b17b8f2699b212762685a4f3997df",
+            "Complete.json": "8a9e682be9bd19871c874f69d92fb88f3fea372043d937ea4302baf41a7c0608",
+            "Predictions.jsonl": "b2e96ce943860b2b35b36250ce099d58930b06f578484ec0299c7bf07f14bd5c"
+          }
+        },
+        {
+          "task": "source_06",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\fixed_time\\source_06",
+          "clips": 707,
+          "files": {
+            "Verification.json": "40b1a422a922744ea7993f6cda65a76b833f1577fb1c0db76394ae9fa6e7f79a",
+            "Start.json": "bed5a2d2186857e95de8ad1ea334837d3a73c41d66dcddfb4100c73d79fd3672",
+            "Identity.json": "3ad0f3c707265d321ec17292cf21bbd6a8a69615aa649fe4ea8ba2ee6c00fdef",
+            "Complete.json": "678003bde9ccd1dc398442d3b85a84d65f4005c2b68b88c80147e6a1ff08a5c6",
+            "Predictions.jsonl": "b775c5d9a0818564af5f1334e895e66ada765a326840678f755d14af81c6af65"
+          }
+        },
+        {
+          "task": "source_07",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\fixed_time\\source_07",
+          "clips": 708,
+          "files": {
+            "Verification.json": "3404e0a8a8e675945d0232224e97b261532f4caed1e3b87b986fdbd4ee4b47c3",
+            "Start.json": "df2eb276148ffab9417c5fd47b773b3b3e4bd7c4681d10d0fe3203d26a3b300c",
+            "Identity.json": "12c68eb665dc7f353f4741ae2b765bad82adf5642c434e13cd84314e553a1f87",
+            "Complete.json": "c971526274a1dfaa76279876e486c629b7bda72f56f4b6ac81094cbe01a58551",
+            "Predictions.jsonl": "c1d3288dc74fd50bc61d89fa94b559f985d2614abeac16ee719267113f57071c"
+          }
+        },
+        {
+          "task": "source_08",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\fixed_time\\source_08",
+          "clips": 707,
+          "files": {
+            "Verification.json": "d2f28788e5a7628984f9ae58827a7335038157d742329477076f8bf142b0a06f",
+            "Start.json": "3682084b57010cca8c3912e2e92eecd066aeff3ea990cb26288201c357c56976",
+            "Identity.json": "b45a657933e52344cbc92ba753f803ce56de35ae06b09472c765a78d3d11a10d",
+            "Complete.json": "f578ffe22c96c6fe61a426c5fd44f49b530684e9ce932647c74626a2b32bc7a1",
+            "Predictions.jsonl": "0b6615c6a36dbb1a161df7d401325b9c502697b661efb38915017decbc8900cf"
+          }
+        },
+        {
+          "task": "source_09",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\fixed_time\\source_09",
+          "clips": 707,
+          "files": {
+            "Verification.json": "c1415ac3b74376bb0d87736a4203432fe069edc9cff2ab68704f06f861b04b95",
+            "Start.json": "f1c7e4990f4e9f077b54212ae964379046ebc94caa3398b940c12a5ce34d761e",
+            "Identity.json": "a3245fcbd4f20d04678001ddab52d72bb2c7586f48aae2690260f1da9c77fb09",
+            "Complete.json": "2c9d114cef0cbae5a3ccc6f359325be0746124604c96a49892f83ffa7758aed1",
+            "Predictions.jsonl": "19720a9e4adb0067180660c5c62ce9ad165483627a4b5f0319060e7f9b347d62"
+          }
+        },
+        {
+          "task": "source_10",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\fixed_time\\source_10",
+          "clips": 707,
+          "files": {
+            "Verification.json": "d2828ceabcb3cc6c773cb30e3164f59275529daf89c5b404d9286552bf292719",
+            "Start.json": "fb4a5dd73d1ffa68c0802c6e43c584005867d8448b9c7a22f197fb1dd2006b0a",
+            "Identity.json": "0e42c195a3cd3ccf15748bfac649ef81f1a62c3ddf734142465abd9930c64cd8",
+            "Complete.json": "c37fbbdd0698117667eaffbcc3025d7f18afdb480dfb6de9775ae30521112308",
+            "Predictions.jsonl": "2e89e5db87cc75407e9d685442391dea816a6d1542adf950b7c2c661f5fdaf72"
+          }
+        },
+        {
+          "task": "source_11",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\fixed_time\\source_11",
+          "clips": 707,
+          "files": {
+            "Verification.json": "0e71d161066875d68a7e33ec3849c9240d75fbf62d9002404b2399fd006785c6",
+            "Start.json": "6d2c8e389b8c946112e7c1a816e178311494b97450cf0aef35b32e6a5b710ca3",
+            "Identity.json": "e164b5b8054ed439882a53f99db8beecf71d2c1d63810ddc8ffa346ac4334439",
+            "Complete.json": "706910bec06dbb1d3ba0205352dd7270acf74539a52b45e70cc33a195b2f22ad",
+            "Predictions.jsonl": "331ed49c1d6f8934f142910af61bcfbdf0babaf274b43f544c549691d1f368dd"
+          }
+        },
+        {
+          "task": "source_12",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\fixed_time\\source_12",
+          "clips": 707,
+          "files": {
+            "Verification.json": "be3bd1251e7d9f8274158d2fe07a7cc0967ec829562c00f7561dc74a83828969",
+            "Start.json": "63836178774b592de4e0d859f640b2dc0b39d1bc4a141716f0da8af4414f52c1",
+            "Identity.json": "504e18c31f7fb5a5a9e3430b99428659617a7b1daa54f225763ee8c481c259da",
+            "Complete.json": "db39e4d9bc0382710139a7d7ecc56af9a9d93c545e81f3a508011cd617a6247d",
+            "Predictions.jsonl": "064dd15a3324bc82928386ff9aaadd37d31c2bf63622ff9732b680b6be238501"
+          }
+        },
+        {
+          "task": "source_13",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\fixed_time\\source_13",
+          "clips": 707,
+          "files": {
+            "Verification.json": "e307797b8998cbb5a3b9a3abe3c3b1a3fc65ca68a60ef3372ab525d8e6bfdc88",
+            "Start.json": "b384becb29fa69c4643b88c14b899bb110e041ab29ba34f4b5980f2a171f4307",
+            "Identity.json": "a0be651ed0efe0e0768bd7aa44ca29906c48c410a392aecaaf3b473539f52117",
+            "Complete.json": "4a93de9585acd45eddb44da85f2c8b9cc657b2b5a9a8f7fdaae7537baa9bc99b",
+            "Predictions.jsonl": "38e2ec16b2b908196777ad9869bb3fa6ed4613dc9a90fc01bbfacb168b36b64a"
+          }
+        },
+        {
+          "task": "source_14",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\fixed_time\\source_14",
+          "clips": 707,
+          "files": {
+            "Verification.json": "74c90ad13619844c88714666bb6380397128f4a3fee3156ab1773a53cc45374b",
+            "Start.json": "c60db3d5c524e25a9011653a1d7285b18958924a053cabe9adbc6a27f38922d5",
+            "Identity.json": "189e3da2cb5a56238a3c8761d550cc3eab0bbd77b810512d58c7ee845cba5f21",
+            "Complete.json": "6ca5e128618fc503c554919814efad06ac7aa342a9a73deb58ccd26507e8f391",
+            "Predictions.jsonl": "62e5e3822397dfdb387e30d9b6bbfb8c356069fb225470bcdbe9da32240538b3"
+          }
+        },
+        {
+          "task": "source_15",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\fixed_time\\source_15",
+          "clips": 707,
+          "files": {
+            "Verification.json": "fe864dc36bb6941848bcab8382609a73573de0c6f475f51a45f54c67d20c56ba",
+            "Start.json": "d27dd009bddb98add3e6142c026bd55ae50eb6a0d1541a69f1cdc1cd6f67cd0b",
+            "Identity.json": "52a6f95f061a624e0eb741e7a3027627e9e2508c22aceead711dd1d6854dce23",
+            "Complete.json": "8f6bf8dd34b302b4d97c8a22b69b04a7a7f59f0746ec46f3df176ab3735ee494",
+            "Predictions.jsonl": "f73a124da570a6d3699bdbeaf404954d6f82f1ddf3c609c55b16678b7a2f7e64"
+          }
+        }
+      ],
+      "binding_sha256": "23da1cd4c1c579aabc5c349785f28163134c2fe6ef01d06ac3aca23004abff43",
+      "registry_sha256": "69085677b7d4853ba4fde4c29e969d28ada90bc22bd9041d72cd7962d116899c",
+      "selection_sha256": null,
+      "development_reverified": null
+    },
+    "MATCHED_WW17": {
+      "model": "MATCHED_WW17",
+      "stage": "source",
+      "readout": "common",
+      "candidates": [
+        "beam_c0.1"
+      ],
+      "clips": 11307,
+      "reference_units": 225960,
+      "source_groups": 61,
+      "shards": [
+        {
+          "task": "source_00",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\whole_word\\source_00",
+          "clips": 703,
+          "files": {
+            "Verification.json": "d1eb7ef18965b607f027f2cbb723a5ed24c51b8f436316db4535cfa6cf35673f",
+            "Start.json": "e06c07097aea77cce157dc20f07251d03ce529b6e9d3aa91c7b245e54aee513f",
+            "Identity.json": "682f87da09a4a4ef90991f8bdee5f63a61e0c2120943ef56f93cd1f39bd06040",
+            "Complete.json": "46dea7810fbb0d5295648f7cd818fa023fa2731f3b68f7e1df49df095f6c5002",
+            "Predictions.jsonl": "6a9016945d066750d04bda6d1cdf754392bede6e4ec3193ad2183018f5ea643a"
+          }
+        },
+        {
+          "task": "source_01",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\whole_word\\source_01",
+          "clips": 707,
+          "files": {
+            "Verification.json": "19fdb8f3f5931e41e21ca9de0185b5696a9bcd800b63a75dd5146f9ac5f9f16b",
+            "Start.json": "7d103f1fab2beb15d0df291d170006ecd47afa5d848ef906bf7344c6795090b4",
+            "Identity.json": "44cf646c268c71252aa0a7b561e8bd7663b1aa9b9cc49bd1624d8b84f9be39c6",
+            "Complete.json": "82245ed202e82743158e11800e0b29ecdcf8947abae18ae6fc19d3f2e75282ff",
+            "Predictions.jsonl": "6b27d635a97c55e7c2fa33980083fa6fbc115204aed0c71ac32016433f301cab"
+          }
+        },
+        {
+          "task": "source_02",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\whole_word\\source_02",
+          "clips": 706,
+          "files": {
+            "Verification.json": "0d6dc9feedf5243db1c982c2e7044f06bf52ed4f80f8bea59452897a395b6413",
+            "Start.json": "ae104df5bb519477b161ac5a6703d269ac3f32cae0543f0e34c7f56d19956b02",
+            "Identity.json": "0083b5c0610395490f9ff20cabff6e9cbaf9bbb97082ac10dc3d0e0ef5b1a6f2",
+            "Complete.json": "046c78524552fa32d0511bd6ee368811532969b9096310d8457268a626ef5f31",
+            "Predictions.jsonl": "92676b24561a1da2daf46571d1c6eae46c4bf46cbc2122e95b2585f95207d777"
+          }
+        },
+        {
+          "task": "source_03",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\whole_word\\source_03",
+          "clips": 706,
+          "files": {
+            "Verification.json": "ae157b315b88cf8595dd03a5ba02808eb3404f16051b0d1c315283c2122c9e91",
+            "Start.json": "ed74986d9675701515e8f8c6b4d09126f4a36ec4e3114508b6ce6aa11f3b9798",
+            "Identity.json": "d9ee0c26884a536337a23ffb98adc94d8d22caf15b5fadef139938410544effc",
+            "Complete.json": "5281c2ca9c58ae5d04f786da8ca9da4e684efe0ba30ced0d9ae111466f0faf9b",
+            "Predictions.jsonl": "73f54953617d3464823173b9b0be0a67ad4f5a7ef4aa30fbba0d7ed9ea4533a3"
+          }
+        },
+        {
+          "task": "source_04",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\whole_word\\source_04",
+          "clips": 707,
+          "files": {
+            "Verification.json": "8783e21bfe359017a44f5a65298e974d9a7cb6a3d519dd96127315161b1d56d0",
+            "Start.json": "3afa074b6800795a77595f0602b6e9de79b4503049ce631ad788f4315f3ee986",
+            "Identity.json": "0896dcfce1fc868e5ad045395f18f11a80c7c728c21d922de5f559365538eebb",
+            "Complete.json": "76e618375aefadbca3c6a8a44b217599b6f65551674df69720f419c63cc94c2d",
+            "Predictions.jsonl": "f4bfb1704ccb8c461ae84bb73dc3422ed9a52e0596915037d0651d1c15e0e84f"
+          }
+        },
+        {
+          "task": "source_05",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\whole_word\\source_05",
+          "clips": 707,
+          "files": {
+            "Verification.json": "1de897549ed537767c1871128817cbbe63a433b69b4f56947046ee1cff5b7266",
+            "Start.json": "9a20b7eea21fe4c614e4aedf3e9e8f58ae8bfbba77b561cd08c01fb68f63148c",
+            "Identity.json": "4593b6d88b28a32097f132aa4dab0fcf7e4aa2c2391d93ac61e1713698cc1cd4",
+            "Complete.json": "17c839a8915e695a51415395c21d94887d73faf244abebce6cb18e1395b93a13",
+            "Predictions.jsonl": "66aacb25f3afa3fb02e50a6f32b738b6a0d8409d76008f58a53b9f1e2be2491a"
+          }
+        },
+        {
+          "task": "source_06",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\whole_word\\source_06",
+          "clips": 707,
+          "files": {
+            "Verification.json": "626ebc4fe48800e0282fb0aaf4ab7121d0c452ebc12688152f695c615d27d744",
+            "Start.json": "1051997f77f51411838fc8df6cb81b9c3fcc4e2ef3261fc3510e755acb3ac88f",
+            "Identity.json": "c2efbbc2e9ee6adae69f586279567c0c5686d61e79078246ef57f3bc48b3a420",
+            "Complete.json": "55b2b886365805d6abdc4c9bcd42bd0a1a0213b2232f98497169cf25c9c34563",
+            "Predictions.jsonl": "11eb82d3b9842b4efcfe0f4612d0de7ea3df8fec385ea485b6931dcefa9d2172"
+          }
+        },
+        {
+          "task": "source_07",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\whole_word\\source_07",
+          "clips": 708,
+          "files": {
+            "Verification.json": "f21ee9e104790aa55a58b2886d7ca3ba6318f4227204634b9974cb4bb2a0aa79",
+            "Start.json": "9d993f5baf3bd91de24eaa53b1f3e3937ff58c2bb1f19a6d6ab782a0fd9332d9",
+            "Identity.json": "1451cd98c0e583b9860c445fddb6b2a1b448d45982871303fe0c2eefe1cac9dd",
+            "Complete.json": "5d1e9689acd4ff4ce3f313a40c5809f81fc8c16fc1cde6b9932d6e06e98ddc2b",
+            "Predictions.jsonl": "84bab58d55ee25718b56cd712d03ed53dcc46ce1c591875d15f63095a030afb9"
+          }
+        },
+        {
+          "task": "source_08",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\whole_word\\source_08",
+          "clips": 707,
+          "files": {
+            "Verification.json": "97d9a0e3836c3f18bf065fc10a7ab691998152f748b26fe37579573d1166938b",
+            "Start.json": "1a7b9b6036ddd45a7400c4ad0aedcf2b75eb13679af3ae79133543119ac499da",
+            "Identity.json": "33f80b94554c8696aee0dcbc3390c8b5fbd780a1aa5fe689eba5005f28935e36",
+            "Complete.json": "49be37febfca7277f226d6784b55123f17863d7acbd153ad4e205cd4cd849ff0",
+            "Predictions.jsonl": "7c57438155167400f2b39a385ebe5ee51965a8653e73f7544dac79806aeddea2"
+          }
+        },
+        {
+          "task": "source_09",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\whole_word\\source_09",
+          "clips": 707,
+          "files": {
+            "Verification.json": "38218ac78e9bb08af0bca8ec1b27b483a2dc0768e57df5433f831f15214bb7ec",
+            "Start.json": "f6f759aa7b9d5a1a2dc782f96ec427675e3869872d13432ddd47f82973834d27",
+            "Identity.json": "6537817fda6eb012c77a00bbe9b9d2ae2a1628449aed42c7e3fcae6b73fbfd58",
+            "Complete.json": "7e7c3df5f5fd2223c426bb1415b32db8da2063403a84224a400ff3506b564527",
+            "Predictions.jsonl": "22ed7c96fa7495fc745d31e3d26f664457ad6f685e9714f65ca83687386e9711"
+          }
+        },
+        {
+          "task": "source_10",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\whole_word\\source_10",
+          "clips": 707,
+          "files": {
+            "Verification.json": "fe02e28c2b0501ef4781300ff23df1bdf985362a56945f90d609d358a23f9f94",
+            "Start.json": "6bf703f888b48ef156d03ffe546f5972e92c89b97899a5908808c76ef7705ac6",
+            "Identity.json": "efb944bc9eeded7ce3dc5c8dac9789a259ec2c7ecde7eb10ffc90a90c0b3172c",
+            "Complete.json": "51df667b0e5bd8562b87db26312378d342b64247fd29bdf8143ccf5aadd1bd9e",
+            "Predictions.jsonl": "c5373cfeef4d8fdfda29d2f488a904aa2cc023de36887c0d2af683251487cfc1"
+          }
+        },
+        {
+          "task": "source_11",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\whole_word\\source_11",
+          "clips": 707,
+          "files": {
+            "Verification.json": "81ef774d09357fdfd86b75e7eb1c8190d3fca20cd052753eb179a037cbd65ad3",
+            "Start.json": "9cf8be0b8602cb74e526002504a4882eda67f8e531d88a284f4c37eb1b511ced",
+            "Identity.json": "059711526bb3dc61150ffe75ffac9e19768df6b5119821bdb571ed942afa38bf",
+            "Complete.json": "ea1c8e78e46118977e0fa36a37902b9a440a269768358c21d8c7df41923c48c3",
+            "Predictions.jsonl": "e0004d73e3b7e05372eb27989df77d81e7c80e1992bd7ceb3356022ceabaf61a"
+          }
+        },
+        {
+          "task": "source_12",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\whole_word\\source_12",
+          "clips": 707,
+          "files": {
+            "Verification.json": "406b8b4b701eea90dbdc226058106832313649522ba3e36262c331909cf47c39",
+            "Start.json": "c9be7b1749c5588148b3c2f034c04ca0633d74a8c0991eb97e8b488cda3b2956",
+            "Identity.json": "20fcb2239622fb1725457d26360156c19f26ac71db0c1a718079178d736f1808",
+            "Complete.json": "6c6b78595bc617859d43221fadf3f0755f20a0304e635f49f48971faa8083985",
+            "Predictions.jsonl": "57feb6eee9749e8c4b6320831e75e9df427571836ff5a9440c9ffc07e4cb9b0b"
+          }
+        },
+        {
+          "task": "source_13",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\whole_word\\source_13",
+          "clips": 707,
+          "files": {
+            "Verification.json": "53fc3e26b197588824caa4307a73b3de2c0111698bd192aa4bf9628bc653881c",
+            "Start.json": "b45b2b6571c1bd82d55fda413f838d31f40658987a538656c0b9b123ebfedbe6",
+            "Identity.json": "98733adf106d045643725372f3513f95275adc59311d9701fa846da8e06aeac5",
+            "Complete.json": "cc2f119286d7cea13b55f516f6810ad897e1449e74d5f5fa47da027d7ea0d2a1",
+            "Predictions.jsonl": "30592c3564a9528ac2939451e5d5be9794318f2e53b9a28e78bf978d1b7049a2"
+          }
+        },
+        {
+          "task": "source_14",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\whole_word\\source_14",
+          "clips": 707,
+          "files": {
+            "Verification.json": "25fb9d4d5378fc032eeb53d50f7b0afcc3e62fcc4ead58c68c4b9d08997a4bfb",
+            "Start.json": "3b9478a27a52636ff658a9603c367eaa255e0cadac262586a6af10c47a28d23d",
+            "Identity.json": "d66da0f0d44614c00bc6cb769a375fc68309f66c4daa7009fef69486139ae421",
+            "Complete.json": "65c05abfc037c18feabd4e006224f687eb708202b2e58b373c91c0b02ca4e707",
+            "Predictions.jsonl": "6cee1dc4d4be5402dfa81380dba8efc2f94fe9b932a636c0087c9940bb0ff67a"
+          }
+        },
+        {
+          "task": "source_15",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Source_Continuation_03\\Collected\\Runs\\whole_word\\source_15",
+          "clips": 707,
+          "files": {
+            "Verification.json": "ebe09ddbdf057f64ce4870da98b9a5720f5bd85b656667f939d14ba95e76f659",
+            "Start.json": "0d2b214e169812f04d89abc4307f1c928551bb4003cf830a709d1b2661f8e74f",
+            "Identity.json": "3617f8515f4d010edca8157bbdecd65f730ed9622c0503e6ca3fce60c9f580ba",
+            "Complete.json": "cda848fe6135aa1b9da955977473df50e039fac4537f07754b7c89a850e5711b",
+            "Predictions.jsonl": "09ff47b7a23e045d36197b331cef8b1b8ed883f68524f86e338c67c16849708f"
+          }
+        }
+      ],
+      "binding_sha256": "29feafb38a4b989b475db7c59777eda04a20a22c0447e6a18deaa30273ae29c8",
+      "registry_sha256": "9c39c870934fab41f04e61051a70de3440f0f127e1c4dce8828cc7ede59060f1",
+      "selection_sha256": null,
+      "development_reverified": null
+    }
+  },
+  "assessment_plan_sha256": "78ff15fb08be918c76ed6bcb58d26b6782237e447df867b4a06cb81010edf593",
+  "inputs_sha256": "414ba86934684b754df30866d5f1eb7a3eed4a8f1331b0c6a0da089f5a8c610d",
+  "all_three_matched_models_complete": true,
+  "both_source_and_destination_complete": false,
+  "new_blind_test": false,
+  "manuscript_updated": false,
+  "code_sha256": {
+    "collect_population.py": "a3bad6232cd7473f0b201fa8facfecdbdc3ec6741e69dbe15a0091835285f1bc",
+    "paired_statistics.py": "223de2f9b55fcc6752565638cdb72a9c39eda60533e5d25bdda369fb0e41461f",
+    "summarize_population.py": "17e7b9663328a36ac167f12d0aa1fab3518ac165e3078f0f7b2d152398e3734b",
+    "verify_tools.py": "968b50402a997f687d36e3669ab81594fb6e7326319b934b0e35f86b92213d0d"
+  },
+  "output_sha256": {
+    "Paired_Comparisons.csv": "dc33566513e124891602efec47db4d77e5c2d344683a90c402ec383e5363a07b",
+    "Per_Clip_Counts.csv": "45b7e37a3e89c10a4af49f416f4623c90c8be68afd0724d5c2d1354ad5da6dff",
+    "Results.csv": "ffbe0f2f768c440d4d1c5a9a004ae26b4199654b69a6c82d5137d145ea750fb5"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-28T08:43:27.332781+00:00",
+  "task": "anchor_VLR_T0_LAST_05",
+  "clips": 146,
+  "status": "complete_pending_independent_verification",
+  "seconds": 397.44927989901043,
+  "peak_gpu_mib": 2500.52490234375,
+  "predictions_sha256": "a5239182972ee27cc3e164bb6b2ed49f7da227e0dbc7eefd00d02b56d7419fd9",
+  "identity_sha256": "66987156eaddd0e45f82bd7a694cec1c0f9147561cb1ae9fb839a15c36109df5",
+  "start_sha256": "c7620dcd334bf0e8630c7b80e1bcb1562298f97ef868ff51740729ad7bd1aff8"
+}

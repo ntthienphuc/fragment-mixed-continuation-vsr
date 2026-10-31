@@ -1,0 +1,268 @@
+{
+  "utc": "2026-10-28T11:43:56.048086+00:00",
+  "status": "three_source_inputs_full_grid_verified",
+  "model": "VLR_T2_LAST",
+  "language": "vi",
+  "device": "cuda:0",
+  "positions": [
+    44,
+    506,
+    343
+  ],
+  "frames": [
+    25,
+    113,
+    370
+  ],
+  "comparisons": [
+    {
+      "position": 44,
+      "candidate": "beam_c0.1",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 44,
+      "candidate": "beam_c0.5",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 44,
+      "candidate": "beam_c0.9",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 44,
+      "candidate": "beam_c1.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 44,
+      "candidate": "greedy_b0.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 44,
+      "candidate": "greedy_b-0.5",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 44,
+      "candidate": "greedy_b0.5",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 44,
+      "candidate": "greedy_b-1.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 44,
+      "candidate": "greedy_b1.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 44,
+      "candidate": "greedy_b-2.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 44,
+      "candidate": "greedy_b2.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 506,
+      "candidate": "beam_c0.1",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 506,
+      "candidate": "beam_c0.5",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 506,
+      "candidate": "beam_c0.9",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 506,
+      "candidate": "beam_c1.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 506,
+      "candidate": "greedy_b0.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 506,
+      "candidate": "greedy_b-0.5",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 506,
+      "candidate": "greedy_b0.5",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 506,
+      "candidate": "greedy_b-1.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 506,
+      "candidate": "greedy_b1.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 506,
+      "candidate": "greedy_b-2.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 506,
+      "candidate": "greedy_b2.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 343,
+      "candidate": "beam_c0.1",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 343,
+      "candidate": "beam_c0.5",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 343,
+      "candidate": "beam_c0.9",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 343,
+      "candidate": "beam_c1.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 343,
+      "candidate": "greedy_b0.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 343,
+      "candidate": "greedy_b-0.5",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 343,
+      "candidate": "greedy_b0.5",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 343,
+      "candidate": "greedy_b-1.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 343,
+      "candidate": "greedy_b1.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 343,
+      "candidate": "greedy_b-2.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    },
+    {
+      "position": 343,
+      "candidate": "greedy_b2.0",
+      "score_error": 0.0,
+      "tokens_exact": true,
+      "text_exact": true
+    }
+  ],
+  "independent_count_checks": 33,
+  "reference_used_for_inference": false,
+  "assessment_used": false,
+  "transfer_performance_claim": false,
+  "plan_sha256": "8d3e81d8fed2ef8a6b795d7bae28cf89068c0c430ef38c8b1335c9732daceaf5",
+  "checkpoint_sha256": "3a379cf6a3ad65bf9ee8a94175c9dbb368b55f5a56254b781e7b9d5f1ff83eef",
+  "scripts": {
+    "source_grid_probe.py": "37818ff8b10cd75f2c18796a92b531feb3f7efb7029b46be21807242eef7bdca",
+    "experiment_core.py": "9b30da8e1cb6cbc25a86bafc4f1b20aa7fc9cffe3d8f4c414eee9336a485620c",
+    "runtime_bridge.py": "86f472f842d355c936c803b57c58b01e6b386ada08f98e7a4b40f45a7cd0e498",
+    "mechanism_common.py": "cd8c1ec92b822f2cb8adb558ff47e16ed5d7c965b683583e873c29e9df559b97"
+  },
+  "identity_sha256": "fefc119b3dc1f11905189430f703ee1db558e4bb4d8e5ee0296f20c05cd2b790",
+  "probe_sha256": {
+    "Probe_44.json": "4ceccbea7cc00b5ca9d039f0ea24ad608ea2b27f44e782d832736194f064c9a5",
+    "Probe_506.json": "8ad8c5fd88af79ff5ad5db355e32ffed1ce0543fabff6022faa0ec49201547dc",
+    "Probe_343.json": "56da846348b0165751a15de66b0fec8bfb6210c423250c438545b444596800a2"
+  }
+}

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "E:\Project\Lip\Research_Transfer_Mechanism_Benchmark_2026-10-28\Augmentation_Controls_01\Portable_Data_01\stage_and_verify.py", line 59, in main
+    output = powershell(command, timeout=1800)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Project\Lip\Research_Source_Retention_2026-10-29\Server_01\transport.py", line 26, in powershell
+    raise RuntimeError(completed.stdout + "\n" + completed.stderr)
+RuntimeError: 
+Traceback (most recent call last):
+  File "D:\Lip_Source_Retention_20261029\Portable_Data_01\verify_runtime.py", line 141, in <module>
+    main(parser.parse_args())
+  File "D:\Lip_Source_Retention_20261029\Portable_Data_01\verify_runtime.py", line 24, in main
+    import cv2
+ModuleNotFoundError: No module named 'cv2'
+

@@ -1,0 +1,24 @@
+\begin{table}[tbp]
+\centering\small
+\setlength{\tabcolsep}{4pt}
+\caption{Source and destination performance of the matched continuation recipes
+at seed 17. The same fitted states use a common decoder on 11,307 VLR and
+1,167 ViCocktail clips. Training frame and native-token counts are in millions.}
+\label{tab:crop}
+\begin{tabular}{lrrrr}
+\toprule
+Training views & VLR WER (\%) & ViCocktail WER (\%) & Frames & Tokens\\
+\midrule
+Full-only & 38.029 & 67.369 & 7.307 & 1.145\\
+Fixed-time mixed & 38.580 & 63.846 & 4.888 & 0.798\\
+Whole-word mixed & 38.606 & 63.388 & 5.013 & 0.784\\
+Whole-word short-only & 44.844 & 70.715 & 2.719 & 0.422\\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{\linewidth}\footnotesize
+Each arm uses 48,000 source presentations and 6,000 updates. Both mixed arms
+share 317 full-clip fallbacks; short-only uses 598 fallbacks (1.25\%).
+These fitted states are distinct from the original FC/FM comparison.
+Frame and token exposures are not equal.
+\end{minipage}
+\end{table}

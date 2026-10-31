@@ -1,0 +1,24 @@
+{
+  "question": "How does component-wise token normalization change the full-versus-fixed-time transfer contrast?",
+  "primary_population": "Complete 1167 clips, 30091 reference units, 20 source groups; reused assessment.",
+  "common_decoder": "beam_c0.1",
+  "native_summary": "Research_Matched_Continuation_Assessment_2026-10-30/Analysis_Native_ThreeArm_01",
+  "normalized_summary": "Research_Normalized_Continuation_Assessment_2026-10-30/Analysis_Destination_01",
+  "contrast_order": [
+    "native_gain",
+    "normalized_gain",
+    "normalized_gain_minus_native_gain",
+    "normalization_on_full",
+    "normalization_on_fixed_time"
+  ],
+  "gain_definition": "WER(full) - WER(fixed-time); positive favors fixed-time mixing.",
+  "interaction_definition": "[normalized FC - normalized FT] - [native FC - native FT]",
+  "bootstrap": "10000 paired archived-source-group resamples; same indices for all four states.",
+  "conditional_on_fitted_states": true,
+  "multiplicity_adjusted": false,
+  "training_seeds": 1,
+  "interpretation": "Component-wise normalization changes length weighting and relative objective contributions. It does not isolate a global learning-rate or gradient-norm mechanism.",
+  "no_inference_about_normalized_whole_word": true,
+  "no_partial_cohort_output": true,
+  "inputs_sha256": "36dc8ced4c3a2282654b57b3c5074b85d189fcafce7cfdce1595efe98c5d0802"
+}

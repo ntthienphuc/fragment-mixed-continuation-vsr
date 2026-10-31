@@ -1,0 +1,4907 @@
+{
+  "utc": "2026-10-27T19:13:26.855698+00:00",
+  "unix": 1793128406.8557115,
+  "gpu": "87 %, 4300 MiB",
+  "tasks": {
+    "development_VLR_B0_00": {
+      "Start.json": {
+        "utc": "2026-10-27T18:38:57.415343+00:00",
+        "pid": 7593,
+        "task": "development_VLR_B0_00",
+        "model": "VLR_B0",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T18:41:34.077139+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_B0_00",
+        "clips": 30,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 156.66133682697546,
+        "predictions_sha256": "eba9bb0a38b5d847b52f773beb658911ebc71d40fc068d2f06f9ad5a36097b7f",
+        "peak_gpu_mib": 1402.232421875,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T18:41:51.120209+00:00",
+        "task": "development_VLR_B0_00",
+        "model": "VLR_B0",
+        "split": "development",
+        "clips": 30,
+        "independent_count_checks": 330,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "eba9bb0a38b5d847b52f773beb658911ebc71d40fc068d2f06f9ad5a36097b7f",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 30,
+      "stage": "development"
+    },
+    "development_VLR_B0_01": {
+      "Start.json": {
+        "utc": "2026-10-27T18:38:57.415396+00:00",
+        "pid": 7592,
+        "task": "development_VLR_B0_01",
+        "model": "VLR_B0",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T18:41:32.751337+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_B0_01",
+        "clips": 30,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 155.33549809199758,
+        "predictions_sha256": "758ec61ae69e9dd3c8bade50659b983df62130ec1c07b3630dc52d66a665cdb6",
+        "peak_gpu_mib": 1396.10302734375,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T18:41:51.788474+00:00",
+        "task": "development_VLR_B0_01",
+        "model": "VLR_B0",
+        "split": "development",
+        "clips": 30,
+        "independent_count_checks": 330,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "758ec61ae69e9dd3c8bade50659b983df62130ec1c07b3630dc52d66a665cdb6",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 30,
+      "stage": "development"
+    },
+    "development_VLR_B0_02": {
+      "Start.json": {
+        "utc": "2026-10-27T18:41:53.430632+00:00",
+        "pid": 8585,
+        "task": "development_VLR_B0_02",
+        "model": "VLR_B0",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T18:44:28.437966+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_B0_02",
+        "clips": 30,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 155.00686872401275,
+        "predictions_sha256": "25a055e71effd58b56665797e863220050d6c5ce0bd10f65372d2975bcbbd6ed",
+        "peak_gpu_mib": 1440.36083984375,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T18:44:45.035909+00:00",
+        "task": "development_VLR_B0_02",
+        "model": "VLR_B0",
+        "split": "development",
+        "clips": 30,
+        "independent_count_checks": 330,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "25a055e71effd58b56665797e863220050d6c5ce0bd10f65372d2975bcbbd6ed",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 30,
+      "stage": "development"
+    },
+    "development_VLR_B0_03": {
+      "Start.json": {
+        "utc": "2026-10-27T18:41:53.427295+00:00",
+        "pid": 8586,
+        "task": "development_VLR_B0_03",
+        "model": "VLR_B0",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T18:44:28.049042+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_B0_03",
+        "clips": 30,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 154.62127850099932,
+        "predictions_sha256": "dcf27efb4cd3554716e1df29b7da4bc1e137da5bacb7de9bdbb6512cf978a9ba",
+        "peak_gpu_mib": 1372.67333984375,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T18:44:45.691011+00:00",
+        "task": "development_VLR_B0_03",
+        "model": "VLR_B0",
+        "split": "development",
+        "clips": 30,
+        "independent_count_checks": 330,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "dcf27efb4cd3554716e1df29b7da4bc1e137da5bacb7de9bdbb6512cf978a9ba",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 30,
+      "stage": "development"
+    },
+    "development_VLR_B0_04": {
+      "Start.json": {
+        "utc": "2026-10-27T18:44:47.443811+00:00",
+        "pid": 9536,
+        "task": "development_VLR_B0_04",
+        "model": "VLR_B0",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T18:47:21.017741+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_B0_04",
+        "clips": 30,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 153.573466830072,
+        "predictions_sha256": "8241262a41ccda96fcddb16f6b626fb134b3bc16a78e75029cf81554b774acbb",
+        "peak_gpu_mib": 1370.9228515625,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T18:47:38.793884+00:00",
+        "task": "development_VLR_B0_04",
+        "model": "VLR_B0",
+        "split": "development",
+        "clips": 30,
+        "independent_count_checks": 330,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "8241262a41ccda96fcddb16f6b626fb134b3bc16a78e75029cf81554b774acbb",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 30,
+      "stage": "development"
+    },
+    "development_VLR_B0_05": {
+      "Start.json": {
+        "utc": "2026-10-27T18:44:47.443916+00:00",
+        "pid": 9535,
+        "task": "development_VLR_B0_05",
+        "model": "VLR_B0",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T18:47:19.968652+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_B0_05",
+        "clips": 29,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 152.5242790390039,
+        "predictions_sha256": "b5a23f1620a2748787cef6c5f845a7aa1a869c46bbccdb659225b46923951e1f",
+        "peak_gpu_mib": 1427.74658203125,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T18:47:36.427296+00:00",
+        "task": "development_VLR_B0_05",
+        "model": "VLR_B0",
+        "split": "development",
+        "clips": 29,
+        "independent_count_checks": 319,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "b5a23f1620a2748787cef6c5f845a7aa1a869c46bbccdb659225b46923951e1f",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 29,
+      "stage": "development"
+    },
+    "development_VLR_B0_06": {
+      "Start.json": {
+        "utc": "2026-10-27T18:47:41.459522+00:00",
+        "pid": 10492,
+        "task": "development_VLR_B0_06",
+        "model": "VLR_B0",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T18:50:09.272702+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_B0_06",
+        "clips": 29,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 147.81270372401923,
+        "predictions_sha256": "ee4502c9392017f72e62e5d72ac341f82327cf45742b08abd06f9c177abd288a",
+        "peak_gpu_mib": 1385.54541015625,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T18:50:24.253919+00:00",
+        "task": "development_VLR_B0_06",
+        "model": "VLR_B0",
+        "split": "development",
+        "clips": 29,
+        "independent_count_checks": 319,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "ee4502c9392017f72e62e5d72ac341f82327cf45742b08abd06f9c177abd288a",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 29,
+      "stage": "development"
+    },
+    "development_VLR_B0_07": {
+      "Start.json": {
+        "utc": "2026-10-27T18:47:37.460035+00:00",
+        "pid": 10473,
+        "task": "development_VLR_B0_07",
+        "model": "VLR_B0",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T18:49:59.837432+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_B0_07",
+        "clips": 29,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 142.37692134897225,
+        "predictions_sha256": "a35ce9e6f5571a79776daf92482ad8c4b3ce8f1db19301c069e0ca76ab372fa7",
+        "peak_gpu_mib": 1360.5029296875,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T18:50:13.880705+00:00",
+        "task": "development_VLR_B0_07",
+        "model": "VLR_B0",
+        "split": "development",
+        "clips": 29,
+        "independent_count_checks": 319,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "a35ce9e6f5571a79776daf92482ad8c4b3ce8f1db19301c069e0ca76ab372fa7",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 29,
+      "stage": "development"
+    },
+    "development_VLR_T0_LAST_00": {
+      "Start.json": {
+        "utc": "2026-10-27T18:50:25.474205+00:00",
+        "pid": 11441,
+        "task": "development_VLR_T0_LAST_00",
+        "model": "VLR_T0_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T18:53:01.712025+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_T0_LAST_00",
+        "clips": 30,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 156.23736131901387,
+        "predictions_sha256": "2525f5ed5d0ef6bf6095ddb70725f342dc21dc9cc6e30fc91c0a00ae214d3b0b",
+        "peak_gpu_mib": 1399.33349609375,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T18:53:17.594729+00:00",
+        "task": "development_VLR_T0_LAST_00",
+        "model": "VLR_T0_LAST",
+        "split": "development",
+        "clips": 30,
+        "independent_count_checks": 330,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "2525f5ed5d0ef6bf6095ddb70725f342dc21dc9cc6e30fc91c0a00ae214d3b0b",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "fd0c87b03a079345ad8a1a91a3ab0d6335439c1e40c4430c7c1e00ad9b7ca679",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 30,
+      "stage": "development"
+    },
+    "development_VLR_T0_LAST_01": {
+      "Start.json": {
+        "utc": "2026-10-27T18:50:15.470876+00:00",
+        "pid": 11368,
+        "task": "development_VLR_T0_LAST_01",
+        "model": "VLR_T0_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T18:52:50.173467+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_T0_LAST_01",
+        "clips": 30,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 154.7021005160641,
+        "predictions_sha256": "c9b0838a2afd78bf48ed012ec8a03bb489fce182510388265abd0f1be06c6e23",
+        "peak_gpu_mib": 1373.74658203125,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T18:53:06.440079+00:00",
+        "task": "development_VLR_T0_LAST_01",
+        "model": "VLR_T0_LAST",
+        "split": "development",
+        "clips": 30,
+        "independent_count_checks": 330,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "c9b0838a2afd78bf48ed012ec8a03bb489fce182510388265abd0f1be06c6e23",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "fd0c87b03a079345ad8a1a91a3ab0d6335439c1e40c4430c7c1e00ad9b7ca679",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 30,
+      "stage": "development"
+    },
+    "development_VLR_T0_LAST_02": {
+      "Start.json": {
+        "utc": "2026-10-27T18:53:19.482018+00:00",
+        "pid": 12346,
+        "task": "development_VLR_T0_LAST_02",
+        "model": "VLR_T0_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T18:55:53.274785+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_T0_LAST_02",
+        "clips": 30,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 153.79236605193,
+        "predictions_sha256": "217600b55ca768bf463267c237faa0fc56f7bb0c9abd914965b04d7dbf90b8e2",
+        "peak_gpu_mib": 1411.0947265625,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T18:56:10.934840+00:00",
+        "task": "development_VLR_T0_LAST_02",
+        "model": "VLR_T0_LAST",
+        "split": "development",
+        "clips": 30,
+        "independent_count_checks": 330,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "217600b55ca768bf463267c237faa0fc56f7bb0c9abd914965b04d7dbf90b8e2",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "fd0c87b03a079345ad8a1a91a3ab0d6335439c1e40c4430c7c1e00ad9b7ca679",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 30,
+      "stage": "development"
+    },
+    "development_VLR_T0_LAST_03": {
+      "Start.json": {
+        "utc": "2026-10-27T18:53:07.485500+00:00",
+        "pid": 12336,
+        "task": "development_VLR_T0_LAST_03",
+        "model": "VLR_T0_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T18:55:38.045971+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_T0_LAST_03",
+        "clips": 30,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 150.56001177197322,
+        "predictions_sha256": "7336c830570fa13dfeee5843f5b6f5ad476beb5f3da03e9741313356571b13bf",
+        "peak_gpu_mib": 1409.76220703125,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T18:55:55.522438+00:00",
+        "task": "development_VLR_T0_LAST_03",
+        "model": "VLR_T0_LAST",
+        "split": "development",
+        "clips": 30,
+        "independent_count_checks": 330,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "7336c830570fa13dfeee5843f5b6f5ad476beb5f3da03e9741313356571b13bf",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "fd0c87b03a079345ad8a1a91a3ab0d6335439c1e40c4430c7c1e00ad9b7ca679",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 30,
+      "stage": "development"
+    },
+    "development_VLR_T0_LAST_04": {
+      "Start.json": {
+        "utc": "2026-10-27T18:56:13.505294+00:00",
+        "pid": 12466,
+        "task": "development_VLR_T0_LAST_04",
+        "model": "VLR_T0_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T18:58:43.453296+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_T0_LAST_04",
+        "clips": 30,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 149.94749757891987,
+        "predictions_sha256": "f8ad76929d48b1c4d64049e2005efff75a47b5ae9e95b4f75e0534de1b165bc8",
+        "peak_gpu_mib": 1415.75634765625,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T18:59:03.403679+00:00",
+        "task": "development_VLR_T0_LAST_04",
+        "model": "VLR_T0_LAST",
+        "split": "development",
+        "clips": 30,
+        "independent_count_checks": 330,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "f8ad76929d48b1c4d64049e2005efff75a47b5ae9e95b4f75e0534de1b165bc8",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "fd0c87b03a079345ad8a1a91a3ab0d6335439c1e40c4430c7c1e00ad9b7ca679",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 30,
+      "stage": "development"
+    },
+    "development_VLR_T0_LAST_05": {
+      "Start.json": {
+        "utc": "2026-10-27T18:55:57.502071+00:00",
+        "pid": 12455,
+        "task": "development_VLR_T0_LAST_05",
+        "model": "VLR_T0_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T18:58:23.075843+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_T0_LAST_05",
+        "clips": 29,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 145.5732755099889,
+        "predictions_sha256": "5e4259fb2c2b1e049da7233b73c2916cc2aa5267448aa4adb7bc8b2e5ee1ade7",
+        "peak_gpu_mib": 1410.5439453125,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T18:58:42.516269+00:00",
+        "task": "development_VLR_T0_LAST_05",
+        "model": "VLR_T0_LAST",
+        "split": "development",
+        "clips": 29,
+        "independent_count_checks": 319,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "5e4259fb2c2b1e049da7233b73c2916cc2aa5267448aa4adb7bc8b2e5ee1ade7",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "fd0c87b03a079345ad8a1a91a3ab0d6335439c1e40c4430c7c1e00ad9b7ca679",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 29,
+      "stage": "development"
+    },
+    "development_VLR_T0_LAST_06": {
+      "Start.json": {
+        "utc": "2026-10-27T18:59:05.517725+00:00",
+        "pid": 12560,
+        "task": "development_VLR_T0_LAST_06",
+        "model": "VLR_T0_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T19:01:34.499378+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_T0_LAST_06",
+        "clips": 29,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 148.9811825150391,
+        "predictions_sha256": "5a7dc9e4ae5b46765343fc13cfc8492c5c73d6bea88bd09334766ce11ecbb32c",
+        "peak_gpu_mib": 1361.59033203125,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T19:01:52.928491+00:00",
+        "task": "development_VLR_T0_LAST_06",
+        "model": "VLR_T0_LAST",
+        "split": "development",
+        "clips": 29,
+        "independent_count_checks": 319,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "5a7dc9e4ae5b46765343fc13cfc8492c5c73d6bea88bd09334766ce11ecbb32c",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "fd0c87b03a079345ad8a1a91a3ab0d6335439c1e40c4430c7c1e00ad9b7ca679",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 29,
+      "stage": "development"
+    },
+    "development_VLR_T0_LAST_07": {
+      "Start.json": {
+        "utc": "2026-10-27T18:58:43.515059+00:00",
+        "pid": 12546,
+        "task": "development_VLR_T0_LAST_07",
+        "model": "VLR_T0_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T19:01:10.914135+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_T0_LAST_07",
+        "clips": 29,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 147.39861117501277,
+        "predictions_sha256": "d8a7f5f023af4751624c93044ef72d5ee1fa054f77ad14c9208e1980c17eb1f0",
+        "peak_gpu_mib": 1399.7353515625,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T19:01:31.650659+00:00",
+        "task": "development_VLR_T0_LAST_07",
+        "model": "VLR_T0_LAST",
+        "split": "development",
+        "clips": 29,
+        "independent_count_checks": 319,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "d8a7f5f023af4751624c93044ef72d5ee1fa054f77ad14c9208e1980c17eb1f0",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "fd0c87b03a079345ad8a1a91a3ab0d6335439c1e40c4430c7c1e00ad9b7ca679",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 29,
+      "stage": "development"
+    },
+    "development_VLR_T1_LAST_00": {
+      "Start.json": {
+        "utc": "2026-10-27T19:01:53.533337+00:00",
+        "pid": 12682,
+        "task": "development_VLR_T1_LAST_00",
+        "model": "VLR_T1_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T19:03:59.712780+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_T1_LAST_00",
+        "clips": 30,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 126.17898250196595,
+        "predictions_sha256": "7ae82d87f67d706537fa354c4971c193b967d85b0e76debd1d904165f691f939",
+        "peak_gpu_mib": 1396.79931640625,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T19:04:17.459755+00:00",
+        "task": "development_VLR_T1_LAST_00",
+        "model": "VLR_T1_LAST",
+        "split": "development",
+        "clips": 30,
+        "independent_count_checks": 330,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00029_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "7ae82d87f67d706537fa354c4971c193b967d85b0e76debd1d904165f691f939",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "9e31b2379a3ed90637a1af9081a915ecce9201db19fa11a2cceb1f1acb53d32b",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 30,
+      "stage": "development"
+    },
+    "development_VLR_T1_LAST_01": {
+      "Start.json": {
+        "utc": "2026-10-27T19:01:33.532868+00:00",
+        "pid": 12640,
+        "task": "development_VLR_T1_LAST_01",
+        "model": "VLR_T1_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T19:03:39.897040+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_T1_LAST_01",
+        "clips": 30,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 126.36370863497723,
+        "predictions_sha256": "a35d4258e1d909c5e490cacb207f72b5eef2f5c0f6fac074a600828e8eb87bf5",
+        "peak_gpu_mib": 1394.76806640625,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T19:03:58.228367+00:00",
+        "task": "development_VLR_T1_LAST_01",
+        "model": "VLR_T1_LAST",
+        "split": "development",
+        "clips": 30,
+        "independent_count_checks": 330,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00077_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00051_000000_3_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "a35d4258e1d909c5e490cacb207f72b5eef2f5c0f6fac074a600828e8eb87bf5",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "9e31b2379a3ed90637a1af9081a915ecce9201db19fa11a2cceb1f1acb53d32b",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 30,
+      "stage": "development"
+    },
+    "development_VLR_T1_LAST_02": {
+      "Start.json": {
+        "utc": "2026-10-27T19:04:19.545740+00:00",
+        "pid": 12772,
+        "task": "development_VLR_T1_LAST_02",
+        "model": "VLR_T1_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T19:06:26.562998+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_T1_LAST_02",
+        "clips": 30,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 127.01678550906945,
+        "predictions_sha256": "8250bbf41a1817e03e6064b2b91b7cf5da7d7937a2d2cab0c81b08b39c6e5abb",
+        "peak_gpu_mib": 1398.59375,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T19:06:43.208420+00:00",
+        "task": "development_VLR_T1_LAST_02",
+        "model": "VLR_T1_LAST",
+        "split": "development",
+        "clips": 30,
+        "independent_count_checks": 330,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "q6EzvwDno3g_00477_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00062_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "8250bbf41a1817e03e6064b2b91b7cf5da7d7937a2d2cab0c81b08b39c6e5abb",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "9e31b2379a3ed90637a1af9081a915ecce9201db19fa11a2cceb1f1acb53d32b",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 30,
+      "stage": "development"
+    },
+    "development_VLR_T1_LAST_03": {
+      "Start.json": {
+        "utc": "2026-10-27T19:03:59.547934+00:00",
+        "pid": 12758,
+        "task": "development_VLR_T1_LAST_03",
+        "model": "VLR_T1_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T19:06:03.517088+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_T1_LAST_03",
+        "clips": 30,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 123.9686531900661,
+        "predictions_sha256": "5a0b3bb1d9f30e6bf9d7b03bbb0cb964d48796844a1abd222a0cfc3bf708bae4",
+        "peak_gpu_mib": 1416.5625,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T19:06:21.716631+00:00",
+        "task": "development_VLR_T1_LAST_03",
+        "model": "VLR_T1_LAST",
+        "split": "development",
+        "clips": 30,
+        "independent_count_checks": 330,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00048_000001_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00096_000000_4_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "5a0b3bb1d9f30e6bf9d7b03bbb0cb964d48796844a1abd222a0cfc3bf708bae4",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "9e31b2379a3ed90637a1af9081a915ecce9201db19fa11a2cceb1f1acb53d32b",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 30,
+      "stage": "development"
+    },
+    "development_VLR_T1_LAST_04": {
+      "Start.json": {
+        "utc": "2026-10-27T19:06:45.560624+00:00",
+        "pid": 12890,
+        "task": "development_VLR_T1_LAST_04",
+        "model": "VLR_T1_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T19:08:51.139800+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_T1_LAST_04",
+        "clips": 30,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 125.57868721405976,
+        "predictions_sha256": "e6df24f2bbff807ab34f6c8aa7abfe515941ae1dbcc0b64c74e6a221c6eb85c1",
+        "peak_gpu_mib": 1391.11328125,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T19:09:10.462284+00:00",
+        "task": "development_VLR_T1_LAST_04",
+        "model": "VLR_T1_LAST",
+        "split": "development",
+        "clips": 30,
+        "independent_count_checks": 330,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "lHHYea8b5YY_00203_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "cJT4MhylatU_00001_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "e6df24f2bbff807ab34f6c8aa7abfe515941ae1dbcc0b64c74e6a221c6eb85c1",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "9e31b2379a3ed90637a1af9081a915ecce9201db19fa11a2cceb1f1acb53d32b",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 30,
+      "stage": "development"
+    },
+    "development_VLR_T1_LAST_05": {
+      "Start.json": {
+        "utc": "2026-10-27T19:06:23.559519+00:00",
+        "pid": 12838,
+        "task": "development_VLR_T1_LAST_05",
+        "model": "VLR_T1_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T19:08:20.980631+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_T1_LAST_05",
+        "clips": 29,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 117.42065594589803,
+        "predictions_sha256": "95ef99cd1dbb30e70b04efe446d2445e38f322c54e9e5f3c382ca3b42853a4d6",
+        "peak_gpu_mib": 1404.43603515625,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T19:08:38.267220+00:00",
+        "task": "development_VLR_T1_LAST_05",
+        "model": "VLR_T1_LAST",
+        "split": "development",
+        "clips": 29,
+        "independent_count_checks": 319,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "ogZYxDqKMMU_00001_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "9R8hiDB_YCg_00183_000003_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "95ef99cd1dbb30e70b04efe446d2445e38f322c54e9e5f3c382ca3b42853a4d6",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "9e31b2379a3ed90637a1af9081a915ecce9201db19fa11a2cceb1f1acb53d32b",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 29,
+      "stage": "development"
+    },
+    "development_VLR_T1_LAST_06": {
+      "Start.json": {
+        "utc": "2026-10-27T19:09:11.574505+00:00",
+        "pid": 12970,
+        "task": "development_VLR_T1_LAST_06",
+        "model": "VLR_T1_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T19:11:03.680653+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_T1_LAST_06",
+        "clips": 29,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 112.10568782291375,
+        "predictions_sha256": "f09720704cfc76177601d8e775b2e1ac8da909108b809e28e52cd0d877a41528",
+        "peak_gpu_mib": 1392.4619140625,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T19:11:21.291522+00:00",
+        "task": "development_VLR_T1_LAST_06",
+        "model": "VLR_T1_LAST",
+        "split": "development",
+        "clips": 29,
+        "independent_count_checks": 319,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "8MP64Zu6Rg4_00064_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "YBhi1DhTn0g_00025_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "f09720704cfc76177601d8e775b2e1ac8da909108b809e28e52cd0d877a41528",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "9e31b2379a3ed90637a1af9081a915ecce9201db19fa11a2cceb1f1acb53d32b",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 29,
+      "stage": "development"
+    },
+    "development_VLR_T1_LAST_07": {
+      "Start.json": {
+        "utc": "2026-10-27T19:08:39.573306+00:00",
+        "pid": 12956,
+        "task": "development_VLR_T1_LAST_07",
+        "model": "VLR_T1_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T19:10:31.467514+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_T1_LAST_07",
+        "clips": 29,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 111.89374209090602,
+        "predictions_sha256": "0ce94af14203835c5b08bd065c1da1eddbfccbf30ca6dfc71d395e043f86dd79",
+        "peak_gpu_mib": 1481.7802734375,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": {
+        "status": "passed",
+        "utc": "2026-10-27T19:10:48.305147+00:00",
+        "task": "development_VLR_T1_LAST_07",
+        "model": "VLR_T1_LAST",
+        "split": "development",
+        "clips": 29,
+        "independent_count_checks": 319,
+        "fresh_pixel_replays": [
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "BrUZv6J2E-s_00524_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "beam_c0.1",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "beam_c0.5",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "beam_c0.9",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "beam_c1.0",
+            "score_error": 0.0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b0.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b-0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b0.5",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b-1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b1.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b-2.0",
+            "score_error": 0
+          },
+          {
+            "clip_id": "5yT8K2NZAww_00023_000000_1_-1.00",
+            "decoder": "greedy_b2.0",
+            "score_error": 0
+          }
+        ],
+        "predictions_sha256": "0ce94af14203835c5b08bd065c1da1eddbfccbf30ca6dfc71d395e043f86dd79",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "checkpoint_sha256": "9e31b2379a3ed90637a1af9081a915ecce9201db19fa11a2cceb1f1acb53d32b",
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Failure.json": null,
+      "clips_written": 29,
+      "stage": "development"
+    },
+    "development_VLR_T0_29_LAST_00": {
+      "Start.json": {
+        "utc": "2026-10-27T19:11:23.585196+00:00",
+        "pid": 13088,
+        "task": "development_VLR_T0_29_LAST_00",
+        "model": "VLR_T0_29_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 24,
+      "stage": "development"
+    },
+    "development_VLR_T0_29_LAST_01": {
+      "Start.json": {
+        "utc": "2026-10-27T19:10:49.584822+00:00",
+        "pid": 13036,
+        "task": "development_VLR_T0_29_LAST_01",
+        "model": "VLR_T0_29_LAST",
+        "stage": "development",
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "admission_sha256": "a4c59e015890c56ba1b10361d685d205af8338a2173c955e49e3d639d836bd7d",
+        "deadline_unix": 1793149444.6591568,
+        "selection_sha256": null
+      },
+      "Complete.json": {
+        "utc": "2026-10-27T19:13:15.038681+00:00",
+        "status": "complete_pending_independent_verification",
+        "task": "development_VLR_T0_29_LAST_01",
+        "clips": 30,
+        "candidate_order": [
+          "beam_c0.1",
+          "beam_c0.5",
+          "beam_c0.9",
+          "beam_c1.0",
+          "greedy_b0.0",
+          "greedy_b-0.5",
+          "greedy_b0.5",
+          "greedy_b-1.0",
+          "greedy_b1.0",
+          "greedy_b-2.0",
+          "greedy_b2.0"
+        ],
+        "seconds": 145.45339865994174,
+        "predictions_sha256": "249f4dbe727d8e8f89650f428b8fa90798313ac3ce57285d2c0e701ee75c08f5",
+        "peak_gpu_mib": 1387.595703125,
+        "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+        "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+      },
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 30,
+      "stage": "development"
+    },
+    "development_VLR_T0_29_LAST_02": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VLR_T0_29_LAST_03": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VLR_T0_29_LAST_04": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VLR_T0_29_LAST_05": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VLR_T0_29_LAST_06": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VLR_T0_29_LAST_07": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VLR_T1_29_LAST_00": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VLR_T1_29_LAST_01": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VLR_T1_29_LAST_02": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VLR_T1_29_LAST_03": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VLR_T1_29_LAST_04": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VLR_T1_29_LAST_05": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VLR_T1_29_LAST_06": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VLR_T1_29_LAST_07": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VC_NATIVE_00": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VC_NATIVE_01": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VC_NATIVE_02": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VC_NATIVE_03": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VC_NATIVE_04": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VC_NATIVE_05": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VC_NATIVE_06": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "development_VC_NATIVE_07": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "development"
+    },
+    "assessment_VLR_B0_00": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_B0_01": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_B0_02": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_B0_03": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_B0_04": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_B0_05": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_B0_06": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_B0_07": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T0_LAST_00": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T0_LAST_01": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T0_LAST_02": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T0_LAST_03": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T0_LAST_04": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T0_LAST_05": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T0_LAST_06": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T0_LAST_07": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T1_LAST_00": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T1_LAST_01": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T1_LAST_02": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T1_LAST_03": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T1_LAST_04": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T1_LAST_05": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T1_LAST_06": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T1_LAST_07": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T0_29_LAST_00": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T0_29_LAST_01": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T0_29_LAST_02": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T0_29_LAST_03": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T0_29_LAST_04": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T0_29_LAST_05": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T0_29_LAST_06": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T0_29_LAST_07": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T1_29_LAST_00": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T1_29_LAST_01": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T1_29_LAST_02": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T1_29_LAST_03": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T1_29_LAST_04": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T1_29_LAST_05": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T1_29_LAST_06": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VLR_T1_29_LAST_07": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VC_NATIVE_00": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VC_NATIVE_01": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VC_NATIVE_02": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VC_NATIVE_03": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VC_NATIVE_04": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VC_NATIVE_05": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VC_NATIVE_06": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    },
+    "assessment_VC_NATIVE_07": {
+      "Start.json": null,
+      "Complete.json": null,
+      "Verification.json": null,
+      "Failure.json": null,
+      "clips_written": 0,
+      "stage": "assessment"
+    }
+  },
+  "Pipeline_Status.json": {
+    "utc": "2026-10-27T18:38:57.261351+00:00",
+    "stage": "development",
+    "lanes": 2
+  },
+  "Failure.json": null,
+  "Development_Complete.json": null,
+  "Lifecycle_Complete.json": null,
+  "Stop_Retry.json": null
+}

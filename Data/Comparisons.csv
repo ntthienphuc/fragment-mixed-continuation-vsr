@@ -1,0 +1,7 @@
+language,seed,decoder_regime,comparison,gain_pp,ci95_low_pp,ci95_high_pp,resampling_unit
+VI,17,primary,FC minus FM; positive favors FM,5.5631251869329645,4.939633843553391,6.3506900160165305,20 original-video groups
+VI,29,primary,FC minus FM; positive favors FM,3.535940979030279,2.3597693192561002,4.768123720677726,20 original-video groups
+VI,17,common,FC minus FM; positive favors FM,3.409657372636339,2.8917049947063567,4.119025479417442,20 original-video groups
+VI,29,common,FC minus FM; positive favors FM,3.170383171047817,2.6826043047307295,3.8846562268498332,20 original-video groups
+EN,17,primary,FC minus FM; positive favors FM,0.024980744009823752,-0.3712477461029393,0.42811615363954797,2854 released clips; conditional
+EN,17,common,FC minus FM; positive favors FM,-0.06661531735953474,-0.3380033457292772,0.21036183037497524,2854 released clips; conditional

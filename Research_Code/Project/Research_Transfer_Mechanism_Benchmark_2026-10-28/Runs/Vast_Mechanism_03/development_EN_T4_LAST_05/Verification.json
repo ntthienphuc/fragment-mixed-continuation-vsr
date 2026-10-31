@@ -1,0 +1,166 @@
+{
+  "utc": "2026-10-28T13:34:05.145384+00:00",
+  "status": "passed",
+  "task": "development_EN_T4_LAST_05",
+  "purpose": "full_evaluation",
+  "model": "EN_T4_LAST",
+  "split": "development",
+  "clips": 135,
+  "independent_counts_checked": 1485,
+  "fresh_pixel_replays": [
+    {
+      "position": 202,
+      "candidate": "beam_c0.1",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 202,
+      "candidate": "beam_c0.5",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 202,
+      "candidate": "beam_c0.9",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 202,
+      "candidate": "beam_c1.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 202,
+      "candidate": "greedy_b0.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 202,
+      "candidate": "greedy_b-0.5",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 202,
+      "candidate": "greedy_b0.5",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 202,
+      "candidate": "greedy_b-1.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 202,
+      "candidate": "greedy_b1.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 202,
+      "candidate": "greedy_b-2.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 202,
+      "candidate": "greedy_b2.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 228,
+      "candidate": "beam_c0.1",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 228,
+      "candidate": "beam_c0.5",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 228,
+      "candidate": "beam_c0.9",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 228,
+      "candidate": "beam_c1.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 228,
+      "candidate": "greedy_b0.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 228,
+      "candidate": "greedy_b-0.5",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 228,
+      "candidate": "greedy_b0.5",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 228,
+      "candidate": "greedy_b-1.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 228,
+      "candidate": "greedy_b1.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 228,
+      "candidate": "greedy_b-2.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 228,
+      "candidate": "greedy_b2.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    }
+  ],
+  "candidate_order": [
+    "beam_c0.1",
+    "beam_c0.5",
+    "beam_c0.9",
+    "beam_c1.0",
+    "greedy_b0.0",
+    "greedy_b-0.5",
+    "greedy_b0.5",
+    "greedy_b-1.0",
+    "greedy_b1.0",
+    "greedy_b-2.0",
+    "greedy_b2.0"
+  ],
+  "checkpoint_sha256": "d307767052f9399535d3edafa9fed2eea51a8226cdb2df8d9e81ea4a7382fb6a",
+  "plan_sha256": "8d3e81d8fed2ef8a6b795d7bae28cf89068c0c430ef38c8b1335c9732daceaf5",
+  "execution_lock_sha256": "d2680ccaa1a012cc36d34b76f4b53f07c2805fe97f823bac59d711a0c1f07b5d",
+  "predictions_sha256": "4d0800bb9152cf64677545bc3517a3f26d85511cf00762b4caa9869204b8b789",
+  "complete_sha256": "4ff71859753a25f0a04630dd67052b38df8f1663241956973d2b94d0bd35a814",
+  "start_sha256": "168dae5d56489f1e32d30456a2161e490b4e636b5ee3e490865488131e8656f1",
+  "identity_sha256": "608776807ae118f719efd6a3254f478b11faf3565b308587dc1b0f4cb591fe2b",
+  "verification_admission_sha256": "28a131b85f1ba3526d03ed3282d73ccdf8a234a5238288d0ca12c4c1758ac248",
+  "verifier_sha256": "653fe5a3015a105e7044677572f2bd6fc611d4417ee0f541e08911a8e4966116"
+}

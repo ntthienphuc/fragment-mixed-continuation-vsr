@@ -1,0 +1,75 @@
+{
+  "status": "completed_split_assessment_with_verified_cross_gpu_comparability",
+  "comparison_records": 715,
+  "distinct_corpus_clip_pairs": 713,
+  "checks": [
+    {
+      "task": "source_probe",
+      "clips": 6,
+      "score_atol": 0.0001,
+      "max_score_error": 4.00543212890625e-05,
+      "tokens_text_counts_pixels_trace_exact": true,
+      "reference_sha256": "1e1daae5dec6ec097e8b86c56893abfaaf0eee80d4c0b47719d448d724ec87d8",
+      "candidate_sha256": "46caf04ad580860cb1ebd770352a3f24ccfe6b2e02057df7ec2fab244c33527c"
+    },
+    {
+      "task": "assessment_probe",
+      "clips": 6,
+      "score_atol": 0.0001,
+      "max_score_error": 5.53131103515625e-05,
+      "tokens_text_counts_pixels_trace_exact": true,
+      "reference_sha256": "715828f4de61104cb476e812c1021410d9adf64e370ca3a63d7d53dd21462ddb",
+      "candidate_sha256": "b90de34e059bb843804e76f088afac8b087bef52e22bddb2c0a3c16f1a5bffbb"
+    },
+    {
+      "task": "source_00",
+      "clips": 703,
+      "score_atol": 0.0001,
+      "max_score_error": 6.4849853515625e-05,
+      "tokens_text_counts_pixels_trace_exact": true,
+      "reference_sha256": "9f790258d5a7153878b89141d79fa48c29580ba50a30e5372f01ed5be6a53364",
+      "candidate_sha256": "69193d0033e0f08a9c60c06ea56338cd23cd04795077bb028ce1a8d07746de5a"
+    }
+  ],
+  "overlap_shard_in_aggregation": false,
+  "gpu_types": [
+    "NVIDIA GeForce RTX 3060",
+    "NVIDIA GeForce RTX 4090"
+  ],
+  "torch": "2.8.0+cu128",
+  "numpy": "1.26.4",
+  "precision": "float32",
+  "tf32": false,
+  "private_gpu_tasks": [
+    "source_00",
+    "source_01",
+    "source_02",
+    "source_03",
+    "source_04",
+    "source_05"
+  ],
+  "paid_gpu_tasks": [
+    "source_06",
+    "source_07",
+    "source_08",
+    "source_09",
+    "source_10",
+    "source_11",
+    "source_12",
+    "source_13",
+    "source_14",
+    "source_15",
+    "assessment_00",
+    "assessment_01",
+    "assessment_02",
+    "assessment_03",
+    "assessment_04",
+    "assessment_05",
+    "assessment_06",
+    "assessment_07"
+  ],
+  "same_checkpoint_code_pixels_tokenizer_and_decoder": true,
+  "comparison_protocol_sha256": "3559f3ea4fb97f843bd62dad8314fd4dc48a97879f8adacfbc34f74c6d104155",
+  "local_cross_host_verification_sha256": "a5ef6ae339d5e8091797f3d87e0a3185972b41a036426eb35c5d9d9ac2d79687",
+  "scope": "Archived actual GPU parity checks; portable package reproduces counts, not neural inference"
+}

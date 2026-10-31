@@ -1,0 +1,58 @@
+[
+  {
+    "method": "T0",
+    "variant": "best",
+    "step": 5000,
+    "checkpoint": "Research_Seed_Replication_2026-10-15/Model_States/vlr_T0_29/best.pt",
+    "checkpoint_sha256": "1b6f3891d6449e124c236e18b207fff04ea6f510b9397b03141c53f7ffbd733b",
+    "original_sha256": "d9058ad3b4decfb7b83aa0f38213bd54a58e214757e52988fcd1ba9d4d60e838",
+    "tensors": 767,
+    "tensor_structure_matches_seed17": true,
+    "training_identity_matches_except_seed": true,
+    "completed_record_sha256": "6225c8d6c6b1ccc2289421d1de294ad43baa093460958588d4dfedba200ceab0",
+    "historical_tensor_equality_verified": true,
+    "original_tensor_equality_recomputed_now": false
+  },
+  {
+    "method": "T0",
+    "variant": "last",
+    "step": 6000,
+    "checkpoint": "Research_Seed_Replication_2026-10-15/Model_States/vlr_T0_29/last.pt",
+    "checkpoint_sha256": "a879197acb3a9cacb67f3cb3b1146a7a8833a9c7ca0d4adfed74466eba8f60c5",
+    "original_sha256": "1dd9b4f5aa7bf84d8d5e3a25463a6e0cd72b5f2583fc3f420f03b4976216cfe8",
+    "tensors": 767,
+    "tensor_structure_matches_seed17": true,
+    "training_identity_matches_except_seed": true,
+    "completed_record_sha256": "6225c8d6c6b1ccc2289421d1de294ad43baa093460958588d4dfedba200ceab0",
+    "historical_tensor_equality_verified": true,
+    "original_tensor_equality_recomputed_now": false
+  },
+  {
+    "method": "T1",
+    "variant": "best",
+    "step": 5500,
+    "checkpoint": "Research_Seed_Replication_2026-10-15/Model_States/vlr_T1_29/best.pt",
+    "checkpoint_sha256": "7f487d227c990389fd2ef18b126b9ea0679b3478ef21acf6d98a86a7b3dd0042",
+    "original_sha256": "bdc811df959d3b7705547c453e88008c6663031b14ff12b641bbd9b5e4d979dd",
+    "tensors": 767,
+    "tensor_structure_matches_seed17": true,
+    "training_identity_matches_except_seed": true,
+    "completed_record_sha256": "53305d7a00e707fe64a90f4951c2237b13e90d8a72c2c16ec7120e60c8c94038",
+    "historical_tensor_equality_verified": true,
+    "original_tensor_equality_recomputed_now": false
+  },
+  {
+    "method": "T1",
+    "variant": "last",
+    "step": 6000,
+    "checkpoint": "Research_Seed_Replication_2026-10-15/Model_States/vlr_T1_29/last.pt",
+    "checkpoint_sha256": "2a42b94bf3bfe1333e2953678c4ec3ebfc08033071ded6d2455db89694b27500",
+    "original_sha256": "74f1e126c2bef9357116a3b3f46187b9d2cebd24f4429ea7f79481f507e7c962",
+    "tensors": 767,
+    "tensor_structure_matches_seed17": true,
+    "training_identity_matches_except_seed": true,
+    "completed_record_sha256": "53305d7a00e707fe64a90f4951c2237b13e90d8a72c2c16ec7120e60c8c94038",
+    "historical_tensor_equality_verified": true,
+    "original_tensor_equality_recomputed_now": false
+  }
+]

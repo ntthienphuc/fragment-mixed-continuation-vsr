@@ -1,0 +1,105 @@
+[
+  {
+    "name": "Code.zip",
+    "sha256": "15171e7750ddd3820b383db2871d7ab7555f6a6991b6fc96b109343bcf24a526",
+    "roots": [
+      "LICENSE",
+      "README.md",
+      "recount.py",
+      "reproduce.py",
+      "requirements.txt",
+      "short_only.py",
+      "uncertainty.py"
+    ]
+  },
+  {
+    "name": "Data.zip",
+    "sha256": "9cb01ec5afbb953526d74b92d2ad8c7e7da93577c368a54e64a61917f0afbe46",
+    "roots": [
+      "Comparisons.csv",
+      "Dataset_Figure_Frames.csv",
+      "Dataset_Figure_Provenance.json",
+      "Identity_Verification.json",
+      "LICENSE-DATA-CC-BY-4.0.txt",
+      "Length_Counts.csv",
+      "Loss_Reduction",
+      "Matched_Crops",
+      "Matched_Source",
+      "Mechanism_Adoption.json",
+      "Mechanism_Comparisons.csv",
+      "Mechanism_Edit_Changes.csv",
+      "Method_Mapping.csv",
+      "Model_Identities.csv",
+      "Per_Clip_Errors.csv",
+      "README.md",
+      "Results.csv",
+      "Short_Only",
+      "Source_Comparisons.csv",
+      "Source_Destination_Profile.csv",
+      "Source_Evidence_Verification.json",
+      "Source_Manifest.json",
+      "Source_Per_Clip_Errors.csv",
+      "Source_Results.csv",
+      "Training_Design_Provenance.json",
+      "Training_Exposure.csv",
+      "Training_Exposure_Seed29_Provenance.json",
+      "Training_Label_Coverage.csv",
+      "Verification.json"
+    ]
+  },
+  {
+    "name": "Research_Code.zip",
+    "sha256": "4dba7ea5d7b1576b77ad4f77a7d7768a8b1a9a8cdd61b4a4362faccf220299b4",
+    "roots": [
+      "Assembly.json",
+      "External_Assets.json",
+      "Metadata",
+      "Project",
+      "README.md",
+      "REPRODUCE.md",
+      "Source_Manifest.json",
+      "Verification.json",
+      "verify_release.py"
+    ]
+  },
+  {
+    "name": "Matched_Training_Source.zip",
+    "sha256": "0ad06c09c87757062852796c0c9efe9b78aa9dd8858bec56d7210b249dbf89d3",
+    "roots": [
+      "Drivers",
+      "LICENSE",
+      "Packet",
+      "Preparation",
+      "README.md",
+      "Short_Only_Training_Evidence.json",
+      "Source_Manifest.json",
+      "Training_Identities.json"
+    ]
+  },
+  {
+    "name": "Greedy_Diagnostic.zip",
+    "sha256": "2ae47232a359a044577514836368192b2025e571d47c51461f9eb357570ba8c5",
+    "roots": [
+      "Code",
+      "Data",
+      "Manifest.json",
+      "Project",
+      "README.md",
+      "Results",
+      "Source",
+      "Supplement.pdf"
+    ]
+  },
+  {
+    "name": "Manuscript.pdf",
+    "sha256": "3527be9e4987a6f931d1dd5b4beec71f8a45c36a526e1a9d3f98709885fbf099"
+  },
+  {
+    "name": "Supplement.pdf",
+    "sha256": "223d874fbc1935fe5049641aa12de119c8751927649e913e3583218fa3d0da65"
+  },
+  {
+    "name": "Overleaf_Source.zip",
+    "sha256": "f93f7bf80982466cc5c03e756d0e047fb087a0eeafae47a05b56b20722d3821e"
+  }
+]

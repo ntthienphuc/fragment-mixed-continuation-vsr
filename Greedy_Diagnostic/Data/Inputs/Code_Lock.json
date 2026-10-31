@@ -1,0 +1,13 @@
+{
+  "files": {
+    "Research_Greedy_Readout_Diagnostic_2026-10-31/Protocol.md": "37f0c04f3a234cd096fbb21e75e7506905f1dfb0a8d07e34b56d301d8538fae6",
+    "Research_Greedy_Readout_Diagnostic_2026-10-31/run.py": "595bfb93c467e408f0b15ba974b4718859c12f5abec7f2299bfb00ab95936470",
+    "Research_Greedy_Readout_Diagnostic_2026-10-31/Bindings/MATCHED_FC17/model_registry.json": "f0e5c2e99b34f12e8e872c2183afc96495f4c5936835e8fe84c9b3b3404e85a4",
+    "Research_Greedy_Readout_Diagnostic_2026-10-31/Bindings/MATCHED_SO17/model_registry.json": "3b8ddf79412335544489d87182e73721ccf759c11e38816b709bd9d816c74713",
+    "Research_Greedy_Readout_Diagnostic_2026-10-31/Bindings/MATCHED_WW17/model_registry.json": "ed7df83914d79aaa2371763377b39d10738e20e899bc718ae2eb6618f5871f59",
+    "Research_Short_Only_Control_2026-10-30/Assessment/common.py": "c04ed2c4ee948849c04cd813c031134aabb86aa4dfe6dd0cee29fd9509b8fae5",
+    "Research_Short_Only_Control_2026-10-30/Assessment/data_tasks.py": "49a3fcf300b4b06a82db03b4083f2c97ca6fd1691385e9d26ff3f23b00879dec",
+    "Research_Short_Only_Control_2026-10-30/Assessment/runtime_bridge.py": "bf19b714cf8e4e9e279d3f6eceaf1dc1e8b7e6d0e09cce303a89c11db5c37a60",
+    "Research_Short_Only_Control_2026-10-30/Assessment/Plan.json": "d42907694523182aa3c18749b38bfcbb210cd43bc546105b1ac5caaf6110b93b"
+  }
+}

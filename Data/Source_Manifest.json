@@ -1,0 +1,62 @@
+{
+  "utc": "2026-10-29T07:48:27.623057+00:00",
+  "status": "completed_parent_and_mechanism_results_exported",
+  "running_T2_T4_scores_included": false,
+  "source_files": {
+    "vi_primary": {
+      "path": "Research_Transfer_Full_Benchmark_2026-10-27/Assessment_Analysis_01/Summary.json",
+      "sha256": "584f748a0a065a100cbb684680473562605bf503d895f62e2c2523be15324b2c"
+    },
+    "vi_common": {
+      "path": "Research_Transfer_Decoder_Anchor_2026-10-28/Analysis_01/Results_01/Summary.json",
+      "sha256": "ad97aec0088145e55e365708e7d34bb12ae45176b5e6f7b9fb5917a759176af4"
+    },
+    "vi_selection": {
+      "path": "Research_Transfer_Full_Benchmark_2026-10-27/Decoder_Selection.json",
+      "sha256": "e829ff5a971edf4edeff36f44fdcaeb9e4f06dcda8c487214a939060b1439846"
+    },
+    "en": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Assessment_Analysis_01/Summary.json",
+      "sha256": "89c7147ff52ad4d76c48bff3eedea337294eae9dce7407162124b323ba5788fb"
+    },
+    "en_full_pool": {
+      "path": "Research_English_Full_Corpus_Control_2026-10-28/Assessment_Analysis_01/Summary.json",
+      "sha256": "5e2eb6eab9af793654e3dcf29d94dc312aa1ab67ceecb627ba0c0d9aaf06de3a"
+    },
+    "vi_exposure": {
+      "path": "Research_Transfer_Training_Exposure_2026-10-27/Replay_03/Summary.json",
+      "sha256": "15b89252c449ecc9d1f0457d53df821c4313374c224091561dc9e60ef4c9f024"
+    },
+    "en_exposure": {
+      "path": "Research_English_Training_Scope_2026-10-28/Replay_01/Summary.json",
+      "sha256": "151ed317fc6c93debe16eaba675d35ce7ad94236b22079d8dadc508aa5a0de6b"
+    },
+    "en_exposure_verification": {
+      "path": "Research_English_Training_Scope_2026-10-28/Replay_01/Verification.json",
+      "sha256": "365a877206bf8e238bec5d51ce4f1381ae723d712eb48bc5bbadf3a019a22be0"
+    },
+    "length": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Completed_Parent_Length_Diagnostic_01/Paired_Length_Counts.csv",
+      "sha256": "7f7974bc2c300f1da1a097cb3897af315a0d0c58d570d605f25fff16aceb2349"
+    },
+    "complete_mechanism_Summary.json": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/Results_02/Summary.json",
+      "sha256": "fb8afed2069e2ed4303135966bdd84e74fa1c4c5d6bd9427b92cc491888f2554"
+    },
+    "complete_mechanism_Per_Clip_Counts.csv": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/Results_02/Per_Clip_Counts.csv",
+      "sha256": "ab7cdc4345d72361bc4005cb119bbb11760487af25f6e0dd42dd28c99de7e212"
+    }
+  },
+  "result_rows": 30,
+  "comparison_rows": 6,
+  "exporter_sha256": "dcc89a172f87e4cf8603a0567e08e532125ab780a739fc7a139c0ce00a54415f",
+  "parent_exporter_sha256": "bf0e78ec721ff70eb8f2f9be9fa449cb42067b1e0b2a9b7f8ef3463139b01e46",
+  "completed_T2_T4_scores_included": true,
+  "mechanism_comparison_rows": 16,
+  "mechanism_edit_change_rows": 8,
+  "per_clip_rows": 58628,
+  "unique_clips": 4021,
+  "staging_verification_sha256": "0d8b41c00cf2be84e39d0422c0709dfbceabc78ba81c3d4b1d033994838aa854",
+  "completed_exporter_sha256": "5a1ba7823426a39bf2b2438647a953aa7ab029e8733b091f3db35d72cb6a7e01"
+}

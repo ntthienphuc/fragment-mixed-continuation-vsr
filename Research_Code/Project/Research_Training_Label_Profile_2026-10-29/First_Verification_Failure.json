@@ -1,0 +1,9 @@
+{
+  "observed_utc": "2026-10-29T11:47:53Z",
+  "check": "individual word CSV tokens equal full-transcript manifest tokens",
+  "status": "failed",
+  "clip_id": "part7/DAYHO3/BAI3258/BAI3258_63",
+  "difference": "The word CSV retains a leading U+0E3A THAI CHARACTER PHINTHU before Bhagavad; the full-transcript manifest omits it.",
+  "action": "Preserve the discrepancy and independently compare word CSV rows to prepared word rows; do not normalize it away or alter training.",
+  "recognition_result": false
+}

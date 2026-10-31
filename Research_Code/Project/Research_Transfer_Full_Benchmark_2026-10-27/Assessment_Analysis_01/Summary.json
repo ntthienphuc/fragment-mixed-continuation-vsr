@@ -1,0 +1,1228 @@
+{
+  "models": {
+    "VLR_B0": {
+      "wer": 70.05749227343723,
+      "counts": {
+        "errors": 21081,
+        "substitutions": 10154,
+        "deletions": 10324,
+        "insertions": 603,
+        "units": 30091
+      }
+    },
+    "VLR_T0_LAST": {
+      "wer": 67.44541557276261,
+      "counts": {
+        "errors": 20295,
+        "substitutions": 11378,
+        "deletions": 7974,
+        "insertions": 943,
+        "units": 30091
+      }
+    },
+    "VLR_T1_LAST": {
+      "wer": 61.88229038582965,
+      "counts": {
+        "errors": 18621,
+        "substitutions": 11143,
+        "deletions": 6781,
+        "insertions": 697,
+        "units": 30091
+      }
+    },
+    "VLR_T0_29_LAST": {
+      "wer": 66.9834834335848,
+      "counts": {
+        "errors": 20156,
+        "substitutions": 11428,
+        "deletions": 7815,
+        "insertions": 913,
+        "units": 30091
+      }
+    },
+    "VLR_T1_29_LAST": {
+      "wer": 63.447542454554515,
+      "counts": {
+        "errors": 19092,
+        "substitutions": 11963,
+        "deletions": 6403,
+        "insertions": 726,
+        "units": 30091
+      }
+    },
+    "VC_NATIVE": {
+      "wer": 38.50320693895185,
+      "counts": {
+        "errors": 11586,
+        "substitutions": 9489,
+        "deletions": 1382,
+        "insertions": 715,
+        "units": 30091
+      }
+    }
+  },
+  "pairs": {
+    "VLR_T0_LAST_minus_VLR_T1_LAST": {
+      "gain_pp": 5.5631251869329645,
+      "source_ci95_pp": [
+        4.939633843553391,
+        6.3506900160165305
+      ],
+      "source_gain_pp": {
+        "4U9hGIOzrf0": 5.1993067590987865,
+        "6dcgD2bzQqU": 5.291005291005291,
+        "CivSbWDg8ig": 2.9946524064171123,
+        "F2lyXr1rKNk": 7.440592130892092,
+        "FrFQm6bdjQ4": 8.108108108108109,
+        "Nnd75WTJPpw": 5.042553191489362,
+        "Qluuvu84t54": 6.943788379782712,
+        "T02aU8qpshQ": 4.783748361730013,
+        "TCmeVds5Jkg": 5.970149253731344,
+        "UDmiyTb2XKU": 5.149051490514905,
+        "Zg9wS4_pbjg": 6.216628527841342,
+        "_J1u_2LMCqM": 7.897240723120837,
+        "bf2cw7HgaCU": 4.235567159849144,
+        "bsNAjjDqn5k": 7.261410788381743,
+        "eOulw3RRE9g": 4.336043360433604,
+        "grCKOBOuvnM": 3.3582089552238807,
+        "q8vPZmApqyc": 1.408450704225352,
+        "qjWiGqSEv5U": 5.7334326135517495,
+        "uWYBxYIuER4": 4.518664047151277,
+        "x2Gd7wNNfIw": 8.618233618233619
+      },
+      "unweighted_mean_source_gain_pp": 5.5253417935391145,
+      "sources_better_worse_equal": [
+        20,
+        0,
+        0
+      ]
+    },
+    "VLR_T0_29_LAST_minus_VLR_T1_29_LAST": {
+      "gain_pp": 3.535940979030279,
+      "source_ci95_pp": [
+        2.3597693192561002,
+        4.768123720677726
+      ],
+      "source_gain_pp": {
+        "4U9hGIOzrf0": 7.79896013864818,
+        "6dcgD2bzQqU": 3.7037037037037037,
+        "CivSbWDg8ig": 1.8181818181818181,
+        "F2lyXr1rKNk": 6.8172964550058435,
+        "FrFQm6bdjQ4": 1.3513513513513513,
+        "Nnd75WTJPpw": 4.9361702127659575,
+        "Qluuvu84t54": 3.1648559282002835,
+        "T02aU8qpshQ": 1.5399737876802098,
+        "TCmeVds5Jkg": 1.9517795637198623,
+        "UDmiyTb2XKU": 2.9810298102981028,
+        "Zg9wS4_pbjg": 3.2799389778794814,
+        "_J1u_2LMCqM": 1.9980970504281637,
+        "bf2cw7HgaCU": 2.001740644038294,
+        "bsNAjjDqn5k": 2.4896265560165975,
+        "eOulw3RRE9g": 9.051490514905149,
+        "grCKOBOuvnM": 2.611940298507463,
+        "q8vPZmApqyc": 4.225352112676056,
+        "qjWiGqSEv5U": 2.084884586746091,
+        "uWYBxYIuER4": 2.013752455795678,
+        "x2Gd7wNNfIw": 0.5698005698005698
+      },
+      "unweighted_mean_source_gain_pp": 3.3194963268174424,
+      "sources_better_worse_equal": [
+        20,
+        0,
+        0
+      ]
+    }
+  },
+  "fixed_two_seed_mean": {
+    "gain_pp": 4.549533082981622,
+    "source_ci95_pp": [
+      3.8415093617708136,
+      5.3019880631512954
+    ],
+    "scope": "Source uncertainty conditional on the two fitted seeds and locked decoders; not seed-population CI",
+    "same_source_draws_for_both_seeds": true
+  },
+  "independent_scalar_bootstrap_checks": 202,
+  "status": "complete_full_test_with_development_locked_decoders",
+  "utc": "2026-10-27T21:58:36.005657+00:00",
+  "clips": 1167,
+  "sources": 20,
+  "models_order": [
+    "VLR_B0",
+    "VLR_T0_LAST",
+    "VLR_T1_LAST",
+    "VLR_T0_29_LAST",
+    "VLR_T1_29_LAST",
+    "VC_NATIVE"
+  ],
+  "source_counts": [
+    [
+      [
+        454,
+        108,
+        339,
+        7,
+        577
+      ],
+      [
+        172,
+        100,
+        58,
+        14,
+        189
+      ],
+      [
+        661,
+        420,
+        216,
+        25,
+        935
+      ],
+      [
+        1577,
+        519,
+        1021,
+        37,
+        2567
+      ],
+      [
+        55,
+        46,
+        6,
+        3,
+        74
+      ],
+      [
+        3455,
+        1286,
+        2110,
+        59,
+        4700
+      ],
+      [
+        1339,
+        702,
+        572,
+        65,
+        2117
+      ],
+      [
+        2223,
+        1414,
+        722,
+        87,
+        3052
+      ],
+      [
+        482,
+        346,
+        115,
+        21,
+        871
+      ],
+      [
+        342,
+        241,
+        85,
+        16,
+        369
+      ],
+      [
+        1789,
+        775,
+        958,
+        56,
+        2622
+      ],
+      [
+        581,
+        435,
+        106,
+        40,
+        1051
+      ],
+      [
+        2810,
+        1052,
+        1736,
+        22,
+        3447
+      ],
+      [
+        358,
+        277,
+        53,
+        28,
+        482
+      ],
+      [
+        1502,
+        312,
+        1175,
+        15,
+        1845
+      ],
+      [
+        195,
+        156,
+        28,
+        11,
+        268
+      ],
+      [
+        109,
+        86,
+        20,
+        3,
+        142
+      ],
+      [
+        857,
+        444,
+        395,
+        18,
+        1343
+      ],
+      [
+        1283,
+        814,
+        420,
+        49,
+        2036
+      ],
+      [
+        837,
+        621,
+        189,
+        27,
+        1404
+      ]
+    ],
+    [
+      [
+        431,
+        161,
+        259,
+        11,
+        577
+      ],
+      [
+        172,
+        103,
+        53,
+        16,
+        189
+      ],
+      [
+        647,
+        462,
+        149,
+        36,
+        935
+      ],
+      [
+        1437,
+        601,
+        771,
+        65,
+        2567
+      ],
+      [
+        58,
+        51,
+        4,
+        3,
+        74
+      ],
+      [
+        3289,
+        1415,
+        1789,
+        85,
+        4700
+      ],
+      [
+        1312,
+        734,
+        495,
+        83,
+        2117
+      ],
+      [
+        2210,
+        1555,
+        516,
+        139,
+        3052
+      ],
+      [
+        461,
+        370,
+        65,
+        26,
+        871
+      ],
+      [
+        346,
+        265,
+        61,
+        20,
+        369
+      ],
+      [
+        1676,
+        941,
+        644,
+        91,
+        2622
+      ],
+      [
+        593,
+        451,
+        75,
+        67,
+        1051
+      ],
+      [
+        2640,
+        1267,
+        1333,
+        40,
+        3447
+      ],
+      [
+        370,
+        292,
+        34,
+        44,
+        482
+      ],
+      [
+        1376,
+        436,
+        912,
+        28,
+        1845
+      ],
+      [
+        204,
+        160,
+        22,
+        22,
+        268
+      ],
+      [
+        114,
+        92,
+        14,
+        8,
+        142
+      ],
+      [
+        850,
+        489,
+        338,
+        23,
+        1343
+      ],
+      [
+        1268,
+        845,
+        346,
+        77,
+        2036
+      ],
+      [
+        841,
+        688,
+        94,
+        59,
+        1404
+      ]
+    ],
+    [
+      [
+        401,
+        181,
+        210,
+        10,
+        577
+      ],
+      [
+        162,
+        125,
+        29,
+        8,
+        189
+      ],
+      [
+        619,
+        430,
+        155,
+        34,
+        935
+      ],
+      [
+        1246,
+        572,
+        631,
+        43,
+        2567
+      ],
+      [
+        52,
+        46,
+        4,
+        2,
+        74
+      ],
+      [
+        3052,
+        1460,
+        1514,
+        78,
+        4700
+      ],
+      [
+        1165,
+        700,
+        410,
+        55,
+        2117
+      ],
+      [
+        2064,
+        1519,
+        431,
+        114,
+        3052
+      ],
+      [
+        409,
+        333,
+        62,
+        14,
+        871
+      ],
+      [
+        327,
+        264,
+        51,
+        12,
+        369
+      ],
+      [
+        1513,
+        924,
+        528,
+        61,
+        2622
+      ],
+      [
+        510,
+        410,
+        59,
+        41,
+        1051
+      ],
+      [
+        2494,
+        1352,
+        1107,
+        35,
+        3447
+      ],
+      [
+        335,
+        253,
+        46,
+        36,
+        482
+      ],
+      [
+        1296,
+        442,
+        825,
+        29,
+        1845
+      ],
+      [
+        195,
+        151,
+        28,
+        16,
+        268
+      ],
+      [
+        112,
+        89,
+        13,
+        10,
+        142
+      ],
+      [
+        773,
+        478,
+        283,
+        12,
+        1343
+      ],
+      [
+        1176,
+        803,
+        323,
+        50,
+        2036
+      ],
+      [
+        720,
+        611,
+        72,
+        37,
+        1404
+      ]
+    ],
+    [
+      [
+        425,
+        158,
+        255,
+        12,
+        577
+      ],
+      [
+        170,
+        102,
+        53,
+        15,
+        189
+      ],
+      [
+        640,
+        453,
+        148,
+        39,
+        935
+      ],
+      [
+        1435,
+        621,
+        751,
+        63,
+        2567
+      ],
+      [
+        59,
+        51,
+        4,
+        4,
+        74
+      ],
+      [
+        3269,
+        1461,
+        1725,
+        83,
+        4700
+      ],
+      [
+        1295,
+        733,
+        483,
+        79,
+        2117
+      ],
+      [
+        2196,
+        1553,
+        510,
+        133,
+        3052
+      ],
+      [
+        464,
+        367,
+        71,
+        26,
+        871
+      ],
+      [
+        345,
+        270,
+        57,
+        18,
+        369
+      ],
+      [
+        1658,
+        940,
+        630,
+        88,
+        2622
+      ],
+      [
+        585,
+        449,
+        71,
+        65,
+        1051
+      ],
+      [
+        2624,
+        1271,
+        1313,
+        40,
+        3447
+      ],
+      [
+        365,
+        287,
+        36,
+        42,
+        482
+      ],
+      [
+        1375,
+        444,
+        904,
+        27,
+        1845
+      ],
+      [
+        199,
+        161,
+        21,
+        17,
+        268
+      ],
+      [
+        113,
+        93,
+        13,
+        7,
+        142
+      ],
+      [
+        841,
+        486,
+        332,
+        23,
+        1343
+      ],
+      [
+        1277,
+        855,
+        348,
+        74,
+        2036
+      ],
+      [
+        821,
+        673,
+        90,
+        58,
+        1404
+      ]
+    ],
+    [
+      [
+        380,
+        197,
+        171,
+        12,
+        577
+      ],
+      [
+        163,
+        104,
+        51,
+        8,
+        189
+      ],
+      [
+        623,
+        442,
+        153,
+        28,
+        935
+      ],
+      [
+        1260,
+        673,
+        525,
+        62,
+        2567
+      ],
+      [
+        58,
+        48,
+        7,
+        3,
+        74
+      ],
+      [
+        3037,
+        1611,
+        1343,
+        83,
+        4700
+      ],
+      [
+        1228,
+        793,
+        375,
+        60,
+        2117
+      ],
+      [
+        2149,
+        1576,
+        476,
+        97,
+        3052
+      ],
+      [
+        447,
+        368,
+        57,
+        22,
+        871
+      ],
+      [
+        334,
+        253,
+        72,
+        9,
+        369
+      ],
+      [
+        1572,
+        993,
+        503,
+        76,
+        2622
+      ],
+      [
+        564,
+        439,
+        79,
+        46,
+        1051
+      ],
+      [
+        2555,
+        1368,
+        1156,
+        31,
+        3447
+      ],
+      [
+        353,
+        278,
+        49,
+        26,
+        482
+      ],
+      [
+        1208,
+        537,
+        643,
+        28,
+        1845
+      ],
+      [
+        192,
+        148,
+        36,
+        8,
+        268
+      ],
+      [
+        107,
+        81,
+        22,
+        4,
+        142
+      ],
+      [
+        813,
+        523,
+        266,
+        24,
+        1343
+      ],
+      [
+        1236,
+        857,
+        328,
+        51,
+        2036
+      ],
+      [
+        813,
+        674,
+        91,
+        48,
+        1404
+      ]
+    ],
+    [
+      [
+        228,
+        177,
+        32,
+        19,
+        577
+      ],
+      [
+        154,
+        126,
+        17,
+        11,
+        189
+      ],
+      [
+        395,
+        274,
+        85,
+        36,
+        935
+      ],
+      [
+        541,
+        441,
+        79,
+        21,
+        2567
+      ],
+      [
+        25,
+        22,
+        0,
+        3,
+        74
+      ],
+      [
+        1781,
+        1461,
+        215,
+        105,
+        4700
+      ],
+      [
+        707,
+        566,
+        73,
+        68,
+        2117
+      ],
+      [
+        1279,
+        1085,
+        124,
+        70,
+        3052
+      ],
+      [
+        370,
+        331,
+        17,
+        22,
+        871
+      ],
+      [
+        316,
+        279,
+        24,
+        13,
+        369
+      ],
+      [
+        933,
+        744,
+        100,
+        89,
+        2622
+      ],
+      [
+        279,
+        236,
+        13,
+        30,
+        1051
+      ],
+      [
+        1867,
+        1503,
+        268,
+        96,
+        3447
+      ],
+      [
+        254,
+        195,
+        44,
+        15,
+        482
+      ],
+      [
+        656,
+        565,
+        64,
+        27,
+        1845
+      ],
+      [
+        163,
+        111,
+        46,
+        6,
+        268
+      ],
+      [
+        95,
+        79,
+        10,
+        6,
+        142
+      ],
+      [
+        291,
+        234,
+        36,
+        21,
+        1343
+      ],
+      [
+        809,
+        643,
+        127,
+        39,
+        2036
+      ],
+      [
+        443,
+        417,
+        8,
+        18,
+        1404
+      ]
+    ]
+  ],
+  "source_order": [
+    "4U9hGIOzrf0",
+    "6dcgD2bzQqU",
+    "CivSbWDg8ig",
+    "F2lyXr1rKNk",
+    "FrFQm6bdjQ4",
+    "Nnd75WTJPpw",
+    "Qluuvu84t54",
+    "T02aU8qpshQ",
+    "TCmeVds5Jkg",
+    "UDmiyTb2XKU",
+    "Zg9wS4_pbjg",
+    "_J1u_2LMCqM",
+    "bf2cw7HgaCU",
+    "bsNAjjDqn5k",
+    "eOulw3RRE9g",
+    "grCKOBOuvnM",
+    "q8vPZmApqyc",
+    "qjWiGqSEv5U",
+    "uWYBxYIuER4",
+    "x2Gd7wNNfIw"
+  ],
+  "independent_prediction_count_checks": 7002,
+  "test_decoder_sweep": false,
+  "new_hidden_test": false,
+  "strata_secondary_counts": {
+    "short_lt82": [
+      [
+        199,
+        134,
+        12,
+        53,
+        214
+      ],
+      [
+        210,
+        138,
+        7,
+        65,
+        214
+      ],
+      [
+        189,
+        137,
+        5,
+        47,
+        214
+      ],
+      [
+        212,
+        140,
+        8,
+        64,
+        214
+      ],
+      [
+        196,
+        129,
+        13,
+        54,
+        214
+      ],
+      [
+        119,
+        80,
+        18,
+        21,
+        214
+      ]
+    ],
+    "long_ge82": [
+      [
+        20882,
+        10020,
+        10312,
+        550,
+        29877
+      ],
+      [
+        20085,
+        11240,
+        7967,
+        878,
+        29877
+      ],
+      [
+        18432,
+        11006,
+        6776,
+        650,
+        29877
+      ],
+      [
+        19944,
+        11288,
+        7807,
+        849,
+        29877
+      ],
+      [
+        18896,
+        11834,
+        6390,
+        672,
+        29877
+      ],
+      [
+        11467,
+        9409,
+        1364,
+        694,
+        29877
+      ]
+    ]
+  },
+  "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44",
+  "selection_sha256": "e829ff5a971edf4edeff36f44fdcaeb9e4f06dcda8c487214a939060b1439846",
+  "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+  "input_sha256": {
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_B0_00/Predictions.jsonl": "9577da153507844711acc19ba344bccf152a35e2ea5ab16c51c9774f2a1cb1ca",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_B0_00/Verification.json": "01c43e15eca215c29791465dbb83373519b2f840bc8c9bd9b231a640664bab88",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_B0_01/Predictions.jsonl": "95aae04a85f74592b62de34a93b00a981ebfe5102cbb45554e46bf8101647edd",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_B0_01/Verification.json": "55e160dcf3e8a39caaa9c9a1cef978cd80699cd440ebe073a76f357ed25836f8",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_B0_02/Predictions.jsonl": "ee864ad94ef3c8c5b422bd313b74acabc04fa247d35c4a349c9a6924eec3c394",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_B0_02/Verification.json": "c1b5485c8ceabf5195af0325cf08128e956ef54517207db4fc82e6fe1134df8d",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_B0_03/Predictions.jsonl": "8aa7eb17b0ec7707e6c8f5ed075096f7fbb82d4cd5ae79d8784f99920b06c117",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_B0_03/Verification.json": "d73ca05afbd83ad59518bf180b884466bc795e24d49d73ae49d29af0f686bb0b",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_B0_04/Predictions.jsonl": "9ea2cdd907be1d354a30278007e4beff316101d59b1aceb78d563deaf01d5428",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_B0_04/Verification.json": "316b58a09f577880b82d5e15d3ad61d69703af3bc2c2a303004fe1a28521a47f",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_B0_05/Predictions.jsonl": "790ed60e44c2b4bc502a9dfc2756c14e06c047a82a89f2c4231f82060aa5de10",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_B0_05/Verification.json": "bd65c93de482e7ec3d263c6a050d59282944c6b19f0ab820fe254e2c6eb723a3",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_B0_06/Predictions.jsonl": "38e82881c647775c3947434de56ed2fbdb0b1974d186223b94e44b699cda5730",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_B0_06/Verification.json": "951acb49807a44839ac4b6092b7e5a0536d37ad8b79ca3e7916749318b089466",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_B0_07/Predictions.jsonl": "7aeeaf2d793abd9c6121163cfd6d9ce8e6890718304812e1d7690b84a2627106",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_B0_07/Verification.json": "035af339e44ec496da47e00e14f4df40a522a1b0587d82ba9256dced15b7f610",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_LAST_00/Predictions.jsonl": "c6e20e7bb0c7eea6cd6ced3117e4353a99ddb4731065f6b505d645ce2142f2d2",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_LAST_00/Verification.json": "162ba6cc8797d2e9e4e542d48e3d4cd0d2240e54f93584dc28a9ca7a321f8a8f",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_LAST_01/Predictions.jsonl": "ebb9bdad2a08f56db48133fbc7d11b25028d41621953ed9a1a7bbb9f0b54985e",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_LAST_01/Verification.json": "7e9778589ba1a457d568330f36f7454e2ec7bee1a861bc8eaba571af78314224",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_LAST_02/Predictions.jsonl": "9c2c986ca6578629d75abcb48e6c00471ca5c5cc9dd56fed19a7de7446f8b00e",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_LAST_02/Verification.json": "21282c5eb2c2b4d209dcd4faf215ed1f2338abe7341a4293790f55847080c5fa",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_LAST_03/Predictions.jsonl": "7b383779e360c0091a81c114a1b00f596199afe423f29988e8ee1a42814de5b6",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_LAST_03/Verification.json": "8bf51ea2055b7d4b4351d0d16331d6ab400b850daabc0598e254f1127873e7ad",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_LAST_04/Predictions.jsonl": "1e8d790908d2b572685d73ffd7427e2ec19c8d31e4c772a174ad1e7b2c5628d1",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_LAST_04/Verification.json": "3f7c09620d633bac66c7e61d0f39d9e62edd7e99f865708d29543fdbd27aac3b",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_LAST_05/Predictions.jsonl": "d093286603ff781575119af93b8709fed3721d43d99f27cc039fa5a21bfce6eb",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_LAST_05/Verification.json": "78ccd605ed45a01641f001c8d12391a4e02a748d1092132d38302b84ba7fadab",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_LAST_06/Predictions.jsonl": "b0d511f4d4bd4aeb5d94dac9f81002fa30460dc3542e374f10f2ff7f0d9e9b66",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_LAST_06/Verification.json": "ca092b6a1cf8d89d5fb78c430f8d64d2e4f02db2f8673586ed89a4f21f6a3cdc",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_LAST_07/Predictions.jsonl": "1dfe8dd40c1ecdb1ad779158d963ced7e881f7791e4997513894f8a02c7133f9",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_LAST_07/Verification.json": "9adce71cc7db6cecbeed4020764fc9cdc96d4df1945e79c8ee8fd324791444ec",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_LAST_00/Predictions.jsonl": "bca1aa68906de79cb2ef6104ac1c9950e476eeab316d08a78ad8af9aef57af89",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_LAST_00/Verification.json": "b19b953190316654027b82146e2c805ef39e7fcaa3def94542dbf84189265778",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_LAST_01/Predictions.jsonl": "4686d6894d8d6b335ff0db0ff94ceef7ddfa98a6d666006cb1ff0df7bdb543af",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_LAST_01/Verification.json": "1fa64c50979774e5787a3e98a8d052b8e4dfb3cb961494e64d6e22d62875db4f",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_LAST_02/Predictions.jsonl": "0fbb46a65fbb00d04454e97ec6ee4317691a4b36a7f5df5514e652469421a0e6",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_LAST_02/Verification.json": "7bce8f1c7a210c8f905935119db1e189d86a1d710356698807cc97b23d734b78",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_LAST_03/Predictions.jsonl": "a1944e6b1209a4eb066d9f9fbeb5baaec6ed7464876512469d2ec9d7125a1853",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_LAST_03/Verification.json": "cead896758ea0c0ebf89da9090a0d54f9a4c1de33736177b1cbfc53ddb47f16f",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_LAST_04/Predictions.jsonl": "f06b59e47c4636b4d558cc90c09db45cbea8b200b9995116113ac428522ae090",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_LAST_04/Verification.json": "ff9e3ba4361d63ae844aa8dab916631d7702c14e9b2af8c74c8015d3f98d883a",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_LAST_05/Predictions.jsonl": "0192ec5f851b9daea9690853b432d5e26b536a27d2861d107634de35385b072c",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_LAST_05/Verification.json": "35643063f2c2f79516653c041c600b934b714a6c16f91e22c72ca1b5734f8080",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_LAST_06/Predictions.jsonl": "7b40cbe14d0ed678d788e22752aa8f048785e8a3da63f5c61f7b65803790d24a",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_LAST_06/Verification.json": "8fdd943d7f0f1c3532748f16c80787c6a745f011908c3b2771cc8aaa88635504",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_LAST_07/Predictions.jsonl": "abdb404ea2a396ca2d5de69876d6d337e105a0554ce4aa2c89b6969ad7c1f884",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_LAST_07/Verification.json": "917f4d0e8f7bb519505f28a3f5c5b87f4392a62de7eaa1facc6cc9825df54045",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_29_LAST_00/Predictions.jsonl": "f26fdb432777ad69ceea27f49451511bd1036ce55dc56fcaa8961f5530699ee1",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_29_LAST_00/Verification.json": "2058aef20d7947ae1519a30ac40e35e8a84188919e7b97836ea2b56021acb710",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_29_LAST_01/Predictions.jsonl": "932fddbdf603115b343c62f8458417f101b0bb612825e9c6403688606210ebf2",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_29_LAST_01/Verification.json": "736af3fb0652ad42fd2bf6b8dcc79d329deb95f7796bd7911f40b4a8e4918d37",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_29_LAST_02/Predictions.jsonl": "838ddedc1f01f6942f81797c2e1f1643bb90ef034c957481a4bb11ecb19f5a16",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_29_LAST_02/Verification.json": "3044882f968594fe39a00caa756355c100ffa2a2f428b44a7d2eae1319bc8aee",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_29_LAST_03/Predictions.jsonl": "87872e08b025185f05fe684c84cc3983c9ffa2b69c2823fe488db40cf135a81e",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_29_LAST_03/Verification.json": "9fe9397473b2134fa3e2479d51c2745d0bb4275ca7700eeafd91ebaca3e53362",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_29_LAST_04/Predictions.jsonl": "9993c72426369726d0bbf31590c59fd3670c3411f1ddce807b3fd99593d7410f",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_29_LAST_04/Verification.json": "a6218ee61774cbb043a8f2f482ad9f9f72e8ca30b978282a905e95ddd51cf166",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_29_LAST_05/Predictions.jsonl": "aaeddf393b5cc818822ba915f00e2be724a1421e752b4e96df76e520aa102f7a",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_29_LAST_05/Verification.json": "7252803b210c5103cf9739b18e89b956ceb620377cf6ac3ef03474fb6a61472d",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_29_LAST_06/Predictions.jsonl": "443f928ba05fb4f464b23a64d8bdf04d443f707f0cd52f63a0418f5d457d962c",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_29_LAST_06/Verification.json": "5197f4743996038489ff8e9f21a5fdf48dc8bc10e0f99b6341afc278b577218a",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_29_LAST_07/Predictions.jsonl": "39a0811eca11514365f58fea2b1fd5f5d6dd34e3efc9369d9ef506dbd2c94bee",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T0_29_LAST_07/Verification.json": "01d75bda30a10a06e186355488a7e7da62baac77f151f95e3c45bab438e3dc76",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_29_LAST_00/Predictions.jsonl": "cf81c2963cb72327dbfb9f521d36c05f377bb6e2cc53012deb07c821a8b0cd1e",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_29_LAST_00/Verification.json": "36a4aafca7d87b14fedb173316b1f92f8487ee03d628832b4d5de491a674c230",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_29_LAST_01/Predictions.jsonl": "19ea1a25c3a2fcd48e43a03e9973af2acd343dabb276669502753550384f3e8d",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_29_LAST_01/Verification.json": "6e07f8d340605e4bd1491948655a2e64e15af2d151260307ba307a2f6fc4c2e5",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_29_LAST_02/Predictions.jsonl": "481458bd022e2cda69f9d4e11fd27db42d7ca38c4a3a15f604560f9a389863e4",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_29_LAST_02/Verification.json": "93a5fc923c2d19639358516e6efa57dafc4c8ef09bd8675d61890f2c52af426a",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_29_LAST_03/Predictions.jsonl": "a09c5d44f324fc994e317e28ec251b544c0b5b658f2d674bd06f7d4cfe364ea1",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_29_LAST_03/Verification.json": "e42e407ef8d7f764586cfcb8c1cdd2f73add46dcaadc04cc9fe8fc3ebb1189e7",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_29_LAST_04/Predictions.jsonl": "7cb344d082235c70043422b2d86f1595addfdce308245e3efd77b1c94d519b5c",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_29_LAST_04/Verification.json": "c66ff79f026a2e1f8f1ea989f9db330e071568b3993420bcc71c71ea6b6ef5cb",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_29_LAST_05/Predictions.jsonl": "b031e5953c31c4e0fc948a80c7839ad771e77775e4d281fe27b9394d283f011d",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_29_LAST_05/Verification.json": "82a7f8604f82088cfa0c9e96d69701a049e5bb9c5dab9c039bf96d9b2eb05e1a",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_29_LAST_06/Predictions.jsonl": "4bf3d577812800ade4418ca29dffa9308c013a823d663bf3a5a3c425ff8f92bf",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_29_LAST_06/Verification.json": "eef1d5969bac422732521064fb2501084261f143114ed34463bc9d27198c7124",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_29_LAST_07/Predictions.jsonl": "00dc089ae207709625cb5b72e524c4f322f6c122af6b0e52964baece5455e309",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VLR_T1_29_LAST_07/Verification.json": "52ec65516a3404b5b91f3c49fa4b649d10fc95e228f01c31a4f56ba36c7860cf",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VC_NATIVE_00/Predictions.jsonl": "2988142dc6ac748766a459352b48e0beca8f79abc794fcff9f755989d1285187",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VC_NATIVE_00/Verification.json": "32fcd6e8a5ae464598781a4a8bf8f31c7a9ef9d106c7b688333480a9433fd48f",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VC_NATIVE_01/Predictions.jsonl": "8f94dbf8e5d499b1aeec03c806c6f9c8a8a83a1fc43fa1fe099081832608e488",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VC_NATIVE_01/Verification.json": "d672a46ab79ccd16f43e2033f4ca12c89e22c99f0b2107eef3732590f52b9155",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VC_NATIVE_02/Predictions.jsonl": "c1788b4aac93364feb19eddc8cdee85eede035f7945ce31107f4235cc0d52c12",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VC_NATIVE_02/Verification.json": "bf3163b99b7b161188757ad679e872c41d7188205eeeb3942f65e834dca83fda",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VC_NATIVE_03/Predictions.jsonl": "00ba374112c3040d70a3315dce2a2e3b7640a91325cff6b13848f6d07a2f345f",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VC_NATIVE_03/Verification.json": "712a5ab2181a5dd304b73477fbfce3a878f706835ce399246f8b81f066830e08",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VC_NATIVE_04/Predictions.jsonl": "45c6f77017b48a55686be024a6cefe502f1253c258a32026c6654a4ebc7f4a58",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VC_NATIVE_04/Verification.json": "4c4dcd88256091e84cc4c24e5036069d3dcd07f8b95b635115c48284e64f48da",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VC_NATIVE_05/Predictions.jsonl": "1e22d658479f6b03e733577cb7691536980d34d2e0cccdea1491218043eec24c",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VC_NATIVE_05/Verification.json": "902472853f66a147e6a9c0741825b43badee5f873a446ab37122f39eb2c6a542",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VC_NATIVE_06/Predictions.jsonl": "664f79a705f7e97eefac2ec964470d6127cf2594cf99ffd4c4a0a852519698d5",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VC_NATIVE_06/Verification.json": "eadd049e0f74834658522c3bd997f041a92de2771ac434f657d8f3ce750896b2",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VC_NATIVE_07/Predictions.jsonl": "8f258888e724bb94d17eeecd2dd350c45405ce7243d22854f1fae6a9dd711087",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/assessment_VC_NATIVE_07/Verification.json": "7314db4429ffedec078f37bfbcf378b83bb8c894730167bbc61ac0f6503bb3c7"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-30T18:31:39.989182+00:00",
+  "status": "both_duration_probes_verified",
+  "probe_metrics_not_used_for_scope_selection": true,
+  "probes": [
+    {
+      "stage": "source",
+      "clips": 6,
+      "frames": 2116,
+      "encode_seconds": 1.718999999575317,
+      "peak_gpu_mib": 2984.74169921875,
+      "population_frames": 1634458,
+      "forecast_seconds_all_three": 10362.08410578225,
+      "complete_sha256": "c6ecb9002f6efc7a3474d35ab2c6171efe9fb4abceb0f34134e14a06f28d02b0"
+    },
+    {
+      "stage": "assessment",
+      "clips": 6,
+      "frames": 949,
+      "encode_seconds": 1.9210000003222376,
+      "peak_gpu_mib": 1339.654296875,
+      "population_frames": 170078,
+      "forecast_seconds_all_three": 2635.7281015056196,
+      "complete_sha256": "4a003214ac5b4bc698bc59128b6450dee28aeef6c258d4d64ddcf6a54b771a3e"
+    }
+  ],
+  "forecast_seconds": 12997.81220728787,
+  "forecast_policy": "2x measured encoder seconds per frame + 0.06s per clip I/O/scoring +120s startup per model/population"
+}

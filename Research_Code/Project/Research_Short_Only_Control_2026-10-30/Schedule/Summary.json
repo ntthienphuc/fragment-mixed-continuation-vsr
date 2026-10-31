@@ -1,0 +1,32 @@
+{
+  "utc": "2026-10-30T07:13:05.251183+00:00",
+  "status": "short_only_schedule_prepared",
+  "counts": {
+    "new_even_slots": 24000,
+    "presentations": 48000,
+    "full_fallbacks": 598,
+    "even_fallbacks": 281,
+    "odd_fallbacks": 317,
+    "full_pixel_extent": 598,
+    "preserved_odd_slots": 24000
+  },
+  "exposure": {
+    "input_frames": 2719321,
+    "target_tokens": 422153,
+    "attention_positions": 470153
+  },
+  "schedule_sha256": "eafd2f9ae7612cb87025a8ed17d9cf2014f092e225a139374c921e3eeea0add2",
+  "parent_schedule_sha256": "ac96a53acaef5088569b025da61f3024cc04675d574a0399ba73a48cacdadad9",
+  "parent_word_schedule_sha256": "b47092e2aafef41c712be8119ecb7cf696763d889a45e33de22c54e30b2f526e",
+  "tokenizer_sha256": "6b8c7e138d86282217fad89d7e2be9452a90d398a4e034d9d390586c145e499b",
+  "units_sha256": "90b0875aa114daad969c70d48589db7bfb49da548ea4d0f86bd07dab0514dfda",
+  "dependencies": {
+    "Research_Short_Only_Control_2026-10-30\\prepare_schedule.py": "bde3d50fee3778a7997e279da94590b20545160bd9c2e27c377f2d096b2ab148",
+    "Research_Short_Only_Control_2026-10-30\\Protocol.md": "3b35129100b3bc1ce95b2ba4228d8a9e5cb8517705345df87ffbd59ad5409582",
+    "Research_Transfer_Mechanism_Benchmark_2026-10-28\\Augmentation_Controls_01\\Bounded_Word_Control_01\\word_span.py": "0bad4e7e617294a20782a73dfcb9169282def4c426d1107b67c6468fc1bd7324",
+    "Research_Transfer_Mechanism_Benchmark_2026-10-28\\Augmentation_Controls_01\\Readiness_02\\word_span.py": "0bd5c458afedc35be81b4a03616447effed3341acebae28ebd83096ba31863e5",
+    "Research_Phase_05_2026-10-13\\phase5\\views.py": "54832cb5746bba2423a6eee537f29d7c9690230615002eedaf33ce6481f107e0"
+  },
+  "assessment_predictions_read": false,
+  "training_started": false
+}

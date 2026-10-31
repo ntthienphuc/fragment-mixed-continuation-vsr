@@ -1,0 +1,42 @@
+{
+  "utc": "2026-10-29T13:45:27.690085+00:00",
+  "hypothesis": "Fixed-time mixing exceeds conventional whole-word mixing",
+  "arms": [
+    "whole_word",
+    "fixed_time",
+    "full"
+  ],
+  "identity_sha256": {
+    "whole_word": "0ee75cd4c6d31a2a8fd6f8b334aa0de3fa95a57ca6447071317d1e649c7f65de",
+    "fixed_time": "5b74b0d41b082b345e023017439c98b1271ac4a01e7574a7ff5cedf919758c68",
+    "full": "271eeab2bc05b357abcc1affeb8c00bc737bd89b8b154bc1a1d7d9363d558926"
+  },
+  "final_updates_each": 6000,
+  "presentations_each": 48000,
+  "initial_segment": {
+    "arm": "whole_word",
+    "stop_after": 500,
+    "deadline": "2026-10-29T19:45:27.690085+00:00"
+  },
+  "recognition_selection": "fixed_final_step",
+  "paid_cost_usd": 0,
+  "scientific_qualification": "Shared 317 fallbacks; frame and token exposure are not matched",
+  "stop_conditions": [
+    "nonfinite update",
+    "identity mismatch",
+    "validation coverage error",
+    "resource failure",
+    "deadline reached"
+  ],
+  "no_score_based_early_stop": true,
+  "remote_scope": "D:/Lip_Source_Retention_20261029/Portable_Training_01/Production_01",
+  "driver_scope": "D:/Lip_Source_Retention_20261029/Portable_Training_01/Attempt_01",
+  "driver_sha256": {
+    "configuration.py": "c06c837f4c081175e7a45c50846aab901ba397bea1f4fb3e7f91c1b190017f32",
+    "loop.py": "e4504d7e633dedeef9bb1e817a278341394fe080260c39fd9e0da8e569a37ff6",
+    "run.py": "51342fc067568e3bd09cbca7e21cd400c4262033c6bc3972a765d88c20eeff88",
+    "Protocol.md": "4b2fc7465d7f5d53857b9411209a69f5a66d1bc707ee0a6e91d5827bcbdee842"
+  },
+  "backup": "Collect stable step-500 checkpoint and logs before a same-identity continuation",
+  "assessment": "Full-utterance source/destination; compare only completed matched states"
+}

@@ -1,0 +1,302 @@
+{
+  "status": "complete_four_state_paired_interaction_recounted",
+  "model_order": [
+    "MATCHED_FC17",
+    "MATCHED_FT17",
+    "NORMALIZED_FC17",
+    "NORMALIZED_FT17"
+  ],
+  "clips": 1167,
+  "reference_units": 30091,
+  "source_group_order": [
+    "4U9hGIOzrf0",
+    "6dcgD2bzQqU",
+    "CivSbWDg8ig",
+    "F2lyXr1rKNk",
+    "FrFQm6bdjQ4",
+    "Nnd75WTJPpw",
+    "Qluuvu84t54",
+    "T02aU8qpshQ",
+    "TCmeVds5Jkg",
+    "UDmiyTb2XKU",
+    "Zg9wS4_pbjg",
+    "_J1u_2LMCqM",
+    "bf2cw7HgaCU",
+    "bsNAjjDqn5k",
+    "eOulw3RRE9g",
+    "grCKOBOuvnM",
+    "q8vPZmApqyc",
+    "qjWiGqSEv5U",
+    "uWYBxYIuER4",
+    "x2Gd7wNNfIw"
+  ],
+  "source_group_error_counts_and_units": [
+    [
+      441,
+      425,
+      438,
+      422,
+      577
+    ],
+    [
+      183,
+      167,
+      183,
+      162,
+      189
+    ],
+    [
+      668,
+      623,
+      673,
+      615,
+      935
+    ],
+    [
+      1405,
+      1290,
+      1408,
+      1281,
+      2567
+    ],
+    [
+      52,
+      48,
+      52,
+      48,
+      74
+    ],
+    [
+      3317,
+      3197,
+      3313,
+      3217,
+      4700
+    ],
+    [
+      1306,
+      1227,
+      1302,
+      1220,
+      2117
+    ],
+    [
+      2238,
+      2119,
+      2222,
+      2122,
+      3052
+    ],
+    [
+      439,
+      414,
+      442,
+      419,
+      871
+    ],
+    [
+      354,
+      324,
+      353,
+      324,
+      369
+    ],
+    [
+      1667,
+      1558,
+      1662,
+      1560,
+      2622
+    ],
+    [
+      558,
+      528,
+      552,
+      504,
+      1051
+    ],
+    [
+      2669,
+      2598,
+      2666,
+      2620,
+      3447
+    ],
+    [
+      376,
+      338,
+      375,
+      325,
+      482
+    ],
+    [
+      1433,
+      1353,
+      1429,
+      1375,
+      1845
+    ],
+    [
+      209,
+      189,
+      205,
+      184,
+      268
+    ],
+    [
+      141,
+      123,
+      140,
+      114,
+      142
+    ],
+    [
+      817,
+      769,
+      821,
+      765,
+      1343
+    ],
+    [
+      1256,
+      1201,
+      1251,
+      1193,
+      2036
+    ],
+    [
+      743,
+      721,
+      741,
+      717,
+      1404
+    ]
+  ],
+  "contrasts": [
+    {
+      "contrast": "native_gain",
+      "estimate_pp": 3.522647967830913,
+      "ci95_low_pp": 2.9888331750833674,
+      "ci95_high_pp": 4.190704506088292,
+      "source_groups": 20,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 384285388687600646,
+      "conditional_on_fitted_states": true,
+      "multiplicity_adjusted": false,
+      "scalar_checks_all_contrasts": 505
+    },
+    {
+      "contrast": "normalized_gain",
+      "estimate_pp": 3.4595061646339436,
+      "ci95_low_pp": 2.7559092713624596,
+      "ci95_high_pp": 4.422719975677738,
+      "source_groups": 20,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 384285388687600646,
+      "conditional_on_fitted_states": true,
+      "multiplicity_adjusted": false,
+      "scalar_checks_all_contrasts": 505
+    },
+    {
+      "contrast": "normalized_gain_minus_native_gain",
+      "estimate_pp": -0.06314180319696919,
+      "ci95_low_pp": -0.365940529601651,
+      "ci95_high_pp": 0.38632336104659093,
+      "source_groups": 20,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 384285388687600646,
+      "conditional_on_fitted_states": true,
+      "multiplicity_adjusted": false,
+      "scalar_checks_all_contrasts": 505
+    },
+    {
+      "contrast": "normalization_on_full",
+      "estimate_pp": 0.14622312319298128,
+      "ci95_low_pp": 0.02665354865257695,
+      "ci95_high_pp": 0.27344958386795953,
+      "source_groups": 20,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 384285388687600646,
+      "conditional_on_fitted_states": true,
+      "multiplicity_adjusted": false,
+      "scalar_checks_all_contrasts": 505
+    },
+    {
+      "contrast": "normalization_on_fixed_time",
+      "estimate_pp": 0.08308131999601209,
+      "ci95_low_pp": -0.21228376522583683,
+      "ci95_high_pp": 0.5267716985692632,
+      "source_groups": 20,
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 384285388687600646,
+      "conditional_on_fitted_states": true,
+      "multiplicity_adjusted": false,
+      "scalar_checks_all_contrasts": 505
+    }
+  ],
+  "results": [
+    {
+      "model": "MATCHED_FC17",
+      "stage": "assessment",
+      "readout": "common",
+      "decoder": "beam_c0.1",
+      "clips": 1167,
+      "errors": 20272,
+      "substitutions": 10645,
+      "deletions": 8421,
+      "insertions": 1206,
+      "units": 30091,
+      "wer_percent": 67.36898075836629
+    },
+    {
+      "model": "MATCHED_FT17",
+      "stage": "assessment",
+      "readout": "common",
+      "decoder": "beam_c0.1",
+      "clips": 1167,
+      "errors": 19212,
+      "substitutions": 10619,
+      "deletions": 7910,
+      "insertions": 683,
+      "units": 30091,
+      "wer_percent": 63.84633279053538
+    },
+    {
+      "model": "NORMALIZED_FC17",
+      "stage": "assessment",
+      "readout": "common",
+      "decoder": "beam_c0.1",
+      "clips": 1167,
+      "errors": 20228,
+      "substitutions": 10609,
+      "deletions": 8424,
+      "insertions": 1195,
+      "units": 30091,
+      "wer_percent": 67.22275763517331
+    },
+    {
+      "model": "NORMALIZED_FT17",
+      "stage": "assessment",
+      "readout": "common",
+      "decoder": "beam_c0.1",
+      "clips": 1167,
+      "errors": 19187,
+      "substitutions": 10533,
+      "deletions": 8082,
+      "insertions": 572,
+      "units": 30091,
+      "wer_percent": 63.763251470539366
+    }
+  ],
+  "input_summary_sha256": {
+    "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Analysis_Native_ThreeArm_01": "e120d57dd9a3cb4f7434c17f5152c22bd348cc084c2909a425ceaffe2e6d0abe",
+    "E:\\Project\\Lip\\Research_Normalized_Continuation_Assessment_2026-10-30\\Analysis_Destination_01": "4464c7fc1fd653b589ded902021b7b6e0e09734c33672c88de2dfaaa9c5737cd"
+  },
+  "analysis_plan_sha256": "f4c6fa72784cd4fff7c2b8ba2ecc49b098327ce92db343b7101f952db75ea916",
+  "analysis_code_sha256": "fc797ac1aed77ce2398a2bf6cc044c4d8904c4765b1f1b57fca161ec7726c53d",
+  "new_blind_test": false,
+  "seed_replication": false,
+  "normalized_whole_word_tested": false,
+  "manuscript_updated": false,
+  "interpretation_boundary": "Component-wise normalization changes length weighting and relative objective contributions. It does not isolate a global learning-rate or gradient-norm mechanism."
+}

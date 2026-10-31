@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-28T06:58:36.849099+00:00",
+  "pid": 6230,
+  "started_unix": 1793170716.849006,
+  "task": "assessment_EN_F0_LAST_02",
+  "purpose": "full_evaluation",
+  "device": "cuda",
+  "admission_path": "Research_English_Full_Corpus_Control_2026-10-28/Admissions/Vast_01_assessment_gpu_0.json",
+  "admission_sha256": "9fd4d3dc06099bcde8426e283d779b9cd1fe30a0163aebba05f228e53243d50c",
+  "deadline_unix": 1793186755.319905,
+  "execution_lock_sha256": "6605ec9048d031b9edb912fb30e6bc72eb6c16be2e3f7fd416bd31c882c6a455",
+  "selection_sha256": "3c6bd0cd1dd6e2b318148f7bca751b91200a105c8b0230380befa5a9b948c3f4"
+}

@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-28T08:50:44.104567+00:00",
+  "status": "previous_execution_preserved_before_metadata_fix",
+  "archive_sha256": "b2007681e09af30371fed9fc5067c9bc009ecbdcdedc7f9dc3ab9736b0b21d71",
+  "previous_files": {
+    "select_full_decoder.py": "7fc06644b9761823dc04e52dca79e41eed63455425d0560e7b77d4494a9ac406",
+    "test_execution.py": "8a33b4d9a0eb352244a45e07e8ecfd64e01213a2e9c77da8b9c176460bd4a765",
+    "Execution_Lock.json": "69e69209660152687118351739c86537a8fe28ced8e277455a631a982ceacaa6",
+    "Execution_Verification_01.json": "6bd2f6310df317835ac103cd403c7fc6c66c96320e2c471e8146dd3a35fb3c9b"
+  },
+  "reason": "VI calibration uses target-corpus development; the selector incorrectly emitted a global false flag.",
+  "recognition_runs_started": false
+}

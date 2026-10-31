@@ -1,0 +1,117 @@
+[
+  {
+    "file": "Research_Seed_Replication_2026-10-15/Model_States/vlr_T0_29/best.pt",
+    "bytes": 973826049,
+    "referenced_by": "Research_Transfer_Seed29_2026-10-27/Input_Check_01/Models.json"
+  },
+  {
+    "file": "Research_Seed_Replication_2026-10-15/Model_States/vlr_T0_29/last.pt",
+    "bytes": 973826049,
+    "referenced_by": "Research_Transfer_Full_Benchmark_2026-10-27/model_registry.json"
+  },
+  {
+    "file": "Research_Seed_Replication_2026-10-15/Model_States/vlr_T1_29/best.pt",
+    "bytes": 973826049,
+    "referenced_by": "Research_Transfer_Seed29_2026-10-27/Input_Check_01/Models.json"
+  },
+  {
+    "file": "Research_Seed_Replication_2026-10-15/Model_States/vlr_T1_29/last.pt",
+    "bytes": 973826049,
+    "referenced_by": "Research_Transfer_Full_Benchmark_2026-10-27/model_registry.json"
+  },
+  {
+    "file": "Research_Strong_Baseline_2026-10-15/vsr_trlrs2lrs3vox2avsp_base.pth",
+    "bytes": 1001892616,
+    "referenced_by": "Research_English_Transfer_Benchmark_2026-10-28/model_registry.json"
+  },
+  {
+    "file": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Preparation_01/Rejected_Snapshot.zip",
+    "bytes": 47727,
+    "referenced_by": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Plan.json"
+  },
+  {
+    "file": "Server_Rescue_2026-10-15/Assets/LRS2/pretrained.pt",
+    "bytes": 1001892616,
+    "referenced_by": "Research_English_Transfer_Benchmark_2026-10-28/model_registry.json"
+  },
+  {
+    "file": "Server_Rescue_2026-10-15/Assets/Spanish/pretrained.pt",
+    "bytes": 964600904,
+    "referenced_by": "Research_Server_Confirmation_2026-10-19/model_registry.json"
+  },
+  {
+    "file": "Server_Rescue_2026-10-15/Assets/VLR/pretrained.pt",
+    "bytes": 973787221,
+    "referenced_by": "Research_Transfer_Full_Benchmark_2026-10-27/model_registry.json"
+  },
+  {
+    "file": "Server_Rescue_2026-10-15/Data/EN/LRS2_Prepared_Test.zip",
+    "bytes": 309343545,
+    "referenced_by": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Source_Retention_Readiness_01/Prepared_Plan.json"
+  },
+  {
+    "file": "Server_Rescue_2026-10-15/Data/VLR/Prepared_Test.zip",
+    "bytes": 8825083717,
+    "referenced_by": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Source_Retention_Readiness_01/Prepared_Plan.json"
+  },
+  {
+    "file": "Server_Rescue_2026-10-15/Model_States/main_lrs2_F0_17/last.pt",
+    "bytes": 1001931521,
+    "referenced_by": "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/development_EN_F0_LAST_07/Identity.json"
+  },
+  {
+    "file": "Server_Rescue_2026-10-15/Model_States/main_lrs2_T0_17/last.pt",
+    "bytes": 1001931457,
+    "referenced_by": "Research_English_Transfer_Benchmark_2026-10-28/model_registry.json"
+  },
+  {
+    "file": "Server_Rescue_2026-10-15/Model_States/main_lrs2_T1_17/last.pt",
+    "bytes": 1001931457,
+    "referenced_by": "Research_English_Transfer_Benchmark_2026-10-28/model_registry.json"
+  },
+  {
+    "file": "Server_Rescue_2026-10-15/Model_States/main_lrs2_T2_17/last.pt",
+    "bytes": 1001931457,
+    "referenced_by": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T2_LAST_07/Identity.json"
+  },
+  {
+    "file": "Server_Rescue_2026-10-15/Model_States/main_lrs2_T4_17/last.pt",
+    "bytes": 1001931457,
+    "referenced_by": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T4_LAST_07/Identity.json"
+  },
+  {
+    "file": "Server_Rescue_2026-10-15/Model_States/main_vlr_T0_17/best.pt",
+    "bytes": 973777266,
+    "referenced_by": "Research_Transfer_Confirmation_Readiness_2026-10-27/Check_01/Summary.json"
+  },
+  {
+    "file": "Server_Rescue_2026-10-15/Model_States/main_vlr_T0_17/last.pt",
+    "bytes": 973825985,
+    "referenced_by": "Research_Transfer_Full_Benchmark_2026-10-27/model_registry.json"
+  },
+  {
+    "file": "Server_Rescue_2026-10-15/Model_States/main_vlr_T1_17/best.pt",
+    "bytes": 973825985,
+    "referenced_by": "Research_Transfer_Confirmation_Readiness_2026-10-27/Check_01/Summary.json"
+  },
+  {
+    "file": "Server_Rescue_2026-10-15/Model_States/main_vlr_T1_17/last.pt",
+    "bytes": 973825985,
+    "referenced_by": "Research_Transfer_Full_Benchmark_2026-10-27/model_registry.json"
+  },
+  {
+    "file": "Server_Rescue_2026-10-15/Model_States/main_vlr_T2_17/last.pt",
+    "bytes": 973825985,
+    "referenced_by": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T2_LAST_07/Identity.json"
+  },
+  {
+    "file": "Server_Rescue_2026-10-15/Model_States/main_vlr_T4_17/last.pt",
+    "bytes": 973825985,
+    "referenced_by": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T4_LAST_07/Identity.json"
+  },
+  {
+    "file": "experiments/_archive_sources/pavir_2026_08/03_models/w0/vicocktail_w0.ckpt",
+    "bytes": 2921268704,
+    "referenced_by": "Research_Transfer_Full_Benchmark_2026-10-27/Native_Reference_Registry.json"
+  }
+]

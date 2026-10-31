@@ -1,0 +1,22 @@
+\section{Conclusion}
+Fragment-mixed continuation changes training supervision while preserving
+ordinary whole-utterance visual speech recognition. Under matched source
+presentations and optimizer updates, it reduces VLR-to-ViCocktail WER by
+3.41 and 3.17 points with a common decoder across two seeds. Conventional
+whole-word mixing also improves transfer and outperforms the tested fixed-time
+rule by 0.459 points. The fixed-time gain persists under token-normalized loss;
+restoring neighboring pixels or full-view predictive guidance does not improve
+the tested recipe.
+
+The short-only control clarifies the schedule's contribution. Replacing the
+scheduled full views with more whole-word fragments worsens destination WER
+by 7.328 points and source WER by 6.238 points relative to whole-word mixing,
+primarily through additional deletions. Retaining full supervision is therefore
+beneficial in this fixed-budget comparison. Mixing still costs 0.55--0.58
+source WER points relative to full-only continuation, and the English setting
+shows no clear WildVSR gain despite a source disadvantage relative to FC.
+The supported finding is a useful mixed-supervision option in the studied
+Vietnamese regime, not a unique crop-boundary mechanism or a universal transfer
+recipe. Assessing source retention, destination recognition and actual
+supervision exposure together distinguishes this benefit from simply using
+ever-shorter training views.

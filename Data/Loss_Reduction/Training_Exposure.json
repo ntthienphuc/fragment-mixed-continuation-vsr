@@ -1,0 +1,26 @@
+{
+  "full": {
+    "updates": 6000,
+    "exposure": {
+      "presentations": 48000,
+      "input_frames": 7307270,
+      "target_tokens": 1144990,
+      "attention_positions": 1192990
+    },
+    "full_slots": 48000,
+    "updates_clipped": 3328,
+    "final_endpoint_reached": true
+  },
+  "fixed_time": {
+    "updates": 6000,
+    "exposure": {
+      "presentations": 48000,
+      "input_frames": 4887859,
+      "target_tokens": 797573,
+      "attention_positions": 845573
+    },
+    "full_slots": 24317,
+    "updates_clipped": 5964,
+    "final_endpoint_reached": true
+  }
+}

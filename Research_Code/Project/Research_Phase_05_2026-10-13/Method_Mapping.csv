@@ -1,0 +1,10 @@
+method_id,name_en,control,historical_relation,objective,architecture_id,train_cohort,selection_view
+B0,Pretrained Reference,none,P01,Native inference without optimization,B0,none,none
+F0,LRS2 Full-Corpus Continuation,B0,English baseline,Continue English full-utterance recognition on all feasible train utterances,T0,full,full
+T0,Full-Clip Continuation,B0,P01,Continue training on full references,T0,window,window
+T1,Window Supervision,T0,P23,Alternate full and aligned window supervision,T1,window,window
+T2,Window Consistency,T1,P23-inspired,Add detached current-model full-context CTC consistency,T2,window,window
+T3,Intermediate CTC,T1,P06-inspired,Add generic BPE CTC supervision at encoder block 6,T3,window,window
+T4,Context Supervision,T1,L08-inspired,Train target-span recognition with matched surrounding context,T4,window,window
+T5,Boundary Readout,T4 and A5,L08-inspired hypothesis,Add temporal cross-attention with outside-span penalties,T5,window,window
+A5,Unrestricted Readout,T5,Capacity control,Use the same readout without outside-span penalties,A5,window,window

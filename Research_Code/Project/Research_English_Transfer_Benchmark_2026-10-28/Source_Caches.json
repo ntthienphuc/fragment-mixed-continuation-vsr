@@ -1,0 +1,34 @@
+{
+  "EN_B0": {
+    "archive_sha256": "a8038c733564d7ac5603afa02c5f04a141a2eaa1dd018923039b3e2a2e8916a6",
+    "index_sha256": "54f615a99c0174d1166560af4f1dda6080fe429dccfe67b411cbe13dd15a8d17",
+    "index": "Research_English_Transfer_Benchmark_2026-10-28/Source_Caches/EN_B0.jsonl",
+    "clips": 1082,
+    "model_id": "EN_B0",
+    "checkpoint_sha256": "ef7fef5639a25c5837a48dd71ba1b366ca2c10f9215f9e99a913c7ec0fb5a148"
+  },
+  "EN_T0_LAST": {
+    "archive_sha256": "6f3b023a705da5e44cdbd99416f5f8a06c762812022e01a65f4cf76cbf364103",
+    "index_sha256": "33b38b24ac9e9bcc78885d962461c4bdee7938e207070c59691b2ab42ec858ff",
+    "index": "Research_English_Transfer_Benchmark_2026-10-28/Source_Caches/EN_T0_LAST.jsonl",
+    "clips": 1082,
+    "model_id": "EN_T0_LAST",
+    "checkpoint_sha256": "62e86f85890134c5f526c6183a03ef8bdc1cbe7fdf7d65f1fd18de3edea7019e"
+  },
+  "EN_T1_LAST": {
+    "archive_sha256": "9cf17f3990b83fb5ae468ad27a4991910e26e6f8ef354dfe485f6ebf291bb404",
+    "index_sha256": "175736cbe3b9e306d093f60a40dc4fc94103b4fb2f756dd4a198761cf33ea8e8",
+    "index": "Research_English_Transfer_Benchmark_2026-10-28/Source_Caches/EN_T1_LAST.jsonl",
+    "clips": 1082,
+    "model_id": "EN_T1_LAST",
+    "checkpoint_sha256": "29718da5a6a4ee4e9e26027cd9f01f99407098780a20e8cfc7069f7f4a851abf"
+  },
+  "EN_B1": {
+    "archive_sha256": "82f9ddf99b91783f73d3a658a6a1dcd28969b2bb5766660e58499740cf1d6e50",
+    "index_sha256": "d194ba1319c177353bd24140774d4d1abe64256e933d4c5df432badfc9348531",
+    "index": "Research_English_Transfer_Benchmark_2026-10-28/Source_Caches/EN_B1.jsonl",
+    "clips": 1082,
+    "model_id": "EN_B1",
+    "checkpoint_sha256": "fbf7cd70ff1c0e694b3030fb779dbb4570f04e4b841d62f9296c229e94878ddb"
+  }
+}

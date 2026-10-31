@@ -1,0 +1,12 @@
+{
+  "utc": "2026-10-29T06:57:28.967077+00:00",
+  "status": "complete_mechanism_transfer_verified",
+  "assessment_tasks": 32,
+  "development_tasks_required": 32,
+  "new_models": 4,
+  "model_readout_clip_records": 53960,
+  "summary_sha256": "fb8afed2069e2ed4303135966bdd84e74fa1c4c5d6bd9427b92cc491888f2554",
+  "per_clip_counts_sha256": "ab7cdc4345d72361bc4005cb119bbb11760487af25f6e0dd42dd28c99de7e212",
+  "analysis_lock_sha256": "c9c844945479be87e816b467d96db444159e2ca528d347c173add455a59987e9",
+  "paper_changed": false
+}

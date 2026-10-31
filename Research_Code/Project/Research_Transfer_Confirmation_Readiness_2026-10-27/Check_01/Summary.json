@@ -1,0 +1,109 @@
+{
+  "status": "inputs_verified_no_new_recognition",
+  "started_utc": "2026-10-27T11:02:13.725905+00:00",
+  "completed_utc": "2026-10-27T11:02:39.540458+00:00",
+  "development": {
+    "rows": 768,
+    "sources": 43,
+    "manifest": "Research_Server_Confirmation_2026-10-19/manifests/VC_development.jsonl",
+    "manifest_sha256": "bc5f0b03616ae7799fa044b8f2fc0924fccd47c01a7399aa0effc135931bc0ef",
+    "media_sha256_checks": 768,
+    "minimum_frames": 25,
+    "median_frames": 113.0,
+    "maximum_frames": 370,
+    "under_82_frames": 237,
+    "over_400_frames": 0,
+    "reference_words": 15919,
+    "prior_exposure": [
+      "Historical W0 validation used for checkpoint selection; calibration only"
+    ],
+    "frames_redecoded_this_run": false
+  },
+  "assessment": {
+    "rows": 1167,
+    "sources": 20,
+    "manifest": "Research_Server_Confirmation_2026-10-19/manifests/VC_assessment.jsonl",
+    "manifest_sha256": "593d16ae02ab04a302ab741f0e3528275dff903a8fe78d2971baef1c5a602223",
+    "media_sha256_checks": 1167,
+    "minimum_frames": 23,
+    "median_frames": 129,
+    "maximum_frames": 261,
+    "under_82_frames": 27,
+    "over_400_frames": 0,
+    "reference_words": 30091,
+    "prior_exposure": [
+      "Previously evaluated corpus; prespecified extension, not fresh held-out replication"
+    ],
+    "frames_redecoded_this_run": false
+  },
+  "cross_partition_clip_source_media_overlap": 0,
+  "raw_test_labels": {
+    "archive_sha256": "a633fa4246659425d36063f5b1b87e56a8c85d456da185b10957b0968deff91b",
+    "label_members": 1167,
+    "complete_member_mapping": true,
+    "normalized_text_matches": 1167
+  },
+  "checkpoints": {
+    "export_manifest_sha256": "fe8fcd0a91bc36de6ea3b766aea05c9aa2ae2a8650321ddbafe57a6f9a9d36b1",
+    "vlr": [
+      {
+        "run": "main_vlr_T0_17",
+        "variant": "best",
+        "step": 3000,
+        "path": "Server_Rescue_2026-10-15/Model_States/main_vlr_T0_17/best.pt",
+        "sha256": "1f237cde1853ff0b4bc192c838b2639555e1ac97da8534bac6c92e1c21fa3dae",
+        "original_checkpoint_sha256": "b3cb6175f96d59c8f852478cef1e54cff123b9adb9e3a08003e604f07e89458c",
+        "historical_tensor_equality_verified": true
+      },
+      {
+        "run": "main_vlr_T1_17",
+        "variant": "best",
+        "step": 3500,
+        "path": "Server_Rescue_2026-10-15/Model_States/main_vlr_T1_17/best.pt",
+        "sha256": "cb9355917c3abcc1366b964243640f1ab12cde92abdbf2dbeaa5ee53268962a4",
+        "original_checkpoint_sha256": "70ced5e99b693883e4f14e6bffa1b0df5dcdd50122c5a98bd7503d7e446407d8",
+        "historical_tensor_equality_verified": true
+      },
+      {
+        "run": "main_vlr_T0_17",
+        "variant": "last",
+        "step": 6000,
+        "path": "Server_Rescue_2026-10-15/Model_States/main_vlr_T0_17/last.pt",
+        "sha256": "fd0c87b03a079345ad8a1a91a3ab0d6335439c1e40c4430c7c1e00ad9b7ca679",
+        "original_checkpoint_sha256": "179288a923a56e12610b3c2e97687466f4cd6030005d2288795bab3d309c6ee3",
+        "historical_tensor_equality_verified": true
+      },
+      {
+        "run": "main_vlr_T1_17",
+        "variant": "last",
+        "step": 6000,
+        "path": "Server_Rescue_2026-10-15/Model_States/main_vlr_T1_17/last.pt",
+        "sha256": "9e31b2379a3ed90637a1af9081a915ecce9201db19fa11a2cceb1f1acb53d32b",
+        "original_checkpoint_sha256": "a47d193f6b21e3e630a1efc7adb9f7b7cf2174494e80f2fd35fdc058b69ace48",
+        "historical_tensor_equality_verified": true
+      }
+    ],
+    "training_identity_equal_except_method": true,
+    "seed": 17,
+    "matched_training_budget_steps": 6000,
+    "native_checkpoint_sha256": "6a41d0a3acf15075a0e2f75ead2215b5b8fcc38697885de8ee851eb3ff576c00",
+    "native_is_practical_reference_not_matched_training_control": true
+  },
+  "corpus_registry": {
+    "manifest_sha256": "869a507a9d611823d839503bd04b05f2206c3db82129b6d872257bf908ef4cd9",
+    "rows_by_split": {
+      "train": 194073,
+      "test": 1167
+    },
+    "test_id_source_and_reference_matches": 1167
+  },
+  "checks_sha256": "be86c5099f35e7d360e43829e35cb20ce9f4292df6ad82021fc8b4d284870c42",
+  "code_sha256": "a6a9b90c56f1a5fed447905c77f48b257d84cc2638d935b71568e774570da846",
+  "current_decoder_matrix_changed": false,
+  "test_predictions_read": false,
+  "independent_new_test": false,
+  "new_human_review": false,
+  "word_timing_required_for_whole_clip_wer": false,
+  "speaker_identity_independently_verified": false,
+  "upstream_pretraining_exposure_independently_established": false
+}

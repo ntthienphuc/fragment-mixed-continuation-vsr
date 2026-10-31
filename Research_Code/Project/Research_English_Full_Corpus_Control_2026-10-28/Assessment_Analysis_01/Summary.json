@@ -1,0 +1,409 @@
+{
+  "utc": "2026-10-28T07:31:28.061114+00:00",
+  "status": "complete_F0_practical_control_verified",
+  "models": {
+    "EN_B0": {
+      "primary": {
+        "decoder": "beam_c0.5",
+        "clips": 2854,
+        "errors": 31783,
+        "substitutions": 23493,
+        "deletions": 5130,
+        "insertions": 3160,
+        "units": 48037,
+        "wer_percent": 66.163582238691,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 1324,
+            "substitutions": 915,
+            "deletions": 266,
+            "insertions": 143,
+            "units": 1849,
+            "wer_percent": 71.60627366143862
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 30459,
+            "substitutions": 22578,
+            "deletions": 4864,
+            "insertions": 3017,
+            "units": 46188,
+            "wer_percent": 65.94570018186542
+          }
+        }
+      },
+      "anchor": {
+        "decoder": "beam_c0.1",
+        "clips": 2854,
+        "errors": 32229,
+        "substitutions": 23754,
+        "deletions": 5081,
+        "insertions": 3394,
+        "units": 48037,
+        "wer_percent": 67.09203322438954,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 1338,
+            "substitutions": 931,
+            "deletions": 258,
+            "insertions": 149,
+            "units": 1849,
+            "wer_percent": 72.36343969713359
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 30891,
+            "substitutions": 22823,
+            "deletions": 4823,
+            "insertions": 3245,
+            "units": 46188,
+            "wer_percent": 66.88100805404001
+          }
+        }
+      }
+    },
+    "EN_T0_LAST": {
+      "primary": {
+        "decoder": "beam_c0.1",
+        "clips": 2854,
+        "errors": 32097,
+        "substitutions": 24076,
+        "deletions": 4170,
+        "insertions": 3851,
+        "units": 48037,
+        "wer_percent": 66.81724504028145,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 1352,
+            "substitutions": 965,
+            "deletions": 223,
+            "insertions": 164,
+            "units": 1849,
+            "wer_percent": 73.12060573282855
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 30745,
+            "substitutions": 23111,
+            "deletions": 3947,
+            "insertions": 3687,
+            "units": 46188,
+            "wer_percent": 66.5649086342773
+          }
+        }
+      },
+      "anchor": {
+        "decoder": "beam_c0.1",
+        "clips": 2854,
+        "errors": 32097,
+        "substitutions": 24076,
+        "deletions": 4170,
+        "insertions": 3851,
+        "units": 48037,
+        "wer_percent": 66.81724504028145,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 1352,
+            "substitutions": 965,
+            "deletions": 223,
+            "insertions": 164,
+            "units": 1849,
+            "wer_percent": 73.12060573282855
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 30745,
+            "substitutions": 23111,
+            "deletions": 3947,
+            "insertions": 3687,
+            "units": 46188,
+            "wer_percent": 66.5649086342773
+          }
+        }
+      }
+    },
+    "EN_T1_LAST": {
+      "primary": {
+        "decoder": "beam_c0.5",
+        "clips": 2854,
+        "errors": 32085,
+        "substitutions": 24146,
+        "deletions": 4233,
+        "insertions": 3706,
+        "units": 48037,
+        "wer_percent": 66.79226429627163,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 1348,
+            "substitutions": 954,
+            "deletions": 230,
+            "insertions": 164,
+            "units": 1849,
+            "wer_percent": 72.90427257977285
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 30737,
+            "substitutions": 23192,
+            "deletions": 4003,
+            "insertions": 3542,
+            "units": 46188,
+            "wer_percent": 66.54758811812592
+          }
+        }
+      },
+      "anchor": {
+        "decoder": "beam_c0.1",
+        "clips": 2854,
+        "errors": 32129,
+        "substitutions": 24120,
+        "deletions": 4217,
+        "insertions": 3792,
+        "units": 48037,
+        "wer_percent": 66.88386035764098,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 1359,
+            "substitutions": 962,
+            "deletions": 211,
+            "insertions": 186,
+            "units": 1849,
+            "wer_percent": 73.49918875067604
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 30770,
+            "substitutions": 23158,
+            "deletions": 4006,
+            "insertions": 3606,
+            "units": 46188,
+            "wer_percent": 66.61903524725037
+          }
+        }
+      }
+    },
+    "EN_B1": {
+      "primary": {
+        "decoder": "beam_c0.1",
+        "clips": 2854,
+        "errors": 17298,
+        "substitutions": 11344,
+        "deletions": 3917,
+        "insertions": 2037,
+        "units": 48037,
+        "wer_percent": 36.00974249016383,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 818,
+            "substitutions": 515,
+            "deletions": 216,
+            "insertions": 87,
+            "units": 1849,
+            "wer_percent": 44.24012979989183
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 16480,
+            "substitutions": 10829,
+            "deletions": 3701,
+            "insertions": 1950,
+            "units": 46188,
+            "wer_percent": 35.680263271845504
+          }
+        }
+      },
+      "anchor": {
+        "decoder": "beam_c0.1",
+        "clips": 2854,
+        "errors": 17298,
+        "substitutions": 11344,
+        "deletions": 3917,
+        "insertions": 2037,
+        "units": 48037,
+        "wer_percent": 36.00974249016383,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 818,
+            "substitutions": 515,
+            "deletions": 216,
+            "insertions": 87,
+            "units": 1849,
+            "wer_percent": 44.24012979989183
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 16480,
+            "substitutions": 10829,
+            "deletions": 3701,
+            "insertions": 1950,
+            "units": 46188,
+            "wer_percent": 35.680263271845504
+          }
+        }
+      }
+    },
+    "EN_F0_LAST": {
+      "primary": {
+        "decoder": "beam_c0.1",
+        "clips": 2854,
+        "errors": 32395,
+        "substitutions": 24321,
+        "deletions": 4205,
+        "insertions": 3869,
+        "units": 48037,
+        "wer_percent": 67.43760018319212,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 1353,
+            "substitutions": 970,
+            "deletions": 216,
+            "insertions": 167,
+            "units": 1849,
+            "wer_percent": 73.17468902109248
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 31042,
+            "substitutions": 23351,
+            "deletions": 3989,
+            "insertions": 3702,
+            "units": 46188,
+            "wer_percent": 67.20793279639733
+          }
+        }
+      },
+      "anchor": {
+        "decoder": "beam_c0.1",
+        "clips": 2854,
+        "errors": 32395,
+        "substitutions": 24321,
+        "deletions": 4205,
+        "insertions": 3869,
+        "units": 48037,
+        "wer_percent": 67.43760018319212,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 1353,
+            "substitutions": 970,
+            "deletions": 216,
+            "insertions": 167,
+            "units": 1849,
+            "wer_percent": 73.17468902109248
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 31042,
+            "substitutions": 23351,
+            "deletions": 3989,
+            "insertions": 3702,
+            "units": 46188,
+            "wer_percent": 67.20793279639733
+          }
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "F0_minus_EN_T0_LAST_primary": {
+      "wer_difference_pp": 0.6203551429106731,
+      "conditional_clip_bootstrap_ci95_pp": [
+        0.29822663244226516,
+        0.9496496259797704
+      ],
+      "positive_difference_favors": "the named T0 or T1 control"
+    },
+    "F0_minus_EN_T1_LAST_primary": {
+      "wer_difference_pp": 0.6453358869204988,
+      "conditional_clip_bootstrap_ci95_pp": [
+        0.24668499227427754,
+        1.0509036426614973
+      ],
+      "positive_difference_favors": "the named T0 or T1 control"
+    },
+    "F0_minus_EN_T0_LAST_anchor": {
+      "wer_difference_pp": 0.6203551429106731,
+      "conditional_clip_bootstrap_ci95_pp": [
+        0.29822663244226516,
+        0.9496496259797704
+      ],
+      "positive_difference_favors": "the named T0 or T1 control"
+    },
+    "F0_minus_EN_T1_LAST_anchor": {
+      "wer_difference_pp": 0.5537398255511377,
+      "conditional_clip_bootstrap_ci95_pp": [
+        0.2486408184102275,
+        0.8634223491972427
+      ],
+      "positive_difference_favors": "the named T0 or T1 control"
+    }
+  },
+  "primary_question": "Does mixed full/crop training T1 improve whole-clip transfer over the broader-pool F0 reference?",
+  "assessment_clips": 2854,
+  "reference_words": 48037,
+  "training_seed": 17,
+  "same_training_population_control": false,
+  "new_training": false,
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20261028,
+  "resampling_unit": "released clip; source grouping unavailable",
+  "input_sha256": {
+    "Research_English_Full_Corpus_Control_2026-10-28/Assessment_Task_Manifest.json": "a306a0b090ff388d49eeabc7c6fb7cccae837e34f36dc8fb5a1624ca833135f8",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_00/Predictions.jsonl": "f65599e63ba08aad7210b8c59ba4820998cbe35b7379d7249958a2b5aabae95a",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_00/Complete.json": "1c20e7058ce5b66dc59ddeed501d64efa72d2062b2a7bfb8339fceb03188eb65",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_00/Start.json": "624a10404060788ea8321cfd3a2200647a5793fb7e653cd599d086fd845a7197",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_00/Identity.json": "3b23e542552096191c39e86b662bcd9adb93de49ce52b3eff45a67acabd04ce0",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_00/Verification.json": "a4cced6ca69b8cd7193f91b951c80578e7e2462f396ab26eed7cad74b9ac31a1",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_01/Predictions.jsonl": "234f6e7871ab2d3bd0c0eb220872c9da8218640499ba8d26a0c48925cdf1764c",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_01/Complete.json": "e5709ba1bbd21829331229a050c2f1afb1c42bfe386b7a39144ed06e62f85b27",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_01/Start.json": "193e175c4c8bac7f4fed7b9ddbb1d9b899c108bbebbc71f102d7b66759f02986",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_01/Identity.json": "3a2d905c1489b55bda47176f5ace1c9afa90052f1311b5ff5d5aad5a0fe70d3c",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_01/Verification.json": "c695c29402a2afc7529c98cb9242c9e7c0c24e108cd0dbd239d438c7aefd56ef",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_02/Predictions.jsonl": "dd918637e7e4c035b87a7557173efe96161147e38216f6fff68da5599e152285",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_02/Complete.json": "1646cc74faf8c13c03ff2e8ed9a312e7dbfbd38b92b7ad12a2ead937836ed17c",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_02/Start.json": "bebdffd9443e69049cd68c9cb5717e71ca350cabfbeef30581476534059f4721",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_02/Identity.json": "f6881d0b616552ee4183d889f3a0bf02e5839e12a752184dacd68abf3a690e87",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_02/Verification.json": "198dcd010bede3f9172e7fe5eaeeadd59ce852d981fe9f56dfbfa80d84946ad3",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_03/Predictions.jsonl": "842c2d6756ac93e35e947912052f5a5d8a384a6a8269088fac5bbe01c33a11bd",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_03/Complete.json": "5fcf969e8c6ac5315e25c7d3c7b9fc8a72f030988657076c4ff9ab4c1efa417e",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_03/Start.json": "a8cec330a18e21d7ba956e63a15553872b85e516a148f663a969bda553e0d2e9",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_03/Identity.json": "0998c46b6d7750c965153bf49efdcbb59849afab5386c268c9e27b7e52210608",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_03/Verification.json": "68e12fa1cd8e0adc335044f1478bdb278709010592aaa6a125d175e2a04aa8c7",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_04/Predictions.jsonl": "a6cd6ce6fc1d6cb9f686e80441ba588f4e426f1b49079d91b0cce43d1fe5809a",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_04/Complete.json": "37ea93aec9bdaf04758b7f6f315ebca1a28b565e6e4745ba88e73b7541cc2335",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_04/Start.json": "8c69825965f8b3835549d53c9118ed78d03e18d4db1add3df4f293bab0124d8e",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_04/Identity.json": "eabbdaf3073ae95ac8ffbd1e083e7a5eb0ff82a7dcd0b0b6e1478410911ebe1f",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_04/Verification.json": "9c9a295e31d48fbbfdd07694255946841749b3d28d50ee67b43c781a8473cf17",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_05/Predictions.jsonl": "9a21bad15477f134292b398abfe4f138825f7167801329a8f027e6456948439c",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_05/Complete.json": "c535e0fe8bd1419ce381337088c8daf5361244b6b8d7875ac384cef965fba95b",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_05/Start.json": "367ebc02260130d740f99b8469f027df37e43f35e9885651ffafa18ab6152138",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_05/Identity.json": "9b357b86eae8be1f8049d73697049df7c7207ef5ad4650e0da80113d887ccb77",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_05/Verification.json": "f351733a8aec430c8a25fa872adf70b0badac67d228d2faa52ec509b4a8fd2d5",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_06/Predictions.jsonl": "ce08242e31d6575f7a780c9931b743dc6b2998f3624dfe05f777b9ae738d4326",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_06/Complete.json": "1adc910555c9e33aebccd6a14250a8632d0fc7e6c2bc5ab7ed76560d4b79a44d",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_06/Start.json": "06bc4d64bd2a5781d20e79fba97050e65e2bea277a84c85fce0e925af853d718",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_06/Identity.json": "9c68c073abecd5d212f19e62ed319ce9df4f806249cfb6ca183f51da6218ea8d",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_06/Verification.json": "b75d9e9ed7d49392128df14ff372dca6b55f04daad84ac1445b3ca141655081c",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_07/Predictions.jsonl": "5b663842e162503455fce6ffb94350a8a80ab69931dcbef76f5bf07c6a267f56",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_07/Complete.json": "6ca74ee7d3591407eb49a23450022ebd1a66688ccfd47451573a8b43124f23ed",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_07/Start.json": "d1d3dd4a009b0b80ddc8981276e42c4908667bef48706b092d82cd31b2f0e6b5",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_07/Identity.json": "31343ba40166d24791595d862f58b63c038fcd7551c6dd0ff5ba78e35ffd9f90",
+    "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_07/Verification.json": "85560724917223346200e6c89149501ac5fc967c4dba52dc68914224c1f3239f",
+    "Research_English_Transfer_Benchmark_2026-10-28/Completion_Receipt.json": "97e3ef71fe1a286d245b259f5ba7c999ed9f8606d4c5a89a4dfd66e59f367c25",
+    "Research_English_Transfer_Benchmark_2026-10-28/Assessment_Analysis_01/Summary.json": "89c7147ff52ad4d76c48bff3eedea337294eae9dce7407162124b323ba5788fb",
+    "Research_English_Transfer_Benchmark_2026-10-28/Assessment_Analysis_01/Per_Clip_Counts.csv": "d2a056770306b690c8ee314fb081f6952e040280eb3e2533e817d26562dc7b42",
+    "Research_English_Full_Corpus_Control_2026-10-28/Analysis_Lock.json": "3cc35b3220bbe4a60af8606db20b939c67f8591adabdc53ec09b02d20cd5e655",
+    "Research_English_Full_Corpus_Control_2026-10-28/Decoder_Selection.json": "3c6bd0cd1dd6e2b318148f7bca751b91200a105c8b0230380befa5a9b948c3f4"
+  },
+  "plan_sha256": "17ff25a0e332aa961e46d0de132e01750d9053926254c8187ff4a07ba39d001d",
+  "execution_lock_sha256": "6605ec9048d031b9edb912fb30e6bc72eb6c16be2e3f7fd416bd31c882c6a455"
+}

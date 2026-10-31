@@ -1,0 +1,780 @@
+{
+  "utc": "2026-10-28T22:37:05.170221+00:00",
+  "status": "prepared_not_inference_admitted",
+  "models": {
+    "VLR_B0": {
+      "registry": "Research_Transfer_Full_Benchmark_2026-10-27/model_registry.json",
+      "identity": {
+        "corpus": "VLR",
+        "language": "vi",
+        "metric": "wer",
+        "config": "Research_Phase_05_2026-10-13/configs/vlr.json",
+        "source": "Research_Phase_05_2026-10-13/vendor/auto_avsr",
+        "tokenizer": "Research_Phase_05_2026-10-13/assets/tokenizers/vi.model",
+        "units": "Research_Phase_05_2026-10-13/assets/tokenizers/vi_units.txt",
+        "checkpoint": "Server_Rescue_2026-10-15\\Assets\\VLR\\pretrained.pt",
+        "checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+        "state_field": "raw",
+        "classes": 2002,
+        "runtime_kind": "auto_avsr",
+        "tokenizer_sha256": "6b8c7e138d86282217fad89d7e2be9452a90d398a4e034d9d390586c145e499b",
+        "units_sha256": "90b0875aa114daad969c70d48589db7bfb49da548ea4d0f86bd07dab0514dfda",
+        "config_sha256": "8abced4f71dccb680ee0852068ac86dad62ab81727b5937ffd1c4871247e999e"
+      },
+      "frozen_transfer_decoder": "greedy_b-1.0",
+      "execution_candidates": [
+        "greedy_b-1.0",
+        "beam_c0.1"
+      ]
+    },
+    "VLR_T0_LAST": {
+      "registry": "Research_Transfer_Full_Benchmark_2026-10-27/model_registry.json",
+      "identity": {
+        "corpus": "VLR",
+        "language": "vi",
+        "metric": "wer",
+        "config": "Research_Phase_05_2026-10-13/configs/vlr.json",
+        "source": "Research_Phase_05_2026-10-13/vendor/auto_avsr",
+        "tokenizer": "Research_Phase_05_2026-10-13/assets/tokenizers/vi.model",
+        "units": "Research_Phase_05_2026-10-13/assets/tokenizers/vi_units.txt",
+        "base_checkpoint": "Server_Rescue_2026-10-15/Assets/VLR/pretrained.pt",
+        "base_checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+        "checkpoint": "Server_Rescue_2026-10-15/Model_States/main_vlr_T0_17/last.pt",
+        "checkpoint_sha256": "fd0c87b03a079345ad8a1a91a3ab0d6335439c1e40c4430c7c1e00ad9b7ca679",
+        "state_field": "model",
+        "training_identity": {
+          "config_sha256": "8abced4f71dccb680ee0852068ac86dad62ab81727b5937ffd1c4871247e999e",
+          "code_sha256": "7e10ae375307c2e707c269d4c916c4940cedf87c1115ca553fb210a323d8240a",
+          "train_manifest_sha256": "70ec83434982fd3e350ac43c51a20468f416d32b8bd48b254021d76b7f9e0dfb",
+          "val_manifest_sha256": "bab611d8c2740399c95438a5e350b8004741275236a2ebb7643ebd9f336c9bdf",
+          "method": "T0",
+          "scope": "all",
+          "seed": 17,
+          "budget": "both",
+          "steps": 6000,
+          "accumulation": 8,
+          "lr": 2e-06,
+          "eval_every": 500,
+          "validation_limit": 512,
+          "precision": "bf16",
+          "fused_adam": true,
+          "threads": 2,
+          "cohort": "window",
+          "selection_view": "window"
+        },
+        "selected_training_step": 6000,
+        "classes": 2002,
+        "runtime_kind": "auto_avsr_export",
+        "tokenizer_sha256": "6b8c7e138d86282217fad89d7e2be9452a90d398a4e034d9d390586c145e499b",
+        "units_sha256": "90b0875aa114daad969c70d48589db7bfb49da548ea4d0f86bd07dab0514dfda",
+        "config_sha256": "8abced4f71dccb680ee0852068ac86dad62ab81727b5937ffd1c4871247e999e"
+      },
+      "frozen_transfer_decoder": "greedy_b-1.0",
+      "execution_candidates": [
+        "greedy_b-1.0",
+        "beam_c0.1"
+      ]
+    },
+    "VLR_T1_LAST": {
+      "registry": "Research_Transfer_Full_Benchmark_2026-10-27/model_registry.json",
+      "identity": {
+        "corpus": "VLR",
+        "language": "vi",
+        "metric": "wer",
+        "config": "Research_Phase_05_2026-10-13/configs/vlr.json",
+        "source": "Research_Phase_05_2026-10-13/vendor/auto_avsr",
+        "tokenizer": "Research_Phase_05_2026-10-13/assets/tokenizers/vi.model",
+        "units": "Research_Phase_05_2026-10-13/assets/tokenizers/vi_units.txt",
+        "base_checkpoint": "Server_Rescue_2026-10-15/Assets/VLR/pretrained.pt",
+        "base_checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+        "checkpoint": "Server_Rescue_2026-10-15/Model_States/main_vlr_T1_17/last.pt",
+        "checkpoint_sha256": "9e31b2379a3ed90637a1af9081a915ecce9201db19fa11a2cceb1f1acb53d32b",
+        "state_field": "model",
+        "training_identity": {
+          "config_sha256": "8abced4f71dccb680ee0852068ac86dad62ab81727b5937ffd1c4871247e999e",
+          "code_sha256": "7e10ae375307c2e707c269d4c916c4940cedf87c1115ca553fb210a323d8240a",
+          "train_manifest_sha256": "70ec83434982fd3e350ac43c51a20468f416d32b8bd48b254021d76b7f9e0dfb",
+          "val_manifest_sha256": "bab611d8c2740399c95438a5e350b8004741275236a2ebb7643ebd9f336c9bdf",
+          "method": "T1",
+          "scope": "all",
+          "seed": 17,
+          "budget": "both",
+          "steps": 6000,
+          "accumulation": 8,
+          "lr": 2e-06,
+          "eval_every": 500,
+          "validation_limit": 512,
+          "precision": "bf16",
+          "fused_adam": true,
+          "threads": 2,
+          "cohort": "window",
+          "selection_view": "window"
+        },
+        "selected_training_step": 6000,
+        "classes": 2002,
+        "runtime_kind": "auto_avsr_export",
+        "tokenizer_sha256": "6b8c7e138d86282217fad89d7e2be9452a90d398a4e034d9d390586c145e499b",
+        "units_sha256": "90b0875aa114daad969c70d48589db7bfb49da548ea4d0f86bd07dab0514dfda",
+        "config_sha256": "8abced4f71dccb680ee0852068ac86dad62ab81727b5937ffd1c4871247e999e"
+      },
+      "frozen_transfer_decoder": "beam_c0.5",
+      "execution_candidates": [
+        "beam_c0.5",
+        "beam_c0.1"
+      ]
+    },
+    "VLR_T0_29_LAST": {
+      "registry": "Research_Transfer_Full_Benchmark_2026-10-27/model_registry.json",
+      "identity": {
+        "corpus": "VLR",
+        "language": "vi",
+        "metric": "wer",
+        "config": "Research_Phase_05_2026-10-13/configs/vlr.json",
+        "source": "Research_Phase_05_2026-10-13/vendor/auto_avsr",
+        "tokenizer": "Research_Phase_05_2026-10-13/assets/tokenizers/vi.model",
+        "units": "Research_Phase_05_2026-10-13/assets/tokenizers/vi_units.txt",
+        "base_checkpoint": "Server_Rescue_2026-10-15/Assets/VLR/pretrained.pt",
+        "base_checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+        "checkpoint": "Research_Seed_Replication_2026-10-15/Model_States/vlr_T0_29/last.pt",
+        "checkpoint_sha256": "a879197acb3a9cacb67f3cb3b1146a7a8833a9c7ca0d4adfed74466eba8f60c5",
+        "state_field": "model",
+        "training_identity": {
+          "config_sha256": "8abced4f71dccb680ee0852068ac86dad62ab81727b5937ffd1c4871247e999e",
+          "code_sha256": "7e10ae375307c2e707c269d4c916c4940cedf87c1115ca553fb210a323d8240a",
+          "train_manifest_sha256": "70ec83434982fd3e350ac43c51a20468f416d32b8bd48b254021d76b7f9e0dfb",
+          "val_manifest_sha256": "bab611d8c2740399c95438a5e350b8004741275236a2ebb7643ebd9f336c9bdf",
+          "method": "T0",
+          "scope": "all",
+          "seed": 29,
+          "budget": "both",
+          "steps": 6000,
+          "accumulation": 8,
+          "lr": 2e-06,
+          "eval_every": 500,
+          "validation_limit": 512,
+          "precision": "bf16",
+          "fused_adam": true,
+          "threads": 2,
+          "cohort": "window",
+          "selection_view": "window"
+        },
+        "selected_training_step": 6000,
+        "classes": 2002,
+        "runtime_kind": "auto_avsr_export",
+        "tokenizer_sha256": "6b8c7e138d86282217fad89d7e2be9452a90d398a4e034d9d390586c145e499b",
+        "units_sha256": "90b0875aa114daad969c70d48589db7bfb49da548ea4d0f86bd07dab0514dfda",
+        "config_sha256": "8abced4f71dccb680ee0852068ac86dad62ab81727b5937ffd1c4871247e999e"
+      },
+      "frozen_transfer_decoder": "greedy_b-1.0",
+      "execution_candidates": [
+        "greedy_b-1.0",
+        "beam_c0.1"
+      ]
+    },
+    "VLR_T1_29_LAST": {
+      "registry": "Research_Transfer_Full_Benchmark_2026-10-27/model_registry.json",
+      "identity": {
+        "corpus": "VLR",
+        "language": "vi",
+        "metric": "wer",
+        "config": "Research_Phase_05_2026-10-13/configs/vlr.json",
+        "source": "Research_Phase_05_2026-10-13/vendor/auto_avsr",
+        "tokenizer": "Research_Phase_05_2026-10-13/assets/tokenizers/vi.model",
+        "units": "Research_Phase_05_2026-10-13/assets/tokenizers/vi_units.txt",
+        "base_checkpoint": "Server_Rescue_2026-10-15/Assets/VLR/pretrained.pt",
+        "base_checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+        "checkpoint": "Research_Seed_Replication_2026-10-15/Model_States/vlr_T1_29/last.pt",
+        "checkpoint_sha256": "2a42b94bf3bfe1333e2953678c4ec3ebfc08033071ded6d2455db89694b27500",
+        "state_field": "model",
+        "training_identity": {
+          "config_sha256": "8abced4f71dccb680ee0852068ac86dad62ab81727b5937ffd1c4871247e999e",
+          "code_sha256": "7e10ae375307c2e707c269d4c916c4940cedf87c1115ca553fb210a323d8240a",
+          "train_manifest_sha256": "70ec83434982fd3e350ac43c51a20468f416d32b8bd48b254021d76b7f9e0dfb",
+          "val_manifest_sha256": "bab611d8c2740399c95438a5e350b8004741275236a2ebb7643ebd9f336c9bdf",
+          "method": "T1",
+          "scope": "all",
+          "seed": 29,
+          "budget": "both",
+          "steps": 6000,
+          "accumulation": 8,
+          "lr": 2e-06,
+          "eval_every": 500,
+          "validation_limit": 512,
+          "precision": "bf16",
+          "fused_adam": true,
+          "threads": 2,
+          "cohort": "window",
+          "selection_view": "window"
+        },
+        "selected_training_step": 6000,
+        "classes": 2002,
+        "runtime_kind": "auto_avsr_export",
+        "tokenizer_sha256": "6b8c7e138d86282217fad89d7e2be9452a90d398a4e034d9d390586c145e499b",
+        "units_sha256": "90b0875aa114daad969c70d48589db7bfb49da548ea4d0f86bd07dab0514dfda",
+        "config_sha256": "8abced4f71dccb680ee0852068ac86dad62ab81727b5937ffd1c4871247e999e"
+      },
+      "frozen_transfer_decoder": "greedy_b-1.0",
+      "execution_candidates": [
+        "greedy_b-1.0",
+        "beam_c0.1"
+      ]
+    },
+    "EN_B0": {
+      "registry": "Research_English_Transfer_Benchmark_2026-10-28/model_registry.json",
+      "identity": {
+        "corpus": "LRS2",
+        "language": "en",
+        "metric": "wer",
+        "config": "Research_Phase_05_2026-10-13/configs/lrs2.json",
+        "source": "Research_Phase_05_2026-10-13/vendor/auto_avsr",
+        "tokenizer": "Research_Phase_05_2026-10-13/assets/tokenizers/en.model",
+        "units": "Research_Phase_05_2026-10-13/assets/tokenizers/en_units.txt",
+        "checkpoint": "Server_Rescue_2026-10-15/Assets/LRS2/pretrained.pt",
+        "checkpoint_sha256": "ef7fef5639a25c5837a48dd71ba1b366ca2c10f9215f9e99a913c7ec0fb5a148",
+        "state_field": "raw",
+        "classes": 5049,
+        "runtime_kind": "auto_avsr",
+        "tokenizer_sha256": "2c1d648ccf5fdce6612ecbea2ffbd1cab5aabc90458781186175c3911c4bdb1e",
+        "units_sha256": "29001d967ad290e28f6f1d7d47e07e314354bf67d3b1f494e936fa2fed9a9122",
+        "config_sha256": "9a7326904fb828c79ac839e78ab3a6f2739a359c1e5dc7afec1f509934c7d3c6"
+      },
+      "frozen_transfer_decoder": "beam_c0.5",
+      "execution_candidates": [
+        "beam_c0.5",
+        "beam_c0.1"
+      ]
+    },
+    "EN_T0_LAST": {
+      "registry": "Research_English_Transfer_Benchmark_2026-10-28/model_registry.json",
+      "identity": {
+        "corpus": "LRS2",
+        "language": "en",
+        "metric": "wer",
+        "config": "Research_Phase_05_2026-10-13/configs/lrs2.json",
+        "source": "Research_Phase_05_2026-10-13/vendor/auto_avsr",
+        "tokenizer": "Research_Phase_05_2026-10-13/assets/tokenizers/en.model",
+        "units": "Research_Phase_05_2026-10-13/assets/tokenizers/en_units.txt",
+        "checkpoint": "Server_Rescue_2026-10-15/Model_States/main_lrs2_T0_17/last.pt",
+        "checkpoint_sha256": "62e86f85890134c5f526c6183a03ef8bdc1cbe7fdf7d65f1fd18de3edea7019e",
+        "state_field": "model",
+        "classes": 5049,
+        "runtime_kind": "auto_avsr",
+        "tokenizer_sha256": "2c1d648ccf5fdce6612ecbea2ffbd1cab5aabc90458781186175c3911c4bdb1e",
+        "units_sha256": "29001d967ad290e28f6f1d7d47e07e314354bf67d3b1f494e936fa2fed9a9122",
+        "config_sha256": "9a7326904fb828c79ac839e78ab3a6f2739a359c1e5dc7afec1f509934c7d3c6",
+        "base_checkpoint": "Server_Rescue_2026-10-15/Assets/LRS2/pretrained.pt",
+        "base_checkpoint_sha256": "ef7fef5639a25c5837a48dd71ba1b366ca2c10f9215f9e99a913c7ec0fb5a148",
+        "training_identity": {
+          "config_sha256": "9a7326904fb828c79ac839e78ab3a6f2739a359c1e5dc7afec1f509934c7d3c6",
+          "code_sha256": "7e10ae375307c2e707c269d4c916c4940cedf87c1115ca553fb210a323d8240a",
+          "train_manifest_sha256": "ed12af7c652033d3d9c198c9c09d7c0d92abd3b6eaf2bef4326787ee9a5007b6",
+          "val_manifest_sha256": "d81c9a696ba33949ac1bf52d69a014e8b4da42bd9740c1b688748dbc7df28974",
+          "method": "T0",
+          "scope": "all",
+          "seed": 17,
+          "budget": "both",
+          "steps": 6000,
+          "accumulation": 8,
+          "lr": 2e-06,
+          "eval_every": 500,
+          "validation_limit": 0,
+          "precision": "bf16",
+          "fused_adam": true,
+          "threads": 2,
+          "cohort": "window",
+          "selection_view": "window"
+        },
+        "selected_training_step": 6000
+      },
+      "frozen_transfer_decoder": "beam_c0.1",
+      "execution_candidates": [
+        "beam_c0.1"
+      ]
+    },
+    "EN_T1_LAST": {
+      "registry": "Research_English_Transfer_Benchmark_2026-10-28/model_registry.json",
+      "identity": {
+        "corpus": "LRS2",
+        "language": "en",
+        "metric": "wer",
+        "config": "Research_Phase_05_2026-10-13/configs/lrs2.json",
+        "source": "Research_Phase_05_2026-10-13/vendor/auto_avsr",
+        "tokenizer": "Research_Phase_05_2026-10-13/assets/tokenizers/en.model",
+        "units": "Research_Phase_05_2026-10-13/assets/tokenizers/en_units.txt",
+        "checkpoint": "Server_Rescue_2026-10-15/Model_States/main_lrs2_T1_17/last.pt",
+        "checkpoint_sha256": "29718da5a6a4ee4e9e26027cd9f01f99407098780a20e8cfc7069f7f4a851abf",
+        "state_field": "model",
+        "classes": 5049,
+        "runtime_kind": "auto_avsr",
+        "tokenizer_sha256": "2c1d648ccf5fdce6612ecbea2ffbd1cab5aabc90458781186175c3911c4bdb1e",
+        "units_sha256": "29001d967ad290e28f6f1d7d47e07e314354bf67d3b1f494e936fa2fed9a9122",
+        "config_sha256": "9a7326904fb828c79ac839e78ab3a6f2739a359c1e5dc7afec1f509934c7d3c6",
+        "base_checkpoint": "Server_Rescue_2026-10-15/Assets/LRS2/pretrained.pt",
+        "base_checkpoint_sha256": "ef7fef5639a25c5837a48dd71ba1b366ca2c10f9215f9e99a913c7ec0fb5a148",
+        "training_identity": {
+          "config_sha256": "9a7326904fb828c79ac839e78ab3a6f2739a359c1e5dc7afec1f509934c7d3c6",
+          "code_sha256": "7e10ae375307c2e707c269d4c916c4940cedf87c1115ca553fb210a323d8240a",
+          "train_manifest_sha256": "ed12af7c652033d3d9c198c9c09d7c0d92abd3b6eaf2bef4326787ee9a5007b6",
+          "val_manifest_sha256": "d81c9a696ba33949ac1bf52d69a014e8b4da42bd9740c1b688748dbc7df28974",
+          "method": "T1",
+          "scope": "all",
+          "seed": 17,
+          "budget": "both",
+          "steps": 6000,
+          "accumulation": 8,
+          "lr": 2e-06,
+          "eval_every": 500,
+          "validation_limit": 0,
+          "precision": "bf16",
+          "fused_adam": true,
+          "threads": 2,
+          "cohort": "window",
+          "selection_view": "window"
+        },
+        "selected_training_step": 6000
+      },
+      "frozen_transfer_decoder": "beam_c0.5",
+      "execution_candidates": [
+        "beam_c0.5",
+        "beam_c0.1"
+      ]
+    },
+    "EN_B1": {
+      "registry": "Research_English_Transfer_Benchmark_2026-10-28/model_registry.json",
+      "identity": {
+        "corpus": "LRS2",
+        "language": "en",
+        "metric": "wer",
+        "config": "Research_Phase_05_2026-10-13/configs/lrs2.json",
+        "source": "Research_Phase_05_2026-10-13/vendor/auto_avsr",
+        "tokenizer": "Research_Phase_05_2026-10-13/assets/tokenizers/en.model",
+        "units": "Research_Phase_05_2026-10-13/assets/tokenizers/en_units.txt",
+        "checkpoint": "Research_Strong_Baseline_2026-10-15/vsr_trlrs2lrs3vox2avsp_base.pth",
+        "checkpoint_sha256": "fbf7cd70ff1c0e694b3030fb779dbb4570f04e4b841d62f9296c229e94878ddb",
+        "state_field": "raw",
+        "classes": 5049,
+        "runtime_kind": "auto_avsr_raw",
+        "tokenizer_sha256": "2c1d648ccf5fdce6612ecbea2ffbd1cab5aabc90458781186175c3911c4bdb1e",
+        "units_sha256": "29001d967ad290e28f6f1d7d47e07e314354bf67d3b1f494e936fa2fed9a9122",
+        "config_sha256": "9a7326904fb828c79ac839e78ab3a6f2739a359c1e5dc7afec1f509934c7d3c6"
+      },
+      "frozen_transfer_decoder": "beam_c0.1",
+      "execution_candidates": [
+        "beam_c0.1"
+      ]
+    },
+    "EN_F0_LAST": {
+      "registry": "Research_English_Full_Corpus_Control_2026-10-28/model_registry.json",
+      "identity": {
+        "corpus": "LRS2",
+        "language": "en",
+        "metric": "wer",
+        "config": "Research_Phase_05_2026-10-13/configs/lrs2.json",
+        "source": "Research_Phase_05_2026-10-13/vendor/auto_avsr",
+        "tokenizer": "Research_Phase_05_2026-10-13/assets/tokenizers/en.model",
+        "units": "Research_Phase_05_2026-10-13/assets/tokenizers/en_units.txt",
+        "checkpoint": "Server_Rescue_2026-10-15/Model_States/main_lrs2_F0_17/last.pt",
+        "checkpoint_sha256": "e42d76a546ae46e19b97c011d8905bbfe570b791829ca0f6ecd50e89d9bb9bed",
+        "state_field": "model",
+        "classes": 5049,
+        "runtime_kind": "auto_avsr",
+        "tokenizer_sha256": "2c1d648ccf5fdce6612ecbea2ffbd1cab5aabc90458781186175c3911c4bdb1e",
+        "units_sha256": "29001d967ad290e28f6f1d7d47e07e314354bf67d3b1f494e936fa2fed9a9122",
+        "config_sha256": "9a7326904fb828c79ac839e78ab3a6f2739a359c1e5dc7afec1f509934c7d3c6",
+        "base_checkpoint": "Server_Rescue_2026-10-15/Assets/LRS2/pretrained.pt",
+        "base_checkpoint_sha256": "ef7fef5639a25c5837a48dd71ba1b366ca2c10f9215f9e99a913c7ec0fb5a148",
+        "training_identity": {
+          "config_sha256": "9a7326904fb828c79ac839e78ab3a6f2739a359c1e5dc7afec1f509934c7d3c6",
+          "code_sha256": "7e10ae375307c2e707c269d4c916c4940cedf87c1115ca553fb210a323d8240a",
+          "train_manifest_sha256": "ed12af7c652033d3d9c198c9c09d7c0d92abd3b6eaf2bef4326787ee9a5007b6",
+          "val_manifest_sha256": "d81c9a696ba33949ac1bf52d69a014e8b4da42bd9740c1b688748dbc7df28974",
+          "method": "T0",
+          "scope": "all",
+          "seed": 17,
+          "budget": "both",
+          "steps": 6000,
+          "accumulation": 8,
+          "lr": 2e-06,
+          "eval_every": 500,
+          "validation_limit": 0,
+          "precision": "bf16",
+          "fused_adam": true,
+          "threads": 2,
+          "cohort": "full",
+          "selection_view": "full"
+        },
+        "selected_training_step": 6000
+      },
+      "frozen_transfer_decoder": "beam_c0.1",
+      "execution_candidates": [
+        "beam_c0.1"
+      ]
+    },
+    "VLR_T2_LAST": {
+      "registry": "Research_Transfer_Mechanism_Benchmark_2026-10-28/model_registry.json",
+      "identity": {
+        "corpus": "VLR",
+        "language": "vi",
+        "metric": "wer",
+        "config": "Research_Phase_05_2026-10-13/configs/vlr.json",
+        "source": "Research_Phase_05_2026-10-13/vendor/auto_avsr",
+        "tokenizer": "Research_Phase_05_2026-10-13/assets/tokenizers/vi.model",
+        "units": "Research_Phase_05_2026-10-13/assets/tokenizers/vi_units.txt",
+        "base_checkpoint": "Server_Rescue_2026-10-15/Assets/VLR/pretrained.pt",
+        "base_checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+        "checkpoint": "Server_Rescue_2026-10-15/Model_States/main_vlr_T2_17/last.pt",
+        "checkpoint_sha256": "3a379cf6a3ad65bf9ee8a94175c9dbb368b55f5a56254b781e7b9d5f1ff83eef",
+        "state_field": "model",
+        "training_identity": {
+          "config_sha256": "8abced4f71dccb680ee0852068ac86dad62ab81727b5937ffd1c4871247e999e",
+          "code_sha256": "7e10ae375307c2e707c269d4c916c4940cedf87c1115ca553fb210a323d8240a",
+          "train_manifest_sha256": "70ec83434982fd3e350ac43c51a20468f416d32b8bd48b254021d76b7f9e0dfb",
+          "val_manifest_sha256": "bab611d8c2740399c95438a5e350b8004741275236a2ebb7643ebd9f336c9bdf",
+          "method": "T2",
+          "scope": "all",
+          "seed": 17,
+          "budget": "both",
+          "steps": 6000,
+          "accumulation": 8,
+          "lr": 2e-06,
+          "eval_every": 500,
+          "validation_limit": 512,
+          "precision": "bf16",
+          "fused_adam": true,
+          "threads": 2,
+          "cohort": "window",
+          "selection_view": "window"
+        },
+        "selected_training_step": 6000,
+        "classes": 2002,
+        "runtime_kind": "auto_avsr_export",
+        "tokenizer_sha256": "6b8c7e138d86282217fad89d7e2be9452a90d398a4e034d9d390586c145e499b",
+        "units_sha256": "90b0875aa114daad969c70d48589db7bfb49da548ea4d0f86bd07dab0514dfda",
+        "config_sha256": "8abced4f71dccb680ee0852068ac86dad62ab81727b5937ffd1c4871247e999e"
+      },
+      "frozen_transfer_decoder": "beam_c0.9",
+      "execution_candidates": [
+        "beam_c0.9",
+        "beam_c0.1"
+      ]
+    },
+    "VLR_T4_LAST": {
+      "registry": "Research_Transfer_Mechanism_Benchmark_2026-10-28/model_registry.json",
+      "identity": {
+        "corpus": "VLR",
+        "language": "vi",
+        "metric": "wer",
+        "config": "Research_Phase_05_2026-10-13/configs/vlr.json",
+        "source": "Research_Phase_05_2026-10-13/vendor/auto_avsr",
+        "tokenizer": "Research_Phase_05_2026-10-13/assets/tokenizers/vi.model",
+        "units": "Research_Phase_05_2026-10-13/assets/tokenizers/vi_units.txt",
+        "base_checkpoint": "Server_Rescue_2026-10-15/Assets/VLR/pretrained.pt",
+        "base_checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+        "checkpoint": "Server_Rescue_2026-10-15/Model_States/main_vlr_T4_17/last.pt",
+        "checkpoint_sha256": "6c9349657cda311535d0e73a2b1fab164d28b91ff5ed49e8367e9b1e7f5de31c",
+        "state_field": "model",
+        "training_identity": {
+          "config_sha256": "8abced4f71dccb680ee0852068ac86dad62ab81727b5937ffd1c4871247e999e",
+          "code_sha256": "7e10ae375307c2e707c269d4c916c4940cedf87c1115ca553fb210a323d8240a",
+          "train_manifest_sha256": "70ec83434982fd3e350ac43c51a20468f416d32b8bd48b254021d76b7f9e0dfb",
+          "val_manifest_sha256": "bab611d8c2740399c95438a5e350b8004741275236a2ebb7643ebd9f336c9bdf",
+          "method": "T4",
+          "scope": "all",
+          "seed": 17,
+          "budget": "both",
+          "steps": 6000,
+          "accumulation": 8,
+          "lr": 2e-06,
+          "eval_every": 500,
+          "validation_limit": 512,
+          "precision": "bf16",
+          "fused_adam": true,
+          "threads": 2,
+          "cohort": "window",
+          "selection_view": "window"
+        },
+        "selected_training_step": 6000,
+        "classes": 2002,
+        "runtime_kind": "auto_avsr_export",
+        "tokenizer_sha256": "6b8c7e138d86282217fad89d7e2be9452a90d398a4e034d9d390586c145e499b",
+        "units_sha256": "90b0875aa114daad969c70d48589db7bfb49da548ea4d0f86bd07dab0514dfda",
+        "config_sha256": "8abced4f71dccb680ee0852068ac86dad62ab81727b5937ffd1c4871247e999e"
+      },
+      "frozen_transfer_decoder": "beam_c0.5",
+      "execution_candidates": [
+        "beam_c0.5",
+        "beam_c0.1"
+      ]
+    },
+    "EN_T2_LAST": {
+      "registry": "Research_Transfer_Mechanism_Benchmark_2026-10-28/model_registry.json",
+      "identity": {
+        "corpus": "LRS2",
+        "language": "en",
+        "metric": "wer",
+        "config": "Research_Phase_05_2026-10-13/configs/lrs2.json",
+        "source": "Research_Phase_05_2026-10-13/vendor/auto_avsr",
+        "tokenizer": "Research_Phase_05_2026-10-13/assets/tokenizers/en.model",
+        "units": "Research_Phase_05_2026-10-13/assets/tokenizers/en_units.txt",
+        "checkpoint": "Server_Rescue_2026-10-15/Model_States/main_lrs2_T2_17/last.pt",
+        "checkpoint_sha256": "c71e932281efd91f2f89867ad4cddf661a49ff132596d019d09954aa5bd6be83",
+        "state_field": "model",
+        "classes": 5049,
+        "runtime_kind": "auto_avsr",
+        "tokenizer_sha256": "2c1d648ccf5fdce6612ecbea2ffbd1cab5aabc90458781186175c3911c4bdb1e",
+        "units_sha256": "29001d967ad290e28f6f1d7d47e07e314354bf67d3b1f494e936fa2fed9a9122",
+        "config_sha256": "9a7326904fb828c79ac839e78ab3a6f2739a359c1e5dc7afec1f509934c7d3c6",
+        "base_checkpoint": "Server_Rescue_2026-10-15/Assets/LRS2/pretrained.pt",
+        "base_checkpoint_sha256": "ef7fef5639a25c5837a48dd71ba1b366ca2c10f9215f9e99a913c7ec0fb5a148",
+        "training_identity": {
+          "config_sha256": "9a7326904fb828c79ac839e78ab3a6f2739a359c1e5dc7afec1f509934c7d3c6",
+          "code_sha256": "7e10ae375307c2e707c269d4c916c4940cedf87c1115ca553fb210a323d8240a",
+          "train_manifest_sha256": "ed12af7c652033d3d9c198c9c09d7c0d92abd3b6eaf2bef4326787ee9a5007b6",
+          "val_manifest_sha256": "d81c9a696ba33949ac1bf52d69a014e8b4da42bd9740c1b688748dbc7df28974",
+          "method": "T2",
+          "scope": "all",
+          "seed": 17,
+          "budget": "both",
+          "steps": 6000,
+          "accumulation": 8,
+          "lr": 2e-06,
+          "eval_every": 500,
+          "validation_limit": 0,
+          "precision": "bf16",
+          "fused_adam": true,
+          "threads": 2,
+          "cohort": "window",
+          "selection_view": "window"
+        },
+        "selected_training_step": 6000
+      },
+      "frozen_transfer_decoder": "beam_c0.5",
+      "execution_candidates": [
+        "beam_c0.5",
+        "beam_c0.1"
+      ]
+    },
+    "EN_T4_LAST": {
+      "registry": "Research_Transfer_Mechanism_Benchmark_2026-10-28/model_registry.json",
+      "identity": {
+        "corpus": "LRS2",
+        "language": "en",
+        "metric": "wer",
+        "config": "Research_Phase_05_2026-10-13/configs/lrs2.json",
+        "source": "Research_Phase_05_2026-10-13/vendor/auto_avsr",
+        "tokenizer": "Research_Phase_05_2026-10-13/assets/tokenizers/en.model",
+        "units": "Research_Phase_05_2026-10-13/assets/tokenizers/en_units.txt",
+        "checkpoint": "Server_Rescue_2026-10-15/Model_States/main_lrs2_T4_17/last.pt",
+        "checkpoint_sha256": "d307767052f9399535d3edafa9fed2eea51a8226cdb2df8d9e81ea4a7382fb6a",
+        "state_field": "model",
+        "classes": 5049,
+        "runtime_kind": "auto_avsr",
+        "tokenizer_sha256": "2c1d648ccf5fdce6612ecbea2ffbd1cab5aabc90458781186175c3911c4bdb1e",
+        "units_sha256": "29001d967ad290e28f6f1d7d47e07e314354bf67d3b1f494e936fa2fed9a9122",
+        "config_sha256": "9a7326904fb828c79ac839e78ab3a6f2739a359c1e5dc7afec1f509934c7d3c6",
+        "base_checkpoint": "Server_Rescue_2026-10-15/Assets/LRS2/pretrained.pt",
+        "base_checkpoint_sha256": "ef7fef5639a25c5837a48dd71ba1b366ca2c10f9215f9e99a913c7ec0fb5a148",
+        "training_identity": {
+          "config_sha256": "9a7326904fb828c79ac839e78ab3a6f2739a359c1e5dc7afec1f509934c7d3c6",
+          "code_sha256": "7e10ae375307c2e707c269d4c916c4940cedf87c1115ca553fb210a323d8240a",
+          "train_manifest_sha256": "ed12af7c652033d3d9c198c9c09d7c0d92abd3b6eaf2bef4326787ee9a5007b6",
+          "val_manifest_sha256": "d81c9a696ba33949ac1bf52d69a014e8b4da42bd9740c1b688748dbc7df28974",
+          "method": "T4",
+          "scope": "all",
+          "seed": 17,
+          "budget": "both",
+          "steps": 6000,
+          "accumulation": 8,
+          "lr": 2e-06,
+          "eval_every": 500,
+          "validation_limit": 0,
+          "precision": "bf16",
+          "fused_adam": true,
+          "threads": 2,
+          "cohort": "window",
+          "selection_view": "window"
+        },
+        "selected_training_step": 6000
+      },
+      "frozen_transfer_decoder": "beam_c0.5",
+      "execution_candidates": [
+        "beam_c0.5",
+        "beam_c0.1"
+      ]
+    }
+  },
+  "corpora": {
+    "vlr": {
+      "archive": "Server_Rescue_2026-10-15\\Data\\VLR\\Prepared_Test.zip",
+      "archive_sha256": "4d25b490074d22951ea071d6dd609305b15ea610b81993b6d8b25a8c107fa1a9",
+      "archive_bytes": 8825083717,
+      "payload_files_verified": 33946,
+      "archive_manifest_sha256": "9f14c166498343d7ca37ecddae90aabddd83f71af4e012a1b938c97b8b73b591",
+      "prepared_manifest_sha256": "239b32e21612034eaf128263130f9fd09fd99dce15e6c11307289f4d5bdd8949",
+      "clips": 11307,
+      "source_labels": 61,
+      "reference_whitespace_units": 225960,
+      "all_frame_caches_loaded": 11307,
+      "total_frames": 1634458,
+      "duration_seconds": {
+        "min": 0.08,
+        "median": 5.64,
+        "p95": 7.88,
+        "max": 59.64
+      },
+      "mean_seconds": 5.78211019722296,
+      "disjointness": {
+        "train": {
+          "clip_id": 0,
+          "source_id": 0,
+          "video_sha256": 0
+        },
+        "val": {
+          "clip_id": 0,
+          "source_id": 0,
+          "video_sha256": 0
+        }
+      },
+      "speaker_independence_established": false,
+      "human_label_review_added": false,
+      "directory_group_correction_sha256": "a15fc1ff0e5edbe6433ef528bcf6bb56d1543ab51cfe1fade085f5e598d7f05f",
+      "pixel_manifest_sha256": "e2529f24994ec6c06552b02ac57eacd94365463255032fa44619f4698caee025"
+    },
+    "lrs2": {
+      "archive": "Server_Rescue_2026-10-15\\Data\\EN\\LRS2_Prepared_Test.zip",
+      "archive_sha256": "66d1de3b2a41e852228266c3ab6483ceb9dd898ee8dadf6c7182e186ec9d9bb9",
+      "archive_bytes": 309343545,
+      "payload_files_verified": 4986,
+      "archive_manifest_sha256": "05fa081d995259f2a6b94054acd43c3e4b44be02ca6226b5e300082bb633560e",
+      "prepared_manifest_sha256": "40577ac9ef43bb4999d06646c7a270c17a2d897290cccbe46492925e0309e434",
+      "clips": 1243,
+      "source_labels": 354,
+      "reference_whitespace_units": 6660,
+      "all_frame_caches_loaded": 1243,
+      "total_frames": 51032,
+      "duration_seconds": {
+        "min": 0.6,
+        "median": 1.44,
+        "p95": 3.04,
+        "max": 5.8
+      },
+      "mean_seconds": 1.6422204344328237,
+      "disjointness": {
+        "train": {
+          "clip_id": 0,
+          "source_id": 0,
+          "video_sha256": 0
+        },
+        "val": {
+          "clip_id": 0,
+          "source_id": 0,
+          "video_sha256": 0
+        }
+      },
+      "speaker_independence_established": false,
+      "human_label_review_added": false,
+      "pixel_manifest_sha256": "eca9dab5288bc6df70edcb10b09896ffd326d4a80303aa50e3f997c503d05dc4"
+    }
+  },
+  "prerequisites": {
+    "Protocol.md": "ec8152947fd2a9d7f131aec58a9eb679fef7ace7f7149c40df9d94bdfc1c4284",
+    "check.py": "b2c1ff06a6f210e621cabfe478196f9734103b5c5079f0f99a695a60ad1465e1",
+    "Research_Transfer_Full_Benchmark_2026-10-27/model_registry.json": "4f40619ed9faabd509b671c000e0f2395dbb786ff8863be1f80b391b5f40648a",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Decoder_Selection.json": "e829ff5a971edf4edeff36f44fdcaeb9e4f06dcda8c487214a939060b1439846",
+    "Research_English_Transfer_Benchmark_2026-10-28/model_registry.json": "817abdf9c3d1bea196f6f76ee32d54896afc0bdf5a059d27ccc81481d13820c6",
+    "Research_English_Transfer_Benchmark_2026-10-28/Decoder_Selection.json": "8232dbea4dffad7b563656ad9ee4d5de428c5427389f0c6929dcad8c38c7ac9f",
+    "Research_English_Full_Corpus_Control_2026-10-28/model_registry.json": "d8cf3157e985c63c9ec129db047299d0a61674b800e2376bc55beced4245adc6",
+    "Research_English_Full_Corpus_Control_2026-10-28/Decoder_Selection.json": "3c6bd0cd1dd6e2b318148f7bca751b91200a105c8b0230380befa5a9b948c3f4",
+    "Research_Transfer_Mechanism_Benchmark_2026-10-28/model_registry.json": "969934b48477efdc46710cdbc41fc42f2ebd16d45e011744ad8a3dfb90610b24",
+    "Research_Transfer_Mechanism_Benchmark_2026-10-28/Decoder_Selection.json": "da0539f186b39725ae6951e635e608106a120cc8fee4dfbb09864a590f1dfaf2"
+  },
+  "all_checkpoints_and_inputs_hashed": {
+    "E:\\Project\\Lip\\Server_Rescue_2026-10-15\\Assets\\VLR\\pretrained.pt": {
+      "sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+      "bytes": 973787221
+    },
+    "E:\\Project\\Lip\\Research_Phase_05_2026-10-13\\assets\\tokenizers\\vi.model": {
+      "sha256": "6b8c7e138d86282217fad89d7e2be9452a90d398a4e034d9d390586c145e499b",
+      "bytes": 29678
+    },
+    "E:\\Project\\Lip\\Research_Phase_05_2026-10-13\\assets\\tokenizers\\vi_units.txt": {
+      "sha256": "90b0875aa114daad969c70d48589db7bfb49da548ea4d0f86bd07dab0514dfda",
+      "bytes": 21904
+    },
+    "E:\\Project\\Lip\\Research_Phase_05_2026-10-13\\configs\\vlr.json": {
+      "sha256": "8abced4f71dccb680ee0852068ac86dad62ab81727b5937ffd1c4871247e999e",
+      "bytes": 501
+    },
+    "E:\\Project\\Lip\\Server_Rescue_2026-10-15\\Model_States\\main_vlr_T0_17\\last.pt": {
+      "sha256": "fd0c87b03a079345ad8a1a91a3ab0d6335439c1e40c4430c7c1e00ad9b7ca679",
+      "bytes": 973825985
+    },
+    "E:\\Project\\Lip\\Server_Rescue_2026-10-15\\Model_States\\main_vlr_T1_17\\last.pt": {
+      "sha256": "9e31b2379a3ed90637a1af9081a915ecce9201db19fa11a2cceb1f1acb53d32b",
+      "bytes": 973825985
+    },
+    "E:\\Project\\Lip\\Research_Seed_Replication_2026-10-15\\Model_States\\vlr_T0_29\\last.pt": {
+      "sha256": "a879197acb3a9cacb67f3cb3b1146a7a8833a9c7ca0d4adfed74466eba8f60c5",
+      "bytes": 973826049
+    },
+    "E:\\Project\\Lip\\Research_Seed_Replication_2026-10-15\\Model_States\\vlr_T1_29\\last.pt": {
+      "sha256": "2a42b94bf3bfe1333e2953678c4ec3ebfc08033071ded6d2455db89694b27500",
+      "bytes": 973826049
+    },
+    "E:\\Project\\Lip\\Server_Rescue_2026-10-15\\Assets\\LRS2\\pretrained.pt": {
+      "sha256": "ef7fef5639a25c5837a48dd71ba1b366ca2c10f9215f9e99a913c7ec0fb5a148",
+      "bytes": 1001892616
+    },
+    "E:\\Project\\Lip\\Research_Phase_05_2026-10-13\\assets\\tokenizers\\en.model": {
+      "sha256": "2c1d648ccf5fdce6612ecbea2ffbd1cab5aabc90458781186175c3911c4bdb1e",
+      "bytes": 327113
+    },
+    "E:\\Project\\Lip\\Research_Phase_05_2026-10-13\\assets\\tokenizers\\en_units.txt": {
+      "sha256": "29001d967ad290e28f6f1d7d47e07e314354bf67d3b1f494e936fa2fed9a9122",
+      "bytes": 73778
+    },
+    "E:\\Project\\Lip\\Research_Phase_05_2026-10-13\\configs\\lrs2.json": {
+      "sha256": "9a7326904fb828c79ac839e78ab3a6f2739a359c1e5dc7afec1f509934c7d3c6",
+      "bytes": 1058
+    },
+    "E:\\Project\\Lip\\Server_Rescue_2026-10-15\\Model_States\\main_lrs2_T0_17\\last.pt": {
+      "sha256": "62e86f85890134c5f526c6183a03ef8bdc1cbe7fdf7d65f1fd18de3edea7019e",
+      "bytes": 1001931457
+    },
+    "E:\\Project\\Lip\\Server_Rescue_2026-10-15\\Model_States\\main_lrs2_T1_17\\last.pt": {
+      "sha256": "29718da5a6a4ee4e9e26027cd9f01f99407098780a20e8cfc7069f7f4a851abf",
+      "bytes": 1001931457
+    },
+    "E:\\Project\\Lip\\Research_Strong_Baseline_2026-10-15\\vsr_trlrs2lrs3vox2avsp_base.pth": {
+      "sha256": "fbf7cd70ff1c0e694b3030fb779dbb4570f04e4b841d62f9296c229e94878ddb",
+      "bytes": 1001892616
+    },
+    "E:\\Project\\Lip\\Server_Rescue_2026-10-15\\Model_States\\main_lrs2_F0_17\\last.pt": {
+      "sha256": "e42d76a546ae46e19b97c011d8905bbfe570b791829ca0f6ecd50e89d9bb9bed",
+      "bytes": 1001931521
+    },
+    "E:\\Project\\Lip\\Server_Rescue_2026-10-15\\Model_States\\main_vlr_T2_17\\last.pt": {
+      "sha256": "3a379cf6a3ad65bf9ee8a94175c9dbb368b55f5a56254b781e7b9d5f1ff83eef",
+      "bytes": 973825985
+    },
+    "E:\\Project\\Lip\\Server_Rescue_2026-10-15\\Model_States\\main_vlr_T4_17\\last.pt": {
+      "sha256": "6c9349657cda311535d0e73a2b1fab164d28b91ff5ed49e8367e9b1e7f5de31c",
+      "bytes": 973825985
+    },
+    "E:\\Project\\Lip\\Server_Rescue_2026-10-15\\Model_States\\main_lrs2_T2_17\\last.pt": {
+      "sha256": "c71e932281efd91f2f89867ad4cddf661a49ff132596d019d09954aa5bd6be83",
+      "bytes": 1001931457
+    },
+    "E:\\Project\\Lip\\Server_Rescue_2026-10-15\\Model_States\\main_lrs2_T4_17\\last.pt": {
+      "sha256": "d307767052f9399535d3edafa9fed2eea51a8226cdb2df8d9e81ea4a7382fb6a",
+      "bytes": 1001931457
+    }
+  },
+  "historical_test_exposure": true,
+  "beam_size": 40,
+  "penalty": 0,
+  "external_lm": false,
+  "precision": "float32",
+  "horizon": "full_encoded_length",
+  "target_matrix_must_finish_first": true
+}

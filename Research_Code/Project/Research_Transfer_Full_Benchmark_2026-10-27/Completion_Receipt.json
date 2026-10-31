@@ -1,0 +1,18 @@
+{
+  "status": "complete_full_benchmark_verified",
+  "utc": "2026-10-27T21:58:36.076658+00:00",
+  "models": [
+    "VLR_B0",
+    "VLR_T0_LAST",
+    "VLR_T1_LAST",
+    "VLR_T0_29_LAST",
+    "VLR_T1_29_LAST",
+    "VC_NATIVE"
+  ],
+  "clips_per_model": 1167,
+  "independent_count_checks": 7002,
+  "summary_sha256": "584f748a0a065a100cbb684680473562605bf503d895f62e2c2523be15324b2c",
+  "per_clip_sha256": "0b4ed7eca9baa0e1f43c87b6ea89af776a58d7fd63a56a96804b6c13cb4e7924",
+  "decoder_selection_sha256": "e829ff5a971edf4edeff36f44fdcaeb9e4f06dcda8c487214a939060b1439846",
+  "paper_changed": false
+}

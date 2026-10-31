@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-28T05:28:40.707907+00:00",
+  "status": "passed",
+  "synthetic_rows_checked": 7002,
+  "scalar_bootstrap_checks": 202,
+  "malformed_synthetic_cases_rejected": 7,
+  "actual_incomplete_matrix_rejected": "Incomplete task coverage: 21 missing; []",
+  "target_prediction_counts_parsed_by_this_test": false,
+  "closed_prediction_file_bytes_read_for_hash_checks": true,
+  "clarification": "Verification_01 meant no target counts were parsed; file bytes were hashed",
+  "plan_sha256": "cc2e84f1a8cb2434f106419781ae982e325f21419227c01515cb97bfbd34b194",
+  "scripts": {
+    "collect_anchor.py": "4e343c20188efc29f8f747247dd54a83713ecf7472651fbd2f217a197e9c0a19",
+    "analyze_anchor.py": "31f139de9067d27b97deb69fe06be0fb853cc07d0b01f1647c73d83e5c26b900",
+    "test_analysis.py": "9af1608071a3179df0db2bedf67a35fcdc956e7f80f9d499baa578b07cb93795"
+  }
+}

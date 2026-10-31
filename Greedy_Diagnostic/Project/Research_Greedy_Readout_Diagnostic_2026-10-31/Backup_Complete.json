@@ -1,0 +1,67 @@
+{
+  "utc": "2026-10-30T20:10:00.218803+00:00",
+  "status": "six_complete_populations_locally_hash_verified",
+  "files": [
+    {
+      "stage": "assessment",
+      "model": "MATCHED_FC17",
+      "clips": 1167,
+      "bytes": 347499,
+      "sha256": "8fe86fb839a35cdea9a3343b1ccced78d59e07367b8ab467420446d3436d0cb4",
+      "complete_sha256": "06b8f9f7a686cd1f899dbd05ffac4ba7f866da19fdda72535776bc53952faabb",
+      "local": "C:\\Users\\thien\\Lip_Research_Backups\\Greedy_Readout_20261031\\assessment\\MATCHED_FC17.zip",
+      "collected_utc": "2026-10-30T18:46:27.270041+00:00"
+    },
+    {
+      "stage": "assessment",
+      "model": "MATCHED_WW17",
+      "clips": 1167,
+      "bytes": 356501,
+      "sha256": "bfd9eee2ce2ddef65c569af092c64eea23fadcf1854be44d8edb95e9581b2ddd",
+      "complete_sha256": "0fe540e328d09dfcc68cff7c0f036e1850be7eed43b3ee37bcb80b4f094a6ca2",
+      "local": "C:\\Users\\thien\\Lip_Research_Backups\\Greedy_Readout_20261031\\assessment\\MATCHED_WW17.zip",
+      "collected_utc": "2026-10-30T18:46:32.038736+00:00"
+    },
+    {
+      "stage": "assessment",
+      "model": "MATCHED_SO17",
+      "clips": 1167,
+      "bytes": 315304,
+      "sha256": "5e64e3f207d87fc38bccf70a215074b6de7b55c9e9789cb23af936a478cc98dd",
+      "complete_sha256": "583bb8a9baca3c778763eebc2e841836feb8e53c0664a3ccb6b15ab431ee9445",
+      "local": "C:\\Users\\thien\\Lip_Research_Backups\\Greedy_Readout_20261031\\assessment\\MATCHED_SO17.zip",
+      "collected_utc": "2026-10-30T18:50:46.826693+00:00"
+    },
+    {
+      "stage": "source",
+      "model": "MATCHED_FC17",
+      "clips": 11307,
+      "bytes": 3086613,
+      "sha256": "e923901e8263f7854c5b3efaf12330cc311c5317206ea58271460dce014751ca",
+      "complete_sha256": "667a364bfdea08656a6fb8680b0e38d76e2ec90178fed507e02f921b6f2dcbd7",
+      "local": "C:\\Users\\thien\\Lip_Research_Backups\\Greedy_Readout_20261031\\source\\MATCHED_FC17.zip",
+      "collected_utc": "2026-10-30T19:17:52.599002+00:00"
+    },
+    {
+      "stage": "source",
+      "model": "MATCHED_WW17",
+      "clips": 11307,
+      "bytes": 3059832,
+      "sha256": "1d24f41ad71062ce1e2a2676ea170206b5e556f00cfbb78016db971771f5ac5a",
+      "complete_sha256": "6ad3769e1bb1f4e209e835e3a85fc9301e2885e9e10d7516685b0bcedf582ee2",
+      "local": "C:\\Users\\thien\\Lip_Research_Backups\\Greedy_Readout_20261031\\source\\MATCHED_WW17.zip",
+      "collected_utc": "2026-10-30T19:44:58.201339+00:00"
+    },
+    {
+      "stage": "source",
+      "model": "MATCHED_SO17",
+      "clips": 11307,
+      "bytes": 2905856,
+      "sha256": "e8a3934947361c62edf559dda53e4583d49585bab2be722303171ef0ff896f33",
+      "complete_sha256": "0f7034222a8f4a86d934b2ccbf4b35e4be2a03161def2adb6ddcdda7adbf76db",
+      "local": "C:\\Users\\thien\\Lip_Research_Backups\\Greedy_Readout_20261031\\source\\MATCHED_SO17.zip",
+      "collected_utc": "2026-10-30T20:10:00.218293+00:00"
+    }
+  ],
+  "independent_scientific_recount_complete": false
+}

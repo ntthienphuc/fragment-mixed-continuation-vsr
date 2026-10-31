@@ -1,0 +1,166 @@
+{
+  "utc": "2026-10-28T12:42:40.037598+00:00",
+  "status": "passed",
+  "task": "development_VLR_T4_LAST_03",
+  "purpose": "full_evaluation",
+  "model": "VLR_T4_LAST",
+  "split": "development",
+  "clips": 96,
+  "independent_counts_checked": 1056,
+  "fresh_pixel_replays": [
+    {
+      "position": 626,
+      "candidate": "beam_c0.1",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 626,
+      "candidate": "beam_c0.5",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 626,
+      "candidate": "beam_c0.9",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 626,
+      "candidate": "beam_c1.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 626,
+      "candidate": "greedy_b0.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 626,
+      "candidate": "greedy_b-0.5",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 626,
+      "candidate": "greedy_b0.5",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 626,
+      "candidate": "greedy_b-1.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 626,
+      "candidate": "greedy_b1.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 626,
+      "candidate": "greedy_b-2.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 626,
+      "candidate": "greedy_b2.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 177,
+      "candidate": "beam_c0.1",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 177,
+      "candidate": "beam_c0.5",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 177,
+      "candidate": "beam_c0.9",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 177,
+      "candidate": "beam_c1.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 177,
+      "candidate": "greedy_b0.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 177,
+      "candidate": "greedy_b-0.5",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 177,
+      "candidate": "greedy_b0.5",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 177,
+      "candidate": "greedy_b-1.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 177,
+      "candidate": "greedy_b1.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 177,
+      "candidate": "greedy_b-2.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 177,
+      "candidate": "greedy_b2.0",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    }
+  ],
+  "candidate_order": [
+    "beam_c0.1",
+    "beam_c0.5",
+    "beam_c0.9",
+    "beam_c1.0",
+    "greedy_b0.0",
+    "greedy_b-0.5",
+    "greedy_b0.5",
+    "greedy_b-1.0",
+    "greedy_b1.0",
+    "greedy_b-2.0",
+    "greedy_b2.0"
+  ],
+  "checkpoint_sha256": "6c9349657cda311535d0e73a2b1fab164d28b91ff5ed49e8367e9b1e7f5de31c",
+  "plan_sha256": "8d3e81d8fed2ef8a6b795d7bae28cf89068c0c430ef38c8b1335c9732daceaf5",
+  "execution_lock_sha256": "d2680ccaa1a012cc36d34b76f4b53f07c2805fe97f823bac59d711a0c1f07b5d",
+  "predictions_sha256": "5753017dce48913915ef0e46804dafb26103db5b82036c0e9995df551ad45d3b",
+  "complete_sha256": "26aa7a38cd17dd138c49d5da9b4e42163864118a8801d15ec7b56d594424d6a1",
+  "start_sha256": "f17db64dbc0729ee436bb58ec8a0c2a4f2aa7fd4445fca1b07a28b0f253ed721",
+  "identity_sha256": "d7070fee512b3020217f3dfba8de815e96011c3f5006f226c792bdc1785988ed",
+  "verification_admission_sha256": "28a131b85f1ba3526d03ed3282d73ccdf8a234a5238288d0ca12c4c1758ac248",
+  "verifier_sha256": "653fe5a3015a105e7044677572f2bd6fc611d4417ee0f541e08911a8e4966116"
+}

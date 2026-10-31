@@ -1,0 +1,366 @@
+{
+  "utc": "2026-10-28T06:58:34.117527+00:00",
+  "status": "complete_verified_full_wildvsr_matrix",
+  "assessment_clips": 2854,
+  "assessment_reference_words": 48037,
+  "source_development_clips": 1082,
+  "models": {
+    "EN_B0": {
+      "primary": {
+        "decoder": "beam_c0.5",
+        "clips": 2854,
+        "errors": 31783,
+        "substitutions": 23493,
+        "deletions": 5130,
+        "insertions": 3160,
+        "units": 48037,
+        "wer_percent": 66.163582238691,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 1324,
+            "substitutions": 915,
+            "deletions": 266,
+            "insertions": 143,
+            "units": 1849,
+            "wer_percent": 71.60627366143862
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 30459,
+            "substitutions": 22578,
+            "deletions": 4864,
+            "insertions": 3017,
+            "units": 46188,
+            "wer_percent": 65.94570018186542
+          }
+        }
+      },
+      "anchor": {
+        "decoder": "beam_c0.1",
+        "clips": 2854,
+        "errors": 32229,
+        "substitutions": 23754,
+        "deletions": 5081,
+        "insertions": 3394,
+        "units": 48037,
+        "wer_percent": 67.09203322438954,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 1338,
+            "substitutions": 931,
+            "deletions": 258,
+            "insertions": 149,
+            "units": 1849,
+            "wer_percent": 72.36343969713359
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 30891,
+            "substitutions": 22823,
+            "deletions": 4823,
+            "insertions": 3245,
+            "units": 46188,
+            "wer_percent": 66.88100805404001
+          }
+        }
+      }
+    },
+    "EN_T0_LAST": {
+      "primary": {
+        "decoder": "beam_c0.1",
+        "clips": 2854,
+        "errors": 32097,
+        "substitutions": 24076,
+        "deletions": 4170,
+        "insertions": 3851,
+        "units": 48037,
+        "wer_percent": 66.81724504028145,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 1352,
+            "substitutions": 965,
+            "deletions": 223,
+            "insertions": 164,
+            "units": 1849,
+            "wer_percent": 73.12060573282855
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 30745,
+            "substitutions": 23111,
+            "deletions": 3947,
+            "insertions": 3687,
+            "units": 46188,
+            "wer_percent": 66.5649086342773
+          }
+        }
+      },
+      "anchor": {
+        "decoder": "beam_c0.1",
+        "clips": 2854,
+        "errors": 32097,
+        "substitutions": 24076,
+        "deletions": 4170,
+        "insertions": 3851,
+        "units": 48037,
+        "wer_percent": 66.81724504028145,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 1352,
+            "substitutions": 965,
+            "deletions": 223,
+            "insertions": 164,
+            "units": 1849,
+            "wer_percent": 73.12060573282855
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 30745,
+            "substitutions": 23111,
+            "deletions": 3947,
+            "insertions": 3687,
+            "units": 46188,
+            "wer_percent": 66.5649086342773
+          }
+        }
+      }
+    },
+    "EN_T1_LAST": {
+      "primary": {
+        "decoder": "beam_c0.5",
+        "clips": 2854,
+        "errors": 32085,
+        "substitutions": 24146,
+        "deletions": 4233,
+        "insertions": 3706,
+        "units": 48037,
+        "wer_percent": 66.79226429627163,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 1348,
+            "substitutions": 954,
+            "deletions": 230,
+            "insertions": 164,
+            "units": 1849,
+            "wer_percent": 72.90427257977285
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 30737,
+            "substitutions": 23192,
+            "deletions": 4003,
+            "insertions": 3542,
+            "units": 46188,
+            "wer_percent": 66.54758811812592
+          }
+        }
+      },
+      "anchor": {
+        "decoder": "beam_c0.1",
+        "clips": 2854,
+        "errors": 32129,
+        "substitutions": 24120,
+        "deletions": 4217,
+        "insertions": 3792,
+        "units": 48037,
+        "wer_percent": 66.88386035764098,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 1359,
+            "substitutions": 962,
+            "deletions": 211,
+            "insertions": 186,
+            "units": 1849,
+            "wer_percent": 73.49918875067604
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 30770,
+            "substitutions": 23158,
+            "deletions": 4006,
+            "insertions": 3606,
+            "units": 46188,
+            "wer_percent": 66.61903524725037
+          }
+        }
+      }
+    },
+    "EN_B1": {
+      "primary": {
+        "decoder": "beam_c0.1",
+        "clips": 2854,
+        "errors": 17298,
+        "substitutions": 11344,
+        "deletions": 3917,
+        "insertions": 2037,
+        "units": 48037,
+        "wer_percent": 36.00974249016383,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 818,
+            "substitutions": 515,
+            "deletions": 216,
+            "insertions": 87,
+            "units": 1849,
+            "wer_percent": 44.24012979989183
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 16480,
+            "substitutions": 10829,
+            "deletions": 3701,
+            "insertions": 1950,
+            "units": 46188,
+            "wer_percent": 35.680263271845504
+          }
+        }
+      },
+      "anchor": {
+        "decoder": "beam_c0.1",
+        "clips": 2854,
+        "errors": 17298,
+        "substitutions": 11344,
+        "deletions": 3917,
+        "insertions": 2037,
+        "units": 48037,
+        "wer_percent": 36.00974249016383,
+        "duration_strata": {
+          "below_82_frames": {
+            "clips": 252,
+            "errors": 818,
+            "substitutions": 515,
+            "deletions": 216,
+            "insertions": 87,
+            "units": 1849,
+            "wer_percent": 44.24012979989183
+          },
+          "at_least_82_frames": {
+            "clips": 2602,
+            "errors": 16480,
+            "substitutions": 10829,
+            "deletions": 3701,
+            "insertions": 1950,
+            "units": 46188,
+            "wer_percent": 35.680263271845504
+          }
+        }
+      }
+    }
+  },
+  "training_comparisons": {
+    "primary": {
+      "T0_minus_T1_wer_pp": 0.024980744009823752,
+      "T1_minus_T0_counts": {
+        "errors": -12,
+        "substitutions": 70,
+        "deletions": 63,
+        "insertions": -145
+      },
+      "conditional_clip_bootstrap_ci95_pp": [
+        -0.3712477461029393,
+        0.42811615363954797
+      ],
+      "resampling_unit": "released clip; not independently reconstructed source groups"
+    },
+    "anchor": {
+      "T0_minus_T1_wer_pp": -0.06661531735953474,
+      "T1_minus_T0_counts": {
+        "errors": 32,
+        "substitutions": 44,
+        "deletions": 47,
+        "insertions": -59
+      },
+      "conditional_clip_bootstrap_ci95_pp": [
+        -0.3380033457292772,
+        0.21036183037497524
+      ],
+      "resampling_unit": "released clip; not independently reconstructed source groups"
+    }
+  },
+  "training_seeds": [
+    17
+  ],
+  "new_training": false,
+  "uncertainty_note": "Clip bootstrap is descriptive conditional on the released clips; source map absent",
+  "decoder_calibration": "LRS2 source development only; no destination calibration",
+  "normalization": "NFC_lower_whitespace",
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20261028,
+  "input_sha256": {
+    "Research_English_Transfer_Benchmark_2026-10-28/Assessment_Task_Manifest.json": "e156b1b848a582036f91f7c4da6eb63c478246d9903a7ca80e9b3b5cc9dfe7f6",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_00/Predictions.jsonl": "a7cd772a86a6a99e8f18cefcaa628e5c0fbd349b179ee17760f0ef1750f2e012",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_00/Verification.json": "32203ed1355ceffaffa16b8de16a0b99b676f3fa84c61c84f714e6465a67a530",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_01/Predictions.jsonl": "888f8beb714d4073be0afe7f3ba0e36ef5a6180b68df7e20004f63c0533d6c25",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_01/Verification.json": "3c0a4c3933eb6efdf58810b64ffb2d0598fa6dce2ea7f9c7d6e2708410d432b3",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_02/Predictions.jsonl": "51320e1c5085e87e56ecb64287fc19f26ca66c9eb398ddb07afb2840de0e4db4",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_02/Verification.json": "ac6a181e502b946f3d9d612ed5875acc3751176aa35a566adbb886080934136f",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_03/Predictions.jsonl": "976188e336d67d258ecc26b8544f7d82383551cbcb77e14fa104d1fd8f477570",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_03/Verification.json": "bfb5da0eab4c1abf188f2b71c9c8588f795648348ba6aabd41375381b9697582",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_04/Predictions.jsonl": "7bc73a4e2afe845ff821cf8eb37a6275051c931688711bb909961a20b36f12d0",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_04/Verification.json": "02e90f881dcd08a90f1e6688c605129363cc0ed274ca72a1142f10aaaf4f9311",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_05/Predictions.jsonl": "c4f371833988bdd80c333fb0135314930709ae6152e0ba9385bb2e7735eba15a",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_05/Verification.json": "a2c7f05794942cc057479d6b30c55de9904f62b6c30c6531817a2dfae9ab7028",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_06/Predictions.jsonl": "e92c51e7f9827be084c492d36c3ef0e43c8d63eea50e0a28f07e1552f7bc2850",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_06/Verification.json": "654d65dc28da374506c4aec75c6b96661af50646f4259e6241473bd12853cda0",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_07/Predictions.jsonl": "85f1ae9ec53a474b288f203c8a051f5d1016c8380c6e5c40608d2f6347aa1359",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_07/Verification.json": "2fac03ce2989a1ed39291e6391271c421ff07506614517aa277df381e863d598",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B1_00/Predictions.jsonl": "60196814bae8c3ae054139d06ca5408108485260029a740d76a4747b8572e653",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B1_00/Verification.json": "93ae04270485dcd81b35328061750dfecc02b14b2fd6a1053f79b66b81b704ed",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B1_01/Predictions.jsonl": "7dd2364f1fef532b028642a8285ad307fa9c0e00d4d685b81b372a61d6770346",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B1_01/Verification.json": "0d2dbc1bcc17b6f8f66acbfa2fc7fb35b1c924dbfb95efaa970cce051c83373a",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B1_02/Predictions.jsonl": "3a71757c21c941ed29c87ed34293c0ac02f2e006dcd7333afd55200dfd39f5ae",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B1_02/Verification.json": "b7113531df7834a41442d1328c2141407669ff7d48e94e66ae9405f0f6116880",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B1_03/Predictions.jsonl": "37e3e78ef570e09a2c7d3d12bf2eec4e6fea5bbc2d27942660baf96e0e73675a",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B1_03/Verification.json": "e4ad78e6c42eed967cedb7ad966864a420b2d7aff47bfe33946f77524a852db2",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_B1_04/Predictions.jsonl": "50a7c54a195f52ae38bf68e48c993f69f8de733630b7e459d02dd9b684cf5047",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_B1_04/Verification.json": "4986a34f26ac9d5b35aa410dffe2032c02b1129710bc03622de2478596f2de19",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_B1_05/Predictions.jsonl": "dff6a479700384e629b3c5604d38c18f3b045c15a97f878b9e9a56cddd5d692a",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_B1_05/Verification.json": "00338d0ee1c939d6a6d4a806954b5e33512fda77f06d65395c18cced8dfd7ac4",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_B1_06/Predictions.jsonl": "56e001a81c2c936c715804d91f2141cd8b14d6017a98592f68177e004bb625dc",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_B1_06/Verification.json": "c640b6592ff65c7bcaaf91634a341e75da844f838515a7ea80bf19756e0b23ad",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_B1_07/Predictions.jsonl": "c86ddf22ac2c93e94243753c48896da8d338a1351969d4465b8f743a700f4a22",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_B1_07/Verification.json": "87492232c55df242fa7a6c2c276e093b10cc1a6daa5591ec2e4383dcef929e97",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_00/Predictions.jsonl": "3534ddb32acca7f7a3841632128fb3cf826d15325430090e9d07def9bbcc2f59",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_00/Verification.json": "ba8bcc46a72a30cdfb2db81e0adf2a31b2cbe00e2e9c4eabadc503301f1fd578",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_01/Predictions.jsonl": "c714542cde40fec4d20ce3a974956a05b94622caa13f20d6d4900d930e977d5d",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_01/Verification.json": "35db72cd54dc32e6d72b8c36589969568f1c8140d1bb984a436a638099be3002",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_02/Predictions.jsonl": "b677377e6cd07e81c2f8fbd5e4ce792dcabddb8de4616ecc5f05f7630bb7da94",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_02/Verification.json": "e785cc52f85abe1eede518d72bdb86efa4a53be3d6e9bfebb491dce8ecef2d15",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_03/Predictions.jsonl": "7cd6bece0e190a7ec766aa710d2f46ec4c2dcd81ae4a50d449340dcbbdb7d82c",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_03/Verification.json": "55c5abb8d6ff6020dea35f6e387e64679a9b7f3ff4fb30a205205eb82303c5df",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_04/Predictions.jsonl": "8bde6c46ae07cd94d5b46b4260088c3bc3ef4138e6cd6e3ab12da6595a0208d8",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_04/Verification.json": "f7430e904d94de0d3573fc205595eca2cdae94902c15b9b47f7f5f63f4ca2e9d",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_05/Predictions.jsonl": "3d37ef4d7208a7f134580907fc62f7dab302af6a843845e4cefc76dd1a23af3b",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_05/Verification.json": "f4c46be84114268bba94d371fd6bd157bfbf86fdb6317678e7aa294d6840469f",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_06/Predictions.jsonl": "cfca4ddd73e02b089249f8bed81dd84a7b8e9e76f76f3718c22e35007db43696",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_06/Verification.json": "5e7e1f095c88ce5517c3094c76880c79e98d514c68fc592ddac15c3a1cca25e2",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_07/Predictions.jsonl": "7cd346b455f7e3ad3106e655c2472508608a38ca2463d7962e07d87529177cbe",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_07/Verification.json": "3cd92282378fa6a66011f5bb9b8f07903c7c73b38cbc4161e896433e8849e47e",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_00/Predictions.jsonl": "feb8d2a1059e46162441ba991f0f646f23ab0caf1640e94c2d6d4daac4c040e6",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_00/Verification.json": "b193c9bd7fdb5b7f6ac131fd146f023cc44013674cce24e822cc3d1f952dfded",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_01/Predictions.jsonl": "2eacd46ed5a5818bba9f6a72a72a60b1884602af25fe548159f40852b6e7616d",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_01/Verification.json": "8c12e3cc86dc5edb5ccb1fe90200fd89c09f03425772decfee33c75304df414c",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_02/Predictions.jsonl": "c83819932f788cca376c8892a65ff2991358beb9337dd3bc26e56f012c055a1b",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_02/Verification.json": "6190ae254fb97f589e0125ebe529172fa3ebb660386deee5674671913136cb08",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_03/Predictions.jsonl": "ec565e621d30b630e6e3eab7cba32279428348391ca1c9dcc85dbdf9deb18259",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_03/Verification.json": "8d9026d22ec10b7b4566864a6dd52a6fd029336db1f25c9688b069afa16c1590",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_04/Predictions.jsonl": "5799d8ba26354f8983f64b185b227d297b8e189b178f704b67d98c44909df1ef",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_04/Verification.json": "9d5e211264b8c98b78f86c74d4257667292a7810268238fe8ed60e6e0ef681f7",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_05/Predictions.jsonl": "85339677b812df54fba279126d5287796f6e5e7885f7f35fd4a1946314541dbb",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_05/Verification.json": "aa60b8a855d57f7c14b9cd2cc39b034744da342ee4251f5b062090f5503213cd",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_06/Predictions.jsonl": "e91170633ee48663486e7136e3aaef14211301a3ac2e04d56b0adb66d1d3f6b9",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_06/Verification.json": "fbdec9e7d127c0f5c3a9e23e830add843b5894068aca467066966cb63a431c18",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_07/Predictions.jsonl": "fc7549e07b4f31aec1059808543656714cd2a486948052ddddfc2effbf646e21",
+    "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_07/Verification.json": "dc459ff58931bee17e403716d69960b5cd2043e3f41b956aa4dc69793c780cdd",
+    "Research_English_Transfer_Benchmark_2026-10-28/Decoder_Selection.json": "8232dbea4dffad7b563656ad9ee4d5de428c5427389f0c6929dcad8c38c7ac9f"
+  },
+  "plan_sha256": "3c604eecef2a00cc4e885a860fbd502a081474dc8f6de09c8a93e5849b5267a1",
+  "execution_lock_sha256": "b4ce920a70ba2db8d0d2470920251b8a4f971a7760c38f28aed8e9450ac8d699"
+}

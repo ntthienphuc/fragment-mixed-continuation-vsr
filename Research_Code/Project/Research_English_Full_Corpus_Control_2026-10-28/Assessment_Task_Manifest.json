@@ -1,0 +1,40 @@
+{
+  "utc": "2026-10-28T07:31:21.901826+00:00",
+  "status": "full_F0_stage_explicitly_named",
+  "stage": "assessment",
+  "execution_lock_sha256": "6605ec9048d031b9edb912fb30e6bc72eb6c16be2e3f7fd416bd31c882c6a455",
+  "tasks": {
+    "assessment_EN_F0_LAST_00": {
+      "path": "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_00",
+      "verification_sha256": "a4cced6ca69b8cd7193f91b951c80578e7e2462f396ab26eed7cad74b9ac31a1"
+    },
+    "assessment_EN_F0_LAST_01": {
+      "path": "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_01",
+      "verification_sha256": "c695c29402a2afc7529c98cb9242c9e7c0c24e108cd0dbd239d438c7aefd56ef"
+    },
+    "assessment_EN_F0_LAST_02": {
+      "path": "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_02",
+      "verification_sha256": "198dcd010bede3f9172e7fe5eaeeadd59ce852d981fe9f56dfbfa80d84946ad3"
+    },
+    "assessment_EN_F0_LAST_03": {
+      "path": "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_03",
+      "verification_sha256": "68e12fa1cd8e0adc335044f1478bdb278709010592aaa6a125d175e2a04aa8c7"
+    },
+    "assessment_EN_F0_LAST_04": {
+      "path": "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_04",
+      "verification_sha256": "9c9a295e31d48fbbfdd07694255946841749b3d28d50ee67b43c781a8473cf17"
+    },
+    "assessment_EN_F0_LAST_05": {
+      "path": "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_05",
+      "verification_sha256": "f351733a8aec430c8a25fa872adf70b0badac67d228d2faa52ec509b4a8fd2d5"
+    },
+    "assessment_EN_F0_LAST_06": {
+      "path": "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_06",
+      "verification_sha256": "b75d9e9ed7d49392128df14ff372dca6b55f04daad84ac1445b3ca141655081c"
+    },
+    "assessment_EN_F0_LAST_07": {
+      "path": "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/assessment_EN_F0_LAST_07",
+      "verification_sha256": "85560724917223346200e6c89149501ac5fc967c4dba52dc68914224c1f3239f"
+    }
+  }
+}

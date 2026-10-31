@@ -1,0 +1,3 @@
+role,reference,comparison,stage,readout,reference_decoder,comparison_decoder,reference_minus_comparison_pp,ci95_low_pp,ci95_high_pp,source_groups,bootstrap_unit,bootstrap_resamples,bootstrap_seed,independent_scalar_checks,conditional_on_fitted_checkpoints,multiplicity_adjusted
+primary,MATCHED_WW17,MATCHED_SO17,assessment,common,beam_c0.1,beam_c0.1,-7.327772423648267,-8.864366185512106,-5.488203260626885,20,archived_source_id,10000,3551631072054205354,101,True,False
+reference,MATCHED_FC17,MATCHED_SO17,assessment,common,beam_c0.1,beam_c0.1,-3.3465155694393673,-4.773470433297731,-1.34057427831002,20,archived_source_id,10000,7015973881046491520,101,True,False

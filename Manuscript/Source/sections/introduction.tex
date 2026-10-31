@@ -1,0 +1,74 @@
+\section{Introduction}
+Visual speech recognition (VSR) recovers linguistic content from visible mouth
+movements. Large-scale supervised learning has substantially improved benchmark
+accuracy \cite{shillingford2019large,ma2023autoavsr}, yet strong performance on a
+training corpus does not ensure reliable transcription of a different video
+collection \cite{djilali2024wildvsr}. For an existing recognizer, a practical
+question is how to reuse labelled source videos before deployment elsewhere.
+We ask whether changing the temporal scope of supervision during source-only
+continuation improves complete destination transcripts, and what it gives up
+on the source corpus.
+
+Complete utterances supply extensive visual and linguistic context. Short views
+contain fewer neighboring frames and shorter target sequences, changing both
+the available evidence and the optimization problem. A temporal cut can also
+remove visual evidence for a boundary word retained in the target. These changes
+make short-view supervision a testable intervention, rather than an assumed
+improvement over complete clips.
+
+Our initial formulation, fragment-mixed continuation (FM), alternates complete
+source utterances with fixed-duration, transcript-labelled fragments of the same
+videos. Fragment targets contain the transcript units overlapping each interval.
+Only the training presentations change: the recognizer keeps its architecture
+and ordinary whole-utterance decoding. No fragment selection, timestamp estimation
+or prediction merging is required at inference, and no additional source videos
+are introduced.
+
+Full-clip continuation (FC) provides the comparison under the same initialization,
+source-clip order and 6,000 optimizer updates. A common decoder compares fitted
+states; development-selected decoders additionally describe calibrated systems.
+Equal numbers of updates and presentations do not imply equal frame or token
+exposure. We measure these exposures and retain the native objective, treating
+the recipe as a complete intervention under an update budget rather than
+attributing its effect to one regularization mechanism.
+
+Two corpus pairs expose different outcomes. In VLR-to-ViCocktail transfer,
+FM reduces common-decoder WER by 3.41 and 3.17 percentage points across two
+seeds. In LRS2-to-WildVSR transfer, it gives no clear aggregate gain. The seed-17
+source assessment shows that FM improves over each initializer but retains less
+of FC's source improvement in both settings. The Vietnamese transfer gain thus
+accompanies a source cost. Differences in initialization, training coverage,
+repetition and calibration prevent attributing the contrast between corpus pairs
+to language alone.
+
+Temporal cropping and mixed-length training are established in lip reading
+\cite{martinez2020lipreading,prajwal2022subword}. A separate matched comparison
+therefore includes conventional whole-word mixing, which improves transfer and
+outperforms fixed-time mixing by 0.459 WER points. A paired token-normalized loss
+control retains the fixed-time gain. The whole-word short-only control further
+tests the contribution of scheduled full-clip presentations, using the same
+source order and unchanged whole-utterance assessment. These comparisons separate
+the supervision schedule from claims of a unique fixed-time boundary rule.
+The short-only state is worse than whole-word mixing by 7.328 destination WER
+points and 6.238 source points, with substantially more deletions. Retaining
+scheduled full views is therefore beneficial in this comparison; increasing
+the proportion of short supervision does not monotonically improve transfer.
+
+Two same-target controls restore neighboring pixels or supply predictions
+informed by the complete video. Neither improves on FM in the Vietnamese
+comparison. Their edit-error profiles show that improved visual coverage or
+fewer substitutions can be offset by additional deletions, motivating assessment
+of the complete output sequence.
+
+The paper contributes three results:
+\begin{itemize}
+ \item A controlled study of source-only short-view continuation under matched
+ update budgets, with unchanged whole-utterance recognition at deployment.
+ \item A decoder-controlled comparison across two corpus pairs, including a
+ two-seed Vietnamese transfer gain and joint source/destination assessment
+ that identifies where the intervention does not improve recognition.
+ \item Comparisons of temporal schedule, crop labelling, loss reduction and
+ same-target context, supported by edit-error and exposure measurements.
+\end{itemize}
+The contribution is the controlled account of transfer and source retention
+after continuation, rather than temporal cropping alone.

@@ -1,0 +1,84 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,booktabs,array,amsmath,microtype}
+\usepackage[margin=25mm]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\setstretch{1.25}
+\setlength{\emergencystretch}{2em}
+\clubpenalty=10000
+\widowpenalty=10000
+\hypersetup{pdftitle={Supplement: fixed greedy CTC diagnostic},pdfauthor={Anonymous authors}}
+\title{Supplement to Fragment-Mixed Continuation for Cross-Corpus Visual Speech Recognition\\[0.7em]
+\large Fixed greedy CTC readout diagnostic}
+\author{Anonymous authors}
+\date{}
+\begin{document}
+\maketitle
+\section{Question and status}
+This exploratory diagnostic asks whether the short-only disadvantage persists
+when the same fitted native full-only (FC), whole-word mixed (WW), and whole-word
+short-only (SO) states are read using greedy CTC. It was specified after the
+completed common-decoder short-only analysis. It is not an untouched-test
+confirmation, a new training seed, or a decoder-selection experiment. The
+common hybrid beam decoder remains the primary readout in the manuscript.
+
+All three states use seed 17 and the final 6,000-update endpoint. There is no
+retraining or tuning. The complete populations are 11,307 VLR clips, 225,960
+reference units and 61 archived source groups, and 1,167 ViCocktail clips,
+30,091 units and 20 source groups. VLR contains 1,634,458 encoded frames and
+ViCocktail 170,078. Source-group labels are not verified speaker identities.
+
+\section{Fixed readout and verification}
+For every encoded frame, choose the highest CTC log probability, collapse
+adjacent repeated token IDs, then remove blank ID 0 and end-of-sequence ID 2001.
+An EOS token does not truncate the path. No blank-logit bias, language model,
+beam search, attention-head search, or readout sweep is used. Token-to-text
+mapping, Unicode NFC, lowercasing and whitespace normalization are unchanged.
+Vietnamese WER uses whitespace-delimited units, which need not be lexical words.
+
+Each model/population runs in a fresh process on the same RTX 3060 workstation,
+with FP32, TF32 disabled, deterministic algorithms and two intra-op CPU threads.
+The frozen loader verifies the original complete-clip pixels. Admission used
+six duration-quantile resource probes per population and a fixed time deadline;
+probe clips are not extra assessment observations. Every admitted population
+is complete, locally backed up and independently recounted before inclusion.
+
+The independent CPU analysis reconstructs every collapsed token sequence and
+normalized transcript from the saved argmax paths. It recalculates edit counts
+with a scalar distance matrix and traceback, matches reference, clip, position,
+frame and pixel identities, and checks terminal hashes and runtime bindings.
+The saved blank-probability sums are range-checked but cannot be recomputed
+because full frame logits were not archived. Blank-argmax counts are recomputed
+exactly from every saved path. These are descriptive readout measurements,
+not proof of a training mechanism.
+
+\section{Results}
+\input{results}
+
+\section{Uncertainty and interpretation}
+The two planned contrasts within each population are FC minus SO and WW minus
+SO WER. Positive values favor SO. Intervals use 10,000 paired resamples of the
+archived source groups, NumPy's default generator with seed 20261031, and linear
+percentile endpoints at 2.5 and 97.5. Resampling preserves the shared clips and
+denominator within each drawn group. Sixteen draws per contrast are checked
+again by scalar summation. Intervals are pointwise, unadjusted for multiplicity,
+and conditional on the fitted states. They do not describe training-seed
+uncertainty or establish causal mechanisms.
+
+Greedy-minus-common differences compare the same state on the same population;
+they do not authorize replacing the main decoder with whichever scores better.
+The diagnostic retains the reused-test-set, automatic-timing, single-family,
+single-control-seed and unequal frame/token-exposure limitations of the main
+study. A blank-heavy or shorter prediction is an observed property of this
+readout, not by itself an explanation of how continuation changed the model.
+
+\section{Reproduction}
+The accompanying package includes the frozen diagnostic protocol and inference
+driver, original cohort and pixel identities, every saved path and transcript,
+all terminal receipts, per-clip counts, full-precision aggregates and intervals,
+and the CPU recount program. See its README for the portable commands. Neural
+inference additionally requires the main research-code package and the exact
+licensed data/checkpoints; the CPU recount does not rerun the recognizer.
+\end{document}

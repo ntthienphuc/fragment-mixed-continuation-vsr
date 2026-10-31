@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-28T08:53:25.843913+00:00",
+  "status": "complete_vi_anchor_verified",
+  "models": [
+    "VLR_B0",
+    "VLR_T0_LAST",
+    "VLR_T1_LAST",
+    "VLR_T0_29_LAST",
+    "VLR_T1_29_LAST",
+    "VC_NATIVE"
+  ],
+  "clips_per_model": 1167,
+  "independent_count_checks": 7002,
+  "summary_sha256": "ad97aec0088145e55e365708e7d34bb12ae45176b5e6f7b9fb5917a759176af4",
+  "per_clip_sha256": "eacdc7d7f7ce561ce71b7db7c21099700249f430126622af640891667f46eb77",
+  "analysis_lock_sha256": "ee539a58ae90d95247189a075086a0e99e35e6072b20aeee614f436f23f9ed07",
+  "paper_changed": false
+}

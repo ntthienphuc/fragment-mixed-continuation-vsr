@@ -1,0 +1,136 @@
+{
+  "utc": "2026-10-28T06:58:25.272476+00:00",
+  "status": "all_stage_tasks_explicitly_named",
+  "stage": "assessment",
+  "execution_lock_sha256": "b4ce920a70ba2db8d0d2470920251b8a4f971a7760c38f28aed8e9450ac8d699",
+  "tasks": {
+    "assessment_EN_B0_00": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_00",
+      "verification_sha256": "32203ed1355ceffaffa16b8de16a0b99b676f3fa84c61c84f714e6465a67a530"
+    },
+    "assessment_EN_B0_01": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_01",
+      "verification_sha256": "3c0a4c3933eb6efdf58810b64ffb2d0598fa6dce2ea7f9c7d6e2708410d432b3"
+    },
+    "assessment_EN_B0_02": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_02",
+      "verification_sha256": "ac6a181e502b946f3d9d612ed5875acc3751176aa35a566adbb886080934136f"
+    },
+    "assessment_EN_B0_03": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_03",
+      "verification_sha256": "bfb5da0eab4c1abf188f2b71c9c8588f795648348ba6aabd41375381b9697582"
+    },
+    "assessment_EN_B0_04": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_04",
+      "verification_sha256": "02e90f881dcd08a90f1e6688c605129363cc0ed274ca72a1142f10aaaf4f9311"
+    },
+    "assessment_EN_B0_05": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_05",
+      "verification_sha256": "a2c7f05794942cc057479d6b30c55de9904f62b6c30c6531817a2dfae9ab7028"
+    },
+    "assessment_EN_B0_06": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_06",
+      "verification_sha256": "654d65dc28da374506c4aec75c6b96661af50646f4259e6241473bd12853cda0"
+    },
+    "assessment_EN_B0_07": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B0_07",
+      "verification_sha256": "2fac03ce2989a1ed39291e6391271c421ff07506614517aa277df381e863d598"
+    },
+    "assessment_EN_T0_LAST_00": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_00",
+      "verification_sha256": "ba8bcc46a72a30cdfb2db81e0adf2a31b2cbe00e2e9c4eabadc503301f1fd578"
+    },
+    "assessment_EN_T0_LAST_01": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_01",
+      "verification_sha256": "35db72cd54dc32e6d72b8c36589969568f1c8140d1bb984a436a638099be3002"
+    },
+    "assessment_EN_T0_LAST_02": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_02",
+      "verification_sha256": "e785cc52f85abe1eede518d72bdb86efa4a53be3d6e9bfebb491dce8ecef2d15"
+    },
+    "assessment_EN_T0_LAST_03": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_03",
+      "verification_sha256": "55c5abb8d6ff6020dea35f6e387e64679a9b7f3ff4fb30a205205eb82303c5df"
+    },
+    "assessment_EN_T0_LAST_04": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_04",
+      "verification_sha256": "f7430e904d94de0d3573fc205595eca2cdae94902c15b9b47f7f5f63f4ca2e9d"
+    },
+    "assessment_EN_T0_LAST_05": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_05",
+      "verification_sha256": "f4c46be84114268bba94d371fd6bd157bfbf86fdb6317678e7aa294d6840469f"
+    },
+    "assessment_EN_T0_LAST_06": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_06",
+      "verification_sha256": "5e7e1f095c88ce5517c3094c76880c79e98d514c68fc592ddac15c3a1cca25e2"
+    },
+    "assessment_EN_T0_LAST_07": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T0_LAST_07",
+      "verification_sha256": "3cd92282378fa6a66011f5bb9b8f07903c7c73b38cbc4161e896433e8849e47e"
+    },
+    "assessment_EN_T1_LAST_00": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_00",
+      "verification_sha256": "b193c9bd7fdb5b7f6ac131fd146f023cc44013674cce24e822cc3d1f952dfded"
+    },
+    "assessment_EN_T1_LAST_01": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_01",
+      "verification_sha256": "8c12e3cc86dc5edb5ccb1fe90200fd89c09f03425772decfee33c75304df414c"
+    },
+    "assessment_EN_T1_LAST_02": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_02",
+      "verification_sha256": "6190ae254fb97f589e0125ebe529172fa3ebb660386deee5674671913136cb08"
+    },
+    "assessment_EN_T1_LAST_03": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_03",
+      "verification_sha256": "8d9026d22ec10b7b4566864a6dd52a6fd029336db1f25c9688b069afa16c1590"
+    },
+    "assessment_EN_T1_LAST_04": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_04",
+      "verification_sha256": "9d5e211264b8c98b78f86c74d4257667292a7810268238fe8ed60e6e0ef681f7"
+    },
+    "assessment_EN_T1_LAST_05": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_05",
+      "verification_sha256": "aa60b8a855d57f7c14b9cd2cc39b034744da342ee4251f5b062090f5503213cd"
+    },
+    "assessment_EN_T1_LAST_06": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_06",
+      "verification_sha256": "fbdec9e7d127c0f5c3a9e23e830add843b5894068aca467066966cb63a431c18"
+    },
+    "assessment_EN_T1_LAST_07": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_T1_LAST_07",
+      "verification_sha256": "dc459ff58931bee17e403716d69960b5cd2043e3f41b956aa4dc69793c780cdd"
+    },
+    "assessment_EN_B1_00": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B1_00",
+      "verification_sha256": "93ae04270485dcd81b35328061750dfecc02b14b2fd6a1053f79b66b81b704ed"
+    },
+    "assessment_EN_B1_01": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B1_01",
+      "verification_sha256": "0d2dbc1bcc17b6f8f66acbfa2fc7fb35b1c924dbfb95efaa970cce051c83373a"
+    },
+    "assessment_EN_B1_02": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B1_02",
+      "verification_sha256": "b7113531df7834a41442d1328c2141407669ff7d48e94e66ae9405f0f6116880"
+    },
+    "assessment_EN_B1_03": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/assessment_EN_B1_03",
+      "verification_sha256": "e4ad78e6c42eed967cedb7ad966864a420b2d7aff47bfe33946f77524a852db2"
+    },
+    "assessment_EN_B1_04": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_B1_04",
+      "verification_sha256": "4986a34f26ac9d5b35aa410dffe2032c02b1129710bc03622de2478596f2de19"
+    },
+    "assessment_EN_B1_05": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_B1_05",
+      "verification_sha256": "00338d0ee1c939d6a6d4a806954b5e33512fda77f06d65395c18cced8dfd7ac4"
+    },
+    "assessment_EN_B1_06": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_B1_06",
+      "verification_sha256": "c640b6592ff65c7bcaaf91634a341e75da844f838515a7ea80bf19756e0b23ad"
+    },
+    "assessment_EN_B1_07": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Vast_01/assessment_EN_B1_07",
+      "verification_sha256": "87492232c55df242fa7a6c2c276e093b10cc1a6daa5591ec2e4383dcef929e97"
+    }
+  }
+}

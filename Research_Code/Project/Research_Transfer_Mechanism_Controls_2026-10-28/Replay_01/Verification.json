@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "utc": "2026-10-27T21:12:57.111969+00:00",
+  "inspection_sha256": "e59ce2b9321450fbfe9ecd79e60f0a5fe5720af8cc659cf77f92b45d483dcb0b",
+  "replay_sha256": "1ac952953ff6629f8717c0c88f167afc1737ab300b2a731185d010c548bd4215",
+  "verifier_sha256": "7738e5f0bccb604959837b19e1ad98e58b26865f183af9b2d4406747cc05cf03",
+  "T1_final_file_hashes": {
+    "main_vlr_T1_17": "9e31b2379a3ed90637a1af9081a915ecce9201db19fa11a2cceb1f1acb53d32b",
+    "main_lrs2_T1_17": "29718da5a6a4ee4e9e26027cd9f01f99407098780a20e8cfc7069f7f4a851abf"
+  },
+  "datasets": [
+    {
+      "dataset": "vlr",
+      "sample_choices": 48000,
+      "views_recounted": 144000,
+      "totals": {
+        "crop_words": 185466,
+        "partial_core_words": 43050,
+        "partial_context_words": 1797,
+        "samples": 48000,
+        "crop_samples": 24000,
+        "T1_student_frames": 4851015,
+        "native_control_flow_checks": 144000,
+        "T2_student_frames": 4851015,
+        "T4_student_frames": 5619015,
+        "crops_with_partial_core": 23768,
+        "crops_with_partial_context": 1725,
+        "T2_teacher_frames": 3656255,
+        "independent_KL_checks": 24000
+      },
+      "status": "passed"
+    },
+    {
+      "dataset": "lrs2",
+      "sample_choices": 48000,
+      "views_recounted": 144000,
+      "totals": {
+        "crop_words": 163506,
+        "partial_core_words": 29774,
+        "partial_context_words": 368,
+        "samples": 48000,
+        "crop_samples": 24000,
+        "T1_student_frames": 3842733,
+        "native_control_flow_checks": 144000,
+        "T2_student_frames": 3842733,
+        "T4_student_frames": 4610733,
+        "crops_with_partial_core": 20529,
+        "crops_with_partial_context": 366,
+        "T2_teacher_frames": 2641738,
+        "independent_KL_checks": 24000
+      },
+      "status": "passed"
+    }
+  ],
+  "new_recognition": false,
+  "matched_final_transfer_evaluated": false
+}

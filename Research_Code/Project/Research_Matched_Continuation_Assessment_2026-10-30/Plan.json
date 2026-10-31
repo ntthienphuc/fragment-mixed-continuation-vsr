@@ -1,0 +1,116 @@
+{
+  "utc": "2026-10-29T19:01:26.063156+00:00",
+  "status": "prospective_matched_assessment_prepared_no_gpu_admission",
+  "question": "Does fixed-time fragment mixing improve whole-utterance transfer beyond whole-word mixing?",
+  "models": {
+    "MATCHED_FC17": "full",
+    "MATCHED_FT17": "fixed_time",
+    "MATCHED_WW17": "whole_word"
+  },
+  "reference_windows_training_identity_sha256": {
+    "whole_word": "0ee75cd4c6d31a2a8fd6f8b334aa0de3fa95a57ca6447071317d1e649c7f65de",
+    "fixed_time": "5b74b0d41b082b345e023017439c98b1271ac4a01e7574a7ff5cedf919758c68",
+    "full": "271eeab2bc05b357abcc1affeb8c00bc737bd89b8b154bc1a1d7d9363d558926"
+  },
+  "new_host_binding": "Require separately admitted execution identity; preserve numerical protocol and record runtime",
+  "training_endpoint": {
+    "updates": 6000,
+    "presentations": 48000,
+    "seed": 17,
+    "shared_fallbacks": 317,
+    "selection": "fixed_final_step"
+  },
+  "runtime_source": "Research_Transfer_Initialization_2026-10-27/runtime_core.py",
+  "runtime_code_sha256": {
+    "Research_Transfer_Initialization_2026-10-27/runtime_core.py": "8488abeb2584b33fefcaef1e1a45a30a8e894ecc3f17d0cf5e0e1586f3d770df",
+    "Research_English_Transfer_Benchmark_2026-10-28/runtime_bridge.py": "83d1b3d4df1d080be442c302e7f8f092e93e1fa63befb1b620b3e63961f7b6b1",
+    "Research_English_Transfer_Benchmark_2026-10-28/english_common.py": "5f3ebb0fa7f99b9cc9effc7069925ff982dc122845282ea579d84c7d9d782f1b",
+    "Research_Phase_05_2026-10-13/phase5/model.py": "ba01b82a80686633d0c1136863a73be7535fc01a83093785e643750b4275ec60",
+    "Research_Server_Confirmation_2026-10-19/confirmation_common.py": "31ba78f051ce21c620b0039cd73e34fe8bf2c193e264c5ad0343e3e7e0a55f6b"
+  },
+  "upstream_lock_sha256": {
+    "Research_Source_Retention_2026-10-29/Plan.json": "bf56e94190102756c38287e557ef6132ea86f8841b030a88e97134f4226aa1d4",
+    "Research_Source_Retention_2026-10-29/Assessment_01/Plan.json": "42a023aaa74808961aa3cb5e2fdefcb0c2009cfa12a94ee02ee086bb84140a94",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Plan.json": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Pixels_01/Verification.json": "78f88d72708667f11c143f2128c943151066cad6a8f57c1db75fec019075260f",
+    "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Portable_Training_01/Production_01/Plan.json": "e77b5b497474260b5f92f884fea3b66a3ac5f04f2cc9e30f5c028582487ded3c"
+  },
+  "source": {
+    "corpus": "VLR",
+    "clips": 11307,
+    "reference_units": 225960,
+    "frames": 1634458,
+    "source_groups": 61,
+    "assignment_plan": "Research_Source_Retention_2026-10-29/Assessment_01/Plan.json",
+    "assignment_tasks": [
+      "VLR_B0_00",
+      "VLR_B0_01",
+      "VLR_B0_02",
+      "VLR_B0_03",
+      "VLR_B0_04",
+      "VLR_B0_05",
+      "VLR_B0_06",
+      "VLR_B0_07",
+      "VLR_B0_08",
+      "VLR_B0_09",
+      "VLR_B0_10",
+      "VLR_B0_11",
+      "VLR_B0_12",
+      "VLR_B0_13",
+      "VLR_B0_14",
+      "VLR_B0_15"
+    ]
+  },
+  "destination": {
+    "corpus": "ViCocktail",
+    "development": {
+      "manifest": "Research_Transfer_Full_Benchmark_2026-10-27/Development.jsonl",
+      "sha256": "b237b10616ef3c948dcd314c58872de9c4c3cd372502db3f0414e6b6a07c5e0b",
+      "clips": 768,
+      "reference_units": 15919,
+      "source_groups": 43
+    },
+    "assessment": {
+      "manifest": "Research_Transfer_Full_Benchmark_2026-10-27/Assessment.jsonl",
+      "sha256": "725116e5d36ca0a8c925f4feba4ac8f42a7dbf5cf75c95011cf2d3ef00f5d1f5",
+      "clips": 1167,
+      "reference_units": 30091,
+      "source_groups": 20
+    },
+    "pixel_index": "Research_Transfer_Full_Benchmark_2026-10-27/Pixels_01/Index.jsonl",
+    "pixel_index_sha256": "bb77eb036522d6324a181681628e5532cf95ed5f836c939a52447471e8e0d61d"
+  },
+  "primary_decoder": "beam_c0.1",
+  "primary_decoder_selected_before_new_checkpoint_assessment": true,
+  "secondary_candidate_order": [
+    "beam_c0.1",
+    "beam_c0.5",
+    "beam_c0.9",
+    "beam_c1.0",
+    "greedy_b0.0",
+    "greedy_b-0.5",
+    "greedy_b0.5",
+    "greedy_b-1.0",
+    "greedy_b1.0",
+    "greedy_b-2.0",
+    "greedy_b2.0"
+  ],
+  "secondary_selection": "Minimize complete destination-development errors; ties use frozen candidate order",
+  "secondary_source_decoder": "Use the same selected destination-development decoder without source-test tuning",
+  "beam_size": 40,
+  "penalty": 0,
+  "precision": "float32",
+  "external_lm": false,
+  "horizon": "full_encoded_length",
+  "primary_common_decoder_must_not_be_replaced_by_selected_decoder": true,
+  "report_each_corpus_separately": true,
+  "bootstrap_source_groups": true,
+  "bootstrap_resamples": 10000,
+  "historical_FM_is_matched_fixed_time_arm": false,
+  "historical_primary_decoder_reused_for_new_model": false,
+  "cross_runtime_training_is_exact_hardware_match": false,
+  "reused_assessment_is_new_blind_test": false,
+  "per_run_device_probe_required": true,
+  "final_checkpoint_and_backup_required": true,
+  "recognition_run_admitted": false
+}

@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-28T03:13:16.327063+00:00",
+  "pid": 19316,
+  "task": "anchor_VLR_T0_29_LAST_03",
+  "model": "VLR_T0_29_LAST",
+  "plan_sha256": "cc2e84f1a8cb2434f106419781ae982e325f21419227c01515cb97bfbd34b194",
+  "execution_lock_sha256": "bee2e30ec47a840e052ff6a4ca92a6e22b2839f54ce30f55bc0a74493b328dee",
+  "admission_path": "Research_Transfer_Decoder_Anchor_2026-10-28\\Vi_Local_Continuation_02\\Queue_01\\Admission.json",
+  "admission_sha256": "763d152e4dd41cec093f50117eede08da6fa93d9b9c53cb68ec64b8bf2fd7c9f",
+  "started_unix": 1793157196.330034
+}

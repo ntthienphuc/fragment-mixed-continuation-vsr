@@ -1,0 +1,50 @@
+{
+  "status": "baseline_lineage_and_current_export_verified",
+  "utc": "2026-10-27T15:54:48.673424+00:00",
+  "original_sha256": "57a6e8086c7b3a9452ab92f97e76265914ce670e920f6598b9e2f2a44cc79816",
+  "export_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+  "current_tensor_equalities": 767,
+  "native_sha256": "6a41d0a3acf15075a0e2f75ead2215b5b8fcc38697885de8ee851eb3ff576c00",
+  "vlr": {
+    "epoch": 13,
+    "step": 33110,
+    "declared_config": {
+      "exp_name": "full_seed42",
+      "root_dir": "/root/workspace/vsr_benchmark/baselines/auto_avsr/data/benchmark_vi",
+      "train_file": "train.csv",
+      "val_file": "valid.csv",
+      "test_file": "test.csv",
+      "pretrained_model_path": "/root/workspace/checkpoints/pretrained/auto_avsr_vsr_lrs2lrs3vox2avsp_base.pth",
+      "transfer_frontend": false,
+      "transfer_encoder": true,
+      "max_epochs": 50,
+      "ctc_weight": 0.1,
+      "precision": "bf16-mixed",
+      "ckpt_path": "/root/workspace/vsr_benchmark/runs/auto_avsr/full_seed42/last.ckpt"
+    }
+  },
+  "native_vicocktail": {
+    "epoch": 13,
+    "step": 55986,
+    "declared_config": {
+      "exp_name": "vicocktail_native_seed42_locked",
+      "root_dir": "/root/workspace/vsr_benchmark/baselines/auto_avsr/data/vicocktail_vi/full",
+      "train_file": "train.csv",
+      "val_file": "valid.csv",
+      "test_file": "valid.csv",
+      "pretrained_model_path": "/root/workspace/checkpoints/pretrained/auto_avsr_vsr_lrs2lrs3vox2avsp_base.pth",
+      "transfer_frontend": false,
+      "transfer_encoder": true,
+      "max_epochs": 15,
+      "ctc_weight": 0.1,
+      "precision": "bf16-mixed",
+      "ckpt_path": "/root/workspace/vsr_benchmark/runs/auto_avsr/vicocktail_native_seed42_locked/last.ckpt"
+    }
+  },
+  "historical_source_code_path": "experiments/_archive_sources/lip_final_2026_07/02_PROJECT_MAIN/main_code_results_phase/scripts/train_auto_avsr_full.sh",
+  "metadata_is_declared_training_lineage_not_proof_of_all_pretraining_samples": true,
+  "upstream_sample_overlap_independently_excluded": false,
+  "new_inference": false,
+  "historical_source_code_sha256": "268cf494555727472f813ba9c47479d43911230c80fbb52a359a9ebc16dfbf48",
+  "inspection_code_sha256": "59d113f307fea69475ba4ba86d11cfb90cd6c37b6dd92d3e168c0aaa4ff1dcfc"
+}

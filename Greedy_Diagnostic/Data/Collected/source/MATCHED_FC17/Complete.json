@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-30T19:16:17.692801+00:00",
+  "status": "complete_pending_independent_verification",
+  "model": "MATCHED_FC17",
+  "stage": "source",
+  "mode": "population",
+  "clips": 11307,
+  "frames": 1634458,
+  "seconds": 1577.5654890537262,
+  "encode_seconds": 928.7199999976438,
+  "peak_gpu_mib": 2985.21044921875,
+  "predictions_sha256": "f0ba2b4c74b4cc8b3632bf6f7b75355d2de7887477ad598498e49ff6f45697b8",
+  "identity_sha256": "640a0b85930e89599451d8d198c0541f6933629cc08f2baab2e2d040ea3dc805",
+  "start_sha256": "a676682d25597257e10c7df9e55e24bac57363ef80169d10d70d075afb512c13"
+}

@@ -1,0 +1,87 @@
+{
+  "status": "native_training_records_checkpoint_and_strict_load_verified",
+  "arm": "short_only",
+  "identity_sha256": "c3a8571c26606304313152d47a3693448757abd8487e79f53e3d8e7c529ee9cc",
+  "checkpoint_sha256": "804dec5ed7cece20c79dc227a92e23c46f79d191f6f36ecbe182778b79533a50",
+  "updates": 6000,
+  "exposure": {
+    "presentations": 48000,
+    "input_frames": 2719321,
+    "target_tokens": 422153,
+    "attention_positions": 470153,
+    "full_fallbacks": 598
+  },
+  "source_diagnostics": [
+    {
+      "word_errors": 2560,
+      "word_units": 3988,
+      "clips": 504
+    },
+    {
+      "word_errors": 2558,
+      "word_units": 3988,
+      "clips": 504
+    },
+    {
+      "word_errors": 2540,
+      "word_units": 3988,
+      "clips": 504
+    },
+    {
+      "word_errors": 2537,
+      "word_units": 3988,
+      "clips": 504
+    },
+    {
+      "word_errors": 2530,
+      "word_units": 3988,
+      "clips": 504
+    },
+    {
+      "word_errors": 2528,
+      "word_units": 3988,
+      "clips": 504
+    },
+    {
+      "word_errors": 2528,
+      "word_units": 3988,
+      "clips": 504
+    },
+    {
+      "word_errors": 2527,
+      "word_units": 3988,
+      "clips": 504
+    },
+    {
+      "word_errors": 2526,
+      "word_units": 3988,
+      "clips": 504
+    },
+    {
+      "word_errors": 2515,
+      "word_units": 3988,
+      "clips": 504
+    },
+    {
+      "word_errors": 2517,
+      "word_units": 3988,
+      "clips": 504
+    },
+    {
+      "word_errors": 2518,
+      "word_units": 3988,
+      "clips": 504
+    }
+  ],
+  "native_strict_load": true,
+  "batchnorm_buffers_unchanged": true,
+  "cuda_initialized": false,
+  "code_sha256": "1b44bfe98f24d7c01f401e4c5284b86d90aee0b273d6f87bb3cd9e2e22608b05",
+  "execution_recovery": {
+    "recovered_execution_deadline": true,
+    "original_attempts_preserved": true,
+    "replayed_logged_updates_verified": 76,
+    "committed_updates": 6000,
+    "resume_declaration_sha256": "a735a94fe615a716adeca2d772f25f4e412cbd17a931855391dc42b2e0995205"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "utc": "2026-10-28T00:59:14.377639+00:00",
+  "status": "passed",
+  "synthetic_only": true,
+  "real_assessment_predictions_read": false,
+  "valid_count_rows": 22832,
+  "models": 4,
+  "clips_per_readout": 2854,
+  "independently_rehashed_malformed_cases_rejected": [
+    {
+      "field": "clip_id",
+      "reason": "Parent duration changed"
+    },
+    {
+      "field": "clip_id",
+      "reason": "Wrong or duplicated parent clip"
+    },
+    {
+      "field": "frames",
+      "reason": "Parent duration changed"
+    },
+    {
+      "field": "decoder",
+      "reason": "Parent decoder changed"
+    },
+    {
+      "field": "units",
+      "reason": "Parent reference units changed"
+    },
+    {
+      "field": "errors",
+      "reason": "Wrong edits"
+    },
+    {
+      "field": "missing_row",
+      "reason": "Incomplete parent model population"
+    }
+  ],
+  "scripts": {
+    "analyze_full_f0.py": "38584a21c1f9d25f8f6c8e55d6d9f643553f788901aca8efa8ab4b3e67406a92",
+    "full_analysis_core.py": "c4eb54d379314de92a849a588650918f9f8effec8fd5a2b6e1da910034147cb2",
+    "test_parent_count_import.py": "9a48dfdde40cdb4f0b70d20e4f7883c5379be2b5779c0501ea6bd2e8563958e5"
+  }
+}

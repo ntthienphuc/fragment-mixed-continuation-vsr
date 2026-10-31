@@ -1,0 +1,58 @@
+{
+  "utc": "2026-10-28T03:14:49.257090+00:00",
+  "status": "passed",
+  "task": "assessment_EN_B0_04",
+  "model": "EN_B0",
+  "split": "assessment",
+  "clips": 357,
+  "independent_counts_checked": 714,
+  "fresh_pixel_replays": [
+    {
+      "clip_id": "0420.mp4",
+      "candidate": "beam_c0.5",
+      "score_error": 0.0,
+      "numeric_score_input": "fresh_pixels_same_backend",
+      "fresh_pixel_tokens_and_text_exact": true,
+      "fresh_pixel_score_error_diagnostic": 0.0,
+      "cross_backend_score_not_used_as_numeric_identity_test": false
+    },
+    {
+      "clip_id": "0420.mp4",
+      "candidate": "beam_c0.1",
+      "score_error": 0.0,
+      "numeric_score_input": "fresh_pixels_same_backend",
+      "fresh_pixel_tokens_and_text_exact": true,
+      "fresh_pixel_score_error_diagnostic": 0.0,
+      "cross_backend_score_not_used_as_numeric_identity_test": false
+    },
+    {
+      "clip_id": "2455.mp4",
+      "candidate": "beam_c0.5",
+      "score_error": 0.0,
+      "numeric_score_input": "fresh_pixels_same_backend",
+      "fresh_pixel_tokens_and_text_exact": true,
+      "fresh_pixel_score_error_diagnostic": 0.0,
+      "cross_backend_score_not_used_as_numeric_identity_test": false
+    },
+    {
+      "clip_id": "2455.mp4",
+      "candidate": "beam_c0.1",
+      "score_error": 0.0,
+      "numeric_score_input": "fresh_pixels_same_backend",
+      "fresh_pixel_tokens_and_text_exact": true,
+      "fresh_pixel_score_error_diagnostic": 0.0,
+      "cross_backend_score_not_used_as_numeric_identity_test": false
+    }
+  ],
+  "candidate_order": [
+    "beam_c0.5",
+    "beam_c0.1"
+  ],
+  "checkpoint_sha256": "ef7fef5639a25c5837a48dd71ba1b366ca2c10f9215f9e99a913c7ec0fb5a148",
+  "plan_sha256": "3c604eecef2a00cc4e885a860fbd502a081474dc8f6de09c8a93e5849b5267a1",
+  "execution_lock_sha256": "b4ce920a70ba2db8d0d2470920251b8a4f971a7760c38f28aed8e9450ac8d699",
+  "predictions_sha256": "7bc73a4e2afe845ff821cf8eb37a6275051c931688711bb909961a20b36f12d0",
+  "verification_admission_sha256": "22c97836649d3675189f20bd5f2b0df35997d324adb6d7e9b04b85b82bda6fd3",
+  "verification_protocol_sha256": "e0de7d6ecd854f1e8b36e00bb947e68352201472de1899cde2ae04ff724f6331",
+  "verifier_sha256": "73ac40a69069fbe754e6c7da434a134f0445ff09fbf30d6c64c95e2ed1a7ff4b"
+}

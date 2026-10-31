@@ -1,0 +1,26 @@
+{
+  "started_utc": "2026-10-29T06:57:06.302120+00:00",
+  "completed_utc": "2026-10-29T06:57:29.321071+00:00",
+  "status": "serialization_repaired_identical_frozen_statistics_independent_recount_passed",
+  "rows": 53960,
+  "optional_metric_values": {
+    "absent": 37876,
+    "wer": 16084
+  },
+  "failed_output_preserved": {
+    "Per_Clip_Counts.csv": "a1e022468512018c2048d82a4a3c9fff5f8154e175cbad9b51d20bda78e935a6",
+    "Summary.json": "7278dd0fdb6adb9f1eecbda8cb832ed446364f4213abad94fedf994bfdb4e622"
+  },
+  "original_failure_sha256": "c5a6da7767ecdecf7b53a865c8a4c7f9c245ae9ba48f732dff2bc36b856cf090",
+  "frozen_analysis_sha256": "42725a9aed42ee07f99f58a19fa0c134e6bca24c29fefb53fc66c39148c59252",
+  "analysis_lock_sha256": "c9c844945479be87e816b467d96db444159e2ca528d347c173add455a59987e9",
+  "unchanged_numerical_tables": true,
+  "unchanged_source_evidence": true,
+  "new_inference": false,
+  "independent_recount_script_sha256": "eaf4fcdd025efb2e007ca7e0897cb9cae296c27bd946df79270afe3c88175fde",
+  "wrapper_sha256": "6af818b7e9cac56f4f0cd00302c3fe6898716a30f0f52e4f8e8b86cf639842ed",
+  "protocol_sha256": "53dee23e84e0de3931f7a2a2fa4919fd4926f3a4b92f589d1f6de86b76a15a98",
+  "output": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/Results_02",
+  "summary_sha256": "fb8afed2069e2ed4303135966bdd84e74fa1c4c5d6bd9427b92cc491888f2554",
+  "counts_sha256": "ab7cdc4345d72361bc4005cb119bbb11760487af25f6e0dd42dd28c99de7e212"
+}

@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "utc": "2026-10-27T20:43:55.231294+00:00",
+  "model": "VC_NATIVE",
+  "split": "development",
+  "clips": 768,
+  "independent_count_checks": 8448,
+  "candidate_order": [
+    "beam_c0.1",
+    "beam_c0.5",
+    "beam_c0.9",
+    "beam_c1.0",
+    "greedy_b0.0",
+    "greedy_b-0.5",
+    "greedy_b0.5",
+    "greedy_b-1.0",
+    "greedy_b1.0",
+    "greedy_b-2.0",
+    "greedy_b2.0"
+  ],
+  "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44",
+  "predictions_sha256": "849582054c32e1e0e85b153166df110556897c5bdc35df13ab0c0e8988c6a851",
+  "checkpoint_sha256": "6a41d0a3acf15075a0e2f75ead2215b5b8fcc38697885de8ee851eb3ff576c00",
+  "input_sha256": {
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/development_VC_NATIVE_00/Predictions.jsonl": "b2409188e4410a0df07bd839732ba1e528aec3e788498c808903cc8236cd4f33",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/development_VC_NATIVE_00/Verification.json": "13ad91c43193aa981788af4959e78fd20c7cfee1f59d2c6799696eaf68466fe6",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/development_VC_NATIVE_01/Predictions.jsonl": "7d2dbc6ba50eea5536d59cdb25fe4b7b7f0fbef688de62b180e7e14a592fd7fb",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/development_VC_NATIVE_01/Verification.json": "ad66ada705ba28c70e07fdedd40102f06c06190b30eca8e131c045ede6006366",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/development_VC_NATIVE_02/Predictions.jsonl": "dc14bd567941535049202aee3f179793099ad36d4f701808f3bce076dd769b13",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/development_VC_NATIVE_02/Verification.json": "5badfe8ba26e5b113e37c6fcfe53fcaaf3959ddebf18b55f9090278c4b036e7b",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/development_VC_NATIVE_03/Predictions.jsonl": "24ae0922e1182276dd678713270500041308cfce8f41824c7241cf855c0165be",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/development_VC_NATIVE_03/Verification.json": "65199677495d29c80a900850b3f7005ed21aa952eb9cdd7e06031f61ba6b38ee",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/development_VC_NATIVE_04/Predictions.jsonl": "ebb41b100f22a120b4921ea86d8550e8f85bcf3f34aaf81b6d1ebd986bd8449f",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/development_VC_NATIVE_04/Verification.json": "d5c3e67dd7bfcf09e964ce6ac43a4cbd334a372a7a1325b623c0ffa3a1d2cfbd",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/development_VC_NATIVE_05/Predictions.jsonl": "cdade58bcbdd431808f97b635ed141dba0ce70e275fcac5f7b80afb1ef83a465",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/development_VC_NATIVE_05/Verification.json": "c6d0c1bdec44c4ca2bad0e670dca1cae703f9ac577ae0fafc53e606e77763045",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/development_VC_NATIVE_06/Predictions.jsonl": "b956b6e15b6ce003c78d4134f60f0324f7534fc2bf298919ad73e68dbefc1c2d",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/development_VC_NATIVE_06/Verification.json": "e3de25233648af528ae768c817752f9d4acd981502b9b7ae15d5b143371ea642",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/development_VC_NATIVE_07/Predictions.jsonl": "e5f805ca81a16b75f616b6c07170a34673240e83d505f473d1445c131552acb5",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Runs/Server_01/development_VC_NATIVE_07/Verification.json": "7d759098d5c9e0a882cb40a555261fb87e8505d692b935ed58f91ba86512c626"
+  }
+}

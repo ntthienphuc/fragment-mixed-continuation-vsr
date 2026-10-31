@@ -1,0 +1,43 @@
+{
+  "assessment": {
+    "manifest_sha256": "725116e5d36ca0a8c925f4feba4ac8f42a7dbf5cf75c95011cf2d3ef00f5d1f5",
+    "pixel_index_sha256": "bb77eb036522d6324a181681628e5532cf95ed5f836c939a52447471e8e0d61d"
+  },
+  "source": {
+    "plan_sha256": "57043031647da4c158d8b83b5680d4e2031dfbd8ec1d85af4d21c7521851e084",
+    "archive": "Server_Rescue_2026-10-15\\Data\\VLR\\Prepared_Test.zip",
+    "archive_sha256": "4d25b490074d22951ea071d6dd609305b15ea610b81993b6d8b25a8c107fa1a9",
+    "archive_bytes": 8825083717,
+    "payload_files_verified": 33946,
+    "archive_manifest_sha256": "9f14c166498343d7ca37ecddae90aabddd83f71af4e012a1b938c97b8b73b591",
+    "prepared_manifest_sha256": "239b32e21612034eaf128263130f9fd09fd99dce15e6c11307289f4d5bdd8949",
+    "clips": 11307,
+    "source_labels": 61,
+    "reference_whitespace_units": 225960,
+    "all_frame_caches_loaded": 11307,
+    "total_frames": 1634458,
+    "duration_seconds": {
+      "min": 0.08,
+      "median": 5.64,
+      "p95": 7.88,
+      "max": 59.64
+    },
+    "mean_seconds": 5.78211019722296,
+    "disjointness": {
+      "train": {
+        "clip_id": 0,
+        "source_id": 0,
+        "video_sha256": 0
+      },
+      "val": {
+        "clip_id": 0,
+        "source_id": 0,
+        "video_sha256": 0
+      }
+    },
+    "speaker_independence_established": false,
+    "human_label_review_added": false,
+    "directory_group_correction_sha256": "a15fc1ff0e5edbe6433ef528bcf6bb56d1543ab51cfe1fade085f5e598d7f05f",
+    "pixel_manifest_sha256": "e2529f24994ec6c06552b02ac57eacd94365463255032fa44619f4698caee025"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "utc": "2026-10-29T10:17:52.363421+00:00",
+  "status": "seed29_exposure_hash_bound_source_group_recount_passed",
+  "source_receipt": "Research_Transfer_Training_Exposure_2026-10-27\\Completion_Receipt.json",
+  "source_receipt_sha256": "8aafc59a25334721b34bcfc9afa7548bae20a55470bc09d526a6662477e44991",
+  "source_evidence_sha256": {
+    "Replay_03/Summary.json": "15b89252c449ecc9d1f0457d53df821c4313374c224091561dc9e60ef4c9f024",
+    "Replay_03/Counts_17.json": "96b0a92559bb73ad0bf6afae4793bbaa95b0a6ef539c3c41b4351398613136d9",
+    "Replay_03/Counts_29.json": "632908229aa1a484df28be7c1e9633c2a80f613527db0a46f5e4d8055b099a7e",
+    "Loss_Check_01/Verification.json": "e946f4fa6c7b14ff98021b79d731582cc751a7667c804714c0b88d39211280d6"
+  },
+  "scope": "VI seed29 T0/T1 only; seed17 provenance remains in Training_Design_Provenance.json",
+  "schedule_sha256": {
+    "T0": "01e11e6e434467cbe12d1bfa36fc1f45b8d4598c4f7060661b3a650c6e3516fd",
+    "T1": "09f28aa64afc2607cd5802da60106dbe16dac6931ac5dc647a8b3f11aeec4a0d"
+  },
+  "final_exposure": {
+    "T0": {
+      "samples": 48000,
+      "input_frames": 7292600,
+      "target_tokens": 1143688,
+      "attention_positions": 1191688,
+      "target_words": 960237,
+      "full_samples": 48000,
+      "crop_samples": 0
+    },
+    "T1": {
+      "samples": 48000,
+      "input_frames": 4841566,
+      "target_tokens": 790163,
+      "attention_positions": 838163,
+      "target_words": 665442,
+      "full_samples": 24000,
+      "crop_samples": 24000
+    }
+  },
+  "training_exposure_csv_sha256": "e22a1f01129bc69a49ed70151a3715a1770886626c9f6688dbe9264042087ec8",
+  "code_sha256": "d8b7689be34d7799f7125d98cd5b12e7029aa6f1b4d098bb3d555b0fde348028",
+  "new_training_or_neural_inference": false
+}

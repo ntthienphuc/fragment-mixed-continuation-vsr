@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-27T23:40:13.614417+00:00",
+  "status": "rejected_before_recognition",
+  "reason": "Parent T1 queue encoded only 237 new development clips and reused 531 prior predictions. No corresponding T2/T4 predictions exist; each new model must process all 768 clips.",
+  "coverage_before": {
+    "VLR_T2_LAST": 237,
+    "VLR_T4_LAST": 237
+  },
+  "required_clips_per_model": 768,
+  "recognition_started": false,
+  "parent_benchmarks_changed": false,
+  "previous_plan_sha256": "ed745e99d8955d5d7835ecff2b3bf43eb0dda2c1a8fba105990d347be0fbe888",
+  "snapshot_sha256": "c33811be7656789d466899863d306f1900c250b6f2061b14bd12f67bdf1b020f",
+  "snapshot_readback_passed": true
+}

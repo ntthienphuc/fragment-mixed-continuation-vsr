@@ -1,0 +1,39 @@
+{
+  "utc": "2026-10-28T08:15:52.719875+00:00",
+  "status": "admitted_common_decoder_supplement",
+  "tasks": [
+    "anchor_VLR_B0_07",
+    "anchor_VLR_T0_29_LAST_07",
+    "anchor_VLR_T0_LAST_07",
+    "anchor_VLR_T1_29_LAST_07",
+    "anchor_VLR_T1_LAST_07",
+    "anchor_VLR_T0_29_LAST_05",
+    "anchor_VLR_T1_29_LAST_05",
+    "anchor_VLR_T0_29_LAST_04",
+    "anchor_VLR_T0_LAST_04",
+    "anchor_VLR_T1_LAST_04"
+  ],
+  "plan_sha256": "cc2e84f1a8cb2434f106419781ae982e325f21419227c01515cb97bfbd34b194",
+  "execution_lock_sha256": "bee2e30ec47a840e052ff6a4ca92a6e22b2839f54ce30f55bc0a74493b328dee",
+  "primary_completion_sha256": "c32c8679df3d1a99fc6231bb451e2ee56cce737c998836181b87f2657623a8d8",
+  "execution_location": "server",
+  "admitted_unix": 1793175352.7198741,
+  "deadline_unix": 1793186728.3296688,
+  "maximum_execution_seconds": 11375.6097946167,
+  "usd_per_hour": 0.825,
+  "maximum_cost_usd": 3.8,
+  "observed_balance_usd": 7.18,
+  "reserved_balance_usd": 2.0,
+  "provider_guard_verified": true,
+  "backup_restore_verified": true,
+  "source_replay_proof": {
+    "path": "Research_Vast_VI_Continuation_2026-10-28/Replays/GPU_1.json",
+    "sha256": "69deb4a7b2c25ce13e1718ada6d2498a128eaf226283b7b3794169dadfcaab5e"
+  },
+  "handoff_sha256": "1b64ea1db0288da9b5f5d83549011f4e87cc96ac2e8571f997d22c9f74f86f6d",
+  "physical_gpu": 1,
+  "provider_proof_sha256": "6023add2c6bf60808670ed2a81de4df33e89cbfda18252ec04c641e65abbe22c",
+  "input_restore_sha256": "0f1b7cb1be24de0b0f2f92092b01e3484e3fd4ad574bdb07e135c0b8350daf19",
+  "backup_roundtrip_sha256": "61956c5cda8c6b68e2906946ebe590239f1665a5ab62567ad5de278048286046",
+  "operations_lock_sha256": "366da223e3df7585860139cacabea395e73b2cf2325317eea89a5b086dabeb0c"
+}

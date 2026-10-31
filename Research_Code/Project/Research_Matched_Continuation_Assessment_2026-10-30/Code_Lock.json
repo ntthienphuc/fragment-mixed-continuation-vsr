@@ -1,0 +1,24 @@
+{
+  "utc": "2026-10-29T19:16:26.171489+00:00",
+  "assessment_plan_sha256": "78ff15fb08be918c76ed6bcb58d26b6782237e447df867b4a06cb81010edf593",
+  "code_sha256": {
+    "common.py": "d43e25a3228b0b3fdf8ac227e6bd8f302a65d9333a36a9afb74b7599a54805c1",
+    "runtime_bridge.py": "78dbe249c0a2424d7b5cff138e309fb98b1020a3f2a17a11f02dfafa93db4b6f",
+    "bind_whole_word.py": "63806fe8c03c6a849cfd3fcc6f92e000ec9dfe338ec167f4ceba666dd2a75f71",
+    "data_tasks.py": "fef121041611d380b0e9ef4c83a5eb59d95dc05b52ecb12c81388dce80ac6175",
+    "execution.py": "1225817d802c35d9b04c5ca0716515743338eb9d6336200213a0a39ddd18cc87",
+    "run_task.py": "f9ce53eb9e1602d5bb730ccefd0953925912c3486b4c309a144c0fb1561aa5d8",
+    "verify_task.py": "9ae17f5aec85c9fbfbe3049253265ca0139ec74abfec67cc55d3aceffcf97b1e"
+  },
+  "external_code_sha256": {
+    "Research_Transfer_Initialization_2026-10-27/runtime_core.py": "8488abeb2584b33fefcaef1e1a45a30a8e894ecc3f17d0cf5e0e1586f3d770df",
+    "Research_English_Transfer_Benchmark_2026-10-28/runtime_bridge.py": "83d1b3d4df1d080be442c302e7f8f092e93e1fa63befb1b620b3e63961f7b6b1",
+    "Research_English_Transfer_Benchmark_2026-10-28/english_common.py": "5f3ebb0fa7f99b9cc9effc7069925ff982dc122845282ea579d84c7d9d782f1b",
+    "Research_Phase_05_2026-10-13/phase5/model.py": "ba01b82a80686633d0c1136863a73be7535fc01a83093785e643750b4275ec60",
+    "Research_Server_Confirmation_2026-10-19/confirmation_common.py": "31ba78f051ce21c620b0039cd73e34fe8bf2c193e264c5ad0343e3e7e0a55f6b",
+    "Research_Server_Confirmation_2026-10-19/data_io.py": "f357476c4ba992e914e5af3ab972b569ee78babe59af7b795a4bc9221c582a56",
+    "Research_Interval_Transfer_2026-10-27/verify_probe.py": "174623b1fd0697090c8968dc21f1675a20ac73848ba350ff2bfcfd1bcd699f7d",
+    "Research_Transfer_Mechanism_Benchmark_2026-10-28/Source_Retention_Runtime_01/source_loader.py": "9158e1980f1c162b53c2957de63f957f63278b2761c76563a4175cc9a4fe9a42"
+  },
+  "device_admission_required": true
+}

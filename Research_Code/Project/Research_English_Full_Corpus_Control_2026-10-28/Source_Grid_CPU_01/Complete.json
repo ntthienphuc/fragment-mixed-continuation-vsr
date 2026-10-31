@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-28T00:34:58.820594+00:00",
+  "status": "F0_three_source_grid_replays_passed",
+  "model": "EN_F0_LAST",
+  "seconds": 216.6896095275879,
+  "lock_sha256": "647c7d3f7f237ef41e68e32d5a88abb677ded3d0174f85057a47762c13a73e6a",
+  "receipt_sha256": "5321facba8c38d1ee28e9d9394f1edcd4d519be5bd684b09085abd02119d1906",
+  "independent_grid_comparisons": 33,
+  "performance_claim": false,
+  "GPU_admission_granted": false
+}

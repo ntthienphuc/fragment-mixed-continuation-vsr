@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-28T20:00:56.228974+00:00",
+  "status": "matched_training_schedules_verified",
+  "datasets": [
+    {
+      "dataset": "vlr",
+      "positions_checked": 48000,
+      "fallbacks_checked": 317,
+      "weighted_unit_attention_sum": 845573,
+      "all_targets_rebuilt_from_training_manifest": true,
+      "all_ctc_lengths_feasible": true,
+      "schedule_sha256": "ac96a53acaef5088569b025da61f3024cc04675d574a0399ba73a48cacdadad9"
+    },
+    {
+      "dataset": "lrs2",
+      "positions_checked": 48000,
+      "fallbacks_checked": 12,
+      "weighted_unit_attention_sum": 676947,
+      "all_targets_rebuilt_from_training_manifest": true,
+      "all_ctc_lengths_feasible": true,
+      "schedule_sha256": "8f53e9a9376b302e78065ebc66579a6496fd7c7e1096394f487f6e30d8096673"
+    }
+  ],
+  "summary_sha256": "71ff0daca1f9b8cb3148f4a3b53bdc6fe4f76d347492c4b9edbbec39cbbd895c",
+  "verifier_sha256": "5ad22b3cce884cb74f75e97284d154b1e9b58a8bd50130bce0fea68e1dacd3e3",
+  "training_launched": false,
+  "assessment_predictions_read": false,
+  "gpu_used": false
+}

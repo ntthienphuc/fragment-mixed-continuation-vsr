@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "utc": "2026-10-28T08:15:04.211193+00:00",
+  "model": "VLR_T0_29_LAST",
+  "device": "cuda:0",
+  "checkpoint_sha256": "a879197acb3a9cacb67f3cb3b1146a7a8833a9c7ca0d4adfed74466eba8f60c5",
+  "tokens_and_text_exact": true,
+  "max_score_error": 2.288818359375e-05,
+  "probes": [
+    {
+      "clip_id": "BF8FvKmq0q8_00001_000000_1_-1.00",
+      "frames": 25,
+      "score_error": 2.86102294921875e-06
+    },
+    {
+      "clip_id": "DZ2odvEsZFs_00022_000000_7_-1.00",
+      "frames": 113,
+      "score_error": 2.288818359375e-05
+    },
+    {
+      "clip_id": "9R8hiDB_YCg_00003_000000_1_-1.00",
+      "frames": 370,
+      "score_error": 5.7220458984375e-06
+    }
+  ],
+  "source_predictions_sha256": "f79f9cde663e9c9576346ef14e7f46765253221531fc2433a83d4d6e01c8d70e",
+  "source_proof_sha256": "5575d454cf2ff2f5f28b571e6800c9c71c66e3385cb931f8a287770dffb6ce53",
+  "execution_lock_sha256": "bee2e30ec47a840e052ff6a4ca92a6e22b2839f54ce30f55bc0a74493b328dee",
+  "asset_sha256": {
+    "checkpoint": "a879197acb3a9cacb67f3cb3b1146a7a8833a9c7ca0d4adfed74466eba8f60c5",
+    "base_checkpoint": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+    "tokenizer": "6b8c7e138d86282217fad89d7e2be9452a90d398a4e034d9d390586c145e499b",
+    "units": "90b0875aa114daad969c70d48589db7bfb49da548ea4d0f86bd07dab0514dfda",
+    "config": "8abced4f71dccb680ee0852068ac86dad62ab81727b5937ffd1c4871247e999e"
+  }
+}

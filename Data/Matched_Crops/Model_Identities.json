@@ -1,0 +1,17 @@
+{
+  "MATCHED_FC17": {
+    "identity_sha256": "c0251802febb7bf2db6db0e3248eef6ccb7d8c20810536f2e4b73710bf19bd63",
+    "checkpoint_sha256": "1c1286b3b15e312454832052f6064867b73c49feae0add282d20d5759388bd60",
+    "binding_sha256": "11ff0fed8931e8ddc55d4a892ac8d60c85eb74ec731ed876d11259d16a68ff87"
+  },
+  "MATCHED_FT17": {
+    "identity_sha256": "d7db129414b99f2b0cca1ba8e4718f772d05642cbec988a5d26b036ea97d3e84",
+    "checkpoint_sha256": "1488f1003195a3d62e897888ca77e548a62614b7c67686a39f588db4dfafba68",
+    "binding_sha256": "23da1cd4c1c579aabc5c349785f28163134c2fe6ef01d06ac3aca23004abff43"
+  },
+  "MATCHED_WW17": {
+    "identity_sha256": "36e9a63f491e28087cb5a1d69c5ca49249777e1ab56db0df9121766bdcf1dec5",
+    "checkpoint_sha256": "3a87c11de86afbe19a3e4120db17eb078f096329f9bdae5deef305848ff3b78e",
+    "binding_sha256": "29feafb38a4b989b475db7c59777eda04a20a22c0447e6a18deaa30273ae29c8"
+  }
+}

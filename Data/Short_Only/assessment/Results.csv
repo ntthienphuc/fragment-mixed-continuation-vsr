@@ -1,0 +1,5 @@
+model,stage,readout,decoder,clips,errors,substitutions,deletions,insertions,units,wer_percent
+MATCHED_FC17,assessment,common,beam_c0.1,1167,20272,10645,8421,1206,30091,67.36898075836629
+MATCHED_FT17,assessment,common,beam_c0.1,1167,19212,10619,7910,683,30091,63.84633279053538
+MATCHED_WW17,assessment,common,beam_c0.1,1167,19074,10665,7804,605,30091,63.38772390415739
+MATCHED_SO17,assessment,common,beam_c0.1,1167,21279,7567,13539,173,30091,70.71549632780565

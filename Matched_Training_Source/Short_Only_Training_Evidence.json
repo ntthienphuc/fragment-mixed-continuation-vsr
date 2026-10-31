@@ -1,0 +1,20 @@
+{
+  "model": "MATCHED_SO17",
+  "status": "native_training_records_checkpoint_and_strict_load_verified",
+  "updates": 6000,
+  "identity_sha256": "c3a8571c26606304313152d47a3693448757abd8487e79f53e3d8e7c529ee9cc",
+  "checkpoint_sha256": "804dec5ed7cece20c79dc227a92e23c46f79d191f6f36ecbe182778b79533a50",
+  "exposure": {
+    "presentations": 48000,
+    "input_frames": 2719321,
+    "target_tokens": 422153,
+    "attention_positions": 470153,
+    "full_fallbacks": 598
+  },
+  "native_strict_load": true,
+  "batchnorm_buffers_unchanged": true,
+  "training_receipts_sha256": "3ae280510858b564ee7da38bdd89fdeb2cfba75f103f4f6902d80a376296d863",
+  "recovered_checkpoint_locally_hash_verified": true,
+  "full_neural_reproduction_claimed": false,
+  "assessment_results_included": false
+}

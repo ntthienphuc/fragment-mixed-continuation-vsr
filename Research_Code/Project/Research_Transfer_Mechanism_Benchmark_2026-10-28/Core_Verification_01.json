@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-27T23:55:47.865843+00:00",
+  "status": "passed",
+  "complete_model_stage_groups": 8,
+  "independent_greedy_cases": 4375,
+  "independent_edit_cases": 64,
+  "rejected_cases": [
+    "missing_model",
+    "partial_population",
+    "wrong_denominator",
+    "partial_grid",
+    "test_tuning",
+    "token_zero",
+    "token_eos",
+    "noninteger_token",
+    "wrong_count",
+    "nonfinite_seconds"
+  ],
+  "actual_model_inference": false,
+  "plan_sha256": "8d3e81d8fed2ef8a6b795d7bae28cf89068c0c430ef38c8b1335c9732daceaf5",
+  "scripts": {
+    "experiment_core.py": "9b30da8e1cb6cbc25a86bafc4f1b20aa7fc9cffe3d8f4c414eee9336a485620c",
+    "test_experiment_core.py": "3b07bca6e78f97386f86a02fe80cd5177d2c3315373a917a8fda34bc7037f14e"
+  }
+}

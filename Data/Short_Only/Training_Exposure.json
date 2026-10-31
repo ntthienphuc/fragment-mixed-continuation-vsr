@@ -1,0 +1,52 @@
+{
+  "full": {
+    "updates": 6000,
+    "exposure": {
+      "presentations": 48000,
+      "input_frames": 7307270,
+      "target_tokens": 1144990,
+      "attention_positions": 1192990
+    },
+    "full_slots": 48000,
+    "updates_clipped": 6000,
+    "final_endpoint_reached": true
+  },
+  "fixed_time": {
+    "updates": 6000,
+    "exposure": {
+      "presentations": 48000,
+      "input_frames": 4887859,
+      "target_tokens": 797573,
+      "attention_positions": 845573
+    },
+    "full_slots": 24317,
+    "updates_clipped": 6000,
+    "final_endpoint_reached": true
+  },
+  "whole_word": {
+    "updates": 6000,
+    "exposure": {
+      "presentations": 48000,
+      "input_frames": 5012725,
+      "target_tokens": 784016,
+      "attention_positions": 832016
+    },
+    "full_slots": 24317,
+    "updates_clipped": 6000,
+    "final_endpoint_reached": true
+  },
+  "short_only": {
+    "updates": 6000,
+    "exposure": {
+      "presentations": 48000,
+      "input_frames": 2719321,
+      "target_tokens": 422153,
+      "attention_positions": 470153,
+      "full_fallbacks": 598
+    },
+    "full_slots": 598,
+    "final_endpoint_reached": true,
+    "training_identity_sha256": "c3a8571c26606304313152d47a3693448757abd8487e79f53e3d8e7c529ee9cc",
+    "checkpoint_sha256": "804dec5ed7cece20c79dc227a92e23c46f79d191f6f36ecbe182778b79533a50"
+  }
+}

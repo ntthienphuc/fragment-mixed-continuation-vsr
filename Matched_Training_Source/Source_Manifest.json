@@ -1,0 +1,282 @@
+[
+  {
+    "file": "Packet/source/phase5/__init__.py",
+    "sha256": "b0c1ea4722c336f2f09e1a742cf46076911daf03e35d2a4ca2f6f7c6ae03ac29",
+    "bytes": 58,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/phase5/__init__.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Packet/source/phase5/common.py",
+    "sha256": "07cb9f65b9ff6d70834d8a91d62c67ab57667d35101f87f97e457879158c8740",
+    "bytes": 2368,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/phase5/common.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Packet/source/phase5/ctc_loss.py",
+    "sha256": "5142d2742bdcb0df9621c197ba37c076cf1d5176337a437595bbfa13f6509f52",
+    "bytes": 645,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/phase5/ctc_loss.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Packet/source/phase5/data.py",
+    "sha256": "3589a1dd25caaa89011c963936b0b621a36c235ad0c1fe2413e791d74cba750a",
+    "bytes": 3498,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/phase5/data.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Packet/source/phase5/decoding.py",
+    "sha256": "9576d649e96252e6b2a6e3deb7e2d167fd848558832d8744a700d6cfd40e43a8",
+    "bytes": 1559,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/phase5/decoding.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Packet/source/phase5/evaluation.py",
+    "sha256": "0b0bb5f5f657ec81397157a1da5208e949fda37d379746c1bb2b584fe1e52106",
+    "bytes": 3578,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/phase5/evaluation.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Packet/source/phase5/frame_cache.py",
+    "sha256": "0b129f9b8674cdd5aaf5989c4380b4b63fec16a52364d6261a51233f05f4af35",
+    "bytes": 1602,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/phase5/frame_cache.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Packet/source/phase5/model.py",
+    "sha256": "ba01b82a80686633d0c1136863a73be7535fc01a83093785e643750b4275ec60",
+    "bytes": 5871,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/phase5/model.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Packet/source/phase5/objectives.py",
+    "sha256": "cac2c9e06759c674c20d0140c703d7e706d07e6b7a4851ff08ada0520dfd8c1e",
+    "bytes": 2041,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/phase5/objectives.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Packet/source/phase5/readout.py",
+    "sha256": "dacc3d41c6c751b847be73bb0123d590cf368bd667fb6b6e464c5657d26cb798",
+    "bytes": 1391,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/phase5/readout.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Packet/source/phase5/runtime.py",
+    "sha256": "344a069423778767f07006d5d839b5dad1646700d1c5a3f057cd3d65656144f7",
+    "bytes": 1981,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/phase5/runtime.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Packet/source/phase5/spatial_pool.py",
+    "sha256": "d2fc6a55f6a2c2ff8e44ed789077c130556e50fde476834dd9d772d6d075c54f",
+    "bytes": 989,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/phase5/spatial_pool.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Packet/source/phase5/text.py",
+    "sha256": "08036faa0479420237a79416ed3dd96ea02535b2d181b280efcbea81235cbabf",
+    "bytes": 3710,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/phase5/text.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Packet/source/phase5/training.py",
+    "sha256": "e38cd23fc410264d87a12a91db2989a898e6b0b0bcacc5c05fc4b86d4a398a21",
+    "bytes": 9604,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/phase5/training.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Packet/source/phase5/views.py",
+    "sha256": "54832cb5746bba2423a6eee537f29d7c9690230615002eedaf33ce6481f107e0",
+    "bytes": 1500,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/source/phase5/views.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Packet/support/Native_Matched_Adapter_01/adapter.py",
+    "sha256": "2d41f1627252a7bdac84679d217ee0d6208b6b374f3afeb669edea23cd54e3f6",
+    "bytes": 5430,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/support/Native_Matched_Adapter_01/adapter.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Packet/support/Matched_Training_Runner_01/engine.py",
+    "sha256": "d1deb74136312d7f9737649861fbe62301e4a8d42cf7c38932c4244c3ad6cba7",
+    "bytes": 2544,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/support/Matched_Training_Runner_01/engine.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Packet/probe_support.py",
+    "sha256": "0e0cef1dfc64261b56dfe94f55ed432bcb4780cf076340f8611182349e3a23e0",
+    "bytes": 3348,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/GPU_Admission_01/Packet/probe_support.py",
+    "evidence": "executed_packet"
+  },
+  {
+    "file": "Drivers/native/configuration.py",
+    "sha256": "c06c837f4c081175e7a45c50846aab901ba397bea1f4fb3e7f91c1b190017f32",
+    "bytes": 7036,
+    "workspace_source": "Research_Vast_Source_2026-10-29/Linux_Execution_01/Driver/configuration.py",
+    "evidence": "executed_driver"
+  },
+  {
+    "file": "Drivers/native/loop.py",
+    "sha256": "7a8b3ae1a377f728209ff7e996bd31b54fc7735d33b46e92d14fd71682c2e6d5",
+    "bytes": 4341,
+    "workspace_source": "Research_Vast_Source_2026-10-29/Linux_Execution_01/Driver/loop.py",
+    "evidence": "executed_driver"
+  },
+  {
+    "file": "Drivers/native/run.py",
+    "sha256": "eaabd153416a88247e1f6f9198ac85cd0e757f8d4fba458cb1fc5d7b5bbcc048",
+    "bytes": 7639,
+    "workspace_source": "Research_Vast_Source_2026-10-29/Linux_Execution_01/Driver/run.py",
+    "evidence": "executed_driver"
+  },
+  {
+    "file": "Drivers/native/Protocol.md",
+    "sha256": "4b2fc7465d7f5d53857b9411209a69f5a66d1bc707ee0a6e91d5827bcbdee842",
+    "bytes": 2948,
+    "workspace_source": "Research_Vast_Source_2026-10-29/Linux_Execution_01/Driver/Protocol.md",
+    "evidence": "executed_driver"
+  },
+  {
+    "file": "Drivers/normalized/configuration.py",
+    "sha256": "2b48b0594991830d3dfcebfe10189bdfc4d122db04589daeb70c25465998f8c0",
+    "bytes": 9814,
+    "workspace_source": "Research_Vast_Source_2026-10-29/Linux_Execution_01/Normalized_Driver_02/configuration.py",
+    "evidence": "executed_driver"
+  },
+  {
+    "file": "Drivers/normalized/loop.py",
+    "sha256": "7a8b3ae1a377f728209ff7e996bd31b54fc7735d33b46e92d14fd71682c2e6d5",
+    "bytes": 4341,
+    "workspace_source": "Research_Vast_Source_2026-10-29/Linux_Execution_01/Normalized_Driver_02/loop.py",
+    "evidence": "executed_driver"
+  },
+  {
+    "file": "Drivers/normalized/run.py",
+    "sha256": "a64841c300c80ce509b6117bf1fb72cb1a79cbac9578b5f1bc623de9c30e0cf7",
+    "bytes": 7767,
+    "workspace_source": "Research_Vast_Source_2026-10-29/Linux_Execution_01/Normalized_Driver_02/run.py",
+    "evidence": "executed_driver"
+  },
+  {
+    "file": "Drivers/normalized/Protocol.md",
+    "sha256": "7d58d26cf511121b8340e3e8d7f9350ea9ece062a9bdfc24d12c6d2333044573",
+    "bytes": 1860,
+    "workspace_source": "Research_Vast_Source_2026-10-29/Linux_Execution_01/Normalized_Driver_02/Protocol.md",
+    "evidence": "executed_driver"
+  },
+  {
+    "file": "Drivers/normalized/objective.py",
+    "sha256": "159285b9ee64e669ebcc10d1c377877e5173d60a4084916c14b7063b615ce043",
+    "bytes": 2672,
+    "workspace_source": "Research_Vast_Source_2026-10-29/Linux_Execution_01/Normalized_Driver_02/objective.py",
+    "evidence": "executed_driver"
+  },
+  {
+    "file": "Drivers/normalized/reduction.py",
+    "sha256": "0d3738a82db4708b59b766a7e5584de1dbe97a99ebff61071c2eeccd5ae1cad0",
+    "bytes": 1211,
+    "workspace_source": "Research_Vast_Source_2026-10-29/Linux_Execution_01/Normalized_Driver_02/reduction.py",
+    "evidence": "executed_driver"
+  },
+  {
+    "file": "Preparation/Readiness_02/word_span.py",
+    "sha256": "0bd5c458afedc35be81b4a03616447effed3341acebae28ebd83096ba31863e5",
+    "bytes": 2622,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Readiness_02/word_span.py",
+    "evidence": "support_source_snapshot"
+  },
+  {
+    "file": "Preparation/Bounded_Word_Control_01/word_span.py",
+    "sha256": "0bad4e7e617294a20782a73dfcb9169282def4c426d1107b67c6468fc1bd7324",
+    "bytes": 1826,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Bounded_Word_Control_01/word_span.py",
+    "evidence": "support_source_snapshot"
+  },
+  {
+    "file": "Preparation/Matched_Schedule_01/prepare.py",
+    "sha256": "4f5f943c0c584de0f2d7b1ff1060d4b4a77d392d47dc5bc0669c14022a64ceba",
+    "bytes": 6590,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Matched_Schedule_01/prepare.py",
+    "evidence": "support_source_snapshot"
+  },
+  {
+    "file": "Preparation/Portable_Data_01/portable_data.py",
+    "sha256": "156666894971efefee1ad6054dad1891d1568d1fc2fad8452c6e8fcd04aa0aca",
+    "bytes": 10059,
+    "workspace_source": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Augmentation_Controls_01/Portable_Data_01/portable_data.py",
+    "evidence": "support_source_snapshot"
+  },
+  {
+    "file": "Drivers/short_only/configuration.py",
+    "sha256": "03f481b85196244bcc7541bee9c776f790f0fe191028b6da73b2cd0175b7230d",
+    "bytes": 7189,
+    "workspace_source": "Research_Short_Only_Control_2026-10-30/Driver/configuration.py",
+    "evidence": "executed_driver"
+  },
+  {
+    "file": "Drivers/short_only/loop.py",
+    "sha256": "7a8b3ae1a377f728209ff7e996bd31b54fc7735d33b46e92d14fd71682c2e6d5",
+    "bytes": 4341,
+    "workspace_source": "Research_Short_Only_Control_2026-10-30/Driver/loop.py",
+    "evidence": "executed_driver"
+  },
+  {
+    "file": "Drivers/short_only/run.py",
+    "sha256": "2847682a915818b1f657195f63ab87d8d57b41a7fa40b265f7ba284f0176539b",
+    "bytes": 7760,
+    "workspace_source": "Research_Short_Only_Control_2026-10-30/Driver/run.py",
+    "evidence": "executed_driver"
+  },
+  {
+    "file": "Drivers/short_only/Protocol.md",
+    "sha256": "3f9f635db98ee1e341c9c122fe52118be6462443b67d4a0a85f1a358b22c6a6a",
+    "bytes": 3649,
+    "workspace_source": "Research_Short_Only_Control_2026-10-30/Driver/Protocol.md",
+    "evidence": "executed_driver"
+  },
+  {
+    "file": "Drivers/short_only/objective.py",
+    "sha256": "174e181e6049c8ad207b2233503f7bb57ae1b913fc166a8e36e40a6ec0696ebe",
+    "bytes": 3415,
+    "workspace_source": "Research_Short_Only_Control_2026-10-30/Driver/objective.py",
+    "evidence": "executed_driver"
+  },
+  {
+    "file": "Preparation/Short_Only/prepare_schedule.py",
+    "sha256": "bde3d50fee3778a7997e279da94590b20545160bd9c2e27c377f2d096b2ab148",
+    "bytes": 7215,
+    "workspace_source": "Research_Short_Only_Control_2026-10-30/prepare_schedule.py",
+    "evidence": "verified_schedule_preparation"
+  },
+  {
+    "file": "Preparation/Short_Only/Protocol.md",
+    "sha256": "3b35129100b3bc1ce95b2ba4228d8a9e5cb8517705345df87ffbd59ad5409582",
+    "bytes": 3589,
+    "workspace_source": "Research_Short_Only_Control_2026-10-30/Protocol.md",
+    "evidence": "verified_schedule_preparation"
+  },
+  {
+    "file": "Preparation/Short_Only/verify_schedule.py",
+    "sha256": "ca62672890923a303633c868283a029bd79adef5411c3e085b5d2d81c1bdcccf",
+    "bytes": 3479,
+    "workspace_source": "Research_Short_Only_Control_2026-10-30/verify_schedule.py",
+    "evidence": "executed_schedule_verifier"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "utc": "2026-10-28T00:46:19.408388+00:00",
+  "status": "passed",
+  "source_prediction_records": 3,
+  "real_prediction_count_checks": 33,
+  "malformed_cases_rejected": 51,
+  "selection_tie_policy_checked": true,
+  "runtime_model_inference_performed": false,
+  "plan_sha256": "17ff25a0e332aa961e46d0de132e01750d9053926254c8187ff4a07ba39d001d",
+  "scripts": {
+    "execution_common.py": "af283bfc6d761817e22e89e42d46712dbae0a92c203c7003565f369f852e0847",
+    "run_full_task.py": "bac9feeafcddb9a30e2334c29b6ffd23687b7cedf74378f8f8281520f517d633",
+    "verify_full_records.py": "4538b3b7259f1be2c89c221355443d72088d10325b4117d9014ecfcfcd7ae7a2",
+    "verify_full_task.py": "dea4e2cfdfeccbfc883ab8d4dbf2aed509b5216f9c491864ae3506b1ff9f7a73",
+    "collect_full_results.py": "9631ae4eb211a77340b1f718f04e5e3b50d30bfe371845c839ede912582abee2",
+    "select_full_decoder.py": "b3970418e2e78542b2b5b18315d64d12df4dc7920b87e7499fb40dec31b1474c",
+    "test_full_execution.py": "a726c40d716998ce9ea818a3bcfd261c08047ac624c6d15bdef2ad2510cadf28"
+  }
+}

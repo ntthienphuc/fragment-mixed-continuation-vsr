@@ -1,0 +1,4 @@
+reference,comparison,stage,readout,reference_decoder,comparison_decoder,reference_minus_comparison_pp,ci95_low_pp,ci95_high_pp,source_groups,bootstrap_unit,bootstrap_resamples,bootstrap_seed,independent_scalar_checks,conditional_on_fitted_checkpoints,multiplicity_adjusted
+MATCHED_FC17,MATCHED_FT17,source,common,beam_c0.1,beam_c0.1,-0.5509824747742963,-0.6639649426721106,-0.43879116647148586,61,archived_source_id,10000,6435343653271476988,101,True,False
+MATCHED_FC17,MATCHED_WW17,source,common,beam_c0.1,beam_c0.1,-0.5770932908479377,-0.704653806692446,-0.44831051261895927,61,archived_source_id,10000,13153564044110697350,101,True,False
+MATCHED_WW17,MATCHED_FT17,source,common,beam_c0.1,beam_c0.1,0.026110816073641352,-0.04291396785186555,0.09091393783447103,61,archived_source_id,10000,18292086834753083093,101,True,False

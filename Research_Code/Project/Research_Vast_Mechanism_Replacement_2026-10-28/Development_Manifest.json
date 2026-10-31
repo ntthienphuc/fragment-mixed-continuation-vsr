@@ -1,0 +1,136 @@
+{
+  "utc": "2026-10-28T13:54:49.811219+00:00",
+  "status": "full_mechanism_stage_explicitly_named",
+  "stage": "development",
+  "execution_lock_sha256": "d2680ccaa1a012cc36d34b76f4b53f07c2805fe97f823bac59d711a0c1f07b5d",
+  "tasks": {
+    "development_VLR_T2_LAST_00": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T2_LAST_00",
+      "verification_sha256": "a89c99db943bb8f03fc4f36b93ccaf32a641704c082d50fc6138ed2428d22be0"
+    },
+    "development_VLR_T2_LAST_01": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T2_LAST_01",
+      "verification_sha256": "c179be8b43944d1f0bb0c8dc33e954b6a7b4e56b7209e3ca20d01baa0471cdff"
+    },
+    "development_VLR_T2_LAST_02": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T2_LAST_02",
+      "verification_sha256": "03f4d3759fdff0ea840f063770b7203c5f819b42931303b5b441d049878d9cee"
+    },
+    "development_VLR_T2_LAST_03": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T2_LAST_03",
+      "verification_sha256": "b0402b22ad48ff3e3e60c86c00d9847011f38407b4310a9c4f8c3f26988f1937"
+    },
+    "development_VLR_T2_LAST_04": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T2_LAST_04",
+      "verification_sha256": "b30420e4db766af39a21fc113845fa374dc3a2c9c3d2e24bbe0c8a897727c16e"
+    },
+    "development_VLR_T2_LAST_05": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T2_LAST_05",
+      "verification_sha256": "26d6009d6168357cbc51de06636844ba8257bf5c50a979144e9314c7015ab71d"
+    },
+    "development_VLR_T2_LAST_06": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T2_LAST_06",
+      "verification_sha256": "7ddfd4bcd03a3f293b295fe6964fb035067a31d1e1f9824268786666998985b2"
+    },
+    "development_VLR_T2_LAST_07": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T2_LAST_07",
+      "verification_sha256": "676c2aee19bdf7d5eea135c9021e43d281522bba75d05a9c74d35e8fa726375a"
+    },
+    "development_VLR_T4_LAST_00": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T4_LAST_00",
+      "verification_sha256": "3ae857c29b8fc1f14a5b271a313b5370550ed1ee27ca924c501d214f473675d0"
+    },
+    "development_VLR_T4_LAST_01": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T4_LAST_01",
+      "verification_sha256": "5fb247915bf9658f4ede4718dba1706f5802ba077ab9ce8d6d21c9a2944b9150"
+    },
+    "development_VLR_T4_LAST_02": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T4_LAST_02",
+      "verification_sha256": "828488470b0aff3a233c681beeead003055582aeb53e54aa60deb1ba44f1f877"
+    },
+    "development_VLR_T4_LAST_03": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T4_LAST_03",
+      "verification_sha256": "57dc0465f74d07e5299abcfa2d34267bbf2b3741a7084eb12d1cf9f3d65c98f2"
+    },
+    "development_VLR_T4_LAST_04": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T4_LAST_04",
+      "verification_sha256": "d54e0b5c896b04eaa293c5c0f0a5372008ce891c1a7a6ebe1593fe7bba195876"
+    },
+    "development_VLR_T4_LAST_05": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T4_LAST_05",
+      "verification_sha256": "cf61b57d36a9d4a13832a61bee8162532c27df9f9a60f905565619d1c3f2a2b8"
+    },
+    "development_VLR_T4_LAST_06": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T4_LAST_06",
+      "verification_sha256": "c621e6111fc92e7cf8f6b7aa6482935615983c9d281901a942374b261f001a35"
+    },
+    "development_VLR_T4_LAST_07": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_VLR_T4_LAST_07",
+      "verification_sha256": "ff1f1fce62731582f433c010448527079a7bb21df555f01cb8f9df8ac1018eb5"
+    },
+    "development_EN_T2_LAST_00": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T2_LAST_00",
+      "verification_sha256": "8067d739005bf30bdef852e43b58b8a7d4e10e94cc2609127416f73297f3f6c7"
+    },
+    "development_EN_T2_LAST_01": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T2_LAST_01",
+      "verification_sha256": "aba72bc77f0ee921c85ed676e6ed008e4ed5ddbee9fa6e6a12a84acdc7fa5175"
+    },
+    "development_EN_T2_LAST_02": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T2_LAST_02",
+      "verification_sha256": "163e07e772db2f673849b7109281c55fc2e2748d3d263002dcd9459d3215654d"
+    },
+    "development_EN_T2_LAST_03": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T2_LAST_03",
+      "verification_sha256": "343c4128aff7b4eb97267d79a6f0293d1917806d8c60646d85fcf4e5c3af111f"
+    },
+    "development_EN_T2_LAST_04": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T2_LAST_04",
+      "verification_sha256": "b2a116f6edd7eba3418508ade2284c5af2718abd755085546c89093231d0c9cf"
+    },
+    "development_EN_T2_LAST_05": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T2_LAST_05",
+      "verification_sha256": "ecd33a696c23b1f87532effd62f36e5b6444ebe7b7084871172d31a60685282c"
+    },
+    "development_EN_T2_LAST_06": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T2_LAST_06",
+      "verification_sha256": "74cee6d6aa46cc2177a297f32e378b477bab475f173ad0d5da31fe63416b085c"
+    },
+    "development_EN_T2_LAST_07": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T2_LAST_07",
+      "verification_sha256": "473ec490bc25d8086e83fc2066ae81c925f37f3652cc7b0c9d8aba85fe959026"
+    },
+    "development_EN_T4_LAST_00": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T4_LAST_00",
+      "verification_sha256": "d568eb0b9afaaa7cb567a5e13954d07368768214bc0f9a71bc2dd1691c6cf44c"
+    },
+    "development_EN_T4_LAST_01": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T4_LAST_01",
+      "verification_sha256": "17e6c4f94deaf61d9845a33cfbe40d07d8d9729640ebee43206de8b8170106d0"
+    },
+    "development_EN_T4_LAST_02": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T4_LAST_02",
+      "verification_sha256": "b801ea9129816818a0188421507b4dfde19e7c1d40e739169e33c74f9fe7c5c2"
+    },
+    "development_EN_T4_LAST_03": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T4_LAST_03",
+      "verification_sha256": "35f618a433f696364ce758f8b74444b33f4fdc6eebb5c8895257922769f70bb8"
+    },
+    "development_EN_T4_LAST_04": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T4_LAST_04",
+      "verification_sha256": "24ee155b53c9ff3bd236e47d24b861d8bd9706b974956bedf52420309cf765b2"
+    },
+    "development_EN_T4_LAST_05": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T4_LAST_05",
+      "verification_sha256": "36f57bcbe4f139f7897d5eee14d3d07d8db3b13b74b05574a3a625b128ee8328"
+    },
+    "development_EN_T4_LAST_06": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T4_LAST_06",
+      "verification_sha256": "c411b098cb36693d63e54290d197cd7cc79d622b89ae95b29940abacb51b88a0"
+    },
+    "development_EN_T4_LAST_07": {
+      "path": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Runs/Vast_Mechanism_03/development_EN_T4_LAST_07",
+      "verification_sha256": "3e92cd9cfc3b8a6c897f8b90f4c4b372b4c58f2ebd8ff7b67f0b53cd5a79755c"
+    }
+  }
+}

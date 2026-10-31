@@ -1,0 +1,137 @@
+{
+  "status": "full_benchmark_prepared_before_expanded_inference",
+  "utc": "2026-10-27T15:58:14.403776+00:00",
+  "matched_models": [
+    "VLR_B0",
+    "VLR_T0_LAST",
+    "VLR_T1_LAST",
+    "VLR_T0_29_LAST",
+    "VLR_T1_29_LAST"
+  ],
+  "practical_reference": "VC_NATIVE",
+  "development_clips": 768,
+  "assessment_clips": 1167,
+  "development_sources": 43,
+  "assessment_sources": 20,
+  "development_reference_units": 15919,
+  "assessment_reference_units": 30091,
+  "metric": "WER using normalized Vietnamese whitespace tokens; often syllables",
+  "candidate_order": [
+    "beam_c0.1",
+    "beam_c0.5",
+    "beam_c0.9",
+    "beam_c1.0",
+    "greedy_b0.0",
+    "greedy_b-0.5",
+    "greedy_b0.5",
+    "greedy_b-1.0",
+    "greedy_b1.0",
+    "greedy_b-2.0",
+    "greedy_b2.0"
+  ],
+  "beam_weights": [
+    0.1,
+    0.5,
+    0.9,
+    1.0
+  ],
+  "blank_biases": [
+    0.0,
+    -0.5,
+    0.5,
+    -1.0,
+    1.0,
+    -2.0,
+    2.0
+  ],
+  "beam_size": 40,
+  "penalty": 0,
+  "selection": "minimum pooled development edit errors; frozen order resolves ties",
+  "test_selection_policy": "one locked development-selected decoder per model",
+  "bootstrap": {
+    "unit": "video_source",
+    "draws": 10000,
+    "seed": 20261027,
+    "same_source_draws_across_two_fixed_training_seeds": true
+  },
+  "duration_diagnostics": {
+    "short_frames_lt": 82,
+    "not_primary_endpoint": true
+  },
+  "development_reuse": {
+    "VLR_B0": {
+      "source_phase": "Research_Transfer_Initialization_2026-10-27",
+      "model": "VLR_B0",
+      "cache_folder": "C:\\Users\\thien\\Lip_Research_Backups\\Transfer_Initialization_20261027\\Cache\\VLR_B0",
+      "cache_index_sha256": "ef089989856916ac14fad636218d22a91254d83852350b9c7028db1cd24f4668",
+      "cache_verification_sha256": "7d15ad8645caef67d1685690179c734abb92d2040bfa73c619547d9256d8acdf",
+      "requires_complete_matrix_receipt_before_prediction_reuse": true,
+      "cache_files_currently_rehashed": 531
+    },
+    "VLR_T0_LAST": {
+      "source_phase": "Research_Transfer_Initialization_2026-10-27",
+      "model": "VLR_T0_LAST",
+      "cache_folder": "C:\\Users\\thien\\Lip_Research_Backups\\Transfer_Initialization_20261027\\Cache\\VLR_T0_LAST",
+      "cache_index_sha256": "dc9993de34a4d18e60ca49b44edf77e26a6dda1b866754fbcb98fc9195bd3f4a",
+      "cache_verification_sha256": "1dd3d32cea345587632eba9844fafc69b18ec9c9cc11d386c81e7095447d7537",
+      "requires_complete_matrix_receipt_before_prediction_reuse": true,
+      "cache_files_currently_rehashed": 531
+    },
+    "VLR_T1_LAST": {
+      "source_phase": "Research_Transfer_Initialization_2026-10-27",
+      "model": "VLR_T1_LAST",
+      "cache_folder": "C:\\Users\\thien\\Lip_Research_Backups\\Transfer_Initialization_20261027\\Cache\\VLR_T1_LAST",
+      "cache_index_sha256": "fb65b297937ab8cd543fd4ac092b41ee51cad5c7e215a091cc69cb455a66265a",
+      "cache_verification_sha256": "e6fd55ac6c08cf03399229f4f9f404a14b8af9e26d1c71c28459732e394116fb",
+      "requires_complete_matrix_receipt_before_prediction_reuse": true,
+      "cache_files_currently_rehashed": 531
+    },
+    "VLR_T0_29_LAST": {
+      "source_phase": "Research_Transfer_Seed29_2026-10-27",
+      "model": "VLR_T0_29_LAST",
+      "cache_folder": "C:\\Users\\thien\\Lip_Research_Backups\\Transfer_Seed29_20261027\\Cache\\VLR_T0_29_LAST",
+      "cache_index_sha256": "2147d5078690ccf0c24b6ae97df1303c782f2e45ca7c1c067bf193922662a831",
+      "cache_verification_sha256": "b28f75c7601e528706e4a1fda5456e51fb5af7a16a030990381d92c5d7e26294",
+      "requires_complete_matrix_receipt_before_prediction_reuse": true,
+      "cache_files_currently_rehashed": 531
+    },
+    "VLR_T1_29_LAST": {
+      "source_phase": "Research_Transfer_Seed29_2026-10-27",
+      "model": "VLR_T1_29_LAST",
+      "cache_folder": "C:\\Users\\thien\\Lip_Research_Backups\\Transfer_Seed29_20261027\\Cache\\VLR_T1_29_LAST",
+      "cache_index_sha256": "ee8223270565e39134b176aeb1d145d4b601db8aa2151691017f4a5b483be9f8",
+      "cache_verification_sha256": "9ce5f138241146840ad386b7aec901ba73edf41a2273329a835cb6be07740b4b",
+      "requires_complete_matrix_receipt_before_prediction_reuse": true,
+      "cache_files_currently_rehashed": 531
+    }
+  },
+  "additional_matched_model_clip_encodings": 1185,
+  "native_reference_development_encodings": 768,
+  "new_development_predictions": 21483,
+  "planned_assessment_predictions": 7002,
+  "mandatory_admission": "complete seed29 matrix review, runtime verification, bounded resource decision",
+  "new_gpu_work_admitted": false,
+  "test_outcomes_read": false,
+  "independent_new_test": false,
+  "new_human_review": false,
+  "upstream_pretraining_sample_overlap_excluded": false,
+  "frozen_sha256": {
+    "Research_Transfer_Full_Benchmark_2026-10-27/Protocol.md": "8c578f62e9e2f2f766c7d994d9be743981e376a2824eade257219b364ace82a0",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Development.jsonl": "b237b10616ef3c948dcd314c58872de9c4c3cd372502db3f0414e6b6a07c5e0b",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Development_New.jsonl": "f7239ec740750718f3f0f029124496bf43dbfe7358ba38f436f820043bb6c316",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Assessment.jsonl": "725116e5d36ca0a8c925f4feba4ac8f42a7dbf5cf75c95011cf2d3ef00f5d1f5",
+    "Research_Transfer_Full_Benchmark_2026-10-27/model_registry.json": "4f40619ed9faabd509b671c000e0f2395dbb786ff8863be1f80b391b5f40648a",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Native_Reference_Registry.json": "3d6671d96b9a2de36c32c9641340dd4563f7ac39f5c258a059f2b10250067ec4",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Lineage_01/Summary.json": "4f8f54a6904b442af0da859c81bcb5ed8109cd2b7397e2828c6e927d14ed9f6c",
+    "Research_Transfer_Confirmation_Readiness_2026-10-27/Check_01/Summary.json": "be1fb33bd5f57cb8f8dca65344ea493ccaf3541a5c30830c99e36db4c2bdb48c",
+    "Research_Transfer_Confirmation_Readiness_2026-10-27/Check_01/Checks.json": "be86c5099f35e7d360e43829e35cb20ce9f4292df6ad82021fc8b4d284870c42",
+    "Research_Interval_Transfer_2026-10-27/Cohort.jsonl": "5d7b679762eba94e1a60c628bb491f24124f124af986c976d12027380e8030fe",
+    "Research_Transfer_Initialization_2026-10-27/runtime_core.py": "8488abeb2584b33fefcaef1e1a45a30a8e894ecc3f17d0cf5e0e1586f3d770df",
+    "Research_Server_Confirmation_2026-10-19/vicocktail_runtime.py": "13092cab856852d3cb4257337c32e3c5615b45b4082189799c6c77bb7c64d1f0",
+    "Research_Server_Confirmation_2026-10-19/native_runtime.py": "8488abeb2584b33fefcaef1e1a45a30a8e894ecc3f17d0cf5e0e1586f3d770df",
+    "Research_Server_Confirmation_2026-10-19/data_io.py": "f357476c4ba992e914e5af3ab972b569ee78babe59af7b795a4bc9221c582a56",
+    "Research_Server_Confirmation_2026-10-19/confirmation_common.py": "31ba78f051ce21c620b0039cd73e34fe8bf2c193e264c5ad0343e3e7e0a55f6b",
+    "Research_Transfer_Full_Benchmark_2026-10-27/common.py": "2e9995f7bbbf7065e2cd23f9079d7a4e7b4e39245bb956180372e71c8a41a0b7",
+    "Research_Transfer_Full_Benchmark_2026-10-27/prepare.py": "51118b936520c35437c9b002b4247dfc6ef86d2caab3e513f15b31fa46bfc492"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "utc": "2026-10-27T13:57:49.344722+00:00",
+  "task": "VLR_T0_LAST_04",
+  "clips": 66,
+  "independent_count_checks": 264,
+  "exact_beam_replays": 8,
+  "independent_score_checks": 16,
+  "score_checks": [
+    {
+      "index": 4,
+      "weight": 0.1,
+      "score_error": 2.3052359843234171e-07
+    },
+    {
+      "index": 4,
+      "weight": 0.5,
+      "score_error": 1.0747271559807814e-05
+    },
+    {
+      "index": 4,
+      "weight": 0.9,
+      "score_error": 1.831216446745998e-05
+    },
+    {
+      "index": 4,
+      "weight": 1.0,
+      "score_error": 1.3751410929074837e-05
+    },
+    {
+      "index": 180,
+      "weight": 0.1,
+      "score_error": 2.3324704265803575e-06
+    },
+    {
+      "index": 180,
+      "weight": 0.5,
+      "score_error": 2.87903837659087e-06
+    },
+    {
+      "index": 180,
+      "weight": 0.9,
+      "score_error": 1.0482744343676131e-06
+    },
+    {
+      "index": 180,
+      "weight": 1.0,
+      "score_error": 1.3579373359107194e-07
+    },
+    {
+      "index": 348,
+      "weight": 0.1,
+      "score_error": 2.5873567501832895e-06
+    },
+    {
+      "index": 348,
+      "weight": 0.5,
+      "score_error": 5.6310167764195285e-06
+    },
+    {
+      "index": 348,
+      "weight": 0.9,
+      "score_error": 1.2638643291040808e-05
+    },
+    {
+      "index": 348,
+      "weight": 1.0,
+      "score_error": 1.6567709490544758e-05
+    },
+    {
+      "index": 524,
+      "weight": 0.1,
+      "score_error": 6.735253837319988e-06
+    },
+    {
+      "index": 524,
+      "weight": 0.5,
+      "score_error": 2.667756179874914e-05
+    },
+    {
+      "index": 524,
+      "weight": 0.9,
+      "score_error": 3.543749687651143e-05
+    },
+    {
+      "index": 524,
+      "weight": 1.0,
+      "score_error": 3.042779120931982e-05
+    }
+  ],
+  "predictions_sha256": "d70371c3ba00783fc301747428b5be2abc517998323591966a9d44a9e99c71ae",
+  "execution_lock_sha256": "8922a9228fa885be3880337145ec83390d7ca9ba1e79e2a550c60ec69e21d633"
+}

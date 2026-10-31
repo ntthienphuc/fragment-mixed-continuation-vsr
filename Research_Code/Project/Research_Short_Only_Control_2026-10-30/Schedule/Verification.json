@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-30T07:14:23.875982+00:00",
+  "status": "all_short_only_views_verified",
+  "summary_sha256": "7afc209af7de4ecddca1fe660b2b39f0271ae88defcb0c5302be0c7835c3f3ec",
+  "schedule_sha256": "eafd2f9ae7612cb87025a8ed17d9cf2014f092e225a139374c921e3eeea0add2",
+  "views_reconstructed": 48000,
+  "odd_slots_identical_to_mixed": 24000,
+  "counts": {
+    "presentations": 48000,
+    "full_fallbacks": 598,
+    "even_fallbacks": 281,
+    "odd_fallbacks": 317,
+    "full_pixel_extent": 598
+  },
+  "exposure": {
+    "input_frames": 2719321,
+    "target_tokens": 422153,
+    "attention_positions": 470153
+  },
+  "verification_code_sha256": "ca62672890923a303633c868283a029bd79adef5411c3e085b5d2d81c1bdcccf",
+  "neural_updates": 0
+}

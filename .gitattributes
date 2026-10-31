@@ -1,0 +1,2 @@
+# Retain byte-identical frozen source and data on every platform.
+* -text

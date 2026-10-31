@@ -1,0 +1,1708 @@
+{
+  "utc": "2026-10-28T15:41:05.755839+00:00",
+  "status": "all_bounded_slots_and_shared_fallbacks_verified",
+  "datasets": [
+    {
+      "dataset": "vlr",
+      "short_slots_checked": 24000,
+      "counts": {
+        "one_frame_word_spans": 0,
+        "word_spans_below_25_frames": 0,
+        "word_aligned": 23683,
+        "frames": 1361710,
+        "tokens": 211333,
+        "matched_T1_tokens": 224890,
+        "matched_T1_frames": 1236844,
+        "original_T1_tokens": 218791,
+        "exhaustive_checks": 503,
+        "shared_full_fallback": 317
+      },
+      "fallback_cases": [
+        {
+          "clip_id": "part2/BOKYN8/4BUOC226/4BUOC226_48",
+          "sample": 25
+        },
+        {
+          "clip_id": "part4/HAVEA12/MOTBU253/MOTBU253_349",
+          "sample": 537
+        },
+        {
+          "clip_id": "part3/DONGC2/VIYEU33/VIYEU33_130",
+          "sample": 581
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN381/PHAN381_555",
+          "sample": 603
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI1338/BAI1338_105",
+          "sample": 909
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4168/BAI4168_495",
+          "sample": 1341
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN280/PHAN280_448",
+          "sample": 1797
+        },
+        {
+          "clip_id": "part3/DONGC2/SANGC20/SANGC20_215",
+          "sample": 1807
+        },
+        {
+          "clip_id": "part5/HAVEA12/CONEN222/CONEN222_338",
+          "sample": 1841
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT28/TRUCT28_119",
+          "sample": 1881
+        },
+        {
+          "clip_id": "part3/KYNAN6/3BUOC127/3BUOC127_32",
+          "sample": 1893
+        },
+        {
+          "clip_id": "part4/HAVEA12/NGUNG256/NGUNG256_252",
+          "sample": 2009
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN381/PHAN381_446",
+          "sample": 2535
+        },
+        {
+          "clip_id": "part4/HAVEA12/MOTBU253/MOTBU253_29",
+          "sample": 3125
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI9-77/BAI9-77_585",
+          "sample": 3151
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI1136/BAI1136_4",
+          "sample": 3379
+        },
+        {
+          "clip_id": "part5/HAVEA12/CUOCO217/CUOCO217_568",
+          "sample": 3711
+        },
+        {
+          "clip_id": "part5/HAVEA12/LIEUC244/LIEUC244_626",
+          "sample": 3729
+        },
+        {
+          "clip_id": "part4/HAVEA12/MOICH251/MOICH251_200",
+          "sample": 4085
+        },
+        {
+          "clip_id": "part5/HAVEA12/ENCUO309/ENCUO309_353",
+          "sample": 4091
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI8-76/BAI8-76_326",
+          "sample": 4095
+        },
+        {
+          "clip_id": "part5/HAVEA12/LAMRA245/LAMRA245_579",
+          "sample": 4127
+        },
+        {
+          "clip_id": "part4/HAVEA12/TOIKH281/TOIKH281_136",
+          "sample": 4131
+        },
+        {
+          "clip_id": "part4/HAVEA12/MOTBU253/MOTBU253_31",
+          "sample": 4369
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT30/TRUCT30_456",
+          "sample": 4433
+        },
+        {
+          "clip_id": "part5/HAVEA12/HAYXE189/HAYXE189_363",
+          "sample": 4541
+        },
+        {
+          "clip_id": "part3/DONGC2/THATH23/THATH23_170",
+          "sample": 4741
+        },
+        {
+          "clip_id": "part2/BAIGI4/CAYKH125/CAYKH125_26",
+          "sample": 4767
+        },
+        {
+          "clip_id": "part5/HAVEA12/CHONU212/CHONU212_292",
+          "sample": 5031
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4672/BAI4672_11",
+          "sample": 5043
+        },
+        {
+          "clip_id": "part5/HAVEA12/ENCUO309/ENCUO309_224",
+          "sample": 5409
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN280/PHAN280_372",
+          "sample": 5495
+        },
+        {
+          "clip_id": "part4/HAVEA12/TRUOC278/TRUOC278_361",
+          "sample": 5609
+        },
+        {
+          "clip_id": "part5/HAVEA12/ENCUO309/ENCUO309_86",
+          "sample": 5849
+        },
+        {
+          "clip_id": "part4/HAVEA12/MOTBU253/MOTBU253_261",
+          "sample": 6013
+        },
+        {
+          "clip_id": "part4/HAVEA12/TOIKH281/TOIKH281_220",
+          "sample": 6081
+        },
+        {
+          "clip_id": "part1/BAIGI3/CHIEM62/CHIEM62_150",
+          "sample": 6207
+        },
+        {
+          "clip_id": "part4/HAVEA12/NGUNG256/NGUNG256_300",
+          "sample": 6509
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN381/PHAN381_480",
+          "sample": 6631
+        },
+        {
+          "clip_id": "part4/HAVEA12/TUNGA285/TUNGA285_622",
+          "sample": 6677
+        },
+        {
+          "clip_id": "part4/HAVEA12/TUEOC286/TUEOC286_793",
+          "sample": 6699
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN381/PHAN381_514",
+          "sample": 6739
+        },
+        {
+          "clip_id": "part5/HAVEA12/HIEPS229/HIEPS229_56",
+          "sample": 6775
+        },
+        {
+          "clip_id": "part3/DONGC2/HIEUU15/HIEUU15_258",
+          "sample": 7113
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN381/PHAN381_369",
+          "sample": 7421
+        },
+        {
+          "clip_id": "part4/HAVEA12/TOIKH281/TOIKH281_417",
+          "sample": 7705
+        },
+        {
+          "clip_id": "part3/DONGC2/DETOX14/DETOX14_125",
+          "sample": 7855
+        },
+        {
+          "clip_id": "part4/HAVEA12/NGUNG256/NGUNG256_757",
+          "sample": 7979
+        },
+        {
+          "clip_id": "part4/HAVEA12/MOTBU253/MOTBU253_792",
+          "sample": 8287
+        },
+        {
+          "clip_id": "part4/HAVEA12/NGUNG256/NGUNG256_55",
+          "sample": 8467
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4672/BAI4672_5",
+          "sample": 8497
+        },
+        {
+          "clip_id": "part3/KYNAN6/3BUOC127/3BUOC127_56",
+          "sample": 8647
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT28/TRUCT28_44",
+          "sample": 8809
+        },
+        {
+          "clip_id": "part5/HAVEA12/ITIMM301/ITIMM301_473",
+          "sample": 8811
+        },
+        {
+          "clip_id": "part4/HAVEA12/MOTBU253/MOTBU253_393",
+          "sample": 8897
+        },
+        {
+          "clip_id": "part5/HAVEA12/CHIYE211/CHIYE211_579",
+          "sample": 9027
+        },
+        {
+          "clip_id": "part5/HAVEA12/LIEUC244/LIEUC244_438",
+          "sample": 9235
+        },
+        {
+          "clip_id": "part5/HAVEA12/AODIE307/AODIE307_389",
+          "sample": 9273
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI5-74/BAI5-74_294",
+          "sample": 9389
+        },
+        {
+          "clip_id": "part5/HAVEA12/KHIMI235/KHIMI235_74",
+          "sample": 9449
+        },
+        {
+          "clip_id": "part4/HAVEA12/TOIKH281/TOIKH281_293",
+          "sample": 9621
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT27/TRUCT27_94",
+          "sample": 9633
+        },
+        {
+          "clip_id": "part4/HAVEA12/TOIKH281/TOIKH281_789",
+          "sample": 9713
+        },
+        {
+          "clip_id": "part4/HAVEA12/MOTBU253/MOTBU253_239",
+          "sample": 9889
+        },
+        {
+          "clip_id": "part3/DONGC2/VIYEU33/VIYEU33_2",
+          "sample": 10045
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI2349/BAI2349_494",
+          "sample": 10067
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4066/BAI4066_344",
+          "sample": 10253
+        },
+        {
+          "clip_id": "part4/HAVEA12/TUOIT279/TUOIT279_265",
+          "sample": 10261
+        },
+        {
+          "clip_id": "part2/BAIGI6/XEEMN194/XEEMN194_268",
+          "sample": 10275
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4471/BAI4471_381",
+          "sample": 10595
+        },
+        {
+          "clip_id": "part3/DONGC2/DETOX14/DETOX14_132",
+          "sample": 10649
+        },
+        {
+          "clip_id": "part5/HAVEA12/CHUAL213/CHUAL213_541",
+          "sample": 10691
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4066/BAI4066_91",
+          "sample": 10743
+        },
+        {
+          "clip_id": "part1/BAIGI3/TIMHI98/TIMHI98_44",
+          "sample": 10895
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT30/TRUCT30_482",
+          "sample": 11301
+        },
+        {
+          "clip_id": "part4/HAVEA12/VIDEO290/VIDEO290_233",
+          "sample": 11329
+        },
+        {
+          "clip_id": "part5/HAVEA12/LIEUC244/LIEUC244_132",
+          "sample": 11337
+        },
+        {
+          "clip_id": "part4/HAVEA12/NGUNG256/NGUNG256_77",
+          "sample": 11579
+        },
+        {
+          "clip_id": "part4/HAVEA12/TOIKH281/TOIKH281_819",
+          "sample": 11603
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI3056/BAI3056_432",
+          "sample": 11815
+        },
+        {
+          "clip_id": "part4/HAVEA12/PHIMM266/PHIMM266_118",
+          "sample": 12239
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT28/TRUCT28_388",
+          "sample": 12561
+        },
+        {
+          "clip_id": "part5/HAVEA12/CAIAU219/CAIAU219_355",
+          "sample": 12689
+        },
+        {
+          "clip_id": "part5/HAVEA12/CHUAL213/CHUAL213_797",
+          "sample": 12797
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI2-46/BAI2-46_183",
+          "sample": 12873
+        },
+        {
+          "clip_id": "part4/HAVEA12/MOTBU253/MOTBU253_662",
+          "sample": 12905
+        },
+        {
+          "clip_id": "part3/DONGC2/CHUYE12/CHUYE12_125",
+          "sample": 13029
+        },
+        {
+          "clip_id": "part3/DONGC2/TIMHI31/TIMHI31_83",
+          "sample": 13399
+        },
+        {
+          "clip_id": "part3/DONGC2/CHUAL13/CHUAL13_557",
+          "sample": 13469
+        },
+        {
+          "clip_id": "part4/HAVEA12/VIDEO289/VIDEO289_421",
+          "sample": 13511
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI1641/BAI1641_196",
+          "sample": 13585
+        },
+        {
+          "clip_id": "part4/HAVEA12/MOTBU253/MOTBU253_242",
+          "sample": 13675
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4167/BAI4167_507",
+          "sample": 13705
+        },
+        {
+          "clip_id": "part3/DONGC2/CHUAL13/CHUAL13_344",
+          "sample": 13725
+        },
+        {
+          "clip_id": "part4/HAVEA12/TOIKH281/TOIKH281_270",
+          "sample": 13981
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI3864/BAI3864_386",
+          "sample": 14155
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4773/BAI4773_386",
+          "sample": 14359
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4066/BAI4066_546",
+          "sample": 14531
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI3359/BAI3359_462",
+          "sample": 14537
+        },
+        {
+          "clip_id": "part5/HAVEA12/BOINH184/BOINH184_171",
+          "sample": 14775
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4168/BAI4168_513",
+          "sample": 14785
+        },
+        {
+          "clip_id": "part3/DONGC2/SANGC20/SANGC20_148",
+          "sample": 14801
+        },
+        {
+          "clip_id": "part1/BAIGI3/TIMHI96/TIMHI96_9",
+          "sample": 14987
+        },
+        {
+          "clip_id": "part3/DONGC2/THACH24/THACH24_223",
+          "sample": 15333
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4773/BAI4773_5",
+          "sample": 15345
+        },
+        {
+          "clip_id": "part5/HAVEA12/CAIMO218/CAIMO218_154",
+          "sample": 15379
+        },
+        {
+          "clip_id": "part1/BAIGI3/TIMHI98/TIMHI98_117",
+          "sample": 15799
+        },
+        {
+          "clip_id": "part4/HAVEA12/TIENC276/TIENC276_616",
+          "sample": 15979
+        },
+        {
+          "clip_id": "part3/DONGC2/CHUYE11/CHUYE11_170",
+          "sample": 16199
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI2-46/BAI2-46_184",
+          "sample": 16223
+        },
+        {
+          "clip_id": "part2/BAIGI6/QUANG188/QUANG188_336",
+          "sample": 16763
+        },
+        {
+          "clip_id": "part4/HAVEA12/TRUOC278/TRUOC278_224",
+          "sample": 16847
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN280/PHAN280_447",
+          "sample": 17035
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN381/PHAN381_705",
+          "sample": 17549
+        },
+        {
+          "clip_id": "part5/HAVEA12/LIEUC244/LIEUC244_687",
+          "sample": 17561
+        },
+        {
+          "clip_id": "part4/HAVEA12/THEMA274/THEMA274_657",
+          "sample": 17565
+        },
+        {
+          "clip_id": "part4/HAVEA12/NEUTO265/NEUTO265_712",
+          "sample": 17759
+        },
+        {
+          "clip_id": "part5/HAVEA12/KHONG239/KHONG239_798",
+          "sample": 17979
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI2349/BAI2349_465",
+          "sample": 18049
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT28/TRUCT28_220",
+          "sample": 18307
+        },
+        {
+          "clip_id": "part4/HAVEA12/TOIKH281/TOIKH281_764",
+          "sample": 18517
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT28/TRUCT28_85",
+          "sample": 18685
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT30/TRUCT30_38",
+          "sample": 18739
+        },
+        {
+          "clip_id": "part3/DONGC2/DETOX14/DETOX14_118",
+          "sample": 18841
+        },
+        {
+          "clip_id": "part5/HAVEA12/CUOCO215/CUOCO215_764",
+          "sample": 18893
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT30/TRUCT30_476",
+          "sample": 19039
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN179/PHAN179_384",
+          "sample": 19045
+        },
+        {
+          "clip_id": "part3/DONGC2/THACH24/THACH24_250",
+          "sample": 19073
+        },
+        {
+          "clip_id": "part3/DONGC2/BAOLU9/BAOLU9_210",
+          "sample": 19253
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI1641/BAI1641_406",
+          "sample": 19291
+        },
+        {
+          "clip_id": "part3/DONGC2/TIMHI31/TIMHI31_122",
+          "sample": 19313
+        },
+        {
+          "clip_id": "part4/HAVEA12/NEUTO265/NEUTO265_291",
+          "sample": 19583
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4370/BAI4370_430",
+          "sample": 19855
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN280/PHAN280_290",
+          "sample": 19995
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI3662/BAI3662_238",
+          "sample": 20035
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI1237/BAI1237_493",
+          "sample": 20131
+        },
+        {
+          "clip_id": "part5/HAVEA12/BOINH184/BOINH184_192",
+          "sample": 20135
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI2-46/BAI2-46_86",
+          "sample": 20573
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI2652/BAI2652_273",
+          "sample": 20679
+        },
+        {
+          "clip_id": "part5/HAVEA12/7THAN202/7THAN202_762",
+          "sample": 20951
+        },
+        {
+          "clip_id": "part5/HAVEA12/LIEUC244/LIEUC244_621",
+          "sample": 20997
+        },
+        {
+          "clip_id": "part5/HAVEA12/7THAN202/7THAN202_1447",
+          "sample": 21201
+        },
+        {
+          "clip_id": "part4/HAVEA12/PHIMM266/PHIMM266_319",
+          "sample": 21229
+        },
+        {
+          "clip_id": "part4/HAVEA12/NGUNG256/NGUNG256_810",
+          "sample": 21395
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4672/BAI4672_143",
+          "sample": 21475
+        },
+        {
+          "clip_id": "part3/DONGC2/VIYEU33/VIYEU33_254",
+          "sample": 21603
+        },
+        {
+          "clip_id": "part3/DONGC2/LONGT16/LONGT16_55",
+          "sample": 22071
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI1237/BAI1237_615",
+          "sample": 22233
+        },
+        {
+          "clip_id": "part5/HAVEA12/CHUNG209/CHUNG209_684",
+          "sample": 22309
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT28/TRUCT28_42",
+          "sample": 22373
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN381/PHAN381_505",
+          "sample": 22635
+        },
+        {
+          "clip_id": "part4/HAVEA12/MOTBU253/MOTBU253_181",
+          "sample": 22663
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI1136/BAI1136_444",
+          "sample": 22927
+        },
+        {
+          "clip_id": "part4/HAVEA12/SANGT270/SANGT270_735",
+          "sample": 23507
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN381/PHAN381_564",
+          "sample": 23527
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT28/TRUCT28_49",
+          "sample": 23925
+        },
+        {
+          "clip_id": "part5/HAVEA12/LIEUC244/LIEUC244_363",
+          "sample": 24293
+        },
+        {
+          "clip_id": "part4/HAVEA12/RAPOT196/RAPOT196_325",
+          "sample": 24373
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT30/TRUCT30_446",
+          "sample": 24529
+        },
+        {
+          "clip_id": "part5/HAVEA12/ENCUO309/ENCUO309_74",
+          "sample": 24905
+        },
+        {
+          "clip_id": "part4/HAVEA12/NGUNG256/NGUNG256_472",
+          "sample": 25001
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI2-46/BAI2-46_116",
+          "sample": 25073
+        },
+        {
+          "clip_id": "part4/HAVEA12/NGUOI257/NGUOI257_400",
+          "sample": 25141
+        },
+        {
+          "clip_id": "part5/HAVEA12/LIEUC244/LIEUC244_663",
+          "sample": 25433
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT30/TRUCT30_284",
+          "sample": 25543
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI3763/BAI3763_534",
+          "sample": 26067
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI3056/BAI3056_398",
+          "sample": 26135
+        },
+        {
+          "clip_id": "part5/HAVEA12/LIEUC244/LIEUC244_267",
+          "sample": 26237
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI1237/BAI1237_491",
+          "sample": 26241
+        },
+        {
+          "clip_id": "part4/HAVEA12/TRUOC278/TRUOC278_676",
+          "sample": 26363
+        },
+        {
+          "clip_id": "part3/DONGC2/CHUYE12/CHUYE12_220",
+          "sample": 26467
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT27/TRUCT27_112",
+          "sample": 26641
+        },
+        {
+          "clip_id": "part4/HAVEA12/NHUNG262/NHUNG262_338",
+          "sample": 26915
+        },
+        {
+          "clip_id": "part3/DONGC2/CHUAL13/CHUAL13_356",
+          "sample": 27293
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN381/PHAN381_352",
+          "sample": 27569
+        },
+        {
+          "clip_id": "part4/HAVEA12/NGUNG256/NGUNG256_585",
+          "sample": 27701
+        },
+        {
+          "clip_id": "part5/HAVEA12/GIOIT227/GIOIT227_494",
+          "sample": 27729
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4167/BAI4167_290",
+          "sample": 28231
+        },
+        {
+          "clip_id": "part3/DONGC2/DETOX14/DETOX14_103",
+          "sample": 28335
+        },
+        {
+          "clip_id": "part5/HAVEA12/7THAN202/7THAN202_712",
+          "sample": 28779
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4471/BAI4471_431",
+          "sample": 28889
+        },
+        {
+          "clip_id": "part3/DONGC2/CHUYE12/CHUYE12_202",
+          "sample": 28897
+        },
+        {
+          "clip_id": "part4/HAVEA12/NGUNG256/NGUNG256_601",
+          "sample": 28955
+        },
+        {
+          "clip_id": "part4/HAVEA12/TUVJM198/TUVJM198_330",
+          "sample": 29127
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI8-76/BAI8-76_320",
+          "sample": 29171
+        },
+        {
+          "clip_id": "part1/BAIGI3/HOANG68/HOANG68_488",
+          "sample": 29395
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI5-74/BAI5-74_46",
+          "sample": 29751
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI2753/BAI2753_86",
+          "sample": 29767
+        },
+        {
+          "clip_id": "part3/DONGC2/SONGC21/SONGC21_185",
+          "sample": 29903
+        },
+        {
+          "clip_id": "part4/HAVEA12/NEUTO265/NEUTO265_262",
+          "sample": 30285
+        },
+        {
+          "clip_id": "part3/DONGC2/DETOX14/DETOX14_155",
+          "sample": 30379
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT28/TRUCT28_336",
+          "sample": 30439
+        },
+        {
+          "clip_id": "part5/HAVEA12/LAMAI249/LAMAI249_382",
+          "sample": 30465
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT30/TRUCT30_126",
+          "sample": 30587
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI1136/BAI1136_469",
+          "sample": 30675
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN381/PHAN381_254",
+          "sample": 30825
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI2-46/BAI2-46_40",
+          "sample": 31161
+        },
+        {
+          "clip_id": "part4/HAVEA12/TIENC276/TIENC276_614",
+          "sample": 31289
+        },
+        {
+          "clip_id": "part5/HAVEA12/ITHEO300/ITHEO300_865",
+          "sample": 31307
+        },
+        {
+          "clip_id": "part3/DONGC2/DETOX14/DETOX14_164",
+          "sample": 31751
+        },
+        {
+          "clip_id": "part5/HAVEA12/AIGIA204/AIGIA204_813",
+          "sample": 31823
+        },
+        {
+          "clip_id": "part4/HAVEA12/TOIKH281/TOIKH281_560",
+          "sample": 31899
+        },
+        {
+          "clip_id": "part3/DONGC2/XAYDU34/XAYDU34_76",
+          "sample": 31903
+        },
+        {
+          "clip_id": "part1/BAIGI3/TRUYE94/TRUYE94_177",
+          "sample": 32093
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI3763/BAI3763_536",
+          "sample": 32159
+        },
+        {
+          "clip_id": "part5/HAVEA12/LIEUC244/LIEUC244_375",
+          "sample": 32473
+        },
+        {
+          "clip_id": "part4/HAVEA12/TUOIT279/TUOIT279_500",
+          "sample": 33035
+        },
+        {
+          "clip_id": "part4/HAVEA12/MOTBU253/MOTBU253_623",
+          "sample": 33237
+        },
+        {
+          "clip_id": "part4/HAVEA12/TIENC276/TIENC276_171",
+          "sample": 33255
+        },
+        {
+          "clip_id": "part4/HAVEA12/NGUNG256/NGUNG256_393",
+          "sample": 33371
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT30/TRUCT30_245",
+          "sample": 33405
+        },
+        {
+          "clip_id": "part4/HAVEA12/MOTBU253/MOTBU253_478",
+          "sample": 33709
+        },
+        {
+          "clip_id": "part4/HAVEA12/PHIMM266/PHIMM266_428",
+          "sample": 33733
+        },
+        {
+          "clip_id": "part5/HAVEA12/IEUGI303/IEUGI303_879",
+          "sample": 34095
+        },
+        {
+          "clip_id": "part2/BAIGI4/THANH146/THANH146_10",
+          "sample": 34141
+        },
+        {
+          "clip_id": "part5/HAVEA12/7THAN202/7THAN202_598",
+          "sample": 34185
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT28/TRUCT28_68",
+          "sample": 34199
+        },
+        {
+          "clip_id": "part5/HAVEA12/LIEUC244/LIEUC244_360",
+          "sample": 34223
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT28/TRUCT28_193",
+          "sample": 34245
+        },
+        {
+          "clip_id": "part4/HAVEA12/THINH275/THINH275_195",
+          "sample": 34313
+        },
+        {
+          "clip_id": "part4/HAVEA12/TUEOC286/TUEOC286_802",
+          "sample": 34327
+        },
+        {
+          "clip_id": "part4/HAVEA12/TUEOC286/TUEOC286_419",
+          "sample": 34469
+        },
+        {
+          "clip_id": "part5/HAVEA12/AUPHA305/AUPHA305_631",
+          "sample": 34489
+        },
+        {
+          "clip_id": "part4/HAVEA12/TOIKH281/TOIKH281_269",
+          "sample": 34541
+        },
+        {
+          "clip_id": "part5/HAVEA12/AICUN203/AICUN203_178",
+          "sample": 34585
+        },
+        {
+          "clip_id": "part4/HAVEA12/SANGT270/SANGT270_568",
+          "sample": 34889
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI3056/BAI3056_402",
+          "sample": 34909
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI8-76/BAI8-76_319",
+          "sample": 34975
+        },
+        {
+          "clip_id": "part4/HAVEA12/TACPH280/TACPH280_213",
+          "sample": 35045
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI2349/BAI2349_461",
+          "sample": 35079
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4370/BAI4370_407",
+          "sample": 35393
+        },
+        {
+          "clip_id": "part1/BAIGI3/VIENG105/VIENG105_113",
+          "sample": 35443
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4168/BAI4168_504",
+          "sample": 35779
+        },
+        {
+          "clip_id": "part4/HAVEA12/TOIKH281/TOIKH281_782",
+          "sample": 35985
+        },
+        {
+          "clip_id": "part5/HAVEA12/ITHEO300/ITHEO300_123",
+          "sample": 36509
+        },
+        {
+          "clip_id": "part4/HAVEA12/ONVIN306/ONVIN306_530",
+          "sample": 36525
+        },
+        {
+          "clip_id": "part5/HAVEA12/BOHIN182/BOHIN182_275",
+          "sample": 36621
+        },
+        {
+          "clip_id": "part5/HAVEA12/KHONG241/KHONG241_270",
+          "sample": 36623
+        },
+        {
+          "clip_id": "part3/DONGC2/NHAND18/NHAND18_94",
+          "sample": 36649
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN381/PHAN381_549",
+          "sample": 36721
+        },
+        {
+          "clip_id": "part4/HAVEA12/UNGNH199/UNGNH199_281",
+          "sample": 36863
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI2248/BAI2248_7",
+          "sample": 37019
+        },
+        {
+          "clip_id": "part5/HAVEA12/LIEUC244/LIEUC244_738",
+          "sample": 37347
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI1439/BAI1439_612",
+          "sample": 37547
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI3864/BAI3864_439",
+          "sample": 37551
+        },
+        {
+          "clip_id": "part4/HAVEA12/VUINH292/VUINH292_359",
+          "sample": 37573
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN381/PHAN381_473",
+          "sample": 37605
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI3864/BAI3864_440",
+          "sample": 37813
+        },
+        {
+          "clip_id": "part5/HAVEA12/LIEUC244/LIEUC244_691",
+          "sample": 37821
+        },
+        {
+          "clip_id": "part5/HAVEA12/ENCUO309/ENCUO309_652",
+          "sample": 37907
+        },
+        {
+          "clip_id": "part4/HAVEA12/NGUNG256/NGUNG256_740",
+          "sample": 38197
+        },
+        {
+          "clip_id": "part5/HAVEA12/COHAY221/COHAY221_851",
+          "sample": 38251
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI1237/BAI1237_618",
+          "sample": 38395
+        },
+        {
+          "clip_id": "part3/DONGC2/DETOX14/DETOX14_96",
+          "sample": 38451
+        },
+        {
+          "clip_id": "part5/HAVEA12/KHONG238/KHONG238_173",
+          "sample": 38715
+        },
+        {
+          "clip_id": "part5/HAVEA12/ENCUO309/ENCUO309_402",
+          "sample": 38907
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN381/PHAN381_307",
+          "sample": 38931
+        },
+        {
+          "clip_id": "part3/DONGC2/LONGT16/LONGT16_153",
+          "sample": 38989
+        },
+        {
+          "clip_id": "part5/HAVEA12/LIEUC244/LIEUC244_122",
+          "sample": 39015
+        },
+        {
+          "clip_id": "part4/HAVEA12/MOTBU253/MOTBU253_486",
+          "sample": 39309
+        },
+        {
+          "clip_id": "part5/HAVEA12/LIEUC244/LIEUC244_753",
+          "sample": 39469
+        },
+        {
+          "clip_id": "part4/HAVEA12/NGUNG256/NGUNG256_786",
+          "sample": 39485
+        },
+        {
+          "clip_id": "part4/HAVEA12/VIETN291/VIETN291_764",
+          "sample": 39763
+        },
+        {
+          "clip_id": "part3/DONGC2/MATMA17/MATMA17_42",
+          "sample": 40069
+        },
+        {
+          "clip_id": "part4/HAVEA12/NHUNG260/NHUNG260_687",
+          "sample": 40103
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT28/TRUCT28_151",
+          "sample": 40245
+        },
+        {
+          "clip_id": "part4/HAVEA12/MOITH252/MOITH252_1000",
+          "sample": 40745
+        },
+        {
+          "clip_id": "part4/HAVEA12/MOTBU253/MOTBU253_734",
+          "sample": 40785
+        },
+        {
+          "clip_id": "part3/DONGC2/BONNG10/BONNG10_26",
+          "sample": 40861
+        },
+        {
+          "clip_id": "part3/DONGC2/BAOLU9/BAOLU9_95",
+          "sample": 40897
+        },
+        {
+          "clip_id": "part5/HAVEA12/EKHON310/EKHON310_51",
+          "sample": 40953
+        },
+        {
+          "clip_id": "part3/DONGC2/VIYEU33/VIYEU33_218",
+          "sample": 40957
+        },
+        {
+          "clip_id": "part4/HAVEA12/VIDEO289/VIDEO289_213",
+          "sample": 41293
+        },
+        {
+          "clip_id": "part3/DONGC2/NHAND19/NHAND19_27",
+          "sample": 41409
+        },
+        {
+          "clip_id": "part5/HAVEA12/LIEUC244/LIEUC244_676",
+          "sample": 41985
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI2248/BAI2248_6",
+          "sample": 42583
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT30/TRUCT30_254",
+          "sample": 42731
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN381/PHAN381_177",
+          "sample": 42801
+        },
+        {
+          "clip_id": "part5/HAVEA12/LIEUC244/LIEUC244_48",
+          "sample": 42887
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN381/PHAN381_227",
+          "sample": 42963
+        },
+        {
+          "clip_id": "part3/DONGC2/CHUAL13/CHUAL13_467",
+          "sample": 43155
+        },
+        {
+          "clip_id": "part2/BOKYN8/CACHX235/CACHX235_165",
+          "sample": 43211
+        },
+        {
+          "clip_id": "part4/HAVEA12/ONVIN306/ONVIN306_483",
+          "sample": 43311
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI4471/BAI4471_385",
+          "sample": 43577
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN382/PHAN382_119",
+          "sample": 43585
+        },
+        {
+          "clip_id": "part4/HAVEA12/TOIKH281/TOIKH281_483",
+          "sample": 43847
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI2652/BAI2652_272",
+          "sample": 43975
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI1237/BAI1237_528",
+          "sample": 44001
+        },
+        {
+          "clip_id": "part4/HAVEA12/NHUNG261/NHUNG261_310",
+          "sample": 44003
+        },
+        {
+          "clip_id": "part4/HAVEA12/NGHET192/NGHET192_519",
+          "sample": 44077
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN381/PHAN381_66",
+          "sample": 44417
+        },
+        {
+          "clip_id": "part4/HAVEA12/TOIKH281/TOIKH281_279",
+          "sample": 44495
+        },
+        {
+          "clip_id": "part5/HAVEA12/HANHT187/HANHT187_501",
+          "sample": 44505
+        },
+        {
+          "clip_id": "part4/HAVEA12/PHIMM266/PHIMM266_362",
+          "sample": 44551
+        },
+        {
+          "clip_id": "part3/DONGC2/HIEUU15/HIEUU15_136",
+          "sample": 44555
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI2753/BAI2753_108",
+          "sample": 44831
+        },
+        {
+          "clip_id": "part4/HAVEA12/VUINH292/VUINH292_48",
+          "sample": 45017
+        },
+        {
+          "clip_id": "part5/HAVEA12/HAYXE189/HAYXE189_319",
+          "sample": 45049
+        },
+        {
+          "clip_id": "part4/HAVEA12/NGUNG256/NGUNG256_161",
+          "sample": 45109
+        },
+        {
+          "clip_id": "part4/HAVEA12/TIENC276/TIENC276_587",
+          "sample": 45257
+        },
+        {
+          "clip_id": "part3/KYNAN6/THUTH132/THUTH132_148",
+          "sample": 45263
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI3662/BAI3662_319",
+          "sample": 45395
+        },
+        {
+          "clip_id": "part7/DAYHO3/PHAN179/PHAN179_663",
+          "sample": 45447
+        },
+        {
+          "clip_id": "part3/DONGC2/HIEUU15/HIEUU15_76",
+          "sample": 45529
+        },
+        {
+          "clip_id": "part7/DAYHO3/BAI3662/BAI3662_397",
+          "sample": 45609
+        },
+        {
+          "clip_id": "part4/HAVEA12/NGUNG256/NGUNG256_167",
+          "sample": 45717
+        },
+        {
+          "clip_id": "part4/HAVEA12/TOIKH281/TOIKH281_159",
+          "sample": 46023
+        },
+        {
+          "clip_id": "part5/HAVEA12/ENCUO309/ENCUO309_582",
+          "sample": 46151
+        },
+        {
+          "clip_id": "part5/HAVEA12/10NAM181/10NAM181_36",
+          "sample": 46377
+        },
+        {
+          "clip_id": "part3/DONGC2/DETOX14/DETOX14_2",
+          "sample": 46385
+        },
+        {
+          "clip_id": "part3/DONGC2/SANGC20/SANGC20_241",
+          "sample": 46513
+        },
+        {
+          "clip_id": "part3/DONGC2/DETOX14/DETOX14_22",
+          "sample": 46567
+        },
+        {
+          "clip_id": "part3/DONGC2/TRUCT30/TRUCT30_263",
+          "sample": 46893
+        },
+        {
+          "clip_id": "part4/HAVEA12/NGHET192/NGHET192_578",
+          "sample": 47109
+        },
+        {
+          "clip_id": "part4/HAVEA12/TOIKH281/TOIKH281_367",
+          "sample": 47207
+        },
+        {
+          "clip_id": "part5/HAVEA12/HAANH230/HAANH230_504",
+          "sample": 47525
+        },
+        {
+          "clip_id": "part3/DONGC2/NHAND18/NHAND18_238",
+          "sample": 47687
+        }
+      ],
+      "schedule_sha256": "b47092e2aafef41c712be8119ecb7cf696763d889a45e33de22c54e30b2f526e",
+      "trace_identity": {
+        "dataset": "vlr",
+        "archived_slot_identities_checked": 24000,
+        "bounded_short_slots": 23683,
+        "shared_full_fallback_samples": [
+          25,
+          537,
+          581,
+          603,
+          909,
+          1341,
+          1797,
+          1807,
+          1841,
+          1881,
+          1893,
+          2009,
+          2535,
+          3125,
+          3151,
+          3379,
+          3711,
+          3729,
+          4085,
+          4091,
+          4095,
+          4127,
+          4131,
+          4369,
+          4433,
+          4541,
+          4741,
+          4767,
+          5031,
+          5043,
+          5409,
+          5495,
+          5609,
+          5849,
+          6013,
+          6081,
+          6207,
+          6509,
+          6631,
+          6677,
+          6699,
+          6739,
+          6775,
+          7113,
+          7421,
+          7705,
+          7855,
+          7979,
+          8287,
+          8467,
+          8497,
+          8647,
+          8809,
+          8811,
+          8897,
+          9027,
+          9235,
+          9273,
+          9389,
+          9449,
+          9621,
+          9633,
+          9713,
+          9889,
+          10045,
+          10067,
+          10253,
+          10261,
+          10275,
+          10595,
+          10649,
+          10691,
+          10743,
+          10895,
+          11301,
+          11329,
+          11337,
+          11579,
+          11603,
+          11815,
+          12239,
+          12561,
+          12689,
+          12797,
+          12873,
+          12905,
+          13029,
+          13399,
+          13469,
+          13511,
+          13585,
+          13675,
+          13705,
+          13725,
+          13981,
+          14155,
+          14359,
+          14531,
+          14537,
+          14775,
+          14785,
+          14801,
+          14987,
+          15333,
+          15345,
+          15379,
+          15799,
+          15979,
+          16199,
+          16223,
+          16763,
+          16847,
+          17035,
+          17549,
+          17561,
+          17565,
+          17759,
+          17979,
+          18049,
+          18307,
+          18517,
+          18685,
+          18739,
+          18841,
+          18893,
+          19039,
+          19045,
+          19073,
+          19253,
+          19291,
+          19313,
+          19583,
+          19855,
+          19995,
+          20035,
+          20131,
+          20135,
+          20573,
+          20679,
+          20951,
+          20997,
+          21201,
+          21229,
+          21395,
+          21475,
+          21603,
+          22071,
+          22233,
+          22309,
+          22373,
+          22635,
+          22663,
+          22927,
+          23507,
+          23527,
+          23925,
+          24293,
+          24373,
+          24529,
+          24905,
+          25001,
+          25073,
+          25141,
+          25433,
+          25543,
+          26067,
+          26135,
+          26237,
+          26241,
+          26363,
+          26467,
+          26641,
+          26915,
+          27293,
+          27569,
+          27701,
+          27729,
+          28231,
+          28335,
+          28779,
+          28889,
+          28897,
+          28955,
+          29127,
+          29171,
+          29395,
+          29751,
+          29767,
+          29903,
+          30285,
+          30379,
+          30439,
+          30465,
+          30587,
+          30675,
+          30825,
+          31161,
+          31289,
+          31307,
+          31751,
+          31823,
+          31899,
+          31903,
+          32093,
+          32159,
+          32473,
+          33035,
+          33237,
+          33255,
+          33371,
+          33405,
+          33709,
+          33733,
+          34095,
+          34141,
+          34185,
+          34199,
+          34223,
+          34245,
+          34313,
+          34327,
+          34469,
+          34489,
+          34541,
+          34585,
+          34889,
+          34909,
+          34975,
+          35045,
+          35079,
+          35393,
+          35443,
+          35779,
+          35985,
+          36509,
+          36525,
+          36621,
+          36623,
+          36649,
+          36721,
+          36863,
+          37019,
+          37347,
+          37547,
+          37551,
+          37573,
+          37605,
+          37813,
+          37821,
+          37907,
+          38197,
+          38251,
+          38395,
+          38451,
+          38715,
+          38907,
+          38931,
+          38989,
+          39015,
+          39309,
+          39469,
+          39485,
+          39763,
+          40069,
+          40103,
+          40245,
+          40745,
+          40785,
+          40861,
+          40897,
+          40953,
+          40957,
+          41293,
+          41409,
+          41985,
+          42583,
+          42731,
+          42801,
+          42887,
+          42963,
+          43155,
+          43211,
+          43311,
+          43577,
+          43585,
+          43847,
+          43975,
+          44001,
+          44003,
+          44077,
+          44417,
+          44495,
+          44505,
+          44551,
+          44555,
+          44831,
+          45017,
+          45049,
+          45109,
+          45257,
+          45263,
+          45395,
+          45447,
+          45529,
+          45609,
+          45717,
+          46023,
+          46151,
+          46377,
+          46385,
+          46513,
+          46567,
+          46893,
+          47109,
+          47207,
+          47525,
+          47687
+        ]
+      }
+    },
+    {
+      "dataset": "lrs2",
+      "short_slots_checked": 24000,
+      "counts": {
+        "one_frame_word_spans": 0,
+        "word_spans_below_25_frames": 0,
+        "word_aligned": 23988,
+        "frames": 1317977,
+        "tokens": 213667,
+        "matched_T1_tokens": 213928,
+        "matched_T1_frames": 1200532,
+        "original_T1_tokens": 213880,
+        "exhaustive_checks": 201,
+        "shared_full_fallback": 12
+      },
+      "fallback_cases": [
+        {
+          "clip_id": "5993276822188248377/00008",
+          "sample": 5409
+        },
+        {
+          "clip_id": "5993276822188248377/00008",
+          "sample": 17849
+        },
+        {
+          "clip_id": "5992163566665125113/00002",
+          "sample": 17885
+        },
+        {
+          "clip_id": "6103206939756576237/00061",
+          "sample": 21797
+        },
+        {
+          "clip_id": "6133007140712649015/00030",
+          "sample": 29853
+        },
+        {
+          "clip_id": "5993276822188248377/00008",
+          "sample": 31933
+        },
+        {
+          "clip_id": "5992163566665125113/00002",
+          "sample": 33537
+        },
+        {
+          "clip_id": "6103206939756576237/00061",
+          "sample": 43033
+        },
+        {
+          "clip_id": "6133007140712649015/00030",
+          "sample": 43541
+        },
+        {
+          "clip_id": "5993276822188248377/00008",
+          "sample": 44937
+        },
+        {
+          "clip_id": "5992163566665125113/00002",
+          "sample": 45255
+        },
+        {
+          "clip_id": "6133007140712649015/00030",
+          "sample": 45973
+        }
+      ],
+      "schedule_sha256": "840953602d4d6517f22331d58344fa64ec276b69a25a81a834d14a63cab0c3ca",
+      "trace_identity": {
+        "dataset": "lrs2",
+        "archived_slot_identities_checked": 24000,
+        "bounded_short_slots": 23988,
+        "shared_full_fallback_samples": [
+          5409,
+          17849,
+          17885,
+          21797,
+          29853,
+          31933,
+          33537,
+          43033,
+          43541,
+          44937,
+          45255,
+          45973
+        ]
+      }
+    }
+  ],
+  "summary_sha256": "96afc83fb914ddb370fe646e58dca0e00d9e16ef09af7ceda244c4825b02726e",
+  "script_sha256": "17dfd752ba85a5f5cb58bef18d209f4625ab18dfc9e492c385d7e0cfac6eda0f",
+  "parent_verifier_sha256": "256071bd9983e749004a0f7bb714df6f014fb6b7fb10c894f1a830fa144aeee6",
+  "training_admitted": false,
+  "assessment_predictions_used": false
+}

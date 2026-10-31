@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-29T12:31:38.574001+00:00",
+  "status": "passed_original_per_clip_recount_and_cohort_identity",
+  "unique_prediction_records": 58628,
+  "aggregate_result_rows_checked": 30,
+  "completed_only": true,
+  "input_sha256": {
+    "Research_Transfer_Full_Benchmark_2026-10-27/Assessment_Analysis_01/Per_Clip_Counts.csv": "0b4ed7eca9baa0e1f43c87b6ea89af776a58d7fd63a56a96804b6c13cb4e7924",
+    "Research_Transfer_Decoder_Anchor_2026-10-28/Analysis_01/Results_01/Per_Clip_Counts.csv": "eacdc7d7f7ce561ce71b7db7c21099700249f430126622af640891667f46eb77",
+    "Research_English_Transfer_Benchmark_2026-10-28/Assessment_Analysis_01/Per_Clip_Counts.csv": "d2a056770306b690c8ee314fb081f6952e040280eb3e2533e817d26562dc7b42",
+    "Research_English_Full_Corpus_Control_2026-10-28/Assessment_Analysis_01/Per_Clip_Counts.csv": "fd20f39621a3be2166fd8a2e054e6966fe3ca17c7b16768e6ee18e48b6031adc",
+    "Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/Results_02/Per_Clip_Counts.csv": "ab7cdc4345d72361bc4005cb119bbb11760487af25f6e0dd42dd28c99de7e212"
+  },
+  "per_clip_export_sha256": "ea293c751ad3b304e8063ea8303d54dd51bb0ac7f6e640eab2ad7896276605e3",
+  "results_sha256": "ae4d7bbfa4927b58d5a6150500e8d16c0b9e84012d95a678d92ea7aaf4e9a681",
+  "verifier_sha256": "cea7feac0603181b467fe46eabeb8a93686faada8d9f873e31cdf94de7d9dc11"
+}

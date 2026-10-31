@@ -1,0 +1,22 @@
+{
+  "utc": "2026-10-29T21:18:05.038674+00:00",
+  "status": "two_complete_source_populations_recounted_and_exported",
+  "per_clip_records": 75300,
+  "source_test_readouts_retuned": false,
+  "inputs": [
+    {
+      "path": "Research_Source_Retention_2026-10-29/Analysis_01/Main_Contrast_02_Path_Migration/Summary.json",
+      "sha256": "8c15a5d8625ebd6d858184e1e8f0d7304ff9cbaeb560516029932cc2307a5510"
+    },
+    {
+      "path": "Research_Source_Retention_2026-10-29/Analysis_01/Vietnamese_Main_Vast_01/Summary.json",
+      "sha256": "37e55d951896aad898a28d018a26d0b06fec2cf12e543c79166438bc3ecd544d"
+    }
+  ],
+  "files": {
+    "Source_Comparisons.csv": "25305f36ea6647a102494f51714ea2c6c20b47dde08172330f1be67f7fc9c3c8",
+    "Source_Destination_Profile.csv": "41ccf3794a5031f344e400692cb2cdcc8ce8f9778350e107639436a58f985c9f",
+    "Source_Per_Clip_Errors.csv": "0d37aee4feb1a505187c566d08686403c86d007a3cf3f09c1cd6170df782fe85",
+    "Source_Results.csv": "be54be638726803a4336d67835e0212eb036a81d576832b5be468a7521a1c83b"
+  }
+}

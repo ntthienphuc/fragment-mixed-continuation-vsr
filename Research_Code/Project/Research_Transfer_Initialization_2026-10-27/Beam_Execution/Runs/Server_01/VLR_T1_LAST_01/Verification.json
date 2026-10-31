@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "utc": "2026-10-27T13:07:49.078384+00:00",
+  "task": "VLR_T1_LAST_01",
+  "clips": 67,
+  "independent_count_checks": 268,
+  "exact_beam_replays": 8,
+  "independent_score_checks": 16,
+  "score_checks": [
+    {
+      "index": 1,
+      "weight": 0.1,
+      "score_error": 2.5721639058673418e-06
+    },
+    {
+      "index": 1,
+      "weight": 0.5,
+      "score_error": 8.75040207404254e-07
+    },
+    {
+      "index": 1,
+      "weight": 0.9,
+      "score_error": 2.916652746876025e-06
+    },
+    {
+      "index": 1,
+      "weight": 1.0,
+      "score_error": 4.0937806424778955e-06
+    },
+    {
+      "index": 177,
+      "weight": 0.1,
+      "score_error": 2.252055907092654e-06
+    },
+    {
+      "index": 177,
+      "weight": 0.5,
+      "score_error": 3.6418606867982817e-06
+    },
+    {
+      "index": 177,
+      "weight": 0.9,
+      "score_error": 9.427347180235301e-06
+    },
+    {
+      "index": 177,
+      "weight": 1.0,
+      "score_error": 1.0971781989610463e-05
+    },
+    {
+      "index": 353,
+      "weight": 0.1,
+      "score_error": 8.240611464316316e-06
+    },
+    {
+      "index": 353,
+      "weight": 0.5,
+      "score_error": 1.2337294705844215e-06
+    },
+    {
+      "index": 353,
+      "weight": 0.9,
+      "score_error": 7.515710059635694e-06
+    },
+    {
+      "index": 353,
+      "weight": 1.0,
+      "score_error": 1.7147681226958866e-05
+    },
+    {
+      "index": 529,
+      "weight": 0.1,
+      "score_error": 5.20012076066223e-07
+    },
+    {
+      "index": 529,
+      "weight": 0.5,
+      "score_error": 2.023167073161858e-05
+    },
+    {
+      "index": 529,
+      "weight": 0.9,
+      "score_error": 1.0641398247912548e-05
+    },
+    {
+      "index": 529,
+      "weight": 1.0,
+      "score_error": 3.4757098241300355e-05
+    }
+  ],
+  "predictions_sha256": "125d02e3ad0eb0a2f5cc57c1a44cf343822dea41d33f1bd603845ebb571570ca",
+  "execution_lock_sha256": "8922a9228fa885be3880337145ec83390d7ca9ba1e79e2a550c60ec69e21d633"
+}

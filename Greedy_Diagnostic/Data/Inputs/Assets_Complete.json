@@ -1,0 +1,20 @@
+[
+  {
+    "model": "MATCHED_FC17",
+    "source": "C:\\Users\\thien\\Lip_Research_Backups\\Native_Vast_20261030\\Final6000\\full\\model.pt",
+    "destination": "Research_Greedy_Readout_Diagnostic_2026-10-31/Models/MATCHED_FC17/model.pt",
+    "sha256": "631cce3c3e3a036d375daa0e1817710c96c7681231ae0be7c90b0cdf49068d07",
+    "bytes": 973848897,
+    "seconds": 115.11345028877258,
+    "remote_hash_verified": true
+  },
+  {
+    "model": "MATCHED_WW17",
+    "source": "C:\\Users\\thien\\Lip_Research_Backups\\Native_Vast_20261030\\Final6000\\whole_word\\model.pt",
+    "destination": "Research_Greedy_Readout_Diagnostic_2026-10-31/Models/MATCHED_WW17/model.pt",
+    "sha256": "3e3194c99c881a0eb971e20c01164b0f3d55e38c85f83c4565c3dc2165a930be",
+    "bytes": 973848961,
+    "seconds": 115.92162561416626,
+    "remote_hash_verified": true
+  }
+]

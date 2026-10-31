@@ -1,0 +1,38 @@
+{
+  "files": 1719,
+  "python_files_parsed": 542,
+  "original_training_code_identity": "7e10ae375307c2e707c269d4c916c4940cedf87c1115ca553fb210a323d8240a",
+  "matched_executed_training_identities": 6,
+  "native_reference_source_files": 101,
+  "unit_tests": {
+    "command": [
+      "C:\\Program Files\\Python39\\python.exe",
+      "-B",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "exit_code": 0
+  },
+  "numerical_command": {
+    "command": [
+      "C:\\Users\\thien\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-B",
+      "E:\\Project\\Lip\\Research_Paper_Code_Finalization_2026-10-31\\Build_02\\Project\\PatternRecognition_CrossCorpus_Draft_2026-10-29\\Code\\reproduce.py",
+      "--data",
+      "E:\\Project\\Lip\\PatternRecognition_CrossCorpus_Draft_2026-10-29\\Review_09_Short_Only\\Standalone_Numerical_01\\Data",
+      "--output",
+      "E:\\Project\\Lip\\Research_Paper_Code_Finalization_2026-10-31\\Verification_02\\Recomputed"
+    ],
+    "exit_code": 0
+  },
+  "aggregate_rows": 60,
+  "paired_intervals": 49,
+  "utc": "2026-10-30T18:46:34.846370+00:00",
+  "status": "research_code_integrity_and_requested_checks_passed",
+  "full_neural_training_rerun": false,
+  "source_manifest_sha256": "21873f15567b46deafbd602fa061905b6cb33f25cc562625bc35cedd6062f3e3"
+}

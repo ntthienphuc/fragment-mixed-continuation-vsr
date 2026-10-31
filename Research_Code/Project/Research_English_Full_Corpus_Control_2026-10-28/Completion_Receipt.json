@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-28T07:31:28.062164+00:00",
+  "status": "F0_complete_control_verified",
+  "source_clips": 1082,
+  "assessment_clips": 2854,
+  "assessment_tasks": 8,
+  "summary_sha256": "5e2eb6eab9af793654e3dcf29d94dc312aa1ab67ceecb627ba0c0d9aaf06de3a",
+  "per_clip_counts_sha256": "fd20f39621a3be2166fd8a2e054e6966fe3ca17c7b16768e6ee18e48b6031adc",
+  "paper_or_novelty_claim_updated": false
+}

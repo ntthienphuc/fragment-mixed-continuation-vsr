@@ -1,0 +1,252 @@
+{
+  "utc": "2026-10-29T06:16:19.808564+00:00",
+  "status": "exported_verified_training_schedule_evidence",
+  "seed": 17,
+  "recognition_predictions_read": false,
+  "coverage_is_automatic_annotation_not_human_verified_articulation": true,
+  "exposure_is_frame_count_not_flops_or_runtime": true,
+  "source_proofs": {
+    "exposure": {
+      "utc": "2026-10-29T05:41:27.700656+00:00",
+      "status": "passed_independent_trace_and_algebra_recount",
+      "trace_records": 96000,
+      "native_objective_calls": 384000,
+      "summary_sha256": "d7884ec6b047d2036523d0707c2f86f214356a821b5e4b39f0056482a66b3075",
+      "trace_sha256": "e6d24b8459ad124a944c430cd17990db036724bd032c269ecedd6c50c52f56f7",
+      "table_sha256": "08e0377f57c30dc3c75841761b6b49a1172d05850cc26f66e9727d8032d66bd5",
+      "verifier_sha256": "1c81792668954725fd60f826d322fe3fbee7b4a33e0e46fa8a178846e0f1d204",
+      "unique_clips": {
+        "VI": 48000,
+        "EN": 7291
+      },
+      "training_sources": {
+        "VI": 406,
+        "EN": 2066
+      },
+      "frame_accounting_only": true,
+      "gradient_or_efficiency_gain_established": false
+    },
+    "coverage": {
+      "utc": "2026-10-29T06:11:16.046380+00:00",
+      "status": "passed_independent_interval_trace_recount",
+      "annotation_entries": 348972,
+      "fragment_presentations": 48000,
+      "summary_sha256": "50b0fed8754bd7bf59e3e3872c18fd20e7e58f1134738d8292c6cb4d0b6f87c0",
+      "trace_sha256": "239e5656936d4473f51df869fdada05ce7a4e43602690f80a9f5d90684505c16",
+      "table_sha256": "f4b904ef3a53864164a243b59f49f8405eca5aed46b64187eb08ead0786a7518",
+      "verifier_sha256": "93a490f4dcbbcdf58588bfebfa16fd28c718b8823f68e907d7d25d210dd6fa69",
+      "source_geometry_and_schedule_match": true,
+      "automatic_timestamps_not_human_visual_verification": true,
+      "independent_text_replay": false,
+      "new_recognition": false
+    }
+  },
+  "source_summaries": {
+    "exposure": {
+      "status": "native_control_flow_reconstructed_pending_independent_trace_check",
+      "started_utc": "2026-10-29T05:38:56.154879+00:00",
+      "completed_utc": "2026-10-29T05:40:10.969626+00:00",
+      "native_objective_calls": 384000,
+      "presentations": 96000,
+      "training_receipts": {
+        "VI": {
+          "config_sha256": "8abced4f71dccb680ee0852068ac86dad62ab81727b5937ffd1c4871247e999e",
+          "code_sha256": "7e10ae375307c2e707c269d4c916c4940cedf87c1115ca553fb210a323d8240a",
+          "split": "train",
+          "limit": 0,
+          "planned": 92632,
+          "prepared": 92632,
+          "failed": 0,
+          "train_eligible": 90519,
+          "full_eligible": 91742,
+          "window_eligible": 90420,
+          "invalid_timing": 1,
+          "manifest_sha256": "70ec83434982fd3e350ac43c51a20468f416d32b8bd48b254021d76b7f9e0dfb",
+          "failures_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "EN": {
+          "config_sha256": "9a7326904fb828c79ac839e78ab3a6f2739a359c1e5dc7afec1f509934c7d3c6",
+          "code_sha256": "7e10ae375307c2e707c269d4c916c4940cedf87c1115ca553fb210a323d8240a",
+          "split": "train",
+          "limit": 0,
+          "planned": 45839,
+          "prepared": 45838,
+          "failed": 1,
+          "train_eligible": 7291,
+          "full_eligible": 45838,
+          "window_eligible": 7291,
+          "invalid_timing": 38547,
+          "manifest_sha256": "ed12af7c652033d3d9c198c9c09d7c0d92abd3b6eaf2bef4326787ee9a5007b6",
+          "failures_sha256": "f5f10dd958a5f66eaac41f364e3e92c5e242b30b3c2674f479fb6b37f296d992"
+        }
+      },
+      "totals": {
+        "VI": {
+          "T0": {
+            "presentations": 48000,
+            "student_encoder_frames": 7307270,
+            "teacher_encoder_frames": 0,
+            "supervised_frames": 7307270,
+            "student_passes": 48000,
+            "teacher_passes": 0,
+            "all_encoder_frames": 7307270,
+            "target_tokens": 1144990
+          },
+          "T1": {
+            "presentations": 48000,
+            "student_encoder_frames": 4851015,
+            "teacher_encoder_frames": 0,
+            "supervised_frames": 4851015,
+            "student_passes": 48000,
+            "teacher_passes": 0,
+            "all_encoder_frames": 4851015,
+            "target_tokens": 791474
+          },
+          "T2": {
+            "presentations": 48000,
+            "student_encoder_frames": 4851015,
+            "teacher_encoder_frames": 3656255,
+            "supervised_frames": 4851015,
+            "student_passes": 48000,
+            "teacher_passes": 24000,
+            "all_encoder_frames": 8507270,
+            "target_tokens": 791474
+          },
+          "T4": {
+            "presentations": 48000,
+            "student_encoder_frames": 5619015,
+            "teacher_encoder_frames": 0,
+            "supervised_frames": 4851015,
+            "student_passes": 48000,
+            "teacher_passes": 0,
+            "all_encoder_frames": 5619015,
+            "target_tokens": 791474
+          }
+        },
+        "EN": {
+          "T0": {
+            "presentations": 48000,
+            "student_encoder_frames": 5284471,
+            "teacher_encoder_frames": 0,
+            "supervised_frames": 5284471,
+            "student_passes": 48000,
+            "teacher_passes": 0,
+            "all_encoder_frames": 5284471,
+            "target_tokens": 830710
+          },
+          "T1": {
+            "presentations": 48000,
+            "student_encoder_frames": 3842733,
+            "teacher_encoder_frames": 0,
+            "supervised_frames": 3842733,
+            "student_passes": 48000,
+            "teacher_passes": 0,
+            "all_encoder_frames": 3842733,
+            "target_tokens": 628899
+          },
+          "T2": {
+            "presentations": 48000,
+            "student_encoder_frames": 3842733,
+            "teacher_encoder_frames": 2641738,
+            "supervised_frames": 3842733,
+            "student_passes": 48000,
+            "teacher_passes": 24000,
+            "all_encoder_frames": 6484471,
+            "target_tokens": 628899
+          },
+          "T4": {
+            "presentations": 48000,
+            "student_encoder_frames": 4610733,
+            "teacher_encoder_frames": 0,
+            "supervised_frames": 3842733,
+            "student_passes": 48000,
+            "teacher_passes": 0,
+            "all_encoder_frames": 4610733,
+            "target_tokens": 628899
+          }
+        }
+      },
+      "trace_sha256": "e6d24b8459ad124a944c430cd17990db036724bd032c269ecedd6c50c52f56f7",
+      "table_sha256": "08e0377f57c30dc3c75841761b6b49a1172d05850cc26f66e9727d8032d66bd5",
+      "input_sha256": {
+        "Research_Transfer_Training_Exposure_2026-10-27\\Replay_03\\Summary.json": "15b89252c449ecc9d1f0457d53df821c4313374c224091561dc9e60ef4c9f024",
+        "Research_Transfer_Training_Exposure_2026-10-27\\Completion_Receipt.json": "8aafc59a25334721b34bcfc9afa7548bae20a55470bc09d526a6662477e44991",
+        "Research_English_Training_Scope_2026-10-28\\Replay_01\\Summary.json": "151ed317fc6c93debe16eaba675d35ce7ad94236b22079d8dadc508aa5a0de6b",
+        "Research_English_Training_Scope_2026-10-28\\Replay_01\\Verification.json": "365a877206bf8e238bec5d51ce4f1381ae723d712eb48bc5bbadf3a019a22be0",
+        "Research_Transfer_Mechanism_Benchmark_2026-10-28\\model_registry.json": "969934b48477efdc46710cdbc41fc42f2ebd16d45e011744ad8a3dfb90610b24"
+      },
+      "native_code_identity": "7e10ae375307c2e707c269d4c916c4940cedf87c1115ca553fb210a323d8240a",
+      "scripts_sha256": {
+        "reconstruct.py": "b7680661a9f0f08dfa02f00214628e3816435d14f25fb6df44a18857bea87975",
+        "recording.py": "6fe1047414aa08198ff5feeb55fae7d29474f131ebcb42aaa6c0fae60ee3427f"
+      },
+      "protocol_sha256": "8f8789bae191ce3f3251d4a6d7c39e74b5d00c4858b12f5a6b2ef60b96bf242f",
+      "pixels_read": false,
+      "neural_weights_loaded": false,
+      "cuda_used": false,
+      "gradient_or_optimizer_replay": false,
+      "new_recognition": false,
+      "label_tokens": "Inherited from verified T0/T1 counts after native label equality on every presentation",
+      "scope": "Encoder input exposure only; not FLOPs, wall time, gradient equivalence or efficiency gains"
+    },
+    "coverage": {
+      "status": "complete_pending_independent_trace_check",
+      "started_utc": "2026-10-29T06:04:27.833597+00:00",
+      "completed_utc": "2026-10-29T06:04:47.721081+00:00",
+      "totals": {
+        "VI": {
+          "fragments": 24000,
+          "timed_entries": 185466,
+          "empty_text_entries": 0,
+          "positive_duration_entries": 183088,
+          "entries_outside_source": 6,
+          "annotated_duration_seconds": 51831.510000005,
+          "crop_covered_seconds": 43191.99000000328,
+          "strict_crop_complete_entries": 140038,
+          "one_frame_crop_complete_entries": 146464,
+          "context_covered_seconds": 51280.450000004894,
+          "strict_context_complete_entries": 181291,
+          "one_frame_context_complete_entries": 181574,
+          "strict_crop_partial_fragments": 23768,
+          "strict_context_partial_fragments": 1725,
+          "one_frame_crop_partial_fragments": 22638,
+          "one_frame_context_partial_fragments": 1453,
+          "zero_duration_entries": 2378
+        },
+        "EN": {
+          "fragments": 24000,
+          "timed_entries": 163506,
+          "empty_text_entries": 0,
+          "positive_duration_entries": 163506,
+          "entries_outside_source": 16,
+          "annotated_duration_seconds": 34330.94657484229,
+          "crop_covered_seconds": 29317.817858443887,
+          "strict_crop_complete_entries": 133732,
+          "one_frame_crop_complete_entries": 139780,
+          "context_covered_seconds": 34283.0013590364,
+          "strict_context_complete_entries": 163138,
+          "one_frame_context_complete_entries": 163261,
+          "strict_crop_partial_fragments": 20529,
+          "strict_context_partial_fragments": 366,
+          "one_frame_crop_partial_fragments": 17811,
+          "one_frame_context_partial_fragments": 244
+        }
+      },
+      "trace_sha256": "239e5656936d4473f51df869fdada05ce7a4e43602690f80a9f5d90684505c16",
+      "table_sha256": "f4b904ef3a53864164a243b59f49f8405eca5aed46b64187eb08ead0786a7518",
+      "code_sha256": "88978f895b643ffa4c374c29b29dedc44f37f2d5aafd5cc02f98f1cd3869a058",
+      "protocol_sha256": "652520533e737e4507c0f979e20def743c5e2a3e380c25c4c4bf561e7065c025",
+      "exposure_summary_sha256": "d7884ec6b047d2036523d0707c2f86f214356a821b5e4b39f0056482a66b3075",
+      "native_code_identity": "7e10ae375307c2e707c269d4c916c4940cedf87c1115ca553fb210a323d8240a",
+      "new_recognition": false,
+      "pixels_read": false,
+      "scope": "Timestamp coverage of annotation entries in the training schedule; not verified visual evidence"
+    }
+  },
+  "export_sha256": {
+    "Training_Exposure.csv": "08e0377f57c30dc3c75841761b6b49a1172d05850cc26f66e9727d8032d66bd5",
+    "Training_Label_Coverage.csv": "f4b904ef3a53864164a243b59f49f8405eca5aed46b64187eb08ead0786a7518"
+  },
+  "generator_sha256": "84b3a46551913929b1df631a82ed3c8bfa452dee67dbeef16b1102163e0d9242",
+  "figure_sha256": "c77bc98bf69aefbbe791e90f76237515d680cc1629241029257a654528473a50"
+}

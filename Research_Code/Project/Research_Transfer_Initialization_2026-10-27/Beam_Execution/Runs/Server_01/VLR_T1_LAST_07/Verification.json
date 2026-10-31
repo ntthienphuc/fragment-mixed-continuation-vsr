@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "utc": "2026-10-27T14:55:58.898935+00:00",
+  "task": "VLR_T1_LAST_07",
+  "clips": 66,
+  "independent_count_checks": 264,
+  "exact_beam_replays": 8,
+  "independent_score_checks": 16,
+  "score_checks": [
+    {
+      "index": 7,
+      "weight": 0.1,
+      "score_error": 7.091981775175782e-07
+    },
+    {
+      "index": 7,
+      "weight": 0.5,
+      "score_error": 6.596412795545348e-06
+    },
+    {
+      "index": 7,
+      "weight": 0.9,
+      "score_error": 5.938154675533269e-06
+    },
+    {
+      "index": 7,
+      "weight": 1.0,
+      "score_error": 9.91385391557742e-07
+    },
+    {
+      "index": 183,
+      "weight": 0.1,
+      "score_error": 9.61470880156412e-06
+    },
+    {
+      "index": 183,
+      "weight": 0.5,
+      "score_error": 9.270229739399838e-07
+    },
+    {
+      "index": 183,
+      "weight": 0.9,
+      "score_error": 1.345378002781672e-06
+    },
+    {
+      "index": 183,
+      "weight": 1.0,
+      "score_error": 7.347259778356374e-06
+    },
+    {
+      "index": 351,
+      "weight": 0.1,
+      "score_error": 6.0939203727627955e-06
+    },
+    {
+      "index": 351,
+      "weight": 0.5,
+      "score_error": 3.879197315370675e-06
+    },
+    {
+      "index": 351,
+      "weight": 0.9,
+      "score_error": 2.6257665552975595e-07
+    },
+    {
+      "index": 351,
+      "weight": 1.0,
+      "score_error": 7.856141088780078e-07
+    },
+    {
+      "index": 527,
+      "weight": 0.1,
+      "score_error": 4.1200129174967515e-07
+    },
+    {
+      "index": 527,
+      "weight": 0.5,
+      "score_error": 1.188399167517673e-06
+    },
+    {
+      "index": 527,
+      "weight": 0.9,
+      "score_error": 2.429421455474312e-05
+    },
+    {
+      "index": 527,
+      "weight": 1.0,
+      "score_error": 6.5746175295089415e-06
+    }
+  ],
+  "predictions_sha256": "67ac770618bfa7146fc138b5424fe3947423486403374b2f8f1d9030d706da7e",
+  "execution_lock_sha256": "8922a9228fa885be3880337145ec83390d7ca9ba1e79e2a550c60ec69e21d633"
+}

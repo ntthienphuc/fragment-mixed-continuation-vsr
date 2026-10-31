@@ -1,0 +1,6 @@
+paper_name,experiment_id,description,assessment_status
+FC,T0,Full-clip continuation,completed
+FM,T1,Alternating full-clip and 2-second fragment supervision,completed
+FM-ST,T2,FM plus current-model full-view stop-gradient CTC teacher,completed
+CP,T4,Alternating full clips and context-expanded fragment inputs; core supervision,completed
+Full-pool FC,F0,English full-clip continuation using the full eligible pool,completed

@@ -1,0 +1,20 @@
+\begin{table}[tbp]
+\centering\small
+\caption{Source and destination WER (\%) at the same fitted states and
+common decoder. Source populations are 1,243 LRS2 clips (6,660 words)
+and 11,307 VLR clips (225,960 whitespace units). Destination populations
+are 2,854 WildVSR and 1,167 ViCocktail clips. Continuation results use seed 17;
+each corpus is scored separately. Lower WER is better.}
+\label{tab:source}
+\begin{tabular}{lrrrr}
+\toprule
+& \multicolumn{2}{c}{English} & \multicolumn{2}{c}{Vietnamese}\\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+State & LRS2 & WildVSR & VLR & ViCocktail\\
+\midrule
+Initializer & 56.577 & 67.092 & 39.830 & 70.034\\
+FC & 50.976 & 66.817 & 38.016 & 67.326\\
+FM & 52.432 & 66.884 & 38.604 & 63.916\\
+\bottomrule
+\end{tabular}
+\end{table}

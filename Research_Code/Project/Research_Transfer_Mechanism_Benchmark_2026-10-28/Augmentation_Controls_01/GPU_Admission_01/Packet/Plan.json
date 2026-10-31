@@ -1,0 +1,4701 @@
+{
+  "status": "training_only_gpu_probe_prepared_not_executed",
+  "cases": [
+    {
+      "sample": 0,
+      "row": {
+        "clip_id": "part4/HAVEA12/VUINH292/VUINH292_420",
+        "source_id": "HAVEA12/VUINH292",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part4/HAVEA12/VUINH292/VUINH292_420.mp4",
+        "text": "thần tượng mà họ bị kiểu đi fan bâu vào hay là ở những cái lúc mà họ chưa sẵn",
+        "expected_video_blake2b_128": "ec79c43562b1cee38933ae776c2db1d5",
+        "words": [
+          {
+            "text": "thần",
+            "start": 0.0,
+            "end": 0.23999999999978172
+          },
+          {
+            "text": "tượng",
+            "start": 0.23999999999978172,
+            "end": 0.4600000000000364
+          },
+          {
+            "text": "mà",
+            "start": 0.4600000000000364,
+            "end": 0.8600000000001273
+          },
+          {
+            "text": "họ",
+            "start": 0.8600000000001273,
+            "end": 1.0599999999999454
+          },
+          {
+            "text": "bị...",
+            "start": 1.0599999999999454,
+            "end": 1.5599999999999454
+          },
+          {
+            "text": "Kiểu",
+            "start": 2.380000000000109,
+            "end": 2.7399999999997817
+          },
+          {
+            "text": "đi",
+            "start": 2.7399999999997817,
+            "end": 3.099999999999909
+          },
+          {
+            "text": "fan",
+            "start": 3.099999999999909,
+            "end": 3.619999999999891
+          },
+          {
+            "text": "bâu",
+            "start": 3.619999999999891,
+            "end": 3.900000000000091
+          },
+          {
+            "text": "vào",
+            "start": 3.900000000000091,
+            "end": 4.079999999999927
+          },
+          {
+            "text": "hay",
+            "start": 4.079999999999927,
+            "end": 4.5
+          },
+          {
+            "text": "là",
+            "start": 4.5,
+            "end": 4.679999999999836
+          },
+          {
+            "text": "ở",
+            "start": 4.679999999999836,
+            "end": 4.799999999999727
+          },
+          {
+            "text": "những",
+            "start": 4.799999999999727,
+            "end": 5.039999999999964
+          },
+          {
+            "text": "cái",
+            "start": 5.039999999999964,
+            "end": 5.2199999999998
+          },
+          {
+            "text": "lúc",
+            "start": 5.2199999999998,
+            "end": 5.360000000000127
+          },
+          {
+            "text": "mà",
+            "start": 5.360000000000127,
+            "end": 5.519999999999982
+          },
+          {
+            "text": "họ",
+            "start": 5.519999999999982,
+            "end": 5.6599999999998545
+          },
+          {
+            "text": "chưa",
+            "start": 5.6599999999998545,
+            "end": 5.880000000000109
+          },
+          {
+            "text": "sẵn",
+            "start": 5.880000000000109,
+            "end": 6.1599999999998545
+          }
+        ],
+        "frame_path": "frames/84a91538a6e857fcd5b42193.npz",
+        "frames_sha256": "5d49a4f9d0d34f6d1fb6e02bb2b780e87e8589779a2985160718a82250bd90e0",
+        "video_sha256": "923d75e803e4a2bb5b9bd2fbf6413adc0d3b4baaff760bfbc6788e34c626679d",
+        "frames": 154,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88
+        ],
+        "window_eligible": true,
+        "eval_start": 78,
+        "window_reference": "fan bâu vào hay là ở những cái",
+        "timing_valid": true,
+        "window_reference_original": "fan bâu vào hay là ở những cái",
+        "core_frames": 50,
+        "zero_duration_words": 0,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "7b834f42f2f243645d56e71c967a96943f03dfe8b49514828d5d33f3984832f7",
+        "full_eligible": true
+      },
+      "pixels_sha256": "7b834f42f2f243645d56e71c967a96943f03dfe8b49514828d5d33f3984832f7",
+      "file": "pixels/0.npz",
+      "file_sha256": "411ecf5aa3e8d2a9faf8320c4735cfcdd83a0f372cdc642943ee5d345f2f1074"
+    },
+    {
+      "sample": 1,
+      "row": {
+        "clip_id": "part4/HAVEA12/VUOTQ294/VUOTQ294_55",
+        "source_id": "HAVEA12/VUOTQ294",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part4/HAVEA12/VUOTQ294/VUOTQ294_55.mp4",
+        "text": "là đồng nghiệp của mình hoặc là những cái đối tác làm việc cho nên cũng rất là thoải mái",
+        "expected_video_blake2b_128": "f3135044d6a88fcb74d23aaec9c48ab2",
+        "words": [
+          {
+            "text": "là",
+            "start": 0.0,
+            "end": 0.2400000000000091
+          },
+          {
+            "text": "đồng",
+            "start": 0.2400000000000091,
+            "end": 0.4200000000000159
+          },
+          {
+            "text": "nghiệp",
+            "start": 0.4200000000000159,
+            "end": 0.5
+          },
+          {
+            "text": "của",
+            "start": 0.5,
+            "end": 0.6999999999999886
+          },
+          {
+            "text": "mình",
+            "start": 0.6999999999999886,
+            "end": 0.9000000000000341
+          },
+          {
+            "text": "hoặc",
+            "start": 0.9000000000000341,
+            "end": 1.920000000000016
+          },
+          {
+            "text": "là",
+            "start": 1.920000000000016,
+            "end": 2.1000000000000227
+          },
+          {
+            "text": "những",
+            "start": 2.1000000000000227,
+            "end": 2.319999999999993
+          },
+          {
+            "text": "cái",
+            "start": 2.319999999999993,
+            "end": 2.980000000000018
+          },
+          {
+            "text": "đối",
+            "start": 2.980000000000018,
+            "end": 3.2200000000000273
+          },
+          {
+            "text": "tác",
+            "start": 3.2200000000000273,
+            "end": 3.580000000000041
+          },
+          {
+            "text": "làm",
+            "start": 3.580000000000041,
+            "end": 3.920000000000016
+          },
+          {
+            "text": "việc",
+            "start": 3.920000000000016,
+            "end": 4.1200000000000045
+          },
+          {
+            "text": "cho",
+            "start": 4.1200000000000045,
+            "end": 4.319999999999993
+          },
+          {
+            "text": "nên",
+            "start": 4.319999999999993,
+            "end": 4.480000000000018
+          },
+          {
+            "text": "cũng",
+            "start": 4.480000000000018,
+            "end": 4.78000000000003
+          },
+          {
+            "text": "rất",
+            "start": 4.78000000000003,
+            "end": 5.0
+          },
+          {
+            "text": "là",
+            "start": 5.0,
+            "end": 5.1200000000000045
+          },
+          {
+            "text": "thoải",
+            "start": 5.1200000000000045,
+            "end": 5.300000000000011
+          },
+          {
+            "text": "mái",
+            "start": 5.300000000000011,
+            "end": 5.5400000000000205
+          }
+        ],
+        "frame_path": "frames/b5645b2d616b2d90bf558a29.npz",
+        "frames_sha256": "b1d889820825eb1eb36ac21cf05a5906e04cbfaf1ebb7d137da26b4c3c34be84",
+        "video_sha256": "b90551f5953412cf479f2910958769879ff4509dda7579cc20e2a06cb0466cff",
+        "frames": 139,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73
+        ],
+        "window_eligible": true,
+        "eval_start": 28,
+        "window_reference": "hoặc là những cái đối",
+        "timing_valid": true,
+        "window_reference_original": "hoặc là những cái đối",
+        "core_frames": 50,
+        "zero_duration_words": 0,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "9db5ce4ee290884bcd82e3768b8be13c3f8c93329fd7ec09c8fa2216f53472cb",
+        "full_eligible": true
+      },
+      "pixels_sha256": "9db5ce4ee290884bcd82e3768b8be13c3f8c93329fd7ec09c8fa2216f53472cb",
+      "file": "pixels/1.npz",
+      "file_sha256": "2d2231d63665351ffbefdfde82196a8302fed6cc30552406aaec87be83213fb4"
+    },
+    {
+      "sample": 2,
+      "row": {
+        "clip_id": "part2/BAIGI4/CACLO124/CACLO124_322",
+        "source_id": "BAIGI4/CACLO124",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part2/BAIGI4/CACLO124/CACLO124_322.mp4",
+        "text": "dẫn đến các hiện tượng như biến đổ khí hậu nhiều loài sinh vận có nguy cơ bị tuyệt trùng",
+        "expected_video_blake2b_128": "c465f04367f2f377ead93a2eb8f3c350",
+        "words": [
+          {
+            "text": "dẫn",
+            "start": 0.0,
+            "end": 0.12000000000011823
+          },
+          {
+            "text": "đến",
+            "start": 0.12000000000011823,
+            "end": 0.22000000000002728
+          },
+          {
+            "text": "các",
+            "start": 0.22000000000002728,
+            "end": 0.40000000000009095
+          },
+          {
+            "text": "hiện",
+            "start": 0.40000000000009095,
+            "end": 0.5800000000001546
+          },
+          {
+            "text": "tượng",
+            "start": 0.5800000000001546,
+            "end": 0.7599999999999909
+          },
+          {
+            "text": "như",
+            "start": 0.7599999999999909,
+            "end": 1.0199999999999818
+          },
+          {
+            "text": "biến",
+            "start": 1.0199999999999818,
+            "end": 1.3200000000001637
+          },
+          {
+            "text": "đổ",
+            "start": 1.3200000000001637,
+            "end": 1.4800000000000182
+          },
+          {
+            "text": "khí",
+            "start": 1.4800000000000182,
+            "end": 1.6800000000000637
+          },
+          {
+            "text": "hậu,",
+            "start": 1.6800000000000637,
+            "end": 2.1400000000001
+          },
+          {
+            "text": "nhiều",
+            "start": 2.3400000000001455,
+            "end": 2.7200000000000273
+          },
+          {
+            "text": "loài",
+            "start": 2.7200000000000273,
+            "end": 3.1400000000001
+          },
+          {
+            "text": "sinh",
+            "start": 3.1400000000001,
+            "end": 3.4200000000000728
+          },
+          {
+            "text": "vận,",
+            "start": 3.4200000000000728,
+            "end": 3.740000000000009
+          },
+          {
+            "text": "có",
+            "start": 3.900000000000091,
+            "end": 4.060000000000173
+          },
+          {
+            "text": "nguy",
+            "start": 4.060000000000173,
+            "end": 4.259999999999991
+          },
+          {
+            "text": "cơ",
+            "start": 4.259999999999991,
+            "end": 4.380000000000109
+          },
+          {
+            "text": "bị",
+            "start": 4.380000000000109,
+            "end": 4.600000000000136
+          },
+          {
+            "text": "tuyệt",
+            "start": 4.600000000000136,
+            "end": 4.860000000000127
+          },
+          {
+            "text": "trùng,",
+            "start": 4.860000000000127,
+            "end": 5.060000000000173
+          }
+        ],
+        "frame_path": "frames/5790f229fdc33021f393038c.npz",
+        "frames_sha256": "3698a718bef119a8f2c390b684af30e4fef3d05b28090fad5de7c0b1b6d0c4cd",
+        "video_sha256": "9ced52b3c06dec95257434a16fd8cfdf612625c2145d7fe4b9cbc85085407647",
+        "frames": 131,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65
+        ],
+        "window_eligible": true,
+        "eval_start": 50,
+        "window_reference": "hậu nhiều loài sinh vận có",
+        "timing_valid": true,
+        "window_reference_original": "hậu, nhiều loài sinh vận, có",
+        "core_frames": 50,
+        "zero_duration_words": 0,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "b9ce87f35d457d4084ce70bf31e24a4e9250ef7ca7f57ba8fb622e106ecdde67",
+        "full_eligible": true
+      },
+      "pixels_sha256": "b9ce87f35d457d4084ce70bf31e24a4e9250ef7ca7f57ba8fb622e106ecdde67",
+      "file": "pixels/2.npz",
+      "file_sha256": "fdfd576abfc7bf7b349d3edce084b05d791707c8b147f4d0cd87d9ba16f93598"
+    },
+    {
+      "sample": 3,
+      "row": {
+        "clip_id": "part7/DAYHO3/BAI4370/BAI4370_351",
+        "source_id": "DAYHO3/BAI4370",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part7/DAYHO3/BAI4370/BAI4370_351.mp4",
+        "text": "thể tức là dân thánh lệ và thơ lại thánh thể là trọng tâm đời sống của ngài thì các",
+        "expected_video_blake2b_128": "cc7c805b281cb583659de8d11db3d195",
+        "words": [
+          {
+            "text": "Thể,",
+            "start": 0.0,
+            "end": 0.25999999999976353
+          },
+          {
+            "text": "tức",
+            "start": 0.29999999999972715,
+            "end": 0.419999999999618
+          },
+          {
+            "text": "là",
+            "start": 0.419999999999618,
+            "end": 0.5799999999999272
+          },
+          {
+            "text": "dân",
+            "start": 0.5799999999999272,
+            "end": 0.7799999999997453
+          },
+          {
+            "text": "Thánh",
+            "start": 0.7799999999997453,
+            "end": 0.9800000000000182
+          },
+          {
+            "text": "Lệ,",
+            "start": 0.9800000000000182,
+            "end": 1.1799999999998363
+          },
+          {
+            "text": "và",
+            "start": 2.4400000000000546,
+            "end": 3.599999999999909
+          },
+          {
+            "text": "thơ",
+            "start": 3.599999999999909,
+            "end": 3.8399999999996908
+          },
+          {
+            "text": "lại",
+            "start": 3.8399999999996908,
+            "end": 4.079999999999927
+          },
+          {
+            "text": "Thánh",
+            "start": 4.079999999999927,
+            "end": 4.339999999999691
+          },
+          {
+            "text": "Thể",
+            "start": 4.339999999999691,
+            "end": 4.639999999999873
+          },
+          {
+            "text": "là",
+            "start": 4.639999999999873,
+            "end": 5.0
+          },
+          {
+            "text": "trọng",
+            "start": 5.0,
+            "end": 5.480000000000018
+          },
+          {
+            "text": "tâm",
+            "start": 5.480000000000018,
+            "end": 5.819999999999709
+          },
+          {
+            "text": "đời",
+            "start": 5.819999999999709,
+            "end": 6.299999999999727
+          },
+          {
+            "text": "sống",
+            "start": 6.299999999999727,
+            "end": 6.7599999999997635
+          },
+          {
+            "text": "của",
+            "start": 6.7599999999997635,
+            "end": 7.179999999999836
+          },
+          {
+            "text": "Ngài",
+            "start": 7.179999999999836,
+            "end": 7.919999999999618
+          },
+          {
+            "text": "Thì",
+            "start": 9.639999999999873,
+            "end": 10.199999999999818
+          },
+          {
+            "text": "các",
+            "start": 10.199999999999818,
+            "end": 10.379999999999654
+          }
+        ],
+        "frame_path": "frames/179a440c2242db8c264cac9e.npz",
+        "frames_sha256": "a3470acc8926f8ec52033b65caf4bd83f147e7c5b16fbbdef21b744b6525c2d7",
+        "video_sha256": "c03121ab3609bb0cd3690e93204db7e0d1ddacd655c52f7d0dd3787da3438d5c",
+        "frames": 260,
+        "train_eligible": true,
+        "full_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194
+        ],
+        "window_eligible": true,
+        "eval_start": 18,
+        "window_reference": "dân thánh lệ và",
+        "timing_valid": true,
+        "window_reference_original": "dân Thánh Lệ, và",
+        "core_frames": 50,
+        "frame_cache_format": "npz",
+        "zero_duration_words": 0
+      },
+      "pixels_sha256": "1c66c772e4fec18345b9d9a1d7f223dda993e5a0198ed1685aceb3bcde46599c",
+      "file": "pixels/3.npz",
+      "file_sha256": "85b1a889d772077a13b53fbf9752e2b9d5de9289f06b553bc8ba0b8317ea9a75"
+    },
+    {
+      "sample": 4,
+      "row": {
+        "clip_id": "part1/BAIGI3/SUPHA91/SUPHA91_6",
+        "source_id": "BAIGI3/SUPHA91",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part1/BAIGI3/SUPHA91/SUPHA91_6.mp4",
+        "text": "đây là từ ngữ gì bức ảnh đầu tiên cô tin chắc chắn rằng bạn ngao cho chúng ta cũng",
+        "expected_video_blake2b_128": "0800378bfabfc0d421cc282bb90ca058",
+        "words": [
+          {
+            "text": "đây",
+            "start": 0.0,
+            "end": 0.31999999999999673
+          },
+          {
+            "text": "là",
+            "start": 0.31999999999999673,
+            "end": 0.5599999999999987
+          },
+          {
+            "text": "từ",
+            "start": 0.5599999999999987,
+            "end": 0.7199999999999989
+          },
+          {
+            "text": "ngữ",
+            "start": 0.7199999999999989,
+            "end": 0.8399999999999999
+          },
+          {
+            "text": "gì",
+            "start": 0.8399999999999999,
+            "end": 1.3199999999999967
+          },
+          {
+            "text": "Bức",
+            "start": 2.2600000000000016,
+            "end": 2.7399999999999984
+          },
+          {
+            "text": "ảnh",
+            "start": 2.7399999999999984,
+            "end": 2.8199999999999967
+          },
+          {
+            "text": "đầu",
+            "start": 2.8199999999999967,
+            "end": 3.099999999999998
+          },
+          {
+            "text": "tiên",
+            "start": 3.099999999999998,
+            "end": 3.359999999999996
+          },
+          {
+            "text": "cô",
+            "start": 3.359999999999996,
+            "end": 3.580000000000002
+          },
+          {
+            "text": "tin",
+            "start": 3.580000000000002,
+            "end": 3.7799999999999976
+          },
+          {
+            "text": "chắc",
+            "start": 3.7799999999999976,
+            "end": 3.9999999999999964
+          },
+          {
+            "text": "chắn",
+            "start": 3.9999999999999964,
+            "end": 4.199999999999999
+          },
+          {
+            "text": "rằng",
+            "start": 4.199999999999999,
+            "end": 4.4999999999999964
+          },
+          {
+            "text": "bạn",
+            "start": 4.4999999999999964,
+            "end": 4.760000000000002
+          },
+          {
+            "text": "Ngao",
+            "start": 4.760000000000002,
+            "end": 5.02
+          },
+          {
+            "text": "cho",
+            "start": 5.02,
+            "end": 5.120000000000001
+          },
+          {
+            "text": "chúng",
+            "start": 5.120000000000001,
+            "end": 5.379999999999999
+          },
+          {
+            "text": "ta",
+            "start": 5.379999999999999,
+            "end": 5.760000000000002
+          },
+          {
+            "text": "cũng",
+            "start": 5.760000000000002,
+            "end": 5.98
+          }
+        ],
+        "frame_path": "frames/f0129d390879b00903164502.npz",
+        "frames_sha256": "098600fb5d17243dab07fb9c5c87f8ffa3a8a103da389e63584ec6e715f817b7",
+        "video_sha256": "7bd345a9b747306c12effc85dc4e968c12890b31df105fecb3860d40dcf169b9",
+        "frames": 155,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ],
+        "window_eligible": true,
+        "eval_start": 50,
+        "window_reference": "bức ảnh đầu tiên cô tin chắc chắn",
+        "timing_valid": true,
+        "window_reference_original": "Bức ảnh đầu tiên cô tin chắc chắn",
+        "core_frames": 50,
+        "zero_duration_words": 0,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "2a627d2c4e4d6c7402525b36cd01db6be51478e40432b97b774d3bc55197e88e",
+        "full_eligible": true
+      },
+      "pixels_sha256": "2a627d2c4e4d6c7402525b36cd01db6be51478e40432b97b774d3bc55197e88e",
+      "file": "pixels/4.npz",
+      "file_sha256": "0fd030673e41ad33484ba4f7baf92939d405853b6349e00072f4e813f5f42976"
+    },
+    {
+      "sample": 5,
+      "row": {
+        "clip_id": "part5/HAVEA12/CAMXU223/CAMXU223_154",
+        "source_id": "HAVEA12/CAMXU223",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part5/HAVEA12/CAMXU223/CAMXU223_154.mp4",
+        "text": "chị có một cái mật mạng chị còn đăng lên báo chị sẵn sàng mời đi ăn kem chị có",
+        "expected_video_blake2b_128": "f2175cd0deacc82209d23c7200418c65",
+        "words": [
+          {
+            "text": "chị",
+            "start": 0.0,
+            "end": 0.2599999999999909
+          },
+          {
+            "text": "có",
+            "start": 0.2599999999999909,
+            "end": 0.44000000000005457
+          },
+          {
+            "text": "một",
+            "start": 0.44000000000005457,
+            "end": 0.6200000000000045
+          },
+          {
+            "text": "cái",
+            "start": 0.6200000000000045,
+            "end": 0.6599999999999682
+          },
+          {
+            "text": "mật",
+            "start": 0.6599999999999682,
+            "end": 0.8400000000000318
+          },
+          {
+            "text": "mạng",
+            "start": 0.8400000000000318,
+            "end": 1.1599999999999682
+          },
+          {
+            "text": "Chị",
+            "start": 1.1599999999999682,
+            "end": 1.3799999999999955
+          },
+          {
+            "text": "còn",
+            "start": 1.3799999999999955,
+            "end": 2.1200000000000045
+          },
+          {
+            "text": "đăng",
+            "start": 2.1200000000000045,
+            "end": 2.259999999999991
+          },
+          {
+            "text": "lên",
+            "start": 2.259999999999991,
+            "end": 2.4400000000000546
+          },
+          {
+            "text": "báo",
+            "start": 2.4400000000000546,
+            "end": 2.6200000000000045
+          },
+          {
+            "text": "Chị",
+            "start": 3.1400000000001,
+            "end": 3.580000000000041
+          },
+          {
+            "text": "sẵn",
+            "start": 3.580000000000041,
+            "end": 3.840000000000032
+          },
+          {
+            "text": "sàng",
+            "start": 3.840000000000032,
+            "end": 4.0
+          },
+          {
+            "text": "mời",
+            "start": 4.0,
+            "end": 4.220000000000027
+          },
+          {
+            "text": "đi",
+            "start": 4.220000000000027,
+            "end": 4.3799999999999955
+          },
+          {
+            "text": "ăn",
+            "start": 4.3799999999999955,
+            "end": 4.539999999999964
+          },
+          {
+            "text": "kem",
+            "start": 4.539999999999964,
+            "end": 4.860000000000014
+          },
+          {
+            "text": "Chị",
+            "start": 4.860000000000014,
+            "end": 5.159999999999968
+          },
+          {
+            "text": "có",
+            "start": 5.159999999999968,
+            "end": 5.340000000000032
+          }
+        ],
+        "frame_path": "frames/d4c13abf2b5c05d117d113b0.npz",
+        "frames_sha256": "ad65c6956050bba3116db266cb7d7ff82ad5c39ce4e530ef963a21485a5b3cfc",
+        "video_sha256": "1c1fbd64829cfc9cb92ae5f96b421a716e103ac010586918a607f6c8da33ac6e",
+        "frames": 134,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68
+        ],
+        "window_eligible": true,
+        "eval_start": 52,
+        "window_reference": "còn đăng lên báo chị sẵn sàng mời",
+        "timing_valid": true,
+        "window_reference_original": "còn đăng lên báo Chị sẵn sàng mời",
+        "core_frames": 50,
+        "zero_duration_words": 0,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "a82a404220220a0ffc45cefc30e7d88734e131588616f87ef1cd0004e2cc7cf7",
+        "full_eligible": true
+      },
+      "pixels_sha256": "a82a404220220a0ffc45cefc30e7d88734e131588616f87ef1cd0004e2cc7cf7",
+      "file": "pixels/5.npz",
+      "file_sha256": "90add04ac7c0027ad871b5555f5d48ef1fde5b4c1424cd2906ccbd509cd83219"
+    },
+    {
+      "sample": 6,
+      "row": {
+        "clip_id": "part2/BOKYN8/CACHT234/CACHT234_31",
+        "source_id": "BOKYN8/CACHT234",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part2/BOKYN8/CACHT234/CACHT234_31.mp4",
+        "text": "như vậy rồi còn những cái gì khác nữa không comment xuống phía dưới xem để mọi người nhìn rõ",
+        "expected_video_blake2b_128": "e780ca8e6c3f08cc484ad32ba2db2b5b",
+        "words": [
+          {
+            "text": "như",
+            "start": 0.0,
+            "end": 0.21999999999999886
+          },
+          {
+            "text": "vậy",
+            "start": 0.21999999999999886,
+            "end": 0.3400000000000034
+          },
+          {
+            "text": "rồi",
+            "start": 0.3400000000000034,
+            "end": 0.5200000000000102
+          },
+          {
+            "text": "Còn",
+            "start": 0.5200000000000102,
+            "end": 0.8400000000000034
+          },
+          {
+            "text": "những",
+            "start": 0.8400000000000034,
+            "end": 1.2600000000000193
+          },
+          {
+            "text": "cái",
+            "start": 1.2600000000000193,
+            "end": 1.2800000000000011
+          },
+          {
+            "text": "gì",
+            "start": 1.2800000000000011,
+            "end": 1.3400000000000034
+          },
+          {
+            "text": "khác",
+            "start": 1.3400000000000034,
+            "end": 1.5400000000000205
+          },
+          {
+            "text": "nữa",
+            "start": 1.5400000000000205,
+            "end": 1.660000000000025
+          },
+          {
+            "text": "không",
+            "start": 1.660000000000025,
+            "end": 1.8600000000000136
+          },
+          {
+            "text": "comment",
+            "start": 1.8600000000000136,
+            "end": 2.280000000000001
+          },
+          {
+            "text": "xuống",
+            "start": 2.280000000000001,
+            "end": 2.5
+          },
+          {
+            "text": "phía",
+            "start": 2.5,
+            "end": 2.5800000000000125
+          },
+          {
+            "text": "dưới",
+            "start": 2.5800000000000125,
+            "end": 2.780000000000001
+          },
+          {
+            "text": "xem",
+            "start": 2.780000000000001,
+            "end": 3.180000000000007
+          },
+          {
+            "text": "để",
+            "start": 3.180000000000007,
+            "end": 3.4399999999999977
+          },
+          {
+            "text": "mọi",
+            "start": 3.4399999999999977,
+            "end": 3.5800000000000125
+          },
+          {
+            "text": "người",
+            "start": 3.5800000000000125,
+            "end": 3.740000000000009
+          },
+          {
+            "text": "nhìn",
+            "start": 3.740000000000009,
+            "end": 4.02000000000001
+          },
+          {
+            "text": "rõ",
+            "start": 4.02000000000001,
+            "end": 4.380000000000024
+          }
+        ],
+        "frame_path": "frames/d0bd15300f528d5c36a420c5.npz",
+        "frames_sha256": "cafc0aa229b8981462bfa988f57e16b1ce5cc481415b20d5b3a6b7b836c9a731",
+        "video_sha256": "6cb4a378533a8cddd28d8e7dfb0b7427e58b83d275a72a29b8be843808950bd7",
+        "frames": 111,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45
+        ],
+        "window_eligible": true,
+        "eval_start": 16,
+        "window_reference": "còn những cái gì khác nữa không comment xuống phía dưới",
+        "timing_valid": true,
+        "window_reference_original": "Còn những cái gì khác nữa không comment xuống phía dưới",
+        "core_frames": 50,
+        "zero_duration_words": 0,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "f7a77736322e92898f87ad2d42856922d73d28ef8ab78c0752ee7eb1c66786ad",
+        "full_eligible": true
+      },
+      "pixels_sha256": "f7a77736322e92898f87ad2d42856922d73d28ef8ab78c0752ee7eb1c66786ad",
+      "file": "pixels/6.npz",
+      "file_sha256": "cb77a7934da3963b51d8eeb487c034881c8ea54ba689b7f11482c602ff4c776e"
+    },
+    {
+      "sample": 7,
+      "row": {
+        "clip_id": "part1/BAIGI3/LANG-72/LANG-72_311",
+        "source_id": "BAIGI3/LANG-72",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part1/BAIGI3/LANG-72/LANG-72_311.mp4",
+        "text": "sao lại nảy ra cái tin như vậy được mà thành tránh bẹo thì đích là người làm không sai",
+        "expected_video_blake2b_128": "63ad3b7344a453eba64c7705830ce4d4",
+        "words": [
+          {
+            "text": "sao",
+            "start": 0.0,
+            "end": 0.44000000000005457
+          },
+          {
+            "text": "lại",
+            "start": 0.44000000000005457,
+            "end": 0.8399999999999181
+          },
+          {
+            "text": "nảy",
+            "start": 0.8399999999999181,
+            "end": 1.0599999999999454
+          },
+          {
+            "text": "ra",
+            "start": 1.0599999999999454,
+            "end": 1.240000000000009
+          },
+          {
+            "text": "cái",
+            "start": 1.240000000000009,
+            "end": 1.4800000000000182
+          },
+          {
+            "text": "tin",
+            "start": 1.4800000000000182,
+            "end": 1.5799999999999272
+          },
+          {
+            "text": "như",
+            "start": 1.5799999999999272,
+            "end": 1.8999999999998636
+          },
+          {
+            "text": "vậy",
+            "start": 1.8999999999998636,
+            "end": 2.0799999999999272
+          },
+          {
+            "text": "được?",
+            "start": 2.0799999999999272,
+            "end": 2.519999999999982
+          },
+          {
+            "text": "Mà",
+            "start": 2.7200000000000273,
+            "end": 2.7799999999999727
+          },
+          {
+            "text": "thành",
+            "start": 2.7799999999999727,
+            "end": 3.099999999999909
+          },
+          {
+            "text": "tránh",
+            "start": 3.099999999999909,
+            "end": 3.5799999999999272
+          },
+          {
+            "text": "bẹo",
+            "start": 3.5799999999999272,
+            "end": 3.8199999999999363
+          },
+          {
+            "text": "thì",
+            "start": 3.8199999999999363,
+            "end": 4.099999999999909
+          },
+          {
+            "text": "đích",
+            "start": 4.099999999999909,
+            "end": 4.399999999999864
+          },
+          {
+            "text": "là",
+            "start": 4.399999999999864,
+            "end": 4.599999999999909
+          },
+          {
+            "text": "người",
+            "start": 4.599999999999909,
+            "end": 4.899999999999864
+          },
+          {
+            "text": "làm",
+            "start": 4.899999999999864,
+            "end": 5.079999999999927
+          },
+          {
+            "text": "không",
+            "start": 5.079999999999927,
+            "end": 5.440000000000055
+          },
+          {
+            "text": "sai",
+            "start": 5.440000000000055,
+            "end": 5.679999999999836
+          }
+        ],
+        "frame_path": "frames/9ebd29fcb1b16d5aaa4ead20.npz",
+        "frames_sha256": "0ecb0f26ceea9421e186a447bf295494a480d9df11e8e5c0598b60e0edcd8ce5",
+        "video_sha256": "f4665531454a142c4b4e04b9cf2ee37d12f1bcb249144489ddab76d63b11dc01",
+        "frames": 147,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ],
+        "window_eligible": true,
+        "eval_start": 66,
+        "window_reference": "mà thành tránh bẹo thì đích là người",
+        "timing_valid": true,
+        "window_reference_original": "Mà thành tránh bẹo thì đích là người",
+        "core_frames": 50,
+        "zero_duration_words": 0,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "1d8d1c85c3f56e907ed01a104e7392a7cd3f4594b531a953188ef60273cdfaba",
+        "full_eligible": true
+      },
+      "pixels_sha256": "1d8d1c85c3f56e907ed01a104e7392a7cd3f4594b531a953188ef60273cdfaba",
+      "file": "pixels/7.npz",
+      "file_sha256": "aa9bb9bf6a7c83a17f1b044a6ab6b7f65b3899ad5e8fc0ec59aac5888b396c37"
+    },
+    {
+      "sample": 8,
+      "row": {
+        "clip_id": "part1/BAIGI3/XUNGH106/XUNGH106_74",
+        "source_id": "BAIGI3/XUNGH106",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part1/BAIGI3/XUNGH106/XUNGH106_74.mp4",
+        "text": "đã nói là gì đây à mền chạy chất chạc tuổi tôi có nghĩa là gì dế mền và dế",
+        "expected_video_blake2b_128": "10467d449c3936bd38e914159f237444",
+        "words": [
+          {
+            "text": "đã",
+            "start": 0.0,
+            "end": 0.18000000000000682
+          },
+          {
+            "text": "nói",
+            "start": 0.18000000000000682,
+            "end": 0.6399999999999864
+          },
+          {
+            "text": "là",
+            "start": 0.6399999999999864,
+            "end": 0.839999999999975
+          },
+          {
+            "text": "gì",
+            "start": 0.839999999999975,
+            "end": 0.9599999999999795
+          },
+          {
+            "text": "đây?",
+            "start": 0.9599999999999795,
+            "end": 1.3600000000000136
+          },
+          {
+            "text": "À,",
+            "start": 1.839999999999975,
+            "end": 1.839999999999975
+          },
+          {
+            "text": "mền",
+            "start": 2.0600000000000023,
+            "end": 2.5399999999999636
+          },
+          {
+            "text": "chạy",
+            "start": 2.5399999999999636,
+            "end": 2.8600000000000136
+          },
+          {
+            "text": "chất",
+            "start": 2.8600000000000136,
+            "end": 3.159999999999968
+          },
+          {
+            "text": "chạc",
+            "start": 3.159999999999968,
+            "end": 3.5399999999999636
+          },
+          {
+            "text": "tuổi",
+            "start": 3.5399999999999636,
+            "end": 3.7799999999999727
+          },
+          {
+            "text": "tôi",
+            "start": 3.7799999999999727,
+            "end": 4.259999999999991
+          },
+          {
+            "text": "Có",
+            "start": 4.259999999999991,
+            "end": 4.599999999999966
+          },
+          {
+            "text": "nghĩa",
+            "start": 4.599999999999966,
+            "end": 4.800000000000011
+          },
+          {
+            "text": "là",
+            "start": 4.800000000000011,
+            "end": 4.939999999999998
+          },
+          {
+            "text": "gì?",
+            "start": 4.939999999999998,
+            "end": 5.319999999999993
+          },
+          {
+            "text": "Dế",
+            "start": 5.339999999999975,
+            "end": 5.519999999999982
+          },
+          {
+            "text": "mền",
+            "start": 5.519999999999982,
+            "end": 5.8799999999999955
+          },
+          {
+            "text": "và",
+            "start": 5.8799999999999955,
+            "end": 6.060000000000002
+          },
+          {
+            "text": "dế",
+            "start": 6.060000000000002,
+            "end": 6.199999999999989
+          }
+        ],
+        "frame_path": "frames/fca3f3e32f2c470d69cdcb4b.npz",
+        "frames_sha256": "42b77dfdf8bcf15c0c727dd5fb214295c7941f214a918c746fe57a538c4f8950",
+        "video_sha256": "5e336d9125e67d59c56ab6f2ec4ab17c90c3cce9cdd4b3c678590f9f9a1db8a8",
+        "frames": 160,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94
+        ],
+        "window_eligible": true,
+        "eval_start": 77,
+        "window_reference": "chất chạc tuổi tôi có nghĩa là gì",
+        "timing_valid": true,
+        "window_reference_original": "chất chạc tuổi tôi Có nghĩa là gì?",
+        "core_frames": 50,
+        "zero_duration_words": 1,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "4c42ea23296de77fedc9ccd216b0156adf6b1f1669b3b3275097dc9a47e1884b",
+        "full_eligible": true
+      },
+      "pixels_sha256": "4c42ea23296de77fedc9ccd216b0156adf6b1f1669b3b3275097dc9a47e1884b",
+      "file": "pixels/8.npz",
+      "file_sha256": "f49d1e81f28049e28f75585f7d3016be0ec348a92e3b433b04d399a806760f92"
+    },
+    {
+      "sample": 9,
+      "row": {
+        "clip_id": "part5/HAVEA12/LAMVI247/LAMVI247_102",
+        "source_id": "HAVEA12/LAMVI247",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part5/HAVEA12/LAMVI247/LAMVI247_102.mp4",
+        "text": "đấy nó hơi xa hoa chắc là mình cũng là một trong những người rất là may mắn trong thế",
+        "expected_video_blake2b_128": "61f7dc69e5a269620b05fe7843af5626",
+        "words": [
+          {
+            "text": "đấy",
+            "start": 0.0,
+            "end": 0.13999999999998636
+          },
+          {
+            "text": "nó",
+            "start": 0.13999999999998636,
+            "end": 0.3199999999999932
+          },
+          {
+            "text": "hơi",
+            "start": 0.3199999999999932,
+            "end": 0.45999999999997954
+          },
+          {
+            "text": "xa",
+            "start": 0.45999999999997954,
+            "end": 0.7999999999999545
+          },
+          {
+            "text": "hoa.",
+            "start": 0.7999999999999545,
+            "end": 1.1399999999999864
+          },
+          {
+            "text": "Chắc",
+            "start": 2.3600000000000136,
+            "end": 2.7200000000000273
+          },
+          {
+            "text": "là",
+            "start": 2.7200000000000273,
+            "end": 2.8199999999999363
+          },
+          {
+            "text": "mình",
+            "start": 2.8199999999999363,
+            "end": 3.0
+          },
+          {
+            "text": "cũng",
+            "start": 3.0,
+            "end": 3.1200000000000045
+          },
+          {
+            "text": "là",
+            "start": 3.1200000000000045,
+            "end": 3.259999999999991
+          },
+          {
+            "text": "một",
+            "start": 3.259999999999991,
+            "end": 3.419999999999959
+          },
+          {
+            "text": "trong",
+            "start": 3.419999999999959,
+            "end": 3.480000000000018
+          },
+          {
+            "text": "những",
+            "start": 3.480000000000018,
+            "end": 3.6000000000000227
+          },
+          {
+            "text": "người",
+            "start": 3.6000000000000227,
+            "end": 3.7799999999999727
+          },
+          {
+            "text": "rất",
+            "start": 3.7799999999999727,
+            "end": 3.9600000000000364
+          },
+          {
+            "text": "là",
+            "start": 3.9600000000000364,
+            "end": 4.019999999999982
+          },
+          {
+            "text": "may",
+            "start": 4.019999999999982,
+            "end": 4.199999999999932
+          },
+          {
+            "text": "mắn",
+            "start": 4.199999999999932,
+            "end": 4.480000000000018
+          },
+          {
+            "text": "trong",
+            "start": 4.480000000000018,
+            "end": 4.659999999999968
+          },
+          {
+            "text": "thế",
+            "start": 4.659999999999968,
+            "end": 4.860000000000014
+          }
+        ],
+        "frame_path": "frames/7723dbb1b491cbd17d07c7da.npz",
+        "frames_sha256": "6d52e80226090fa44b05380702c99b5684160e19794039547406cde3a0051352",
+        "video_sha256": "124088c61439ec2f2e2a8521d6da0a3eb6e4223da11f64001d921eea910fc549",
+        "frames": 122,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "window_eligible": true,
+        "eval_start": 46,
+        "window_reference": "chắc là mình cũng là một trong những người rất",
+        "timing_valid": true,
+        "window_reference_original": "Chắc là mình cũng là một trong những người rất",
+        "core_frames": 50,
+        "zero_duration_words": 0,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "f03c63e41d4a4c21f8b231abf1295bc0266832830f8d46df2480a1ce98f626bf",
+        "full_eligible": true
+      },
+      "pixels_sha256": "f03c63e41d4a4c21f8b231abf1295bc0266832830f8d46df2480a1ce98f626bf",
+      "file": "pixels/9.npz",
+      "file_sha256": "0146915cdb6d829d4a5aa62fdb0e0b9c7baf720ba88a3e97ec79cba7e921d064"
+    },
+    {
+      "sample": 10,
+      "row": {
+        "clip_id": "part5/HAVEA12/CHONU212/CHONU212_625",
+        "source_id": "HAVEA12/CHONU212",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part5/HAVEA12/CHONU212/CHONU212_625.mp4",
+        "text": "vì là thực ra thời em làm báo sau anh rất là nhiều nhưng em cũng rất hâm hở những",
+        "expected_video_blake2b_128": "51b8d09831461766b4ab9fb0c01f3488",
+        "words": [
+          {
+            "text": "vì",
+            "start": 0.0,
+            "end": 0.599999999999909
+          },
+          {
+            "text": "là",
+            "start": 0.599999999999909,
+            "end": 0.7600000000002183
+          },
+          {
+            "text": "Thực",
+            "start": 0.7600000000002183,
+            "end": 0.8400000000001455
+          },
+          {
+            "text": "ra",
+            "start": 0.8400000000001455,
+            "end": 0.9800000000000182
+          },
+          {
+            "text": "thời",
+            "start": 0.9800000000000182,
+            "end": 1.400000000000091
+          },
+          {
+            "text": "em",
+            "start": 1.400000000000091,
+            "end": 1.6399999999998727
+          },
+          {
+            "text": "làm",
+            "start": 1.6399999999998727,
+            "end": 1.7800000000002
+          },
+          {
+            "text": "báo",
+            "start": 1.7800000000002,
+            "end": 2.099999999999909
+          },
+          {
+            "text": "sau",
+            "start": 2.099999999999909,
+            "end": 2.2800000000002
+          },
+          {
+            "text": "anh",
+            "start": 2.2800000000002,
+            "end": 2.4200000000000728
+          },
+          {
+            "text": "rất",
+            "start": 2.4200000000000728,
+            "end": 2.6399999999998727
+          },
+          {
+            "text": "là",
+            "start": 2.6399999999998727,
+            "end": 2.7800000000002
+          },
+          {
+            "text": "nhiều",
+            "start": 2.7800000000002,
+            "end": 3.3600000000001273
+          },
+          {
+            "text": "Nhưng",
+            "start": 3.3600000000001273,
+            "end": 3.9400000000000546
+          },
+          {
+            "text": "em",
+            "start": 3.9400000000000546,
+            "end": 4.179999999999836
+          },
+          {
+            "text": "cũng",
+            "start": 4.179999999999836,
+            "end": 4.320000000000164
+          },
+          {
+            "text": "rất",
+            "start": 4.320000000000164,
+            "end": 4.519999999999982
+          },
+          {
+            "text": "hâm",
+            "start": 4.519999999999982,
+            "end": 4.7199999999998
+          },
+          {
+            "text": "hở",
+            "start": 4.7199999999998,
+            "end": 4.880000000000109
+          },
+          {
+            "text": "những",
+            "start": 4.880000000000109,
+            "end": 5.019999999999982
+          }
+        ],
+        "frame_path": "frames/12f2b7cf0c2018712bcdedd2.npz",
+        "frames_sha256": "89b5aa7fc7e1ec51685ccd1382a3fc5b5e3d93732f9e9f4566435305fc9f8179",
+        "video_sha256": "c1bf08a5f9bdca3494d0cb2c014ab585ffdcc1b853233287cd252721e2215057",
+        "frames": 126,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "window_eligible": true,
+        "eval_start": 49,
+        "window_reference": "báo sau anh rất là nhiều nhưng em",
+        "timing_valid": true,
+        "window_reference_original": "báo sau anh rất là nhiều Nhưng em",
+        "core_frames": 50,
+        "zero_duration_words": 0,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "ef51413de01d2b0b387fd22e0bc8ba663686ee5f1fb4671efd1f36910e87d1a3",
+        "full_eligible": true
+      },
+      "pixels_sha256": "ef51413de01d2b0b387fd22e0bc8ba663686ee5f1fb4671efd1f36910e87d1a3",
+      "file": "pixels/10.npz",
+      "file_sha256": "4e616594cb430b9bd20fbafe5bab12ca4a5db51bbc9ac8ba1f476af7c5b3bda1"
+    },
+    {
+      "sample": 11,
+      "row": {
+        "clip_id": "part4/HAVEA12/NHUNG261/NHUNG261_892",
+        "source_id": "HAVEA12/NHUNG261",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part4/HAVEA12/NHUNG261/NHUNG261_892.mp4",
+        "text": "thì cuối cùng là chúng ta có được cái như thế này nó còn phải sử dụng một số những",
+        "expected_video_blake2b_128": "5e6040275a748a2a0cc652cee70be2a6",
+        "words": [
+          {
+            "text": "thì",
+            "start": 0.0,
+            "end": 0.3000000000001819
+          },
+          {
+            "text": "cuối",
+            "start": 0.3000000000001819,
+            "end": 0.48000000000047294
+          },
+          {
+            "text": "cùng",
+            "start": 0.48000000000047294,
+            "end": 0.8400000000001455
+          },
+          {
+            "text": "là",
+            "start": 0.8400000000001455,
+            "end": 1.5600000000004002
+          },
+          {
+            "text": "chúng",
+            "start": 1.5600000000004002,
+            "end": 1.7000000000007276
+          },
+          {
+            "text": "ta",
+            "start": 1.7000000000007276,
+            "end": 1.800000000000182
+          },
+          {
+            "text": "có",
+            "start": 1.800000000000182,
+            "end": 2.1400000000003274
+          },
+          {
+            "text": "được",
+            "start": 2.1400000000003274,
+            "end": 2.7200000000002547
+          },
+          {
+            "text": "cái",
+            "start": 2.7200000000002547,
+            "end": 3.2000000000007276
+          },
+          {
+            "text": "như",
+            "start": 3.2000000000007276,
+            "end": 3.380000000000109
+          },
+          {
+            "text": "thế",
+            "start": 3.380000000000109,
+            "end": 3.5399999999999636
+          },
+          {
+            "text": "này",
+            "start": 3.5399999999999636,
+            "end": 4.0
+          },
+          {
+            "text": "nó",
+            "start": 4.440000000000509,
+            "end": 4.8400000000001455
+          },
+          {
+            "text": "còn",
+            "start": 4.8400000000001455,
+            "end": 4.960000000000036
+          },
+          {
+            "text": "phải",
+            "start": 4.960000000000036,
+            "end": 5.079999999999927
+          },
+          {
+            "text": "sử",
+            "start": 5.079999999999927,
+            "end": 5.280000000000655
+          },
+          {
+            "text": "dụng",
+            "start": 5.280000000000655,
+            "end": 5.400000000000546
+          },
+          {
+            "text": "một",
+            "start": 5.400000000000546,
+            "end": 5.600000000000364
+          },
+          {
+            "text": "số",
+            "start": 5.600000000000364,
+            "end": 5.700000000000728
+          },
+          {
+            "text": "những",
+            "start": 5.700000000000728,
+            "end": 5.880000000000109
+          }
+        ],
+        "frame_path": "frames/d245c818ff0781766258392a.npz",
+        "frames_sha256": "35d9323741228b6553a5c39a142a3b20d39392ae9e01f82cd12261bde8cf7e6f",
+        "video_sha256": "0e5353d3d00ea5093aa3f273283b4578251f9a2d53d0e30c95d73b6f49faace3",
+        "frames": 148,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82
+        ],
+        "window_eligible": true,
+        "eval_start": 67,
+        "window_reference": "được cái như thế này nó",
+        "timing_valid": true,
+        "window_reference_original": "được cái như thế này nó",
+        "core_frames": 50,
+        "zero_duration_words": 0,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "805c78c031784e3f6ec6e616d49f27e772ecb1ac604f9df0d10f5b9244baca1c",
+        "full_eligible": true
+      },
+      "pixels_sha256": "805c78c031784e3f6ec6e616d49f27e772ecb1ac604f9df0d10f5b9244baca1c",
+      "file": "pixels/11.npz",
+      "file_sha256": "9c1e12b1d53827055f96d2e72d9a519addd1091a8b3847471241b78a999f63f2"
+    },
+    {
+      "sample": 12,
+      "row": {
+        "clip_id": "part1/BAIGI3/MUAXU77/MUAXU77_214",
+        "source_id": "BAIGI3/MUAXU77",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part1/BAIGI3/MUAXU77/MUAXU77_214.mp4",
+        "text": "giả đã đưa ra cho chúng ta cái hình ảnh đó là gì khi mà công hiến thì sẽ không",
+        "expected_video_blake2b_128": "1bd667cd715b567d8b528986d9f9b5e4",
+        "words": [
+          {
+            "text": "giả",
+            "start": 0.0,
+            "end": 0.14000000000010004
+          },
+          {
+            "text": "đã",
+            "start": 0.14000000000010004,
+            "end": 0.3400000000001455
+          },
+          {
+            "text": "đưa",
+            "start": 0.3400000000001455,
+            "end": 0.5800000000001546
+          },
+          {
+            "text": "ra",
+            "start": 0.5800000000001546,
+            "end": 0.8400000000001455
+          },
+          {
+            "text": "cho",
+            "start": 0.8400000000001455,
+            "end": 0.8800000000001091
+          },
+          {
+            "text": "chúng",
+            "start": 0.8800000000001091,
+            "end": 1.1600000000000819
+          },
+          {
+            "text": "ta",
+            "start": 1.1600000000000819,
+            "end": 1.3200000000001637
+          },
+          {
+            "text": "cái",
+            "start": 1.3200000000001637,
+            "end": 1.4600000000000364
+          },
+          {
+            "text": "hình",
+            "start": 1.4600000000000364,
+            "end": 1.6200000000001182
+          },
+          {
+            "text": "ảnh",
+            "start": 1.6200000000001182,
+            "end": 1.9600000000000364
+          },
+          {
+            "text": "đó",
+            "start": 1.9600000000000364,
+            "end": 2.160000000000082
+          },
+          {
+            "text": "là",
+            "start": 2.160000000000082,
+            "end": 2.2799999999999727
+          },
+          {
+            "text": "gì",
+            "start": 2.2799999999999727,
+            "end": 2.8200000000001637
+          },
+          {
+            "text": "Khi",
+            "start": 2.8200000000001637,
+            "end": 3.1000000000001364
+          },
+          {
+            "text": "mà",
+            "start": 3.1000000000001364,
+            "end": 3.5399999999999636
+          },
+          {
+            "text": "công",
+            "start": 3.5399999999999636,
+            "end": 3.8200000000001637
+          },
+          {
+            "text": "hiến",
+            "start": 3.8200000000001637,
+            "end": 4.120000000000118
+          },
+          {
+            "text": "thì",
+            "start": 4.120000000000118,
+            "end": 4.360000000000127
+          },
+          {
+            "text": "sẽ",
+            "start": 4.360000000000127,
+            "end": 4.519999999999982
+          },
+          {
+            "text": "không",
+            "start": 4.519999999999982,
+            "end": 4.740000000000009
+          }
+        ],
+        "frame_path": "frames/589ffa09c2474e3e734a3c03.npz",
+        "frames_sha256": "dc3bbfa2e18954fd56044dc5679575f2d01e03b27924d60fa804fb4d500453d9",
+        "video_sha256": "e811fe211d9299a793426594245189a0a9527fd2efe9b9049504390e7236621c",
+        "frames": 123,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57
+        ],
+        "window_eligible": true,
+        "eval_start": 36,
+        "window_reference": "cái hình ảnh đó là gì khi mà",
+        "timing_valid": true,
+        "window_reference_original": "cái hình ảnh đó là gì Khi mà",
+        "core_frames": 50,
+        "zero_duration_words": 0,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "3beee93d5b3f8487cac5d3d252e0df3b3498569f62aa7124e098d21628448929",
+        "full_eligible": true
+      },
+      "pixels_sha256": "3beee93d5b3f8487cac5d3d252e0df3b3498569f62aa7124e098d21628448929",
+      "file": "pixels/12.npz",
+      "file_sha256": "b163c48fd7f08d529d8e6975b0c02f41c97e3431ffe2b1017b23e560630d9782"
+    },
+    {
+      "sample": 13,
+      "row": {
+        "clip_id": "part4/HAVEA12/NHUNG261/NHUNG261_538",
+        "source_id": "HAVEA12/NHUNG261",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part4/HAVEA12/NHUNG261/NHUNG261_538.mp4",
+        "text": "nối chẳng hạn thì bây giờ mình không còn nói cái tức là mình không còn sử dụng cái chữ",
+        "expected_video_blake2b_128": "2586665282fd71659aacb3e0e379aa84",
+        "words": [
+          {
+            "text": "nối",
+            "start": 0.0,
+            "end": 0.13999999999987267
+          },
+          {
+            "text": "chẳng",
+            "start": 0.13999999999987267,
+            "end": 0.3599999999996726
+          },
+          {
+            "text": "hạn",
+            "start": 0.3599999999996726,
+            "end": 0.6399999999998727
+          },
+          {
+            "text": "Thì",
+            "start": 0.6399999999998727,
+            "end": 0.919999999999618
+          },
+          {
+            "text": "bây",
+            "start": 0.919999999999618,
+            "end": 1.0799999999999272
+          },
+          {
+            "text": "giờ",
+            "start": 1.0799999999999272,
+            "end": 1.0799999999999272
+          },
+          {
+            "text": "mình",
+            "start": 1.0799999999999272,
+            "end": 1.2999999999997272
+          },
+          {
+            "text": "không",
+            "start": 1.2999999999997272,
+            "end": 1.8399999999996908
+          },
+          {
+            "text": "còn",
+            "start": 1.8399999999996908,
+            "end": 2.0799999999999272
+          },
+          {
+            "text": "nói",
+            "start": 2.0799999999999272,
+            "end": 2.4400000000000546
+          },
+          {
+            "text": "cái",
+            "start": 2.4400000000000546,
+            "end": 3.299999999999727
+          },
+          {
+            "text": "Tức",
+            "start": 3.299999999999727,
+            "end": 3.399999999999636
+          },
+          {
+            "text": "là",
+            "start": 3.399999999999636,
+            "end": 3.5
+          },
+          {
+            "text": "mình",
+            "start": 3.5,
+            "end": 3.6799999999998363
+          },
+          {
+            "text": "không",
+            "start": 3.6799999999998363,
+            "end": 3.8399999999996908
+          },
+          {
+            "text": "còn",
+            "start": 3.8399999999996908,
+            "end": 3.9400000000000546
+          },
+          {
+            "text": "sử",
+            "start": 3.9400000000000546,
+            "end": 4.179999999999836
+          },
+          {
+            "text": "dụng",
+            "start": 4.179999999999836,
+            "end": 4.339999999999691
+          },
+          {
+            "text": "cái",
+            "start": 4.339999999999691,
+            "end": 4.899999999999636
+          },
+          {
+            "text": "chữ",
+            "start": 4.899999999999636,
+            "end": 4.940000000000055
+          }
+        ],
+        "frame_path": "frames/d25399e734b4a035ca10c220.npz",
+        "frames_sha256": "66ce65519b0fc4746cef14cce80b4eb1be18fbb9eea2e0de0d5bec43dda181f4",
+        "video_sha256": "5c51be075a4546b4956c2f4c780dcd780ce9ca8560bade4b0e758e3304fa39ec",
+        "frames": 124,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58
+        ],
+        "window_eligible": true,
+        "eval_start": 29,
+        "window_reference": "mình không còn nói cái",
+        "timing_valid": true,
+        "window_reference_original": "mình không còn nói cái",
+        "core_frames": 50,
+        "zero_duration_words": 1,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "0aa30e61a27a312f7e2c06243e65b89b1b7713a7c15208e12c2c8f621d3bce0a",
+        "full_eligible": true
+      },
+      "pixels_sha256": "0aa30e61a27a312f7e2c06243e65b89b1b7713a7c15208e12c2c8f621d3bce0a",
+      "file": "pixels/13.npz",
+      "file_sha256": "27c9ea35e896204c7546351340719f4c5f8f350bdb343128da3f181a4f2e009f"
+    },
+    {
+      "sample": 14,
+      "row": {
+        "clip_id": "part4/TEFUN10/6GIAI166/6GIAI166_97",
+        "source_id": "TEFUN10/6GIAI166",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part4/TEFUN10/6GIAI166/6GIAI166_97.mp4",
+        "text": "thiếu bản lĩnh và không nhất quán ok nhớ nha thứ ba là giai đoạn chìm đắm trong mật ngọt",
+        "expected_video_blake2b_128": "a6dc03d5645a7032c4b44c57dc98d9a8",
+        "words": [
+          {
+            "text": "thiếu",
+            "start": 0.0,
+            "end": 0.13999999999998636
+          },
+          {
+            "text": "bản",
+            "start": 0.13999999999998636,
+            "end": 0.36000000000001364
+          },
+          {
+            "text": "lĩnh",
+            "start": 0.36000000000001364,
+            "end": 0.67999999999995
+          },
+          {
+            "text": "và",
+            "start": 0.67999999999995,
+            "end": 0.8799999999999955
+          },
+          {
+            "text": "không",
+            "start": 0.8799999999999955,
+            "end": 1.0599999999999454
+          },
+          {
+            "text": "nhất",
+            "start": 1.0599999999999454,
+            "end": 1.2199999999999136
+          },
+          {
+            "text": "quán.",
+            "start": 1.2199999999999136,
+            "end": 1.5599999999999454
+          },
+          {
+            "text": "Ok,",
+            "start": 1.759999999999991,
+            "end": 2.0399999999999636
+          },
+          {
+            "text": "nhớ",
+            "start": 2.17999999999995,
+            "end": 2.2799999999999727
+          },
+          {
+            "text": "nha.",
+            "start": 2.2799999999999727,
+            "end": 2.8199999999999363
+          },
+          {
+            "text": "Thứ",
+            "start": 3.019999999999982,
+            "end": 3.1200000000000045
+          },
+          {
+            "text": "ba",
+            "start": 3.1200000000000045,
+            "end": 3.3999999999999773
+          },
+          {
+            "text": "là",
+            "start": 3.3999999999999773,
+            "end": 3.659999999999968
+          },
+          {
+            "text": "giai",
+            "start": 3.659999999999968,
+            "end": 3.8199999999999363
+          },
+          {
+            "text": "đoạn",
+            "start": 3.8199999999999363,
+            "end": 4.0
+          },
+          {
+            "text": "chìm",
+            "start": 4.0,
+            "end": 4.339999999999918
+          },
+          {
+            "text": "đắm",
+            "start": 4.339999999999918,
+            "end": 4.579999999999927
+          },
+          {
+            "text": "trong",
+            "start": 4.579999999999927,
+            "end": 4.779999999999973
+          },
+          {
+            "text": "mật",
+            "start": 4.779999999999973,
+            "end": 4.939999999999941
+          },
+          {
+            "text": "ngọt",
+            "start": 4.939999999999941,
+            "end": 5.159999999999968
+          }
+        ],
+        "frame_path": "frames/7da7347da57b1c014f907e3e.npz",
+        "frames_sha256": "cf51d1d973a1d20c92265a7479ddbd5eb7e75c521204aca98387fe60da6a8a7d",
+        "video_sha256": "21f32d800b4d84bde4e049d6288a42524cdf9d4e12567efc413f8c8292885c69",
+        "frames": 129,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ],
+        "window_eligible": true,
+        "eval_start": 56,
+        "window_reference": "nhớ nha thứ ba là giai đoạn chìm",
+        "timing_valid": true,
+        "window_reference_original": "nhớ nha. Thứ ba là giai đoạn chìm",
+        "core_frames": 50,
+        "zero_duration_words": 0,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "79a4c97185a8c598343b3d8e9ddda575fe5d72dba1a907faba53d235e93d3025",
+        "full_eligible": true
+      },
+      "pixels_sha256": "79a4c97185a8c598343b3d8e9ddda575fe5d72dba1a907faba53d235e93d3025",
+      "file": "pixels/14.npz",
+      "file_sha256": "1156453251f6bd13c4c4f0bd54919bc44b5c790da8990cd28e9253187537d0f4"
+    },
+    {
+      "sample": 15,
+      "row": {
+        "clip_id": "part4/HAVEA12/UNGEN316/UNGEN316_515",
+        "source_id": "HAVEA12/UNGEN316",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part4/HAVEA12/UNGEN316/UNGEN316_515.mp4",
+        "text": "chị em trong nhà động viên nên đi đi rồi đi xem như nào về có cái gì mà kể",
+        "expected_video_blake2b_128": "9db290016b2b585a1bbf2b121f536c3c",
+        "words": [
+          {
+            "text": "chị",
+            "start": 0.0,
+            "end": 0.15999999999985448
+          },
+          {
+            "text": "em",
+            "start": 0.15999999999985448,
+            "end": 0.5599999999999454
+          },
+          {
+            "text": "trong",
+            "start": 0.5599999999999454,
+            "end": 0.7999999999997272
+          },
+          {
+            "text": "nhà",
+            "start": 0.7999999999997272,
+            "end": 1.0599999999999454
+          },
+          {
+            "text": "động",
+            "start": 1.0599999999999454,
+            "end": 1.4200000000000728
+          },
+          {
+            "text": "viên.",
+            "start": 1.4200000000000728,
+            "end": 2.2599999999997635
+          },
+          {
+            "text": "Nên",
+            "start": 2.5399999999999636,
+            "end": 3.019999999999982
+          },
+          {
+            "text": "đi",
+            "start": 3.019999999999982,
+            "end": 3.319999999999709
+          },
+          {
+            "text": "đi,",
+            "start": 3.319999999999709,
+            "end": 3.5799999999999272
+          },
+          {
+            "text": "rồi",
+            "start": 3.6399999999998727,
+            "end": 3.7399999999997817
+          },
+          {
+            "text": "đi",
+            "start": 3.7399999999997817,
+            "end": 4.019999999999982
+          },
+          {
+            "text": "xem",
+            "start": 4.019999999999982,
+            "end": 4.359999999999673
+          },
+          {
+            "text": "như",
+            "start": 4.359999999999673,
+            "end": 4.579999999999927
+          },
+          {
+            "text": "nào",
+            "start": 4.579999999999927,
+            "end": 4.799999999999727
+          },
+          {
+            "text": "về",
+            "start": 4.799999999999727,
+            "end": 5.039999999999964
+          },
+          {
+            "text": "có",
+            "start": 5.039999999999964,
+            "end": 5.179999999999836
+          },
+          {
+            "text": "cái",
+            "start": 5.179999999999836,
+            "end": 5.359999999999673
+          },
+          {
+            "text": "gì",
+            "start": 5.359999999999673,
+            "end": 5.460000000000036
+          },
+          {
+            "text": "mà",
+            "start": 5.460000000000036,
+            "end": 5.599999999999909
+          },
+          {
+            "text": "kể.",
+            "start": 5.599999999999909,
+            "end": 6.319999999999709
+          }
+        ],
+        "frame_path": "frames/43b123eb998da17a921b7fad.npz",
+        "frames_sha256": "cffc166e5a1129ea80c0a8b080753bbad83e053e5a2a94c55e8a34ad066d1d46",
+        "video_sha256": "667b78eb0fb13f10adb581996e53b62fee69b87afbe0b1c842e2e0e7cdd5f395",
+        "frames": 158,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92
+        ],
+        "window_eligible": true,
+        "eval_start": 86,
+        "window_reference": "đi rồi đi xem như nào về có cái gì",
+        "timing_valid": true,
+        "window_reference_original": "đi, rồi đi xem như nào về có cái gì",
+        "core_frames": 50,
+        "zero_duration_words": 0,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "8b9c7962b081c0e63e713f1bd644eb89aa091eb60a4d8aae4ec8c29e815a3926",
+        "full_eligible": true
+      },
+      "pixels_sha256": "8b9c7962b081c0e63e713f1bd644eb89aa091eb60a4d8aae4ec8c29e815a3926",
+      "file": "pixels/15.npz",
+      "file_sha256": "a0372d13212900095b96993237171931f2e0dd1ceb0ba54feedb2e03d889ed3c"
+    },
+    {
+      "sample": 25,
+      "row": {
+        "clip_id": "part2/BOKYN8/4BUOC226/4BUOC226_48",
+        "source_id": "BOKYN8/4BUOC226",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part2/BOKYN8/4BUOC226/4BUOC226_48.mp4",
+        "text": "họ cũng thích mình thì khi đó các bạn sẽ có một mối hệ mới có người yêu có bồ",
+        "expected_video_blake2b_128": "95f54d2b5ed1817a2542e130db029226",
+        "words": [
+          {
+            "text": "họ",
+            "start": 0.0,
+            "end": 0.21999999999999886
+          },
+          {
+            "text": "cũng",
+            "start": 0.21999999999999886,
+            "end": 0.37999999999999545
+          },
+          {
+            "text": "thích",
+            "start": 0.37999999999999545,
+            "end": 0.539999999999992
+          },
+          {
+            "text": "mình",
+            "start": 0.539999999999992,
+            "end": 0.7800000000000011
+          },
+          {
+            "text": "Thì",
+            "start": 0.7800000000000011,
+            "end": 0.8400000000000034
+          },
+          {
+            "text": "khi",
+            "start": 0.8400000000000034,
+            "end": 1.0600000000000023
+          },
+          {
+            "text": "đó",
+            "start": 1.0600000000000023,
+            "end": 1.0999999999999943
+          },
+          {
+            "text": "các",
+            "start": 1.0999999999999943,
+            "end": 1.3000000000000114
+          },
+          {
+            "text": "bạn",
+            "start": 1.3000000000000114,
+            "end": 1.3000000000000114
+          },
+          {
+            "text": "sẽ",
+            "start": 1.3000000000000114,
+            "end": 1.460000000000008
+          },
+          {
+            "text": "có",
+            "start": 1.460000000000008,
+            "end": 1.5999999999999943
+          },
+          {
+            "text": "một",
+            "start": 1.5999999999999943,
+            "end": 1.8000000000000114
+          },
+          {
+            "text": "mối",
+            "start": 1.8000000000000114,
+            "end": 1.920000000000016
+          },
+          {
+            "text": "hệ",
+            "start": 1.920000000000016,
+            "end": 2.1200000000000045
+          },
+          {
+            "text": "mới",
+            "start": 2.1200000000000045,
+            "end": 2.3600000000000136
+          },
+          {
+            "text": "có",
+            "start": 2.3600000000000136,
+            "end": 2.4799999999999898
+          },
+          {
+            "text": "người",
+            "start": 2.4799999999999898,
+            "end": 2.680000000000007
+          },
+          {
+            "text": "yêu,",
+            "start": 2.680000000000007,
+            "end": 2.8400000000000034
+          },
+          {
+            "text": "có",
+            "start": 2.9799999999999898,
+            "end": 3.0600000000000023
+          },
+          {
+            "text": "bồ",
+            "start": 3.0600000000000023,
+            "end": 3.219999999999999
+          }
+        ],
+        "frame_path": "frames/6e782d7b14a6de4a025ec971.npz",
+        "frames_sha256": "49d72315ce909617b10fd6e6970d363c818b64e6095484a0f045b3895bce0d3d",
+        "video_sha256": "0d0f3e0a02175908f16ef95ab50169c3cc8952ae35f6274d4bc42720f8c4903e",
+        "frames": 84,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18
+        ],
+        "window_eligible": true,
+        "eval_start": 16,
+        "window_reference": "mình thì khi đó các bạn sẽ có một mối hệ mới có người",
+        "timing_valid": true,
+        "window_reference_original": "mình Thì khi đó các bạn sẽ có một mối hệ mới có người",
+        "core_frames": 50,
+        "zero_duration_words": 1,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "53779155e1e3985a034c737e4c19eabc83c4a58e41027732e9abc01cf3f5285a",
+        "full_eligible": true
+      },
+      "pixels_sha256": "53779155e1e3985a034c737e4c19eabc83c4a58e41027732e9abc01cf3f5285a",
+      "file": "pixels/25.npz",
+      "file_sha256": "c01f1910e940296cd3e1c1e561a679582eb847176db360b5b3df00a2b528b33a"
+    },
+    {
+      "sample": 1719,
+      "row": {
+        "clip_id": "part7/DAYHO3/BAI4066/BAI4066_184",
+        "source_id": "DAYHO3/BAI4066",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part7/DAYHO3/BAI4066/BAI4066_184.mp4",
+        "text": "tâm hồn trong sạch vì họ sẽ được nhìn thấy thiên chúa ba mối phút đầu nhé phúc thay ai",
+        "expected_video_blake2b_128": "7648cf184097b682212bcde3b94da092",
+        "words": [
+          {
+            "text": "tâm",
+            "start": 0.0,
+            "end": 0.2599999999999909
+          },
+          {
+            "text": "hồn",
+            "start": 0.2599999999999909,
+            "end": 0.5599999999999454
+          },
+          {
+            "text": "trong",
+            "start": 0.5599999999999454,
+            "end": 0.7000000000000455
+          },
+          {
+            "text": "sạch",
+            "start": 0.7000000000000455,
+            "end": 1.0199999999999818
+          },
+          {
+            "text": "vì",
+            "start": 1.0199999999999818,
+            "end": 1.1399999999998727
+          },
+          {
+            "text": "họ",
+            "start": 1.1399999999998727,
+            "end": 1.3199999999999363
+          },
+          {
+            "text": "sẽ",
+            "start": 1.3199999999999363,
+            "end": 1.5599999999999454
+          },
+          {
+            "text": "được",
+            "start": 1.5599999999999454,
+            "end": 2.019999999999982
+          },
+          {
+            "text": "nhìn",
+            "start": 2.019999999999982,
+            "end": 2.2799999999999727
+          },
+          {
+            "text": "thấy",
+            "start": 2.2799999999999727,
+            "end": 2.5
+          },
+          {
+            "text": "thiên",
+            "start": 2.5,
+            "end": 2.8599999999999
+          },
+          {
+            "text": "chúa.",
+            "start": 2.8599999999999,
+            "end": 3.240000000000009
+          },
+          {
+            "text": "Ba",
+            "start": 4.5,
+            "end": 5.220000000000027
+          },
+          {
+            "text": "mối",
+            "start": 5.220000000000027,
+            "end": 5.680000000000064
+          },
+          {
+            "text": "phút",
+            "start": 5.680000000000064,
+            "end": 6.099999999999909
+          },
+          {
+            "text": "đầu,",
+            "start": 6.099999999999909,
+            "end": 6.319999999999936
+          },
+          {
+            "text": "nhé.",
+            "start": 7.2999999999999545,
+            "end": 9.660000000000082
+          },
+          {
+            "text": "Phúc",
+            "start": 10.059999999999945,
+            "end": 10.539999999999964
+          },
+          {
+            "text": "thay",
+            "start": 10.539999999999964,
+            "end": 11.299999999999955
+          },
+          {
+            "text": "ai",
+            "start": 11.299999999999955,
+            "end": 12.0
+          }
+        ],
+        "frame_path": "frames/beefc23cb84aa95a7a8c979c.npz",
+        "frames_sha256": "6aace8ff0356c0ee03b5c28c2ee0df7bf0bd0fbe9449c21a3cd3b2d674f7c416",
+        "video_sha256": "b6e84976629fde40ff27074bedbdaf2426e287cf7028be1e80f2e3c01d258530",
+        "frames": 300,
+        "train_eligible": true,
+        "full_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234
+        ],
+        "window_eligible": true,
+        "eval_start": 220,
+        "window_reference": "nhé phúc thay",
+        "timing_valid": true,
+        "window_reference_original": "nhé. Phúc thay",
+        "core_frames": 50,
+        "frame_cache_format": "npz",
+        "zero_duration_words": 0
+      },
+      "pixels_sha256": "ebeb9a7ff9b712e6ca2abb1ba9323747aa49f5f127297b3c6fbcd7db9aeb1527",
+      "file": "pixels/1719.npz",
+      "file_sha256": "0a4a5e5f337882d8cd48397a583ff4a5e720a7b3ad9573198d9f443e423346b3"
+    },
+    {
+      "sample": 8809,
+      "row": {
+        "clip_id": "part3/DONGC2/TRUCT28/TRUCT28_44",
+        "source_id": "DONGC2/TRUCT28",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part3/DONGC2/TRUCT28/TRUCT28_44.mp4",
+        "text": "physical or mental but also spiritual the world health organization also recognizes that our spiritual and spiritual is directed to",
+        "expected_video_blake2b_128": "567b571ed54c9199e7bb12b0bfa051e8",
+        "words": [
+          {
+            "text": "physical",
+            "start": 0.0,
+            "end": 0.28000000000002956
+          },
+          {
+            "text": "or",
+            "start": 0.28000000000002956,
+            "end": 1.160000000000025
+          },
+          {
+            "text": "mental,",
+            "start": 1.160000000000025,
+            "end": 1.8999999999999773
+          },
+          {
+            "text": "but",
+            "start": 1.8999999999999773,
+            "end": 2.5
+          },
+          {
+            "text": "also",
+            "start": 2.5,
+            "end": 3.7200000000000273
+          },
+          {
+            "text": "spiritual.",
+            "start": 3.7200000000000273,
+            "end": 3.840000000000032
+          },
+          {
+            "text": "The",
+            "start": 5.019999999999982,
+            "end": 5.759999999999991
+          },
+          {
+            "text": "World",
+            "start": 5.759999999999991,
+            "end": 6.259999999999991
+          },
+          {
+            "text": "Health",
+            "start": 6.259999999999991,
+            "end": 6.980000000000018
+          },
+          {
+            "text": "Organization",
+            "start": 6.980000000000018,
+            "end": 7.139999999999986
+          },
+          {
+            "text": "also",
+            "start": 7.139999999999986,
+            "end": 7.5
+          },
+          {
+            "text": "recognizes",
+            "start": 7.5,
+            "end": 7.860000000000014
+          },
+          {
+            "text": "that",
+            "start": 7.860000000000014,
+            "end": 9.06000000000006
+          },
+          {
+            "text": "our",
+            "start": 9.06000000000006,
+            "end": 9.06000000000006
+          },
+          {
+            "text": "spiritual",
+            "start": 9.06000000000006,
+            "end": 9.06000000000006
+          },
+          {
+            "text": "and",
+            "start": 9.06000000000006,
+            "end": 9.139999999999986
+          },
+          {
+            "text": "spiritual",
+            "start": 9.139999999999986,
+            "end": 14.17999999999995
+          },
+          {
+            "text": "is",
+            "start": 14.17999999999995,
+            "end": 15.82000000000005
+          },
+          {
+            "text": "directed",
+            "start": 15.82000000000005,
+            "end": 15.82000000000005
+          },
+          {
+            "text": "to",
+            "start": 15.82000000000005,
+            "end": 16.0
+          }
+        ],
+        "frame_path": "frames/d701ef6540b7c88ac082e02f.npz",
+        "frames_sha256": "86ac2d88cd1643a85de0b22a8bae05bcadc94c29de57eca7ed3b9ca1a4d2a72b",
+        "video_sha256": "f05848617ad3af61a5f9f6b80003f24fff1944858a3104e68745987360cf528d",
+        "frames": 400,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334
+        ],
+        "window_eligible": true,
+        "eval_start": 317,
+        "window_reference": "spiritual is",
+        "timing_valid": true,
+        "window_reference_original": "spiritual is",
+        "core_frames": 50,
+        "zero_duration_words": 3,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "c144bd98caddb469f80868ca6c2c52030a740b77d635719bcf88e0610e4be73a",
+        "full_eligible": true
+      },
+      "pixels_sha256": "c144bd98caddb469f80868ca6c2c52030a740b77d635719bcf88e0610e4be73a",
+      "file": "pixels/8809.npz",
+      "file_sha256": "b28e5675db17462ad6986ce80f61a380fa11833c38f676ab024ef356788f2374"
+    },
+    {
+      "sample": 10045,
+      "row": {
+        "clip_id": "part3/DONGC2/VIYEU33/VIYEU33_2",
+        "source_id": "DONGC2/VIYEU33",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part3/DONGC2/VIYEU33/VIYEU33_2.mp4",
+        "text": "saigon s saigonese welcome to saigon s saigonese welcome to saigon s saigonese welcome to saigon s saigonese welcome to saigon s saigonese welcome to",
+        "expected_video_blake2b_128": "a2d70093b46617f1a0186cee904cb012",
+        "words": [
+          {
+            "text": "Saigon's",
+            "start": 0.0,
+            "end": 0.03999999999999915
+          },
+          {
+            "text": "Saigonese",
+            "start": 0.03999999999999915,
+            "end": 0.03999999999999915
+          },
+          {
+            "text": "Welcome",
+            "start": 0.03999999999999915,
+            "end": 0.03999999999999915
+          },
+          {
+            "text": "to",
+            "start": 0.03999999999999915,
+            "end": 0.03999999999999915
+          },
+          {
+            "text": "Saigon's",
+            "start": 0.03999999999999915,
+            "end": 0.10000000000000142
+          },
+          {
+            "text": "Saigonese",
+            "start": 0.10000000000000142,
+            "end": 0.10000000000000142
+          },
+          {
+            "text": "Welcome",
+            "start": 5.420000000000002,
+            "end": 6.780000000000001
+          },
+          {
+            "text": "to",
+            "start": 6.780000000000001,
+            "end": 6.780000000000001
+          },
+          {
+            "text": "Saigon's",
+            "start": 6.780000000000001,
+            "end": 6.780000000000001
+          },
+          {
+            "text": "Saigonese",
+            "start": 6.780000000000001,
+            "end": 6.780000000000001
+          },
+          {
+            "text": "Welcome",
+            "start": 6.780000000000001,
+            "end": 7.060000000000002
+          },
+          {
+            "text": "to",
+            "start": 7.060000000000002,
+            "end": 7.060000000000002
+          },
+          {
+            "text": "Saigon's",
+            "start": 7.060000000000002,
+            "end": 7.060000000000002
+          },
+          {
+            "text": "Saigonese",
+            "start": 7.060000000000002,
+            "end": 7.060000000000002
+          },
+          {
+            "text": "Welcome",
+            "start": 7.060000000000002,
+            "end": 7.460000000000001
+          },
+          {
+            "text": "to",
+            "start": 7.460000000000001,
+            "end": 7.460000000000001
+          },
+          {
+            "text": "Saigon's",
+            "start": 7.460000000000001,
+            "end": 7.619999999999997
+          },
+          {
+            "text": "Saigonese",
+            "start": 7.619999999999997,
+            "end": 7.619999999999997
+          },
+          {
+            "text": "Welcome",
+            "start": 7.619999999999997,
+            "end": 9.100000000000001
+          },
+          {
+            "text": "to",
+            "start": 9.100000000000001,
+            "end": 9.100000000000001
+          }
+        ],
+        "frame_path": "frames/51b4dec3593faae3dd2be3b4.npz",
+        "frames_sha256": "81c5645739f2906a4aae3698853e8b586fbf3a68d37aa91e49433e59ab711bf6",
+        "video_sha256": "6dd903bb61e48a493e87287d3494c2a3a22818fb2d019f24221395a2cbe80b56",
+        "frames": 228,
+        "train_eligible": true,
+        "train_starts": [
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140
+        ],
+        "window_eligible": false,
+        "eval_start": 17,
+        "window_reference": "",
+        "timing_valid": true,
+        "window_reference_original": "",
+        "core_frames": 50,
+        "zero_duration_words": 13,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "2821bceb5e2e3b10ecf7c5be22c2d0883a472a347d6a3e5bef79493a400843d5",
+        "full_eligible": true
+      },
+      "pixels_sha256": "2821bceb5e2e3b10ecf7c5be22c2d0883a472a347d6a3e5bef79493a400843d5",
+      "file": "pixels/10045.npz",
+      "file_sha256": "b4d0cf54c6778c1186d71bde5211d5d397cfc93f849483de6ce10e80499dbdd3"
+    },
+    {
+      "sample": 32873,
+      "row": {
+        "clip_id": "part3/DONGC2/TRUCT28/TRUCT28_83",
+        "source_id": "DONGC2/TRUCT28",
+        "split": "train",
+        "video": "/root/lip_phase05_20261014/data/vlr/cloud_dataset_signer_split/data/train/part3/DONGC2/TRUCT28/TRUCT28_83.mp4",
+        "text": "attitude which affects your spirit it makes you very uncomfortable and sometimes those uncomfortable feelings make you hurt and it s",
+        "expected_video_blake2b_128": "180ca865a6643f432de7a720c7a6a766",
+        "words": [
+          {
+            "text": "attitude,",
+            "start": 0.0,
+            "end": 0.0
+          },
+          {
+            "text": "which",
+            "start": 0.3000000000000682,
+            "end": 0.44000000000005457
+          },
+          {
+            "text": "affects",
+            "start": 0.44000000000005457,
+            "end": 0.9200000000000728
+          },
+          {
+            "text": "your",
+            "start": 0.9200000000000728,
+            "end": 2.1399999999999864
+          },
+          {
+            "text": "spirit,",
+            "start": 2.1399999999999864,
+            "end": 2.160000000000082
+          },
+          {
+            "text": "it",
+            "start": 2.160000000000082,
+            "end": 2.7000000000000455
+          },
+          {
+            "text": "makes",
+            "start": 2.7000000000000455,
+            "end": 3.060000000000059
+          },
+          {
+            "text": "you",
+            "start": 3.060000000000059,
+            "end": 4.060000000000059
+          },
+          {
+            "text": "very",
+            "start": 4.060000000000059,
+            "end": 4.3799999999999955
+          },
+          {
+            "text": "uncomfortable.",
+            "start": 4.3799999999999955,
+            "end": 4.860000000000014
+          },
+          {
+            "text": "And",
+            "start": 5.580000000000041,
+            "end": 5.580000000000041
+          },
+          {
+            "text": "sometimes,",
+            "start": 5.580000000000041,
+            "end": 6.3799999999999955
+          },
+          {
+            "text": "those",
+            "start": 7.240000000000009,
+            "end": 7.240000000000009
+          },
+          {
+            "text": "uncomfortable",
+            "start": 7.240000000000009,
+            "end": 7.639999999999986
+          },
+          {
+            "text": "feelings",
+            "start": 7.639999999999986,
+            "end": 8.040000000000077
+          },
+          {
+            "text": "make",
+            "start": 8.040000000000077,
+            "end": 8.5
+          },
+          {
+            "text": "you",
+            "start": 8.5,
+            "end": 9.960000000000036
+          },
+          {
+            "text": "hurt.",
+            "start": 9.960000000000036,
+            "end": 10.56000000000006
+          },
+          {
+            "text": "And",
+            "start": 11.680000000000064,
+            "end": 12.259999999999991
+          },
+          {
+            "text": "it's",
+            "start": 12.259999999999991,
+            "end": 12.5
+          }
+        ],
+        "frame_path": "frames/8b2e928cd0ccd9a19c20544a.npz",
+        "frames_sha256": "c726f6cbc73a8732394f16a86253fd729901af6da963f0fbea23e6bcf075b568",
+        "video_sha256": "da653985a074a1c2a667a579592eaa1991893a1b839410e218dd85fac312a28b",
+        "frames": 312,
+        "train_eligible": true,
+        "train_starts": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246
+        ],
+        "window_eligible": true,
+        "eval_start": 75,
+        "window_reference": "makes you very uncomfortable",
+        "timing_valid": true,
+        "window_reference_original": "makes you very uncomfortable.",
+        "core_frames": 50,
+        "zero_duration_words": 3,
+        "frame_cache_format": "npz",
+        "pixels_sha256": "b98b809e2697f35df9a8a0a7d535d1ec8d49a6498bbfbdfe9e396cbce8f00bf2",
+        "full_eligible": true
+      },
+      "pixels_sha256": "b98b809e2697f35df9a8a0a7d535d1ec8d49a6498bbfbdfe9e396cbce8f00bf2",
+      "file": "pixels/32873.npz",
+      "file_sha256": "cd6a731407b3f7d9ebca0b82383c075b4fc4b0ff38605957e78fa8faf9a1bc49"
+    }
+  ],
+  "seed": 17,
+  "arms": [
+    "full",
+    "fixed_time",
+    "whole_word"
+  ],
+  "updates_per_arm": 2,
+  "extreme_positions": {
+    "full_frames": 8809,
+    "full_tokens": 32873,
+    "fixed_time_frames": 8809,
+    "fixed_time_tokens": 10045,
+    "whole_word_frames": 8809,
+    "whole_word_tokens": 10045,
+    "whole_word_short_frames": 1719,
+    "first_shared_fallback": 25
+  },
+  "maximum_seconds": 1800,
+  "config": {
+    "dataset": "vlr",
+    "language": "vi",
+    "source": "vendor/auto_avsr",
+    "tokenizer": "assets/tokenizers/vi.model",
+    "units": "assets/tokenizers/vi_units.txt",
+    "checkpoint": "assets/checkpoints/vlr_offline.pt",
+    "checkpoint_sha256": "b38177ae98f1f3cbea1a4c183c2bca804cf0a576e99abd23aab85ae56f413280",
+    "state_field": "raw",
+    "data_root": "data/vlr/cloud_dataset_signer_split",
+    "prepared": "prepared/vlr",
+    "core_frames": 50,
+    "frame_cache_format": "npz",
+    "cache_full_training": false
+  },
+  "native_code_identity": "7e10ae375307c2e707c269d4c916c4940cedf87c1115ca553fb210a323d8240a",
+  "schedule_identity": {
+    "dataset": "vlr",
+    "arm": "whole_word",
+    "schedule_sha256": "ac96a53acaef5088569b025da61f3024cc04675d574a0399ba73a48cacdadad9",
+    "word_schedule_sha256": "b47092e2aafef41c712be8119ecb7cf696763d889a45e33de22c54e30b2f526e",
+    "adapter_sha256": "2d41f1627252a7bdac84679d217ee0d6208b6b374f3afeb669edea23cd54e3f6"
+  },
+  "source_train_manifest_sha256": "70ec83434982fd3e350ac43c51a20468f416d32b8bd48b254021d76b7f9e0dfb",
+  "optimizer": {
+    "lr": 2e-06,
+    "weight_decay": 0.01,
+    "accumulation": 8,
+    "fused": true
+  },
+  "precision": "bf16",
+  "assessment_read": false,
+  "training_admitted": false,
+  "prepare_code_sha256": "452af7f4dc2a5a57fd588eafb6644f97e9458ce6efc92bd00ac0ca8ed4f4f640",
+  "protocol_sha256": "c645740a6276f57ced945885ba1b2cfde82eea1464908483b71e3b2cab5476de"
+}

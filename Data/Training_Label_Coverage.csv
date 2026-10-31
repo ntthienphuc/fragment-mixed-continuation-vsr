@@ -1,0 +1,5 @@
+language,timing_tolerance,fragments,positive_duration_entries,crop_complete_entries_percent,context_complete_entries_percent,crop_partial_fragments_percent,context_partial_fragments_percent,context_recovered_entries,context_remaining_partial_entries
+VI,strict,24000,183088,76.48671677007778,99.01850476273704,99.03333333333333,7.1875,41253,1797
+VI,one_frame,24000,183088,79.99650441317836,99.17307524250633,94.325,6.054166666666666,35110,1514
+EN,strict,24000,163506,81.79027069343022,99.77493180678385,85.5375,1.525,29406,368
+EN,one_frame,24000,163506,85.48921752106956,99.85015840397294,74.2125,1.0166666666666666,23481,245

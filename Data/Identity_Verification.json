@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-29T07:48:29.688543+00:00",
+  "status": "passed_frozen_registry_bindings_and_result_aliases",
+  "model_rows": 15,
+  "completed_model_rows": 15,
+  "pending_model_rows": 0,
+  "result_rows_checked": 30,
+  "config_tokenizer_units_rehashed": true,
+  "checkpoint_bytes_rehashed_in_this_check": false,
+  "checkpoint_hash_source": "frozen experiment registries; no new weight loading",
+  "partial_scores_read": false,
+  "input_sha256": {
+    "Research_Transfer_Full_Benchmark_2026-10-27/Plan.json": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Decoder_Selection.json": "e829ff5a971edf4edeff36f44fdcaeb9e4f06dcda8c487214a939060b1439846",
+    "Research_Transfer_Full_Benchmark_2026-10-27/model_registry.json": "4f40619ed9faabd509b671c000e0f2395dbb786ff8863be1f80b391b5f40648a",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Native_Reference_Registry.json": "3d6671d96b9a2de36c32c9641340dd4563f7ac39f5c258a059f2b10250067ec4",
+    "Research_English_Transfer_Benchmark_2026-10-28/Plan.json": "3c604eecef2a00cc4e885a860fbd502a081474dc8f6de09c8a93e5849b5267a1",
+    "Research_English_Transfer_Benchmark_2026-10-28/Decoder_Selection.json": "8232dbea4dffad7b563656ad9ee4d5de428c5427389f0c6929dcad8c38c7ac9f",
+    "Research_English_Transfer_Benchmark_2026-10-28/model_registry.json": "817abdf9c3d1bea196f6f76ee32d54896afc0bdf5a059d27ccc81481d13820c6",
+    "Research_English_Full_Corpus_Control_2026-10-28/Plan.json": "17ff25a0e332aa961e46d0de132e01750d9053926254c8187ff4a07ba39d001d",
+    "Research_English_Full_Corpus_Control_2026-10-28/Decoder_Selection.json": "3c6bd0cd1dd6e2b318148f7bca751b91200a105c8b0230380befa5a9b948c3f4",
+    "Research_English_Full_Corpus_Control_2026-10-28/model_registry.json": "d8cf3157e985c63c9ec129db047299d0a61674b800e2376bc55beced4245adc6",
+    "Research_Transfer_Mechanism_Benchmark_2026-10-28/Plan.json": "8d3e81d8fed2ef8a6b795d7bae28cf89068c0c430ef38c8b1335c9732daceaf5",
+    "Research_Transfer_Mechanism_Benchmark_2026-10-28/Decoder_Selection.json": "da0539f186b39725ae6951e635e608106a120cc8fee4dfbb09864a590f1dfaf2",
+    "Research_Transfer_Mechanism_Benchmark_2026-10-28/model_registry.json": "969934b48477efdc46710cdbc41fc42f2ebd16d45e011744ad8a3dfb90610b24"
+  },
+  "output_sha256": "e3a933c4ff85006bc586e8787adbdabd1868942cca0f0a37bbe19b9eaa349708",
+  "script_sha256": "4f05215d67012f37fca60cd7fca2a00e161290260235533f0cf4436c3b7916c7"
+}

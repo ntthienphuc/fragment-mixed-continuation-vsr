@@ -1,0 +1,54 @@
+{
+  "utc": "2026-10-28T13:08:55.749770+00:00",
+  "status": "complete_training_schedule_verified",
+  "datasets": [
+    {
+      "dataset": "vlr",
+      "short_slots_checked": 24000,
+      "counts": {
+        "one_frame_word_spans": 2,
+        "word_spans_below_25_frames": 453,
+        "word_aligned": 23998,
+        "frames": 1175626,
+        "tokens": 186787,
+        "matched_T1_tokens": 218835,
+        "matched_T1_frames": 1200186,
+        "original_T1_tokens": 218791,
+        "exhaustive_checks": 191,
+        "shared_full_fallback": 2
+      },
+      "fallback_cases": [
+        {
+          "clip_id": "part4/HAVEA12/MOITH252/MOITH252_1000",
+          "sample": 40745
+        },
+        {
+          "clip_id": "part6/DAYHO3/BAI2652/BAI2652_272",
+          "sample": 43975
+        }
+      ],
+      "schedule_sha256": "e6609525d9348d9522a518085f84ab5e656ee4f3cd38c8e1937c12121bd18d0d"
+    },
+    {
+      "dataset": "lrs2",
+      "short_slots_checked": 24000,
+      "counts": {
+        "one_frame_word_spans": 0,
+        "word_spans_below_25_frames": 8,
+        "word_aligned": 24000,
+        "frames": 1198859,
+        "tokens": 197784,
+        "matched_T1_tokens": 213880,
+        "matched_T1_frames": 1200000,
+        "original_T1_tokens": 213880,
+        "exhaustive_checks": 189
+      },
+      "fallback_cases": [],
+      "schedule_sha256": "c2dc84e396f5e745e31658a8660dfc4ee12187c09066955924afd832848de2ba"
+    }
+  ],
+  "summary_sha256": "911812c869c6a37f264ce453ed5f9ec215440a7eb7e54ebbd646d6ca792f8505",
+  "script_sha256": "256071bd9983e749004a0f7bb714df6f014fb6b7fb10c894f1a830fa144aeee6",
+  "training_admitted": false,
+  "pixel_and_gradient_verification_still_required": true
+}

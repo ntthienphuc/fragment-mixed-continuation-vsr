@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-28T12:01:08.649035+00:00",
+  "pid": 4655,
+  "started_unix": 1793188868.6490161,
+  "task": "development_VLR_T2_LAST_06",
+  "purpose": "full_evaluation",
+  "device": "cuda",
+  "admission_path": "Research_Vast_Mechanism_Replacement_2026-10-28/Admissions/full_evaluation_development_GPU_0.json",
+  "admission_sha256": "3e8906823511fb860afd90462ce3283e63265001f4d50e5a47476920f3ccdcb1",
+  "deadline_unix": 1793198808.904296,
+  "execution_lock_sha256": "d2680ccaa1a012cc36d34b76f4b53f07c2805fe97f823bac59d711a0c1f07b5d",
+  "selection_sha256": null
+}

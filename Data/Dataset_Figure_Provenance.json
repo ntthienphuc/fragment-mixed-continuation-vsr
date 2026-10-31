@@ -1,0 +1,109 @@
+{
+  "utc": "2026-10-29T07:42:43.250938+00:00",
+  "status": "four_real_corpora_member_and_pixel_hashes_checked",
+  "selection": "Lexicographically first clip with at least 82 frames in each input manifest",
+  "selection_uses_predictions": false,
+  "recognition_run": false,
+  "illustration_only_no_statistical_representativeness_claim": true,
+  "display": "Six 88x88 grayscale center crops, 4-frame spacing at 25fps; no enhancement or synthesis",
+  "sources": [
+    {
+      "corpus": "VLR",
+      "clip_id": "part1/BAIGI2/AYTHO52/AYTHO52_10",
+      "illustration_split": "test",
+      "archive": "Server_Rescue_2026-10-15/Data/VLR/Prepared_Test.zip",
+      "member": "prepared/frames/312f0dfee27b38e0910e24d0.npz",
+      "archive_sha256_from_prepared_plan": "4d25b490074d22951ea071d6dd609305b15ea610b81993b6d8b25a8c107fa1a9",
+      "full_archive_sha256_recomputed_for_figure": false,
+      "payload_sha256_checked": "1df9e9b8c604ee9dcf6722a7671134d2762f948f31858c5412b060c7dcf4b934",
+      "full_pixel_sha256_checked": "276d5127dcaae195e953c3042452333c1431ba57546336750f385d4897afa602",
+      "prepared_frames": 138,
+      "fps": 25,
+      "displayed_frame_indices": [
+        58,
+        62,
+        66,
+        70,
+        74,
+        78
+      ]
+    },
+    {
+      "corpus": "ViCocktail",
+      "clip_id": "4U9hGIOzrf0_00000_000000_1_-1.00",
+      "illustration_split": "assessment",
+      "manifest": "Research_Transfer_Full_Benchmark_2026-10-27/Assessment.jsonl",
+      "manifest_sha256": "725116e5d36ca0a8c925f4feba4ac8f42a7dbf5cf75c95011cf2d3ef00f5d1f5",
+      "input_path": "Research_Server_Confirmation_2026-10-19/manifests/assets/VC_assessment/0000000696.mp4",
+      "payload_sha256_checked": "32cfd8e0481959602282e9503e2884a6107acd5d16afa66af97cb25df68472f9",
+      "full_pixel_sha256_checked": "a8fe4302bac97d214382496324d2519c438e6eb651147c5c3f639ea14779ccb5",
+      "prepared_frames": 255,
+      "fps": 25,
+      "displayed_frame_indices": [
+        117,
+        121,
+        125,
+        129,
+        133,
+        137
+      ]
+    },
+    {
+      "corpus": "LRS2",
+      "clip_id": "6332491191742745853/00014",
+      "illustration_split": "test",
+      "archive": "Server_Rescue_2026-10-15/Data/EN/LRS2_Prepared_Test.zip",
+      "member": "prepared/frames/c4b50d46be1e7bef83b10fa6.npz",
+      "archive_sha256_from_prepared_plan": "66d1de3b2a41e852228266c3ab6483ceb9dd898ee8dadf6c7182e186ec9d9bb9",
+      "full_archive_sha256_recomputed_for_figure": false,
+      "payload_sha256_checked": "9665faff83bb22d1cca3f2066225fd1a7e4d1490cc9071939b6db75277244736",
+      "full_pixel_sha256_checked": "547392236b9b07cf45608063ccf3664ee1e6863db1bc446b29659f6f26156def",
+      "prepared_frames": 83,
+      "fps": 25,
+      "displayed_frame_indices": [
+        31,
+        35,
+        39,
+        43,
+        47,
+        51
+      ]
+    },
+    {
+      "corpus": "WildVSR",
+      "clip_id": "0000.mp4",
+      "illustration_split": "assessment",
+      "manifest": "Research_English_Transfer_Benchmark_2026-10-28/Assessment.jsonl",
+      "manifest_sha256": "d9b4ebbe945234b2233e3336d2e1a97cf64d9c8ae94f441989614e04cb642cc5",
+      "input_path": "C:\\Users\\thien\\Lip_Research_Backups\\English_Transfer_20261027\\WildVSR\\Input_Cache_01\\0000.npz",
+      "payload_sha256_checked": "10f637c4f67648634df3294e230cba0aac13b0af60cb09c000aeacdbe941958b",
+      "full_pixel_sha256_checked": "86fb55334b97aade9d50849c87ca7d8d272d2f8cd1d48b3cc60d85c6f00833bf",
+      "prepared_frames": 185,
+      "fps": 25,
+      "displayed_frame_indices": [
+        82,
+        86,
+        90,
+        94,
+        98,
+        102
+      ]
+    }
+  ],
+  "references": {
+    "VLR": "https://zenodo.org/records/19705466",
+    "ViCocktail": "https://www.isca-archive.org/interspeech_2025/nguyen25d_interspeech.html",
+    "LRS2": "https://arxiv.org/abs/1809.02108",
+    "WildVSR": "https://arxiv.org/abs/2311.14063"
+  },
+  "media_rights": "Original dataset/media terms apply; these pixels are not relicensed as original code or tables",
+  "output_sha256": {
+    "Source\\figures\\dataset_examples.pdf": "f45edf70c89f9b9ecc9731ffb6dadc6a0033effaace929ac017617ecb7348a2d",
+    "QA\\dataset_examples.png": "4b81fbd397d67180a830119d994fc0c58887d039e30bd12a0ca097d8d28432e6",
+    "Data\\Dataset_Figure_Frames.csv": "74d081d2cd480f34f0cdbaf7705d9ab6eef4daa194045c3dc54470106b490334"
+  },
+  "code_sha256": {
+    "make_dataset_figure.py": "d26169cc800e6ccfdc68da37c60ae041adb491e2de28fffea0b2c9aaf522e39f",
+    "dataset_figure_inputs.py": "e7439610d5688694036b65475a19a0f78954e19dfeaa7973ef83e8e76fd7cbe7"
+  }
+}

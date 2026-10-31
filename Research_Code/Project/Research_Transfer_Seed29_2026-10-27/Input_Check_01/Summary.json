@@ -1,0 +1,25 @@
+{
+  "status": "four_archived_checkpoints_currently_verified_no_inference",
+  "utc": "2026-10-27T13:29:28.041320+00:00",
+  "models": 4,
+  "seed": 29,
+  "primary_pair": {
+    "T0": 6000,
+    "T1": 6000
+  },
+  "source_selected_pair": {
+    "T0": 5000,
+    "T1": 5500
+  },
+  "preservation_sha256": "f4d2843bf778ec6637b915bf98e3df5d1f0d7efa066b4e57ee8b504e8992338a",
+  "local_preservation_sha256": "e3ee9e541f21fb7455d19fe37c5a199509faf31b2f063690452a3a2455a74bab",
+  "seed17_registry_sha256": "abf75a3a70b475544f9045d959c50e4706b8ef08680c8c285746a08fa18e66c6",
+  "models_sha256": "942470e7e731f2a63c27c96532325ce5bf4d3091f8870d7f1209ead21b1f9165",
+  "protocol_sha256": "06d5eeada1543a67e32d6175a7381fddbdea17fbec6f6d1766ed8d63fb963ba5",
+  "code_sha256": "f9e751d6fd79d7cf76a3175f9459ff93a53eab36778915a903a9afcd6628db96",
+  "gpu_job_started": false,
+  "destination_predictions_opened": false,
+  "new_training_required_for_this_seed": false,
+  "independent_new_data_replication": false,
+  "current_running_matrix_changed": false
+}

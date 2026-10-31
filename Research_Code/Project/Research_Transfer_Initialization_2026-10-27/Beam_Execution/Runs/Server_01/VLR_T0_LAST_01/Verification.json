@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "utc": "2026-10-27T12:55:18.689781+00:00",
+  "task": "VLR_T0_LAST_01",
+  "clips": 67,
+  "independent_count_checks": 268,
+  "exact_beam_replays": 8,
+  "independent_score_checks": 16,
+  "score_checks": [
+    {
+      "index": 1,
+      "weight": 0.1,
+      "score_error": 7.746984707068805e-06
+    },
+    {
+      "index": 1,
+      "weight": 0.5,
+      "score_error": 8.373937482986094e-06
+    },
+    {
+      "index": 1,
+      "weight": 0.9,
+      "score_error": 3.246790100774888e-06
+    },
+    {
+      "index": 1,
+      "weight": 1.0,
+      "score_error": 3.842880371252022e-06
+    },
+    {
+      "index": 177,
+      "weight": 0.1,
+      "score_error": 5.078483447107374e-06
+    },
+    {
+      "index": 177,
+      "weight": 0.5,
+      "score_error": 5.735609576618117e-06
+    },
+    {
+      "index": 177,
+      "weight": 0.9,
+      "score_error": 1.0476307714668565e-05
+    },
+    {
+      "index": 177,
+      "weight": 1.0,
+      "score_error": 9.66806905111639e-06
+    },
+    {
+      "index": 353,
+      "weight": 0.1,
+      "score_error": 7.102087806742929e-09
+    },
+    {
+      "index": 353,
+      "weight": 0.5,
+      "score_error": 1.5015238794546804e-05
+    },
+    {
+      "index": 353,
+      "weight": 0.9,
+      "score_error": 1.2886303331072213e-05
+    },
+    {
+      "index": 353,
+      "weight": 1.0,
+      "score_error": 7.77164310861167e-06
+    },
+    {
+      "index": 529,
+      "weight": 0.1,
+      "score_error": 6.862404696050817e-06
+    },
+    {
+      "index": 529,
+      "weight": 0.5,
+      "score_error": 1.2810889607806075e-05
+    },
+    {
+      "index": 529,
+      "weight": 0.9,
+      "score_error": 3.7279988717386914e-05
+    },
+    {
+      "index": 529,
+      "weight": 1.0,
+      "score_error": 3.418739702709672e-05
+    }
+  ],
+  "predictions_sha256": "ed30085c6e736b5738f17016e05b6be10fce7102fc3896f97543b89da1e8d305",
+  "execution_lock_sha256": "8922a9228fa885be3880337145ec83390d7ca9ba1e79e2a550c60ec69e21d633"
+}

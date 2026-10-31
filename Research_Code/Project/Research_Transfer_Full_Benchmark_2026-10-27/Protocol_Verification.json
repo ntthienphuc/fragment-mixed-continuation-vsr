@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "utc": "2026-10-27T16:31:45.843884+00:00",
+  "invalid_inputs_rejected": 10,
+  "negative_seed_retention_checked": true,
+  "same_draw_two_seed_mean_checked": true,
+  "pooled_and_source_macro_distinguished": true,
+  "real_record_count_checks": 5841,
+  "independent_scalar_bootstrap_checks": 202,
+  "synthetic_results_not_research_results": true,
+  "new_inference_run": false,
+  "code_sha256": {
+    "admission.py": "43d3157b25d47df238cb6d00a71b75f42cbfefab6632f4e7c437548998f35c41",
+    "verify_task.py": "580d51c14a6a57dc0568303dd11a01cbe8904e5e9013d7e4025a5a4dd63c90c9",
+    "analyze_assessment.py": "6386b5e11da41007a78561845df4f96605d516091f723c02868de7353bb379b6",
+    "test_protocol.py": "dc79c9e5f8ee424d6757cb4f8039f42394bfc61f3b859fdca6c86c73c7aed57e"
+  }
+}

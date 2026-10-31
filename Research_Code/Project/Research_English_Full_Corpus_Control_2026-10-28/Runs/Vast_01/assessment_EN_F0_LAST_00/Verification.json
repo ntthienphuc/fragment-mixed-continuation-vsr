@@ -1,0 +1,36 @@
+{
+  "utc": "2026-10-28T07:14:59.259264+00:00",
+  "status": "passed",
+  "task": "assessment_EN_F0_LAST_00",
+  "purpose": "full_evaluation",
+  "model": "EN_F0_LAST",
+  "split": "assessment",
+  "clips": 357,
+  "independent_counts_checked": 357,
+  "fresh_pixel_replays": [
+    {
+      "position": 2018,
+      "candidate": "beam_c0.1",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    },
+    {
+      "position": 1756,
+      "candidate": "beam_c0.1",
+      "score_error": 0.0,
+      "tokens_and_text_exact": true
+    }
+  ],
+  "candidate_order": [
+    "beam_c0.1"
+  ],
+  "checkpoint_sha256": "e42d76a546ae46e19b97c011d8905bbfe570b791829ca0f6ecd50e89d9bb9bed",
+  "plan_sha256": "17ff25a0e332aa961e46d0de132e01750d9053926254c8187ff4a07ba39d001d",
+  "execution_lock_sha256": "6605ec9048d031b9edb912fb30e6bc72eb6c16be2e3f7fd416bd31c882c6a455",
+  "predictions_sha256": "f65599e63ba08aad7210b8c59ba4820998cbe35b7379d7249958a2b5aabae95a",
+  "complete_sha256": "1c20e7058ce5b66dc59ddeed501d64efa72d2062b2a7bfb8339fceb03188eb65",
+  "start_sha256": "624a10404060788ea8321cfd3a2200647a5793fb7e653cd599d086fd845a7197",
+  "identity_sha256": "3b23e542552096191c39e86b662bcd9adb93de49ce52b3eff45a67acabd04ce0",
+  "verification_admission_sha256": "9fd4d3dc06099bcde8426e283d779b9cd1fe30a0163aebba05f228e53243d50c",
+  "verifier_sha256": "dea4e2cfdfeccbfc883ab8d4dbf2aed509b5216f9c491864ae3506b1ff9f7a73"
+}

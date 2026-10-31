@@ -1,0 +1,20 @@
+\begin{table}[tbp]
+\centering\small
+\caption{Whole-utterance transfer to WildVSR. WER (\%) on the same 2,854 assessment clips.}
+\label{tab:en}
+\begin{tabular}{llrrl}
+\toprule
+Model & Seed & Primary & Common & Primary decoder \\
+\midrule
+Initial & -- & 66.164 & 67.092 & $\alpha=0.5$ \\
+FC & 17 & 66.817 & 66.817 & $\alpha=0.1$ \\
+FM & 17 & 66.792 & 66.884 & $\alpha=0.5$ \\
+FM-ST & 17 & 66.771 & 66.894 & $\alpha=0.5$ \\
+CP & 17 & 66.749 & 66.794 & $\alpha=0.5$ \\
+Full-pool FC & 17 & 67.438 & 67.438 & $\alpha=0.1$ \\
+Large-data Auto-AVSR & -- & 36.010 & 36.010 & $\alpha=0.1$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{\linewidth}\footnotesize Primary decoders use 1,082 LRS2 source-development clips. The common decoder has CTC weight 0.1 and beam size 40. All continuation variants use seed 17. Full-pool FC changes the training population; the large-data reference uses different pretraining resources.
+\end{minipage}
+\end{table}

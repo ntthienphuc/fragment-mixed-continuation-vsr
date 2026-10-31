@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "utc": "2026-10-27T12:55:18.555416+00:00",
+  "task": "VLR_B0_01",
+  "clips": 67,
+  "independent_count_checks": 268,
+  "exact_beam_replays": 8,
+  "independent_score_checks": 16,
+  "score_checks": [
+    {
+      "index": 1,
+      "weight": 0.1,
+      "score_error": 2.803764473924275e-07
+    },
+    {
+      "index": 1,
+      "weight": 0.5,
+      "score_error": 1.2517781854626264e-05
+    },
+    {
+      "index": 1,
+      "weight": 0.9,
+      "score_error": 2.102884138821537e-06
+    },
+    {
+      "index": 1,
+      "weight": 1.0,
+      "score_error": 5.956109092153383e-06
+    },
+    {
+      "index": 177,
+      "weight": 0.1,
+      "score_error": 6.260110271938402e-06
+    },
+    {
+      "index": 177,
+      "weight": 0.5,
+      "score_error": 6.340006777350027e-06
+    },
+    {
+      "index": 177,
+      "weight": 0.9,
+      "score_error": 4.087469562819024e-07
+    },
+    {
+      "index": 177,
+      "weight": 1.0,
+      "score_error": 5.556609323775774e-07
+    },
+    {
+      "index": 353,
+      "weight": 0.1,
+      "score_error": 6.280452851115115e-07
+    },
+    {
+      "index": 353,
+      "weight": 0.5,
+      "score_error": 4.121774363596842e-06
+    },
+    {
+      "index": 353,
+      "weight": 0.9,
+      "score_error": 4.816910145422071e-06
+    },
+    {
+      "index": 353,
+      "weight": 1.0,
+      "score_error": 5.654306747260307e-06
+    },
+    {
+      "index": 529,
+      "weight": 0.1,
+      "score_error": 1.3752584067106e-06
+    },
+    {
+      "index": 529,
+      "weight": 0.5,
+      "score_error": 1.912118833047316e-06
+    },
+    {
+      "index": 529,
+      "weight": 0.9,
+      "score_error": 2.134183756652419e-05
+    },
+    {
+      "index": 529,
+      "weight": 1.0,
+      "score_error": 1.6097254018632157e-05
+    }
+  ],
+  "predictions_sha256": "f978af61b298c7a14af65d33e2dd7583e9a92102ccac2b02b3e7fe8b073d1715",
+  "execution_lock_sha256": "8922a9228fa885be3880337145ec83390d7ca9ba1e79e2a550c60ec69e21d633"
+}

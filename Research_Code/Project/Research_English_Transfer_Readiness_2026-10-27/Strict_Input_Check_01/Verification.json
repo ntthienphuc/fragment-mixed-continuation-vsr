@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-27T18:24:58.234623+00:00",
+  "status": "passed",
+  "populations": {
+    "Development": {
+      "clips": 1082,
+      "frames": 59322,
+      "raw_pixels_exact": true,
+      "references_used_by_loader": false
+    },
+    "Assessment": {
+      "clips": 2854,
+      "frames": 431853,
+      "raw_pixels_exact": true,
+      "references_used_by_loader": false
+    }
+  },
+  "invalid_manifests_rejected": [
+    "fps",
+    "language",
+    "frames",
+    "kind",
+    "color_space",
+    "sha256",
+    "pixels_sha256"
+  ],
+  "reference_and_timing_invariance": true,
+  "model_inference": false,
+  "seconds": 72.67200000002049,
+  "input_sha256": {
+    "Research_English_Transfer_Readiness_2026-10-27\\Transfer_Inputs_01\\Development.jsonl": "7967009bbbe6218752ff4df5c8df47e3e425c0688a27a8a95d05c20fe493f508",
+    "Research_English_Transfer_Readiness_2026-10-27\\Transfer_Inputs_01\\Assessment.jsonl": "d9b4ebbe945234b2233e3336d2e1a97cf64d9c8ae94f441989614e04cb642cc5"
+  },
+  "adapter_sha256": "0f40b2c6ca4b4cbc7ad050ec5e5a71e9ea795db93d995ec394d151b457a038ca",
+  "verifier_sha256": "27a2e9180f8e8aed2132a4dbd3a8ffc64e84b74b214684fb278bcce58a4e875f",
+  "shared_loader_sha256": "f357476c4ba992e914e5af3ab972b569ee78babe59af7b795a4bc9221c582a56"
+}

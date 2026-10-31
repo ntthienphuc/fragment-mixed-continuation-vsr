@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-28T05:22:59.145143+00:00",
+  "status": "passed",
+  "synthetic_rows_checked": 7002,
+  "scalar_bootstrap_checks": 202,
+  "malformed_synthetic_cases_rejected": 7,
+  "actual_incomplete_matrix_rejected": "Incomplete task coverage: 21 missing; []",
+  "target_prediction_files_read_by_this_test": false,
+  "plan_sha256": "cc2e84f1a8cb2434f106419781ae982e325f21419227c01515cb97bfbd34b194",
+  "scripts": {
+    "collect_anchor.py": "4e343c20188efc29f8f747247dd54a83713ecf7472651fbd2f217a197e9c0a19",
+    "analyze_anchor.py": "65cd0193646e569fae43d29420c15933afa06aa9ecdbc2dc0b236e740621a811",
+    "test_analysis.py": "7a0e74fdb3ca567d67c953546c3ee661935ca6be52d63f6470dc0ea8d772caa8"
+  }
+}

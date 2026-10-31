@@ -1,0 +1,35 @@
+{
+  "utc": "2026-10-27T19:21:40.581319+00:00",
+  "status": "all_source_encoder_states_verified",
+  "model": "EN_T0_LAST",
+  "clips": 1082,
+  "archive": "C:\\Users\\thien\\Lip_Research_Backups\\English_Transfer_20261027\\Development_Encoded_01\\EN_T0_LAST\\States.zip",
+  "archive_sha256": "6f3b023a705da5e44cdbd99416f5f8a06c762812022e01a65f4cf76cbf364103",
+  "index_sha256": "33b38b24ac9e9bcc78885d962461c4bdee7938e207070c59691b2ab42ec858ff",
+  "lock_sha256": "410e94db0c5978a91a3dd46ebc05ea375cc911fec57fb4b0ecc4ec905c08d09f",
+  "fresh_pixel_replays": [
+    {
+      "clip_id": "6323956232732126743/00034",
+      "frames": 14,
+      "states_bitwise_equal": true,
+      "native_decoder_score_error": 0.0
+    },
+    {
+      "clip_id": "6311014637275749987/00027",
+      "frames": 46,
+      "states_bitwise_equal": true,
+      "native_decoder_score_error": 0.0
+    },
+    {
+      "clip_id": "6329151425173313518/00073",
+      "frames": 153,
+      "states_bitwise_equal": true,
+      "native_decoder_score_error": 0.0
+    }
+  ],
+  "seconds": 67.5,
+  "peak_gpu_mib": 1259.7216796875,
+  "reference_used_for_inference": false,
+  "test_clips_used": false,
+  "accuracy_claimed": false
+}

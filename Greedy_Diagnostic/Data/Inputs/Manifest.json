@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-30T19:04:40.760957+00:00",
+  "status": "original_frozen_metadata_and_runtime_sources_freshly_hash_checked",
+  "files": {
+    "Admission.json": "d5ef698ccaf57c99d5de00ceb6c28c9df535c298f9d28e66afe140c17574cadf",
+    "assessment_Cohort.jsonl": "d24c60641aa3c979d38b3f3a88b5b37e5e941c531aba732ba6ee4798a8d1f272",
+    "assessment_Common.csv": "99d1a7cdcd3a3ba16201f9d834163a605aa3ef4ec219fb91a074ef62abdc5980",
+    "Assets_Complete.json": "395066ce30ebd40b1c24a29e870adc7b962b55ae59127d26a5332580db5e71be",
+    "Code_Lock.json": "f24e773cb934f6e95a4f0131205c436a889bde8afa206e972024c102cf2cc5c7",
+    "Expected_Identities.json": "5f1766f6b3528a49f676d5d66836b9deb3b555387de002596e1cae748c32a1fb",
+    "Protocol.md": "37f0c04f3a234cd096fbb21e75e7506905f1dfb0a8d07e34b56d301d8538fae6",
+    "Provenance.json": "2afa304e248f4c8e19b6cf25ad82e01f51f1a416b3c9e77155bf0419f11ec362",
+    "source_Cohort.jsonl": "715f09cac5fc83e5c846692ac98ea43a4b7495b2f89610299feb9b1bc061c65e",
+    "source_Common.csv": "1d1afb19ed5a3390e8ff0dcd42b13287077d4d5b20dee934e6de42a8f9723771",
+    "vi_units.txt": "90b0875aa114daad969c70d48589db7bfb49da548ea4d0f86bd07dab0514dfda"
+  },
+  "source_archive_freshly_rehashed": true,
+  "source_frames_redecoded_locally": false,
+  "original_pixels_verified_by_frozen_inference_loader": true
+}

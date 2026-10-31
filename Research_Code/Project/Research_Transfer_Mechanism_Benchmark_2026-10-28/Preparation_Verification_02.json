@@ -1,0 +1,30 @@
+{
+  "utc": "2026-10-27T23:40:36.470581+00:00",
+  "status": "passed",
+  "coverage": {
+    "VLR_T2_LAST:development": 768,
+    "VLR_T2_LAST:assessment": 1167,
+    "VLR_T4_LAST:development": 768,
+    "VLR_T4_LAST:assessment": 1167,
+    "EN_T2_LAST:development": 1082,
+    "EN_T2_LAST:assessment": 2854,
+    "EN_T4_LAST:development": 1082,
+    "EN_T4_LAST:assessment": 2854
+  },
+  "rejected_cases": [
+    "missing_position",
+    "duplicate_position",
+    "negative_position",
+    "wrong_language",
+    "wrong_model",
+    "changed_grid",
+    "changed_penalty",
+    "early_gpu_admission",
+    "actual_initial_parent_delta_partition"
+  ],
+  "input_files_rehashed": 299,
+  "plan_sha256": "8d3e81d8fed2ef8a6b795d7bae28cf89068c0c430ef38c8b1335c9732daceaf5",
+  "script_sha256": "0338040d140af6ac7aa156db9c444f430c47167735e4624f20d9a8ad0aec146b",
+  "new_recognition_run": false,
+  "GPU_admission_granted": false
+}

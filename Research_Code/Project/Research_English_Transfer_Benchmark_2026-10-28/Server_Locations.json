@@ -1,0 +1,9 @@
+{
+  "states": {
+    "EN_B0": "English_Assets/Source_States/EN_B0.zip",
+    "EN_T0_LAST": "English_Assets/Source_States/EN_T0_LAST.zip",
+    "EN_T1_LAST": "English_Assets/Source_States/EN_T1_LAST.zip",
+    "EN_B1": "English_Assets/Source_States/EN_B1.zip"
+  },
+  "wild_root": "English_Assets/WildVSR"
+}

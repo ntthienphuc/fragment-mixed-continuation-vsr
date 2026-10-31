@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-28T10:27:14.086717+00:00",
+  "reason": "Accept observed logical cuda:0 proof under the single-visible-GPU cuda admission; no decoding or data changes",
+  "previous_files": {
+    "execution_common.py": "3b12f9e6e30271bf90553cbfe6fbac915ef254286c01ced87e19a7a63c7aa763",
+    "test_execution.py": "a04de727400736ccce484ed8b8c27b9b5016f49cca56b4f41ff67af68d1ffd03",
+    "Execution_Lock.json": "4dff1e4a70ac454955d311a2dc24cfa1a5bb394f5ad2c97ce5a476a5a180fce8",
+    "Analysis_01/Lock.json": "147154077491c00e7683d78b0e8ba0f2bcdb300cd2a06473d70c6181c5ee947e"
+  },
+  "archive_sha256": "e70cae51c40e5b4dc2d37f03e73e379291eefb8bc6bb3c121ff9fec66e835174",
+  "actual_failure_phase": "Research_Vast_Mechanism_Execution_2026-10-28",
+  "assessment_started": false
+}

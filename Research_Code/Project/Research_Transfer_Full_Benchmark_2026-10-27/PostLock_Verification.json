@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "utc": "2026-10-27T16:44:57.440913+00:00",
+  "checks": [
+    {
+      "entrypoint": "run_task.py",
+      "exit_code": 1,
+      "expected_refusal": "Full benchmark not admitted"
+    },
+    {
+      "entrypoint": "task_queue.py",
+      "exit_code": 1,
+      "expected_refusal": "Full benchmark not admitted"
+    },
+    {
+      "entrypoint": "runtime_preflight.py",
+      "exit_code": 1,
+      "expected_refusal": "Full benchmark not admitted"
+    }
+  ],
+  "frozen_source_files_rehashed": 213,
+  "output_or_model_created": false
+}

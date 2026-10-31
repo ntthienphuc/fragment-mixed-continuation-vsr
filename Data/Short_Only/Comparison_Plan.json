@@ -1,0 +1,37 @@
+{
+  "status": "analysis_design_locked_before_short_only_training",
+  "new_result_exists": false,
+  "primary_comparison": [
+    "MATCHED_WW17",
+    "MATCHED_SO17"
+  ],
+  "reference_comparison": [
+    "MATCHED_FC17",
+    "MATCHED_SO17"
+  ],
+  "supporting_existing_state": "MATCHED_FT17",
+  "readout": "beam_c0.1",
+  "bootstrap_resamples": 10000,
+  "bootstrap_unit": "archived_source_id",
+  "conditional_on_fitted_checkpoints": true,
+  "multiplicity_adjusted": false,
+  "positive_difference": "reference_errors_minus_short_only_errors_per_reference_unit_times_100",
+  "primary_populations": [
+    "source",
+    "assessment"
+  ],
+  "require_all_24_verified_shards_and_full_identity_checks": true,
+  "no_equivalence_margin_declared": true,
+  "old_evidence": {
+    "source": {
+      "summary": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Analysis_Native_Source_01\\Summary.json",
+      "summary_sha256": "0c5687f4d68c2f279bf19a9e6ac8622400297c986b476481775a86286fc4e64f",
+      "per_clip_counts_sha256": "45b7e37a3e89c10a4af49f416f4623c90c8be68afd0724d5c2d1354ad5da6dff"
+    },
+    "assessment": {
+      "summary": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Analysis_Native_ThreeArm_01\\Summary.json",
+      "summary_sha256": "e120d57dd9a3cb4f7434c17f5152c22bd348cc084c2909a425ceaffe2e6d0abe",
+      "per_clip_counts_sha256": "1b650460523be1862006a402bc68c1a9be7e784ff30a0a60b064a5913601569c"
+    }
+  }
+}

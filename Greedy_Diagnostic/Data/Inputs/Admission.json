@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-30T18:32:17.963866+00:00",
+  "status": "full_populations_admitted_from_resource_measurements",
+  "stages": [
+    "assessment",
+    "source"
+  ],
+  "models": [
+    "MATCHED_FC17",
+    "MATCHED_WW17",
+    "MATCHED_SO17"
+  ],
+  "expected_clips": {
+    "assessment": 1167,
+    "source": 11307
+  },
+  "deadline_unix": 1793399400.0,
+  "report_target_utc": "2026-10-30T23:15:00+00:00",
+  "forecast_seconds": 12997.81220728787,
+  "probe_verification_sha256": "327fb01c0626100a64c1489b90d3947b9d0da14e72f7b15d331e9d71a255ce00",
+  "protocol_sha256": "37f0c04f3a234cd096fbb21e75e7506905f1dfb0a8d07e34b56d301d8538fae6",
+  "code_lock_sha256": "f24e773cb934f6e95a4f0131205c436a889bde8afa206e972024c102cf2cc5c7",
+  "queue_sha256": "534e30dee7edfeb13817ed3159ebc699c30182cd0528a5360f8108245c5b7104",
+  "metrics_used_for_scope_or_decoder_selection": false,
+  "paid_compute": false,
+  "automatic_restart": false
+}

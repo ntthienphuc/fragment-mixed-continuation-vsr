@@ -1,0 +1,32 @@
+[
+  {
+    "stage": "assessment",
+    "contrast": "MATCHED_FC17_minus_MATCHED_SO17",
+    "wer_difference_pp": -3.2368482270446313,
+    "ci95_low": -3.8261421560676174,
+    "ci95_high": -2.3897280044995814,
+    "source_groups": 20,
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 20261031,
+    "scalar_draws_checked": 16,
+    "bootstrap_unit": "archived_source_id",
+    "pointwise_unadjusted": true,
+    "conditional_on_fitted_states": true,
+    "new_blind_confirmation": false
+  },
+  {
+    "stage": "assessment",
+    "contrast": "MATCHED_WW17_minus_MATCHED_SO17",
+    "wer_difference_pp": -8.038948522814131,
+    "ci95_low": -9.667808191899304,
+    "ci95_high": -6.162601218459442,
+    "source_groups": 20,
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 20261031,
+    "scalar_draws_checked": 16,
+    "bootstrap_unit": "archived_source_id",
+    "pointwise_unadjusted": true,
+    "conditional_on_fitted_states": true,
+    "new_blind_confirmation": false
+  }
+]

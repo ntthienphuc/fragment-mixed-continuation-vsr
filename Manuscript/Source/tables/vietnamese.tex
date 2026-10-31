@@ -1,0 +1,21 @@
+\begin{table}[tbp]
+\centering\small
+\caption{Whole-utterance transfer from VLR to ViCocktail. WER (\%) is lower when better.}
+\label{tab:vi}
+\begin{tabular}{llrrl}
+\toprule
+Model & Seed & Primary & Common & Primary decoder \\
+\midrule
+Initial & -- & 70.057 & 70.034 & Greedy $b=-1$ \\
+FC & 17 & 67.445 & 67.326 & Greedy $b=-1$ \\
+FM & 17 & 61.882 & 63.916 & $\alpha=0.5$ \\
+FM-ST & 17 & 62.002 & 63.919 & $\alpha=0.9$ \\
+CP & 17 & 62.444 & 64.793 & $\alpha=0.5$ \\
+FC & 29 & 66.983 & 67.233 & Greedy $b=-1$ \\
+FM & 29 & 63.448 & 64.062 & Greedy $b=-1$ \\
+Native ViCocktail & -- & 38.503 & 38.503 & $\alpha=0.1$ \\
+\bottomrule
+\end{tabular}
+\par\smallskip\begin{minipage}{\linewidth}\footnotesize Primary decoders use 768 ViCocktail development clips. The common decoder has CTC weight 0.1 and beam size 40. FM-ST and CP have seed 17 only. The native reference uses different training data and preprocessing.
+\end{minipage}
+\end{table}

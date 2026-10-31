@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "utc": "2026-10-27T15:07:12.169037+00:00",
+  "model": "VLR_T0_29_LAST",
+  "clips": 531,
+  "ctc_reconstructions": 531,
+  "maximum_cpu_ctc_error": 3.814697265625e-05,
+  "independent_greedy_count_and_path_checks": 3717,
+  "tensor_export_checks": 163,
+  "gpu_replays": [
+    {
+      "clip_id": "BrUZv6J2E-s_00104_000000_1_-1.00",
+      "state_error": 0.0,
+      "logp_error": 0.0
+    },
+    {
+      "clip_id": "OIfRaHGTKE0_00003_000000_1_-1.00",
+      "state_error": 0.0,
+      "logp_error": 0.0
+    },
+    {
+      "clip_id": "9R8hiDB_YCg_00003_000000_1_-1.00",
+      "state_error": 0.0,
+      "logp_error": 0.0
+    }
+  ],
+  "index_sha256": "2147d5078690ccf0c24b6ae97df1303c782f2e45ca7c1c067bf193922662a831",
+  "predictions_sha256": "38416383e4c28c976c3109c77eb6b8d704444348064e64dd512d2072c18ccfb5",
+  "plan_sha256": "4813106b1f70ae5024ddbab85d0072fac12c98ccc0c6783f61773ce4faf19a15",
+  "full_decoder_matrix_complete": false
+}

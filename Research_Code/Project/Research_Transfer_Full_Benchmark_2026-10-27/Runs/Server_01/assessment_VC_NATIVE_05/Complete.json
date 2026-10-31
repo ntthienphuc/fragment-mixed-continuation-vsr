@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-27T21:47:42.515509+00:00",
+  "status": "complete_pending_independent_verification",
+  "task": "assessment_VC_NATIVE_05",
+  "clips": 146,
+  "candidate_order": [
+    "beam_c0.1"
+  ],
+  "seconds": 497.9308624439873,
+  "predictions_sha256": "1e22d658479f6b03e733577cb7691536980d34d2e0cccdea1491218043eec24c",
+  "peak_gpu_mib": 1726.95703125,
+  "execution_lock_sha256": "c13ec63f175647ead46d7702081474f16b1554e611543e13dd0af4a492a2b50d",
+  "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44"
+}

@@ -1,0 +1,119 @@
+{
+  "utc": "2026-10-28T13:02:06.792997+00:00",
+  "status": "metadata_pending_independent_verification",
+  "datasets": [
+    {
+      "dataset": "vlr",
+      "counts": {
+        "unchanged_full_slots": 24000,
+        "unchanged_full_frames": 3651015,
+        "word_aligned": 23998,
+        "short_slots": 24000,
+        "same_input_interval_as_original_T1": 413,
+        "same_text_as_original_T1": 5672,
+        "longer_than_75_frames": 122,
+        "ctc_candidates_rejected": 2,
+        "matched_T1_short_slot_frames": 1200186,
+        "shared_full_fallback": 2
+      },
+      "input_frames_on_short_slots": {
+        "sum": 1175626,
+        "mean": 48.98441666666667,
+        "median": 50.0,
+        "minimum": 1,
+        "maximum": 227,
+        "p95": 61
+      },
+      "native_tokens_on_short_slots": {
+        "sum": 186787,
+        "mean": 7.782791666666666,
+        "median": 8.0,
+        "minimum": 1,
+        "maximum": 26,
+        "p95": 13
+      },
+      "original_T1_tokens_on_same_slots": {
+        "sum": 218791,
+        "mean": 9.116291666666667,
+        "median": 9.0,
+        "minimum": 1,
+        "maximum": 36,
+        "p95": 14
+      },
+      "matched_T1_tokens_on_same_slots": {
+        "sum": 218835,
+        "mean": 9.118125,
+        "median": 9.0,
+        "minimum": 1,
+        "maximum": 36,
+        "p95": 14
+      },
+      "schedule_sha256": "e6609525d9348d9522a518085f84ab5e656ee4f3cd38c8e1937c12121bd18d0d",
+      "source_manifest_sha256": "70ec83434982fd3e350ac43c51a20468f416d32b8bd48b254021d76b7f9e0dfb",
+      "trace_sha256": "e5e98cd1ff61682476c0aa195ef56cf7bc5cc05ebfa9f243411b4afaccfaf374",
+      "registry_sha256": "4f40619ed9faabd509b671c000e0f2395dbb786ff8863be1f80b391b5f40648a",
+      "tokenizer_sha256": "6b8c7e138d86282217fad89d7e2be9452a90d398a4e034d9d390586c145e499b",
+      "units_sha256": "90b0875aa114daad969c70d48589db7bfb49da548ea4d0f86bd07dab0514dfda"
+    },
+    {
+      "dataset": "lrs2",
+      "counts": {
+        "unchanged_full_slots": 24000,
+        "unchanged_full_frames": 2642733,
+        "word_aligned": 24000,
+        "short_slots": 24000,
+        "same_input_interval_as_original_T1": 405,
+        "same_text_as_original_T1": 12739,
+        "longer_than_75_frames": 3,
+        "ctc_candidates_rejected": 0,
+        "matched_T1_short_slot_frames": 1200000
+      },
+      "input_frames_on_short_slots": {
+        "sum": 1198859,
+        "mean": 49.95245833333333,
+        "median": 50.0,
+        "minimum": 14,
+        "maximum": 77,
+        "p95": 59
+      },
+      "native_tokens_on_short_slots": {
+        "sum": 197784,
+        "mean": 8.241,
+        "median": 8.0,
+        "minimum": 1,
+        "maximum": 19,
+        "p95": 13
+      },
+      "original_T1_tokens_on_same_slots": {
+        "sum": 213880,
+        "mean": 8.911666666666667,
+        "median": 9.0,
+        "minimum": 1,
+        "maximum": 22,
+        "p95": 14
+      },
+      "matched_T1_tokens_on_same_slots": {
+        "sum": 213880,
+        "mean": 8.911666666666667,
+        "median": 9.0,
+        "minimum": 1,
+        "maximum": 22,
+        "p95": 14
+      },
+      "schedule_sha256": "c2dc84e396f5e745e31658a8660dfc4ee12187c09066955924afd832848de2ba",
+      "source_manifest_sha256": "ed12af7c652033d3d9c198c9c09d7c0d92abd3b6eaf2bef4326787ee9a5007b6",
+      "trace_sha256": "631075e174228ebfc977c407824f4814fffc013c0fca180cb142f802f7bc9189",
+      "registry_sha256": "817abdf9c3d1bea196f6f76ee32d54896afc0bdf5a059d27ccc81481d13820c6",
+      "tokenizer_sha256": "2c1d648ccf5fdce6612ecbea2ffbd1cab5aabc90458781186175c3911c4bdb1e",
+      "units_sha256": "29001d967ad290e28f6f1d7d47e07e314354bf67d3b1f494e936fa2fed9a9122"
+    }
+  ],
+  "training_admitted": false,
+  "media_payloads_verified": false,
+  "assessment_predictions_used": false,
+  "protocol_sha256": "5d6bbb876599e0341a73562ad64f893f172c97550693af6fb0e7a7300eba2d5b",
+  "scripts": {
+    "prepare.py": "6194386ae632fa0b37ccb1cd566a51e17a95f84b5492d31055bcd05a2a788bda",
+    "word_span.py": "0bd5c458afedc35be81b4a03616447effed3341acebae28ebd83096ba31863e5"
+  }
+}

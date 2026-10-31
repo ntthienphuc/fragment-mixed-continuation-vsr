@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-29T06:57:29.521685+00:00",
+  "status": "full_53960_row_matrix_recounted_and_backed_up",
+  "rows": 53960,
+  "backup": "C:\\Users\\thien\\Lip_Research_Backups\\Private_Tailscale_20261028\\Final_Matrix_01.zip",
+  "sha256": "92f6927a616c4a763ae0c8574fa5aa56dd0e425fbe9c686a4c53c64b5861817b",
+  "paper_changed": false,
+  "analysis_output": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/Results_02",
+  "serialization_repair": "Research_Transfer_Mechanism_Benchmark_2026-10-28/Analysis_01/Export_Repair_01/Verification.json",
+  "serialization_repair_sha256": "dbc21ca6a25d4900ea321158e168024c344d52d68fce07f11ec9e54dda0c3d4c"
+}

@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "utc": "2026-10-27T16:46:43.170332+00:00",
+  "task": "VLR_T0_29_LAST_04",
+  "clips": 66,
+  "independent_count_checks": 264,
+  "exact_beam_replays": 8,
+  "independent_score_checks": 16,
+  "score_checks": [
+    {
+      "index": 4,
+      "weight": 0.1,
+      "score_error": 2.4129308009435135e-06
+    },
+    {
+      "index": 4,
+      "weight": 0.5,
+      "score_error": 4.715332799776206e-07
+    },
+    {
+      "index": 4,
+      "weight": 0.9,
+      "score_error": 8.457339006895381e-06
+    },
+    {
+      "index": 4,
+      "weight": 1.0,
+      "score_error": 9.155340787714294e-07
+    },
+    {
+      "index": 180,
+      "weight": 0.1,
+      "score_error": 5.515083065787962e-06
+    },
+    {
+      "index": 180,
+      "weight": 0.5,
+      "score_error": 1.1667468946541248e-06
+    },
+    {
+      "index": 180,
+      "weight": 0.9,
+      "score_error": 7.842124897905478e-06
+    },
+    {
+      "index": 180,
+      "weight": 1.0,
+      "score_error": 1.1453155988050412e-05
+    },
+    {
+      "index": 348,
+      "weight": 0.1,
+      "score_error": 2.150505494569188e-06
+    },
+    {
+      "index": 348,
+      "weight": 0.5,
+      "score_error": 8.271664896142283e-06
+    },
+    {
+      "index": 348,
+      "weight": 0.9,
+      "score_error": 3.7144788898046954e-06
+    },
+    {
+      "index": 348,
+      "weight": 1.0,
+      "score_error": 3.6222659929308065e-06
+    },
+    {
+      "index": 524,
+      "weight": 0.1,
+      "score_error": 4.985446793170922e-07
+    },
+    {
+      "index": 524,
+      "weight": 0.5,
+      "score_error": 2.6015236596066416e-05
+    },
+    {
+      "index": 524,
+      "weight": 0.9,
+      "score_error": 3.6122453764164675e-05
+    },
+    {
+      "index": 524,
+      "weight": 1.0,
+      "score_error": 1.2643849888860359e-05
+    }
+  ],
+  "predictions_sha256": "b9531222fc704f01895be4a86a16d4b232b155a2e3939bec512931e260f1f6f7",
+  "execution_lock_sha256": "9acbc5cbc80ad36c02c75462c6eb570101e703ef912ba79e2bcafaf755d8c9a9"
+}

@@ -1,0 +1,26 @@
+{
+  "utc": "2026-10-28T05:28:40.809907+00:00",
+  "status": "vi_anchor_analysis_fixed_before_complete_matrix",
+  "primary_contrasts": [
+    "VLR_T0_LAST_minus_VLR_T1_LAST",
+    "VLR_T0_29_LAST_minus_VLR_T1_29_LAST"
+  ],
+  "decoder_selection_on_target": false,
+  "new_hidden_test": false,
+  "bootstrap": {
+    "unit": "video_source",
+    "draws": 10000,
+    "seed": 20261027,
+    "same_source_draws_across_two_fixed_training_seeds": true
+  },
+  "plan_sha256": "cc2e84f1a8cb2434f106419781ae982e325f21419227c01515cb97bfbd34b194",
+  "primary_completion_sha256": "c32c8679df3d1a99fc6231bb451e2ee56cce737c998836181b87f2657623a8d8",
+  "parent_analysis_sha256": "6386b5e11da41007a78561845df4f96605d516091f723c02868de7353bb379b6",
+  "scripts": {
+    "collect_anchor.py": "4e343c20188efc29f8f747247dd54a83713ecf7472651fbd2f217a197e9c0a19",
+    "analyze_anchor.py": "31f139de9067d27b97deb69fe06be0fb853cc07d0b01f1647c73d83e5c26b900",
+    "test_analysis.py": "9af1608071a3179df0db2bedf67a35fcdc956e7f80f9d499baa578b07cb93795"
+  },
+  "tests_path": "Verification_03.json",
+  "tests_sha256": "d334c223296b68a31451d84c8f86b33eb2582d9eccda874f393b9531f8b8ef28"
+}

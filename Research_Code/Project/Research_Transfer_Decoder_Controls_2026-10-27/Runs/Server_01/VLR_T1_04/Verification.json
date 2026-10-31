@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "utc": "2026-10-27T10:47:56.645083+00:00",
+  "task": "VLR_T1_04",
+  "clips": 66,
+  "independent_count_checks": 264,
+  "exact_beam_replays": 8,
+  "independent_score_checks": 16,
+  "score_checks": [
+    {
+      "index": 4,
+      "weight": 0.1,
+      "score_error": 2.5857420098418515e-06
+    },
+    {
+      "index": 4,
+      "weight": 0.5,
+      "score_error": 4.624733641378498e-06
+    },
+    {
+      "index": 4,
+      "weight": 0.9,
+      "score_error": 5.68111498822077e-06
+    },
+    {
+      "index": 4,
+      "weight": 1.0,
+      "score_error": 4.6188760389753725e-06
+    },
+    {
+      "index": 180,
+      "weight": 0.1,
+      "score_error": 2.209594528679304e-06
+    },
+    {
+      "index": 180,
+      "weight": 0.5,
+      "score_error": 8.62881339003252e-06
+    },
+    {
+      "index": 180,
+      "weight": 0.9,
+      "score_error": 8.379875829689354e-06
+    },
+    {
+      "index": 180,
+      "weight": 1.0,
+      "score_error": 7.872858212465417e-06
+    },
+    {
+      "index": 348,
+      "weight": 0.1,
+      "score_error": 1.7460817858250266e-06
+    },
+    {
+      "index": 348,
+      "weight": 0.5,
+      "score_error": 1.6610001232209015e-06
+    },
+    {
+      "index": 348,
+      "weight": 0.9,
+      "score_error": 1.0379218565503834e-05
+    },
+    {
+      "index": 348,
+      "weight": 1.0,
+      "score_error": 1.0956323279742719e-05
+    },
+    {
+      "index": 524,
+      "weight": 0.1,
+      "score_error": 6.542423989230883e-07
+    },
+    {
+      "index": 524,
+      "weight": 0.5,
+      "score_error": 1.4276804314761193e-05
+    },
+    {
+      "index": 524,
+      "weight": 0.9,
+      "score_error": 1.7755089011473046e-05
+    },
+    {
+      "index": 524,
+      "weight": 1.0,
+      "score_error": 2.949840474997245e-05
+    }
+  ],
+  "predictions_sha256": "9f6cec7aec7d36f96265b26ffdc5ee8b033b6ee049cba3fde8e0757a2df10e15",
+  "execution_lock_sha256": "8bb63a2b3780a12b051a0cd21e15ef068b20a5bbdad8ce05ae74bd93d56ff95d"
+}

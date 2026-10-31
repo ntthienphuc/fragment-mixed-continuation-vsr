@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-28T04:45:52.755456+00:00",
+  "pid": 3635,
+  "started_unix": 1793162752.755441,
+  "task": "development_EN_F0_LAST_04",
+  "purpose": "full_evaluation",
+  "device": "cuda",
+  "admission_path": "Research_English_Full_Corpus_Control_2026-10-28/Admissions/Vast_01_development_gpu_0.json",
+  "admission_sha256": "dd3fddb298e334bf3962a0d78994453f88005b143d8b224fc39c61d236c1c4f4",
+  "deadline_unix": 1793183766.0610137,
+  "execution_lock_sha256": "6605ec9048d031b9edb912fb30e6bc72eb6c16be2e3f7fd416bd31c882c6a455",
+  "selection_sha256": null
+}

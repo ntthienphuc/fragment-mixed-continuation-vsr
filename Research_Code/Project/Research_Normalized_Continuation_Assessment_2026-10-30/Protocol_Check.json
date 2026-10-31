@@ -1,0 +1,59 @@
+{
+  "utc": "2026-10-30T00:36:14.289579+00:00",
+  "status": "normalized_plan_same_numerical_protocol_and_binding_cases_verified",
+  "unchanged_runtime_modules": [
+    "common.py",
+    "runtime_bridge.py",
+    "data_tasks.py",
+    "execution.py",
+    "run_task.py",
+    "verify_task.py",
+    "select_development.py"
+  ],
+  "identical_plan_fields": [
+    "source",
+    "destination",
+    "primary_decoder",
+    "secondary_candidate_order",
+    "secondary_selection",
+    "secondary_source_decoder",
+    "beam_size",
+    "penalty",
+    "precision",
+    "external_lm",
+    "horizon",
+    "runtime_source",
+    "runtime_code_sha256",
+    "training_endpoint",
+    "bootstrap_resamples"
+  ],
+  "actual_manifest_cohorts": {
+    "development": {
+      "clips": 768,
+      "unique_positions": 768
+    },
+    "assessment": {
+      "clips": 1167,
+      "unique_positions": 1167
+    }
+  },
+  "synthetic_bad_binding_cases_rejected": [
+    "NORMALIZED_FC17:incomplete_step",
+    "NORMALIZED_FC17:native_receipt",
+    "NORMALIZED_FC17:wrong_arm",
+    "NORMALIZED_FC17:unverified_checkpoint",
+    "NORMALIZED_FC17:missing_backup_members",
+    "NORMALIZED_FC17:native_objective_identity",
+    "NORMALIZED_FC17:backup_mismatch",
+    "NORMALIZED_FT17:incomplete_step",
+    "NORMALIZED_FT17:native_receipt",
+    "NORMALIZED_FT17:wrong_arm",
+    "NORMALIZED_FT17:unverified_checkpoint",
+    "NORMALIZED_FT17:missing_backup_members",
+    "NORMALIZED_FT17:native_objective_identity",
+    "NORMALIZED_FT17:backup_mismatch"
+  ],
+  "actual_final_normalized_binding_tested": false,
+  "gpu_assessment_started": false,
+  "checkpoint_or_reference_substitution": false
+}

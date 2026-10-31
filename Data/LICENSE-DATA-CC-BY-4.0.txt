@@ -1,0 +1,17 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The original numerical tables and derived observations created by the study
+contributors in this supplement are made available under CC BY 4.0.
+This notice applies to those original derived measurements only. It does not
+relicense source recordings, third-party annotations, model checkpoints,
+upstream code, or other materials governed by their providers' terms.
+
+License terms and legal code:
+https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+Suggested attribution:
+Fragment-Mixed Continuation for Cross-Corpus Visual Speech Recognition, 2026,
+study contributors. Cite the accompanying manuscript and retain the relevant
+provenance. Replace this provisional citation with the final author list and
+publication identifier when available; neither is assigned by this notice.

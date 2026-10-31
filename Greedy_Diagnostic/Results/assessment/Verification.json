@@ -1,0 +1,40 @@
+{
+  "utc": "2026-10-30T19:05:34.583485+00:00",
+  "status": "complete_three_state_population_independently_recounted",
+  "stage": "assessment",
+  "clips_per_model": 1167,
+  "reference_units_per_model": 30091,
+  "source_groups": 20,
+  "frames_per_model": 170078,
+  "all_saved_paths_collapsed_independently": true,
+  "all_text_and_edit_counts_recomputed": true,
+  "all_reference_and_pixel_identities_match": true,
+  "saved_logit_probability_sums_recomputed": false,
+  "blank_probability_limit": "Saved runtime sums checked for bounds; full logits were not archived.",
+  "input_manifest_sha256": "0d1f983b752761cbc09232c873bf514333559eaae218189afb035a962fc16799",
+  "analysis_code_sha256": "54d46a4e1564ec286698d4a163d29cc5daf268a46370a803b4eba75a167c3b5e",
+  "numpy": "2.0.2",
+  "evidence": {
+    "MATCHED_FC17": {
+      "complete_sha256": "06b8f9f7a686cd1f899dbd05ffac4ba7f866da19fdda72535776bc53952faabb",
+      "predictions_sha256": "660e52f2b6b190f89ee97414477a35cbed0c0d6776b8cf48006a6cda754643a2",
+      "identity_sha256": "42d3e229a65c195b9634aadebc7b9188356fda012427cfe868e5ce1b361a683e"
+    },
+    "MATCHED_WW17": {
+      "complete_sha256": "0fe540e328d09dfcc68cff7c0f036e1850be7eed43b3ee37bcb80b4f094a6ca2",
+      "predictions_sha256": "257dd18f164360842e6ccfb76ab749508f1f6fdc9970f7fe1434ec1b5b0f9197",
+      "identity_sha256": "16518600b42c9fb00bc352be63ba6a01ee069867ad68a6ce761c2ee33606e9cd"
+    },
+    "MATCHED_SO17": {
+      "complete_sha256": "583bb8a9baca3c778763eebc2e841836feb8e53c0664a3ccb6b15ab431ee9445",
+      "predictions_sha256": "b0dbe232eb49c0eb632a536d3dab8db7743d6ba7b42579c43fb8fa9b0e155d38",
+      "identity_sha256": "da99f6b0febceed7531a8eab5db54bff6d9b44afdda1294347f990e599424d22"
+    }
+  },
+  "files": {
+    "Aggregate.csv": "a8d12fd91a5eb7e61ae27cad3b5adebe32c8f2e0a5949a8bc7d2cacf417e9c28",
+    "Contrasts.json": "290345792b5008ab939973e379fe0bcb395844b6348d48a0b3f50bdd12fc791c",
+    "Greedy_Minus_Common.csv": "2b7a857a5942ba452d679147b674de07d6f7b3d32ac9af24f357f6b025a01af3",
+    "Per_Clip_Counts.csv": "709a1a6582a6f734880391c4b38694ab35b4b4c724d6811c960105ef73694ad8"
+  }
+}

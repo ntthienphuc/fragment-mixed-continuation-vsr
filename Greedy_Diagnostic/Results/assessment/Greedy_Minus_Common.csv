@@ -1,0 +1,4 @@
+model,stage,common_wer,greedy_wer,greedy_minus_common_wer_pp,greedy_minus_common_errors,greedy_minus_common_substitutions,greedy_minus_common_deletions,greedy_minus_common_insertions,greedy_minus_common_units
+MATCHED_FC17,assessment,67.36898075836629,69.18680003987903,1.8178192815127403,547,-985,2174,-642,0
+MATCHED_WW17,assessment,63.38772390415739,64.38469974410954,0.9969758399521496,300,-502,1092,-290,0
+MATCHED_SO17,assessment,70.71549632780565,72.42364826692366,1.7081519391180109,514,-833,1421,-74,0

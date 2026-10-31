@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-28T01:02:01.645085+00:00",
+  "status": "F0_analysis_prespecified",
+  "primary_question": "Does mixed full/crop training T1 improve whole-clip transfer over the broader-pool F0 reference?",
+  "primary_contrast": "F0_minus_EN_T1_LAST_primary",
+  "secondary_contrasts": [
+    "F0_minus_EN_T0_LAST_primary",
+    "F0_minus_EN_T1_LAST_anchor",
+    "F0_minus_EN_T0_LAST_anchor"
+  ],
+  "positive_difference_favors": "the named T0 or T1 control",
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20261028,
+  "resampling_unit": "released clip; no source-group generalization claim",
+  "duration_strata": "below 82 versus at least 82 frames, descriptive only",
+  "plan_sha256": "17ff25a0e332aa961e46d0de132e01750d9053926254c8187ff4a07ba39d001d",
+  "execution_lock_sha256": "6605ec9048d031b9edb912fb30e6bc72eb6c16be2e3f7fd416bd31c882c6a455",
+  "verification_sha256": "734e881bd841c098787758b884524cc5c1f7f7f7bef531f752c7efbcb7587f6d",
+  "parent_count_import_verification_sha256": "5b77d2921df059a7b067ca7054820c936f160e743d1a39499a094920e3f2a7ff",
+  "scripts": {
+    "analyze_full_f0.py": "38584a21c1f9d25f8f6c8e55d6d9f643553f788901aca8efa8ab4b3e67406a92",
+    "full_analysis_core.py": "c4eb54d379314de92a849a588650918f9f8effec8fd5a2b6e1da910034147cb2",
+    "test_full_analysis.py": "a28740c3a3b249c45fbf44bfe2ce248619100cbeca116631adcedc393bb31265",
+    "test_parent_count_import.py": "9a48dfdde40cdb4f0b70d20e4f7883c5379be2b5779c0501ea6bd2e8563958e5"
+  },
+  "F0_assessment_predictions_read": false,
+  "new_training": false
+}

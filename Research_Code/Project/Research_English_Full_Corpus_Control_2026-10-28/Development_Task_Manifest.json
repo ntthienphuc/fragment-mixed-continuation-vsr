@@ -1,0 +1,40 @@
+{
+  "utc": "2026-10-28T04:55:38.739655+00:00",
+  "status": "full_F0_stage_explicitly_named",
+  "stage": "development",
+  "execution_lock_sha256": "6605ec9048d031b9edb912fb30e6bc72eb6c16be2e3f7fd416bd31c882c6a455",
+  "tasks": {
+    "development_EN_F0_LAST_00": {
+      "path": "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/development_EN_F0_LAST_00",
+      "verification_sha256": "fb3186385f5b7c570b3babab12f0934c260ff874820f36d31b3dfb6e146bbe96"
+    },
+    "development_EN_F0_LAST_01": {
+      "path": "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/development_EN_F0_LAST_01",
+      "verification_sha256": "a187aa4dcdddc5d49a1f7fc7bde4fb3a3937cbb270585d62f7ce70551daa622a"
+    },
+    "development_EN_F0_LAST_02": {
+      "path": "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/development_EN_F0_LAST_02",
+      "verification_sha256": "0ebeccc42811b347eec479f8d1594bd86b710b8dfccb7237290a70a7fd76c319"
+    },
+    "development_EN_F0_LAST_03": {
+      "path": "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/development_EN_F0_LAST_03",
+      "verification_sha256": "efe7c3dc019735656ac44f0ad99b3936004d65e211c331154e6a37f2afc97eef"
+    },
+    "development_EN_F0_LAST_04": {
+      "path": "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/development_EN_F0_LAST_04",
+      "verification_sha256": "b6efb3c86f32857e2ec8810d1451e7a5fabafa36ac528c33522aac72d6f8f937"
+    },
+    "development_EN_F0_LAST_05": {
+      "path": "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/development_EN_F0_LAST_05",
+      "verification_sha256": "0fb2a4b43b5db7a72e2fdae82314516eead8e72f9a2d65f425c895b8d1c92496"
+    },
+    "development_EN_F0_LAST_06": {
+      "path": "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/development_EN_F0_LAST_06",
+      "verification_sha256": "88dc2310e344b17c01c00dd245b65a3e75b7a8ce5e66cc2637697b5c57e35e7d"
+    },
+    "development_EN_F0_LAST_07": {
+      "path": "Research_English_Full_Corpus_Control_2026-10-28/Runs/Vast_01/development_EN_F0_LAST_07",
+      "verification_sha256": "58809c3dfa8b8b37d6d40e95028355ed33706996d18c7d89a81a97ab0213f14e"
+    }
+  }
+}

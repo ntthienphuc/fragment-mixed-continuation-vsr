@@ -1,0 +1,34 @@
+{
+  "utc": "2026-10-27T19:09:06.839822+00:00",
+  "status": "completed_runtime_evidence_rechecked",
+  "locked_files_rehashed": 88,
+  "models": {
+    "EN_B0": {
+      "proof_sha256": "19c9f301b674a50cc39c7338d989aa03a27538b3dd9ae1d5a921a6b34c675101",
+      "peak_gpu_mib": 2777.3642578125,
+      "pairs": 12
+    },
+    "EN_T0_LAST": {
+      "proof_sha256": "0cedad42fead5fbbe5e140b3b3e9059057fdfa6205392acbb2f65ba75aad873a",
+      "peak_gpu_mib": 2861.41943359375,
+      "pairs": 12
+    },
+    "EN_T1_LAST": {
+      "proof_sha256": "8e35f00e60203c5387cc5ebcca58f13117104d07fdf64d07c10e77c942ec16fe",
+      "peak_gpu_mib": 2988.3662109375,
+      "pairs": 12
+    },
+    "EN_B1": {
+      "proof_sha256": "0e4363afc2dcec636e4c7470dcfe57f81d161734a25d7dbc035c2db6711827c9",
+      "peak_gpu_mib": 2989.2392578125,
+      "pairs": 12
+    }
+  },
+  "native_bounded_pairs": 48,
+  "lock_sha256": "339aaa6008b22b6b35874590ca9eb4f4e8647d042f014b64ea1d3a795ba46112",
+  "verifier_sha256": "fca170cf0023a95ab4aaea916539f449b982bf2faba21f49a802ff2addccd38e",
+  "fresh_inference_rerun": false,
+  "scope": "Recheck completed native/bounded runtime assertions and their bound inputs",
+  "english_accuracy_result": false,
+  "test_clips_used": false
+}

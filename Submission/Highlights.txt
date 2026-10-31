@@ -1,0 +1,7 @@
+Highlights
+
+- Mixing full and short source views improves VLR-to-ViCocktail transfer.
+- Whole-word fragments outperform fixed-time fragments in a matched comparison.
+- The fixed-time transfer gain persists after token-normalized training.
+- Short-only continuation increases deletions on both evaluated corpora.
+- Source and destination assessments reveal setting-dependent trade-offs.

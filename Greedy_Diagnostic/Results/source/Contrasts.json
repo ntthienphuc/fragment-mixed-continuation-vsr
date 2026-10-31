@@ -1,0 +1,32 @@
+[
+  {
+    "stage": "source",
+    "contrast": "MATCHED_FC17_minus_MATCHED_SO17",
+    "wer_difference_pp": -4.582669499026377,
+    "ci95_low": -4.873779097787915,
+    "ci95_high": -4.325030675507936,
+    "source_groups": 61,
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 20261031,
+    "scalar_draws_checked": 16,
+    "bootstrap_unit": "archived_source_id",
+    "pointwise_unadjusted": true,
+    "conditional_on_fitted_states": true,
+    "new_blind_confirmation": false
+  },
+  {
+    "stage": "source",
+    "contrast": "MATCHED_WW17_minus_MATCHED_SO17",
+    "wer_difference_pp": -3.908656399362719,
+    "ci95_low": -4.171985686920134,
+    "ci95_high": -3.6732015714465995,
+    "source_groups": 61,
+    "bootstrap_resamples": 10000,
+    "bootstrap_seed": 20261031,
+    "scalar_draws_checked": 16,
+    "bootstrap_unit": "archived_source_id",
+    "pointwise_unadjusted": true,
+    "conditional_on_fitted_states": true,
+    "new_blind_confirmation": false
+  }
+]

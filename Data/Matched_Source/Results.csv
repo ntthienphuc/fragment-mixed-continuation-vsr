@@ -1,0 +1,4 @@
+model,stage,readout,decoder,clips,errors,substitutions,deletions,insertions,units,wer_percent
+MATCHED_FC17,source,common,beam_c0.1,11307,85930,71468,8164,6298,225960,38.02885466454239
+MATCHED_FT17,source,common,beam_c0.1,11307,87175,69303,11605,6267,225960,38.579837139316695
+MATCHED_WW17,source,common,beam_c0.1,11307,87234,68626,12525,6083,225960,38.605947955390334

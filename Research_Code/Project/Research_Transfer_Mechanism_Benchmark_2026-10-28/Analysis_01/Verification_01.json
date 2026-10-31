@@ -1,0 +1,79 @@
+{
+  "utc": "2026-10-28T09:33:53.010021+00:00",
+  "status": "passed",
+  "completed_parent_csv_rows_checked": 42544,
+  "parent_WER_and_bootstrap_reproductions": [
+    {
+      "language": "vi",
+      "readout": "primary",
+      "gain_pp": 5.5631251869329645,
+      "ci95": [
+        4.939633843553391,
+        6.3506900160165305
+      ]
+    },
+    {
+      "language": "vi",
+      "readout": "anchor",
+      "gain_pp": 3.409657372636339,
+      "ci95": [
+        2.8917049947063567,
+        4.119025479417442
+      ]
+    },
+    {
+      "language": "en",
+      "readout": "primary",
+      "gain_pp": 0.024980744009823752,
+      "ci95": [
+        -0.3712477461029393,
+        0.42811615363954797
+      ]
+    },
+    {
+      "language": "en",
+      "readout": "anchor",
+      "gain_pp": -0.06661531735953474,
+      "ci95": [
+        -0.3380033457292772,
+        0.21036183037497524
+      ]
+    }
+  ],
+  "rejected_cases": [
+    "missing_clip",
+    "negative_count",
+    "different_denominator",
+    "bad_decomposition",
+    "fractional_counts",
+    "invented_english_groups",
+    "csv_duplicate",
+    "csv_missing",
+    "csv_source",
+    "csv_units",
+    "csv_decoder",
+    "csv_frames",
+    "csv_errors"
+  ],
+  "zero_gain_control_exact": true,
+  "new_T2_T4_predictions_read": false,
+  "input_sha256": {
+    "Research_Transfer_Full_Benchmark_2026-10-27/Completion_Receipt.json": "c32c8679df3d1a99fc6231bb451e2ee56cce737c998836181b87f2657623a8d8",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Assessment_Analysis_01/Summary.json": "584f748a0a065a100cbb684680473562605bf503d895f62e2c2523be15324b2c",
+    "Research_Transfer_Full_Benchmark_2026-10-27/Assessment_Analysis_01/Per_Clip_Counts.csv": "0b4ed7eca9baa0e1f43c87b6ea89af776a58d7fd63a56a96804b6c13cb4e7924",
+    "Research_Transfer_Decoder_Anchor_2026-10-28/Completion_Receipt.json": "e890f6bf95dd40d3cc86b48ca1033f8972d5652865eafb0bd8f1818a5e813762",
+    "Research_Transfer_Decoder_Anchor_2026-10-28/Analysis_01/Results_01/Summary.json": "ad97aec0088145e55e365708e7d34bb12ae45176b5e6f7b9fb5917a759176af4",
+    "Research_Transfer_Decoder_Anchor_2026-10-28/Analysis_01/Results_01/Per_Clip_Counts.csv": "eacdc7d7f7ce561ce71b7db7c21099700249f430126622af640891667f46eb77",
+    "Research_English_Full_Corpus_Control_2026-10-28/Completion_Receipt.json": "3b1d68928fff2e986787ea8b5ee60e1f3836cd22880eb5905ebd060e167adb62",
+    "Research_English_Full_Corpus_Control_2026-10-28/Assessment_Analysis_01/Summary.json": "5e2eb6eab9af793654e3dcf29d94dc312aa1ab67ceecb627ba0c0d9aaf06de3a",
+    "Research_English_Full_Corpus_Control_2026-10-28/Assessment_Analysis_01/Per_Clip_Counts.csv": "fd20f39621a3be2166fd8a2e054e6966fe3ca17c7b16768e6ee18e48b6031adc"
+  },
+  "plan_sha256": "8d3e81d8fed2ef8a6b795d7bae28cf89068c0c430ef38c8b1335c9732daceaf5",
+  "scripts": {
+    "transfer_statistics.py": "add21b0f60420653f8ffd8abc58ced23f07a12e8939bf7a0f97be3f442fb4bee",
+    "parent_tables.py": "5e858de78761510e0328d81361db5305d2161bb8881c2f009d390ff3c210ce81",
+    "gather.py": "2bf996a187d5ea0d48524a3807d178b916225b2ca295b7074df6020e175c03dd",
+    "analyze.py": "42725a9aed42ee07f99f58a19fa0c134e6bca24c29fefb53fc66c39148c59252",
+    "test_analysis.py": "6381819134c24c62233f629ee864d363e6c03583f5e372cf065a0afd67080e7f"
+  }
+}

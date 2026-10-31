@@ -1,0 +1,793 @@
+{
+  "utc": "2026-10-30T01:10:23.489900+00:00",
+  "status": "complete_requested_matched_populations_recounted",
+  "stage": "assessment",
+  "readout": "common",
+  "models": [
+    "MATCHED_FC17",
+    "MATCHED_FT17",
+    "MATCHED_WW17"
+  ],
+  "results": [
+    {
+      "model": "MATCHED_FC17",
+      "stage": "assessment",
+      "readout": "common",
+      "decoder": "beam_c0.1",
+      "clips": 1167,
+      "errors": 20272,
+      "substitutions": 10645,
+      "deletions": 8421,
+      "insertions": 1206,
+      "units": 30091,
+      "wer_percent": 67.36898075836629
+    },
+    {
+      "model": "MATCHED_FT17",
+      "stage": "assessment",
+      "readout": "common",
+      "decoder": "beam_c0.1",
+      "clips": 1167,
+      "errors": 19212,
+      "substitutions": 10619,
+      "deletions": 7910,
+      "insertions": 683,
+      "units": 30091,
+      "wer_percent": 63.84633279053538
+    },
+    {
+      "model": "MATCHED_WW17",
+      "stage": "assessment",
+      "readout": "common",
+      "decoder": "beam_c0.1",
+      "clips": 1167,
+      "errors": 19074,
+      "substitutions": 10665,
+      "deletions": 7804,
+      "insertions": 605,
+      "units": 30091,
+      "wer_percent": 63.38772390415739
+    }
+  ],
+  "comparisons": [
+    {
+      "reference": "MATCHED_FC17",
+      "comparison": "MATCHED_FT17",
+      "stage": "assessment",
+      "readout": "common",
+      "reference_decoder": "beam_c0.1",
+      "comparison_decoder": "beam_c0.1",
+      "reference_minus_comparison_pp": 3.522647967830913,
+      "ci95_low_pp": 2.9853735015053604,
+      "ci95_high_pp": 4.179358991864185,
+      "source_groups": 20,
+      "source_order": [
+        "4U9hGIOzrf0",
+        "6dcgD2bzQqU",
+        "CivSbWDg8ig",
+        "F2lyXr1rKNk",
+        "FrFQm6bdjQ4",
+        "Nnd75WTJPpw",
+        "Qluuvu84t54",
+        "T02aU8qpshQ",
+        "TCmeVds5Jkg",
+        "UDmiyTb2XKU",
+        "Zg9wS4_pbjg",
+        "_J1u_2LMCqM",
+        "bf2cw7HgaCU",
+        "bsNAjjDqn5k",
+        "eOulw3RRE9g",
+        "grCKOBOuvnM",
+        "q8vPZmApqyc",
+        "qjWiGqSEv5U",
+        "uWYBxYIuER4",
+        "x2Gd7wNNfIw"
+      ],
+      "source_error_difference_and_units": [
+        [
+          16,
+          577
+        ],
+        [
+          16,
+          189
+        ],
+        [
+          45,
+          935
+        ],
+        [
+          115,
+          2567
+        ],
+        [
+          4,
+          74
+        ],
+        [
+          120,
+          4700
+        ],
+        [
+          79,
+          2117
+        ],
+        [
+          119,
+          3052
+        ],
+        [
+          25,
+          871
+        ],
+        [
+          30,
+          369
+        ],
+        [
+          109,
+          2622
+        ],
+        [
+          30,
+          1051
+        ],
+        [
+          71,
+          3447
+        ],
+        [
+          38,
+          482
+        ],
+        [
+          80,
+          1845
+        ],
+        [
+          20,
+          268
+        ],
+        [
+          18,
+          142
+        ],
+        [
+          48,
+          1343
+        ],
+        [
+          55,
+          2036
+        ],
+        [
+          22,
+          1404
+        ]
+      ],
+      "clip_better_worse_equal": [
+        560,
+        215,
+        392
+      ],
+      "bootstrap_unit": "archived_source_id",
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 11348950505394785212,
+      "independent_scalar_checks": 101,
+      "conditional_on_fitted_checkpoints": true,
+      "multiplicity_adjusted": false
+    },
+    {
+      "reference": "MATCHED_FC17",
+      "comparison": "MATCHED_WW17",
+      "stage": "assessment",
+      "readout": "common",
+      "reference_decoder": "beam_c0.1",
+      "comparison_decoder": "beam_c0.1",
+      "reference_minus_comparison_pp": 3.9812568542088997,
+      "ci95_low_pp": 3.4197559567210734,
+      "ci95_high_pp": 4.7305804857203055,
+      "source_groups": 20,
+      "source_order": [
+        "4U9hGIOzrf0",
+        "6dcgD2bzQqU",
+        "CivSbWDg8ig",
+        "F2lyXr1rKNk",
+        "FrFQm6bdjQ4",
+        "Nnd75WTJPpw",
+        "Qluuvu84t54",
+        "T02aU8qpshQ",
+        "TCmeVds5Jkg",
+        "UDmiyTb2XKU",
+        "Zg9wS4_pbjg",
+        "_J1u_2LMCqM",
+        "bf2cw7HgaCU",
+        "bsNAjjDqn5k",
+        "eOulw3RRE9g",
+        "grCKOBOuvnM",
+        "q8vPZmApqyc",
+        "qjWiGqSEv5U",
+        "uWYBxYIuER4",
+        "x2Gd7wNNfIw"
+      ],
+      "source_error_difference_and_units": [
+        [
+          22,
+          577
+        ],
+        [
+          19,
+          189
+        ],
+        [
+          43,
+          935
+        ],
+        [
+          137,
+          2567
+        ],
+        [
+          4,
+          74
+        ],
+        [
+          143,
+          4700
+        ],
+        [
+          100,
+          2117
+        ],
+        [
+          117,
+          3052
+        ],
+        [
+          29,
+          871
+        ],
+        [
+          28,
+          369
+        ],
+        [
+          110,
+          2622
+        ],
+        [
+          42,
+          1051
+        ],
+        [
+          76,
+          3447
+        ],
+        [
+          37,
+          482
+        ],
+        [
+          90,
+          1845
+        ],
+        [
+          19,
+          268
+        ],
+        [
+          25,
+          142
+        ],
+        [
+          59,
+          1343
+        ],
+        [
+          69,
+          2036
+        ],
+        [
+          29,
+          1404
+        ]
+      ],
+      "clip_better_worse_equal": [
+        595,
+        227,
+        345
+      ],
+      "bootstrap_unit": "archived_source_id",
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 13286456511464683284,
+      "independent_scalar_checks": 101,
+      "conditional_on_fitted_checkpoints": true,
+      "multiplicity_adjusted": false
+    },
+    {
+      "reference": "MATCHED_WW17",
+      "comparison": "MATCHED_FT17",
+      "stage": "assessment",
+      "readout": "common",
+      "reference_decoder": "beam_c0.1",
+      "comparison_decoder": "beam_c0.1",
+      "reference_minus_comparison_pp": -0.45860888637798675,
+      "ci95_low_pp": -0.6743178055154412,
+      "ci95_high_pp": -0.26793197163686583,
+      "source_groups": 20,
+      "source_order": [
+        "4U9hGIOzrf0",
+        "6dcgD2bzQqU",
+        "CivSbWDg8ig",
+        "F2lyXr1rKNk",
+        "FrFQm6bdjQ4",
+        "Nnd75WTJPpw",
+        "Qluuvu84t54",
+        "T02aU8qpshQ",
+        "TCmeVds5Jkg",
+        "UDmiyTb2XKU",
+        "Zg9wS4_pbjg",
+        "_J1u_2LMCqM",
+        "bf2cw7HgaCU",
+        "bsNAjjDqn5k",
+        "eOulw3RRE9g",
+        "grCKOBOuvnM",
+        "q8vPZmApqyc",
+        "qjWiGqSEv5U",
+        "uWYBxYIuER4",
+        "x2Gd7wNNfIw"
+      ],
+      "source_error_difference_and_units": [
+        [
+          -6,
+          577
+        ],
+        [
+          -3,
+          189
+        ],
+        [
+          2,
+          935
+        ],
+        [
+          -22,
+          2567
+        ],
+        [
+          0,
+          74
+        ],
+        [
+          -23,
+          4700
+        ],
+        [
+          -21,
+          2117
+        ],
+        [
+          2,
+          3052
+        ],
+        [
+          -4,
+          871
+        ],
+        [
+          2,
+          369
+        ],
+        [
+          -1,
+          2622
+        ],
+        [
+          -12,
+          1051
+        ],
+        [
+          -5,
+          3447
+        ],
+        [
+          1,
+          482
+        ],
+        [
+          -10,
+          1845
+        ],
+        [
+          1,
+          268
+        ],
+        [
+          -7,
+          142
+        ],
+        [
+          -11,
+          1343
+        ],
+        [
+          -14,
+          2036
+        ],
+        [
+          -7,
+          1404
+        ]
+      ],
+      "clip_better_worse_equal": [
+        183,
+        271,
+        713
+      ],
+      "bootstrap_unit": "archived_source_id",
+      "bootstrap_resamples": 10000,
+      "bootstrap_seed": 4301986810670411664,
+      "independent_scalar_checks": 101,
+      "conditional_on_fitted_checkpoints": true,
+      "multiplicity_adjusted": false
+    }
+  ],
+  "provenance": {
+    "MATCHED_FC17": {
+      "model": "MATCHED_FC17",
+      "stage": "assessment",
+      "readout": "common",
+      "candidates": [
+        "beam_c0.1"
+      ],
+      "clips": 1167,
+      "reference_units": 30091,
+      "source_groups": 20,
+      "shards": [
+        {
+          "task": "assessment_00",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_01\\Collected\\Runs\\full\\assessment_00",
+          "clips": 146,
+          "files": {
+            "Verification.json": "7d4d00e097c5c7fd7e87cfb8a9b9b2db68d6d69eb4c01dc0541b34c455b16226",
+            "Start.json": "da178659264856c44ef275b34a6d83ffe77b136bce191c747c5b24b78f53010a",
+            "Identity.json": "a51be43b19256dde5fb3e71a4aefaa7f53011e94bf774b0f133882bcf15645b6",
+            "Complete.json": "b2e30064f679dac3be7a7ee3ec2559d8b14a0f991a75cb23de39fcf1a5d0e448",
+            "Predictions.jsonl": "0d8fbb2f29c9ba60d6c4cefc29bb590aa3cf8ab22e99be7e701b0a27c07ea20d"
+          }
+        },
+        {
+          "task": "assessment_01",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_01\\Collected\\Runs\\full\\assessment_01",
+          "clips": 146,
+          "files": {
+            "Verification.json": "3b58f6f2f6bd90e22c5da1c75c9ce1ff237d3a1afdf5512ad3a9b06dd1989fae",
+            "Start.json": "d39298b45e8a481271d340db46e368161b2c7b4eb22831e48df26cd027f4771f",
+            "Identity.json": "4c738c540d7ae96e909d1482ca4d0d38a7b58c8cb1d4e970bccfd1b50536cc96",
+            "Complete.json": "75099d65c69f71c87d47e82c87c0b333a64b2947a7ddfb3bb0336dc1acb378f4",
+            "Predictions.jsonl": "aa2e780fa31c429477577494456242b2124cd7e224e0959cb691fbd9bbb2fb48"
+          }
+        },
+        {
+          "task": "assessment_02",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_01\\Collected\\Runs\\full\\assessment_02",
+          "clips": 146,
+          "files": {
+            "Verification.json": "860f4d674d2df6ada3b2207ae5d0a13c02aadb4f84cdadaac5541498067b50dd",
+            "Start.json": "02678d6c2632509888906eb9e7c291724295475a9e674ea650ac6cc0e4a2fb61",
+            "Identity.json": "51f940f3519a1a64f2cccdc60c13292e3314a56d52ec93abf92b9c33e4f51d85",
+            "Complete.json": "b5628f4cd657f35c2bd23e51e3495e27d08603dbdad157be1d665c0bea88d749",
+            "Predictions.jsonl": "c9b6218ef56059837b24f57e03752410724a3b9a40a45b0969f89656f8a74e46"
+          }
+        },
+        {
+          "task": "assessment_03",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_01\\Collected\\Runs\\full\\assessment_03",
+          "clips": 146,
+          "files": {
+            "Verification.json": "9fc675c2b08710be810b80263ac6dfb96bbf79aec0c01d69603f062528f5d98c",
+            "Start.json": "3f557fd8a495ee6cafa5c289d1082bf1eac6ab95630cbbc626a0a52192e52e3c",
+            "Identity.json": "b0b3ac5d4add591fc0f2e7bb600ba4489870e02c2f3c7680fb9d17852ba1c88f",
+            "Complete.json": "0d78d0edcd8da4bee8f55ba2b4fe82299daf93651a49d9d8eb6d0a6e19ee62a2",
+            "Predictions.jsonl": "261e1c8a0ac6855cb48de9d26e6567c23b006a65bab0a79aa39ebb259648be63"
+          }
+        },
+        {
+          "task": "assessment_04",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_01\\Collected\\Runs\\full\\assessment_04",
+          "clips": 146,
+          "files": {
+            "Verification.json": "e1f26fa1e41a2550abcb386453b5cc612cdd687ed6c8f8d69a68a4d37ea7cb38",
+            "Start.json": "a1a52bfd13d4304a241c7d621ae94cc4329ae169fd6a15228b59fb2a29d7cc01",
+            "Identity.json": "b38a8a7eba7ffa4eca59381faeb62e525c4345f326c11f3de1b93d001c7e49a2",
+            "Complete.json": "994006e016136b3b95084f81cc3c6b20ab974035b39ca3f009d5ddd3a596fbe9",
+            "Predictions.jsonl": "126e483f658753bc02df7344d6edd4090e3cf2b69e508420ddd8ebeacb119b05"
+          }
+        },
+        {
+          "task": "assessment_05",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_01\\Collected\\Runs\\full\\assessment_05",
+          "clips": 146,
+          "files": {
+            "Verification.json": "0c933ebad74d1563adb18fcd303cc36919636b14291d35a68a90e4270e62d7dc",
+            "Start.json": "ab7667e528ab0edd88aca14794eac1b5fcf903f63b7fa0c5eafe3c960d9b605e",
+            "Identity.json": "3a1ba482dbd511dba1291d71dc252b5973411f7639a44059c2a6657c9e74a98a",
+            "Complete.json": "58ee127e7596bd555ce8c75dfa2dff44addc735706c16b2466195a636ab9596d",
+            "Predictions.jsonl": "8b54604e67ba6ab44f7c4b9e0dce63358feaee2e1279c843e08555ea1c87d8eb"
+          }
+        },
+        {
+          "task": "assessment_06",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_01\\Collected\\Runs\\full\\assessment_06",
+          "clips": 146,
+          "files": {
+            "Verification.json": "c105fc475b98fde37c15170ac7ab00d8007ab733be2509e18f635ff580a76b37",
+            "Start.json": "e06d6bab641f6b501486e0c64c8d92fccde41b6f16584ce90b69c52dc495f738",
+            "Identity.json": "bc469bbbc3c7c150d0cc8438592e736e7b9420afead686d37120a4651ed500a0",
+            "Complete.json": "0ebdc93716f02b30391fbb8a82ccdd9c0b7406997ac52307d0dd463f7c52d4a9",
+            "Predictions.jsonl": "9b5052e861bb7744f6fe6cef5733c36502e1ec037e8517af7a27306440860246"
+          }
+        },
+        {
+          "task": "assessment_07",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_01\\Collected\\Runs\\full\\assessment_07",
+          "clips": 145,
+          "files": {
+            "Verification.json": "8c576bee83ea88e95520485f23a518ea34e728116d7dd44e09dddd4e2f4bd926",
+            "Start.json": "b066922c503673e6774a151d05e60ebbf44b46c14424e170034b20e5aa8b9212",
+            "Identity.json": "730b35b4d057a3f63890e5fb2e3a884e26e6f4f70128df46032f86fac439d868",
+            "Complete.json": "15f30997fcff587aeaa665cfbeafbf047ce3fddb48944c3e2f63a66b4919d28f",
+            "Predictions.jsonl": "2426d7fec9ac73abe86be02c691283b8f1a0ba5e8ae7bf87e63e918d400d6b1c"
+          }
+        }
+      ],
+      "binding_sha256": "11ff0fed8931e8ddc55d4a892ac8d60c85eb74ec731ed876d11259d16a68ff87",
+      "registry_sha256": "445a6e92a018ab744766919e9d453a497febfac587f29d33056563bf024e38fa",
+      "selection_sha256": null,
+      "development_reverified": null
+    },
+    "MATCHED_FT17": {
+      "model": "MATCHED_FT17",
+      "stage": "assessment",
+      "readout": "common",
+      "candidates": [
+        "beam_c0.1"
+      ],
+      "clips": 1167,
+      "reference_units": 30091,
+      "source_groups": 20,
+      "shards": [
+        {
+          "task": "assessment_00",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_01\\Collected\\Runs\\fixed_time\\assessment_00",
+          "clips": 146,
+          "files": {
+            "Verification.json": "ec5b7a1bc7a263549c1361d31fb2a342598d44da6b71f32d1960a4ac89fd8e44",
+            "Start.json": "9dce41e0f6e826165e93ebb28af783b9e98a4327233e481b168bda10dcc41f4b",
+            "Identity.json": "762e0dabf055567ca3cb8f9316ac67bd953d9a1114f7ef61070fba363896bae3",
+            "Complete.json": "8844530e4ed5d54d31e129a69e9f08d6c835370c1cf4d372d29980e64dc23f1e",
+            "Predictions.jsonl": "e6fb1ad0435ee9b736b5c5d1459c5b8745f7bd58660bd723d2c6fbceee40060b"
+          }
+        },
+        {
+          "task": "assessment_01",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_01\\Collected\\Runs\\fixed_time\\assessment_01",
+          "clips": 146,
+          "files": {
+            "Verification.json": "aee141198d381ecc5f05d69c5c00bdbe508bb06e41b342b5ce7548f21623d7d9",
+            "Start.json": "74d0e1cd3e465d67a34658bf69922da6f69d29d132d12e1469f96bf16cfa64b7",
+            "Identity.json": "d27d338a69b1acac92c6907f14a8d6eb49aabd801a867d5d1f63b9464ac759d1",
+            "Complete.json": "4685ec31bdfe78357653ec654a82d32d0628e87c0ecd35e68ca55ec98093db0b",
+            "Predictions.jsonl": "9765a9272370ef06375302173d1dd6778925417e88019e0d78a11c29067be370"
+          }
+        },
+        {
+          "task": "assessment_02",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_01\\Collected\\Runs\\fixed_time\\assessment_02",
+          "clips": 146,
+          "files": {
+            "Verification.json": "71daad84810554c843185c492065473cd8b8eb59c524ba29ee79c20499642ca2",
+            "Start.json": "e85bcea0870e11051949baaf9adb4fdd3e3668f7fd75881bd9b749c79839853e",
+            "Identity.json": "7dd57458c27f2244863f0cffd1fff61aaa70b4b8b288b98f342e143fed621185",
+            "Complete.json": "b38c14dbdbab25ce9a6fa761c666925337e9cac7304b0ee0234d6e1de43c81d1",
+            "Predictions.jsonl": "d9d29720de46d85d048e8518960eeb56113439c4de8a91e757db183ec8670177"
+          }
+        },
+        {
+          "task": "assessment_03",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_01\\Collected\\Runs\\fixed_time\\assessment_03",
+          "clips": 146,
+          "files": {
+            "Verification.json": "23886eb9d82e61b1f9237a85d77f14069eaed6ab262edddd1167721d53d09737",
+            "Start.json": "7fd67b4110045df386b1dc435af1648bf76738fe5b2d7a09d9397e3a6c24146c",
+            "Identity.json": "2a9259d29d85d96f71d8ffbd47c169a62627a1e4ffbabb4317e4a4e08fb3f7f7",
+            "Complete.json": "bd462f297f12fb306622d74533b8fae11b651caf692115e09ab2cd9f32cad246",
+            "Predictions.jsonl": "5062a2e654753e1078e1c98c81ec6cfef2e82fbc5da62a2be254bbd0f94bf0c1"
+          }
+        },
+        {
+          "task": "assessment_04",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_01\\Collected\\Runs\\fixed_time\\assessment_04",
+          "clips": 146,
+          "files": {
+            "Verification.json": "df4e7f6f075eb0fcce223410687b52949c3162c9a6c92eaa819ffaa41f5698ca",
+            "Start.json": "63d6737633b15dd0caad87f19864ef2da4bd89b926b8be5dcd82e171caad59e3",
+            "Identity.json": "4108982d5d1e8de74000c1399e5d17faca3b45f276234dce0f4b2fd06df0229f",
+            "Complete.json": "fd9fd43b7fa7d1cf13ea00ac5fb4897d625563e210a5070e2244191df6a441ba",
+            "Predictions.jsonl": "5e8ed71e87c6bda923fb384e7838e29e47860ade8663bdb04c6bd273d570e833"
+          }
+        },
+        {
+          "task": "assessment_05",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_01\\Collected\\Runs\\fixed_time\\assessment_05",
+          "clips": 146,
+          "files": {
+            "Verification.json": "d79696b29ba35eb23254eb8b956526aca57f99e6d3b3cdfe3584f7fe10925bb8",
+            "Start.json": "8682d27940b3354f863d1690117b5c85bb188b5e55ffd07b0490d102c09aa7b2",
+            "Identity.json": "bfb496851d745e371768f9b9edda8078fd7fcfe55965dbf8cccc7da935c0e6c0",
+            "Complete.json": "d637ca49e66842764ae2449e62b34867e5575b32e02fa093b32183761b9ca5a3",
+            "Predictions.jsonl": "544abf72654b3aa6f84e47e7f4947623765f4ae006922f3b5fefd1bb681b74d1"
+          }
+        },
+        {
+          "task": "assessment_06",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_01\\Collected\\Runs\\fixed_time\\assessment_06",
+          "clips": 146,
+          "files": {
+            "Verification.json": "1ab9604514cc11a90ff2910cbcbe4ae3b6cdc4365ebc3cbe23cd580f40cf51d9",
+            "Start.json": "dda83129197aa9e5bc13456f1562533e5994f6a47999178a91e84533cedb40dd",
+            "Identity.json": "888e83bc12c86aee7d391fee6fde0154fe8fee0fc142f9cf4b1e3f10fbad8845",
+            "Complete.json": "435555a87697b96304caeca1fa572d9754805eb41a3649d27ebb93a288172149",
+            "Predictions.jsonl": "88e6b7f68a8c8b0351952f2cc5c6ee2b60682cd6415b58ae47270716e73bd168"
+          }
+        },
+        {
+          "task": "assessment_07",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_01\\Collected\\Runs\\fixed_time\\assessment_07",
+          "clips": 145,
+          "files": {
+            "Verification.json": "277b79d8d5b318f15cd39ebd231fff91c2a2c755c62c436d1dc8b50a5131aae9",
+            "Start.json": "62c885987ed020aa057fdc69b5bb5169af299940bb0ba1e334a052ab787dd419",
+            "Identity.json": "a8c3a2e4a6e77a1fe7f3db46d774fdff0c45719d8c50d355a16f55fe306b5c15",
+            "Complete.json": "025c7a6c774c63d31598e81729720b50b8a50a8c44d794b9a7d53fd6bb9496b5",
+            "Predictions.jsonl": "94a72b7096a146438323d34a723fd347269a6eb98e93208681a33343c2c74a24"
+          }
+        }
+      ],
+      "binding_sha256": "23da1cd4c1c579aabc5c349785f28163134c2fe6ef01d06ac3aca23004abff43",
+      "registry_sha256": "69085677b7d4853ba4fde4c29e969d28ada90bc22bd9041d72cd7962d116899c",
+      "selection_sha256": null,
+      "development_reverified": null
+    },
+    "MATCHED_WW17": {
+      "model": "MATCHED_WW17",
+      "stage": "assessment",
+      "readout": "common",
+      "candidates": [
+        "beam_c0.1"
+      ],
+      "clips": 1167,
+      "reference_units": 30091,
+      "source_groups": 20,
+      "shards": [
+        {
+          "task": "assessment_00",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_02\\Collected\\Runs\\whole_word\\assessment_00",
+          "clips": 146,
+          "files": {
+            "Verification.json": "61d2393e3f5013914b4d12d1cf2e98862d330139b47b679ab79e53c0d57236cb",
+            "Start.json": "1e4c7259a042d25c3bbf5dfc60b99c933cde559893c5a797d82896b5f1fba94c",
+            "Identity.json": "f6d1abca32682b2e34cfb7769e830912c030716c9847c57db3d24c399c327d90",
+            "Complete.json": "1fee6662898c8dff40d614318f75c31dec808dea491354be4d20c1d5dcddb433",
+            "Predictions.jsonl": "1ba8553add79c9817565663cf9015043362125f67e1cb5f398b8cf567b3eea4a"
+          }
+        },
+        {
+          "task": "assessment_01",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_02\\Collected\\Runs\\whole_word\\assessment_01",
+          "clips": 146,
+          "files": {
+            "Verification.json": "a7d271f8b4903e89deaeb641160af327d3b31ac5a0f291dcc5ab828fd5002c16",
+            "Start.json": "187b128d11e429c8204fdaf428d14ed48bb43abbfabaffd4d2ef486246c7299b",
+            "Identity.json": "f0aec88ac5b98f526b6d77304840fe682c1917004345fa31b805795eed1a8896",
+            "Complete.json": "bcfc385fa080315311773e6a2f15a1a9ccd2398cda99139e1a5d538b47890f92",
+            "Predictions.jsonl": "eeaa0658cadb3e525dcaaf30a070a3d3a690afd5869b4e272791d0b9f6153ddb"
+          }
+        },
+        {
+          "task": "assessment_02",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_02\\Collected\\Runs\\whole_word\\assessment_02",
+          "clips": 146,
+          "files": {
+            "Verification.json": "2f0175813a1c573fe741b81695d489d31a8cad69bbc627e5c38ae6cbfdd46027",
+            "Start.json": "265e9737c85cb9530ee51e4c20b9d20d6546bf1c95222f91f3bb0e02bb28eb3b",
+            "Identity.json": "af24d2f0a796fb02a83de63fe05c908f5eb5b9a1eb37eab9a612a8619bebc88c",
+            "Complete.json": "0510aa5a874d46d6e798a1fa5246c5e6a5fb04fda503b5d48c7f582e2aa3ce24",
+            "Predictions.jsonl": "6acd78bbb8186f61a00d26576f1ae09d97a7684ba4c91b71ed543819a8d1c899"
+          }
+        },
+        {
+          "task": "assessment_03",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_02\\Collected\\Runs\\whole_word\\assessment_03",
+          "clips": 146,
+          "files": {
+            "Verification.json": "3c3cebf1728cbed2bdd7e6ec03ef9a15dab82c57e2b900020fbbac658adca6bc",
+            "Start.json": "20b1ee072bd7f1d1631cc7ab1308993b73a77ee12e72ef1e21a40ada9c5920a4",
+            "Identity.json": "99a5dd50176b39b1db7fd9bd5e681a0862cfbb2772f9a68eb2539b7960d6f0d9",
+            "Complete.json": "75f456a8511ffc2dbf55f92920902070030ca4cfa5539a0e0262a6d89871f800",
+            "Predictions.jsonl": "81b1f44902ab1d55c756d66d43b1d9b12597659776dec74cdd096994bc599628"
+          }
+        },
+        {
+          "task": "assessment_04",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_02\\Collected\\Runs\\whole_word\\assessment_04",
+          "clips": 146,
+          "files": {
+            "Verification.json": "a629ed5bfa6fc3f8699132cc3a3c758585cc4ac64d922f60c0a9047e2afe7e55",
+            "Start.json": "81575721f9d45b548a2e39509b5fa66d1e2f219c410f6d56a787d63bd58f53ea",
+            "Identity.json": "3ea22618b36618d8b8ac20706fef1268f42888b71f7125f5df7f27fa8155a2e1",
+            "Complete.json": "26e29c50d218056e129766465c9cde70db72b3f5ff301d882fe78705284a0805",
+            "Predictions.jsonl": "c65bce238df77bfdfb90337208d15674c7fe383a63ac96c53103ab3f6eb98cd1"
+          }
+        },
+        {
+          "task": "assessment_05",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_02\\Collected\\Runs\\whole_word\\assessment_05",
+          "clips": 146,
+          "files": {
+            "Verification.json": "655d2f6490440b96a3c76505083528a31a343a29737db92f8c1f382a431196e3",
+            "Start.json": "a23ac2a702fcceb4db26e8ca3f577997c5ce9e9f60ea71899d5c2215a24f3d9b",
+            "Identity.json": "628b429449b02337945fe300d2a522206042f4a4d47b21f6b67ed74c5f016de5",
+            "Complete.json": "3c112beb872a7f1d4e6d5ce989e0b57e7601590056b037db145e82994643007b",
+            "Predictions.jsonl": "b9a9db82084c574667f94a60ecd5273a3dfb578671fa61b40bfe4f9fb59c3a17"
+          }
+        },
+        {
+          "task": "assessment_06",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_02\\Collected\\Runs\\whole_word\\assessment_06",
+          "clips": 146,
+          "files": {
+            "Verification.json": "8ac70baaa2aa506da6136871bc639ad16730730b45605b1dca62e67dd5cb27ee",
+            "Start.json": "6ee55e7d8082b0346ce7d71afad760263098178172b41eb87a7ae53bf856c5c4",
+            "Identity.json": "a62a2bd5cf491fe7001753c6c6b2388d35dbf43d0c3014157c0bc00916384ba6",
+            "Complete.json": "1b4663bcb4a6e58f0ea812326d6551d0b7f2e2a73c67eb3689a93ab18c92ce1e",
+            "Predictions.jsonl": "67d9804fab80aac6e3a71d86e73fb1c05dfaafcbfa17dbd7192b01f23b062618"
+          }
+        },
+        {
+          "task": "assessment_07",
+          "folder": "E:\\Project\\Lip\\Research_Matched_Continuation_Assessment_2026-10-30\\Native_Destination_02\\Collected\\Runs\\whole_word\\assessment_07",
+          "clips": 145,
+          "files": {
+            "Verification.json": "7da93df76fd784c9c74e6853c930518683ee149318285056988e407846309ba9",
+            "Start.json": "4e93b0b994d65d5182a9f374feb4a3a634534cdbf5d5b77d845c8449f52fdadc",
+            "Identity.json": "6a85b11bdeed854e09145517e51ca276a184dcd3d93fcfa96d64e5ddeb19359c",
+            "Complete.json": "315a626115111070c5f0951b3e0c823085b99458848b4171f4941361320fb197",
+            "Predictions.jsonl": "f894c8646a6de3572c916c85726dc7008e59955a10863ee73ddcbb33639e1bcc"
+          }
+        }
+      ],
+      "binding_sha256": "29feafb38a4b989b475db7c59777eda04a20a22c0447e6a18deaa30273ae29c8",
+      "registry_sha256": "9c39c870934fab41f04e61051a70de3440f0f127e1c4dce8828cc7ede59060f1",
+      "selection_sha256": null,
+      "development_reverified": null
+    }
+  },
+  "assessment_plan_sha256": "78ff15fb08be918c76ed6bcb58d26b6782237e447df867b4a06cb81010edf593",
+  "inputs_sha256": "ed68fcbd240813ddf08535d50402c7a229596257ef083f6b60948de6e47826ea",
+  "all_three_matched_models_complete": true,
+  "both_source_and_destination_complete": false,
+  "new_blind_test": false,
+  "manuscript_updated": false,
+  "code_sha256": {
+    "collect_population.py": "a3bad6232cd7473f0b201fa8facfecdbdc3ec6741e69dbe15a0091835285f1bc",
+    "paired_statistics.py": "223de2f9b55fcc6752565638cdb72a9c39eda60533e5d25bdda369fb0e41461f",
+    "summarize_population.py": "17e7b9663328a36ac167f12d0aa1fab3518ac165e3078f0f7b2d152398e3734b",
+    "verify_tools.py": "968b50402a997f687d36e3669ab81594fb6e7326319b934b0e35f86b92213d0d"
+  },
+  "output_sha256": {
+    "Paired_Comparisons.csv": "ead46dc4ed7a13c8d45acaf477792c94c47443299874f069634db0c1f02e0859",
+    "Per_Clip_Counts.csv": "1b650460523be1862006a402bc68c1a9be7e784ff30a0a60b064a5913601569c",
+    "Results.csv": "bae232dfbf54870b590bfbf4d928ebef6948d1a1aba1336cd5faefe0d0735a1d"
+  }
+}

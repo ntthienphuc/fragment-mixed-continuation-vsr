@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-28T08:22:47.630014+00:00",
+  "pid": 2886,
+  "task": "anchor_VLR_T0_LAST_07",
+  "model": "VLR_T0_LAST",
+  "plan_sha256": "cc2e84f1a8cb2434f106419781ae982e325f21419227c01515cb97bfbd34b194",
+  "execution_lock_sha256": "bee2e30ec47a840e052ff6a4ca92a6e22b2839f54ce30f55bc0a74493b328dee",
+  "admission_path": "Research_Vast_VI_Continuation_2026-10-28/Admissions/GPU_1.json",
+  "admission_sha256": "0d2b3aa0f887272b76c7288ea9c52569daee9047161e12af33e8f080a1a104b8",
+  "started_unix": 1793175767.631045
+}

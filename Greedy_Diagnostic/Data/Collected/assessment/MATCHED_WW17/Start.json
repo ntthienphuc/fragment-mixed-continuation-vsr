@@ -1,0 +1,15 @@
+{
+  "utc": "2026-10-30T18:38:24.795575+00:00",
+  "model": "MATCHED_WW17",
+  "stage": "assessment",
+  "mode": "population",
+  "pid": 28152,
+  "deadline_unix": 1793399400.0,
+  "protocol_sha256": "37f0c04f3a234cd096fbb21e75e7506905f1dfb0a8d07e34b56d301d8538fae6",
+  "code_lock_sha256": "f24e773cb934f6e95a4f0131205c436a889bde8afa206e972024c102cf2cc5c7",
+  "admission_sha256": "d5ef698ccaf57c99d5de00ceb6c28c9df535c298f9d28e66afe140c17574cadf",
+  "decoder": "greedy_ctc_zero_blank_bias",
+  "blank_id": 0,
+  "eos_id": 2001,
+  "references_used_for_inference": false
+}

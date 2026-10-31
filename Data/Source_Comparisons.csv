@@ -1,0 +1,13 @@
+reference,comparison,role,regime,reference_decoder,comparison_decoder,reference_minus_comparison_pp,ci95_low_pp,ci95_high_pp,groups,bootstrap_unit,resamples,seed,conditional_on_fitted_states,multiplicity_adjusted
+EN_T0_LAST,EN_T1_LAST,matched_full_vs_fragment,primary,beam_c0.1,beam_c0.5,-1.906906906906907,-2.9860150059297497,-0.8312312282837026,354,archived_source_id,10000,2300023087270338508,True,False
+EN_T0_LAST,EN_T1_LAST,matched_full_vs_fragment,common,beam_c0.1,beam_c0.1,-1.4564564564564564,-2.374520915734171,-0.5838172875757961,354,archived_source_id,10000,6814080253305549731,True,False
+EN_B0,EN_T0_LAST,initial_vs_full,primary,beam_c0.5,beam_c0.1,5.03003003003003,3.8502824810721092,6.190244547717691,354,archived_source_id,10000,16282064516486056066,True,False
+EN_B0,EN_T0_LAST,initial_vs_full,common,beam_c0.1,beam_c0.1,5.6006006006006,4.4068890556407165,6.831272210658136,354,archived_source_id,10000,13187593378211037460,True,False
+EN_B0,EN_T1_LAST,initial_vs_fragment,primary,beam_c0.5,beam_c0.5,3.123123123123123,2.0673087191382535,4.16412560852878,354,archived_source_id,10000,8352839001262525657,True,False
+EN_B0,EN_T1_LAST,initial_vs_fragment,common,beam_c0.1,beam_c0.1,4.1441441441441444,2.8965370760322386,5.392432005796651,354,archived_source_id,10000,4267443796811495605,True,False
+VLR_T0_LAST,VLR_T1_LAST,matched_full_vs_fragment,primary,greedy_b-1.0,beam_c0.5,4.43220038944946,4.199053327251004,4.6578637111909345,61,archived_source_id,10000,2200752719633946900,True,False
+VLR_T0_LAST,VLR_T1_LAST,matched_full_vs_fragment,common,beam_c0.1,beam_c0.1,-0.5881571959638874,-0.708923954666009,-0.47445643692192047,61,archived_source_id,10000,15907012357979199183,True,False
+VLR_B0,VLR_T0_LAST,initial_vs_full,primary,greedy_b-1.0,greedy_b-1.0,1.697203044786688,1.4399913551921268,1.9745989857857942,61,archived_source_id,10000,13553582222508839437,True,False
+VLR_B0,VLR_T0_LAST,initial_vs_full,common,beam_c0.1,beam_c0.1,1.813595326606479,1.6402435913685418,1.991027148307556,61,archived_source_id,10000,13175836204856138115,True,False
+VLR_B0,VLR_T1_LAST,initial_vs_fragment,primary,greedy_b-1.0,beam_c0.5,6.129403434236148,5.78949113251823,6.4930722701075565,61,archived_source_id,10000,13513567310077801880,True,False
+VLR_B0,VLR_T1_LAST,initial_vs_fragment,common,beam_c0.1,beam_c0.1,1.2254381306425917,1.0685280793598926,1.3915521110558349,61,archived_source_id,10000,16277442327952034681,True,False

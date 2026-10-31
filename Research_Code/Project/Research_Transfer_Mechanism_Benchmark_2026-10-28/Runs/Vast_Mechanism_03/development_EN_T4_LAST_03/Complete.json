@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-28T13:44:27.689299+00:00",
+  "status": "complete_pending_independent_verification",
+  "task": "development_EN_T4_LAST_03",
+  "model": "EN_T4_LAST",
+  "split": "development",
+  "purpose": "full_evaluation",
+  "clips": 135,
+  "candidate_order": [
+    "beam_c0.1",
+    "beam_c0.5",
+    "beam_c0.9",
+    "beam_c1.0",
+    "greedy_b0.0",
+    "greedy_b-0.5",
+    "greedy_b0.5",
+    "greedy_b-1.0",
+    "greedy_b1.0",
+    "greedy_b-2.0",
+    "greedy_b2.0"
+  ],
+  "peak_gpu_mib": 3123.55419921875,
+  "seconds": 604.336804151535,
+  "predictions_sha256": "592ad59eb4bcaa394a7c2dc1c0417909d96be4de9e686e724870290b043b7f76",
+  "identity_sha256": "517603d93830ab6d1c42d8f9958757f181bd0d2017597937727a85d22b5ae79c",
+  "plan_sha256": "8d3e81d8fed2ef8a6b795d7bae28cf89068c0c430ef38c8b1335c9732daceaf5",
+  "execution_lock_sha256": "d2680ccaa1a012cc36d34b76f4b53f07c2805fe97f823bac59d711a0c1f07b5d"
+}

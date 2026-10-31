@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-28T06:58:34.118580+00:00",
+  "status": "english_full_benchmark_verified",
+  "models": 4,
+  "assessment_tasks": 32,
+  "source_tasks_required": 32,
+  "primary_model_clip_predictions": 11416,
+  "summary_sha256": "89c7147ff52ad4d76c48bff3eedea337294eae9dce7407162124b323ba5788fb",
+  "per_clip_counts_sha256": "d2a056770306b690c8ee314fb081f6952e040280eb3e2533e817d26562dc7b42",
+  "paper_or_novelty_claim_updated": false
+}

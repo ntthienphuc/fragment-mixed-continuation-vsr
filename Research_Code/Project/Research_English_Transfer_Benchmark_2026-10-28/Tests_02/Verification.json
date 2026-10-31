@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-27T19:49:36.089154+00:00",
+  "status": "cpu_execution_checks_passed",
+  "tasks_coverage_checked": 64,
+  "source_prediction_counts_checked": 47608,
+  "invalid_cases_rejected": 21,
+  "scalar_bootstrap_checks": 31,
+  "real_owned_child_termination": true,
+  "gpu_inference_performed": false,
+  "plan_sha256": "3c604eecef2a00cc4e885a860fbd502a081474dc8f6de09c8a93e5849b5267a1",
+  "code_sha256": {
+    "admission.py": "ba724dc7ddd5cada08aff8cffa39a5a9175431b0263d6cc89467342dd0b6c49c",
+    "analyze_complete.py": "daa65ca1832f39d2e088c7b08f9c9888f05614aed78ef40e56d3382e1f8b5926",
+    "collect_results.py": "ad3550d3022854591bdc4d183ce224ef9342cf01efd27b57f84e5951760cf6d1",
+    "english_common.py": "5f3ebb0fa7f99b9cc9effc7069925ff982dc122845282ea579d84c7d9d782f1b",
+    "local_resources.py": "4169733e6b79c8ab117155c00cb1a719fc0922d683bc3185230dec3b85b6bf24",
+    "preflight.py": "65b272834012525e10f88e44e1323f53d08e7eaa66cd2a279bc8254a31f8067d",
+    "prepare_plan.py": "b0bb073e4dcfc2bc5b3f83ea2ece4d3bc0264f6a12cffb3ec554ab26736dba8e",
+    "queue_local.py": "f5311a57dc627b1bea32d244dd6ca33310b5257b5a421b6ed5639b117e2e46c3",
+    "run_task.py": "d7837066bce9f4965f9055116aa6826ce4232c46a5e002580f707d789dfafe7e",
+    "runtime_bridge.py": "83d1b3d4df1d080be442c302e7f8f092e93e1fa63befb1b620b3e63961f7b6b1",
+    "seal_execution.py": "61e537c101a51fa69adda6e388c7117a0380f5a761b0df95b922ecf988e413ce",
+    "select_decoder.py": "0ba408ec3439e4d3fef2fe31df1906503bce75c16bd773cd06cf217b05b3029a",
+    "task_design.py": "31391a3107cdd11a76fbd5ac90a1cc7688e330e81f862363b89328223f2ed384",
+    "test_execution.py": "9d44ad8b4186add7e6348cad154d82a8ea64f5d5399b862ab644c0e388849713",
+    "verify_task.py": "638e9513990f4147b472f77c3bb53c2ef4d2275e91eb9fc37713e65f2892918f"
+  }
+}

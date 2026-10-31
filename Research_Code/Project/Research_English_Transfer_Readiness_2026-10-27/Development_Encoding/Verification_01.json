@@ -1,0 +1,49 @@
+{
+  "utc": "2026-10-27T19:25:07.400551+00:00",
+  "status": "all_4328_packets_independently_read_back",
+  "model_caches": {
+    "EN_B0": {
+      "archive": "C:\\Users\\thien\\Lip_Research_Backups\\English_Transfer_20261027\\Development_Encoded_01\\EN_B0\\States.zip",
+      "archive_sha256": "a8038c733564d7ac5603afa02c5f04a141a2eaa1dd018923039b3e2a2e8916a6",
+      "proof_sha256": "f0aa7448e19b5c4f375f4cc5fd10b16c094465bbb869e32060a3adeb80c37f30",
+      "index_sha256": "54f615a99c0174d1166560af4f1dda6080fe429dccfe67b411cbe13dd15a8d17",
+      "source_clips": 1082,
+      "seconds": 68.48400000002584,
+      "peak_gpu_mib": 1267.60107421875
+    },
+    "EN_T0_LAST": {
+      "archive": "C:\\Users\\thien\\Lip_Research_Backups\\English_Transfer_20261027\\Development_Encoded_01\\EN_T0_LAST\\States.zip",
+      "archive_sha256": "6f3b023a705da5e44cdbd99416f5f8a06c762812022e01a65f4cf76cbf364103",
+      "proof_sha256": "216199bf33938eb96fb665b4b1c942a2d7dc85110070b8afc32ecc52fa9a0cf3",
+      "index_sha256": "33b38b24ac9e9bcc78885d962461c4bdee7938e207070c59691b2ab42ec858ff",
+      "source_clips": 1082,
+      "seconds": 67.5,
+      "peak_gpu_mib": 1259.7216796875
+    },
+    "EN_T1_LAST": {
+      "archive": "C:\\Users\\thien\\Lip_Research_Backups\\English_Transfer_20261027\\Development_Encoded_01\\EN_T1_LAST\\States.zip",
+      "archive_sha256": "9cf17f3990b83fb5ae468ad27a4991910e26e6f8ef354dfe485f6ebf291bb404",
+      "proof_sha256": "b17c39a849e7f63a56c3d4c31a26201f55d480ddf06af62a7447a727b959df7a",
+      "index_sha256": "175736cbe3b9e306d093f60a40dc4fc94103b4fb2f756dd4a198761cf33ea8e8",
+      "source_clips": 1082,
+      "seconds": 67.59399999998277,
+      "peak_gpu_mib": 1275.95361328125
+    },
+    "EN_B1": {
+      "archive": "C:\\Users\\thien\\Lip_Research_Backups\\English_Transfer_20261027\\Development_Encoded_01\\EN_B1\\States.zip",
+      "archive_sha256": "82f9ddf99b91783f73d3a658a6a1dcd28969b2bb5766660e58499740cf1d6e50",
+      "proof_sha256": "f7574e4d74856f161d6556e307a8c3167dd08b2005ea783e9c04e6c1d7fe6ad8",
+      "index_sha256": "d194ba1319c177353bd24140774d4d1abe64256e933d4c5df432badfc9348531",
+      "source_clips": 1082,
+      "seconds": 68.17199999999139,
+      "peak_gpu_mib": 1326.0712890625
+    }
+  },
+  "packets": 4328,
+  "fresh_pixel_native_replays_in_worker_receipts": 12,
+  "new_decoder_replay_in_this_checker": false,
+  "lock_sha256": "410e94db0c5978a91a3dd46ebc05ea375cc911fec57fb4b0ecc4ec905c08d09f",
+  "verifier_sha256": "2534f1335543c1afde754cac9160fd92b040b585c56fa9f129b173194b09dc94",
+  "test_clips_used": false,
+  "accuracy_claimed": false
+}

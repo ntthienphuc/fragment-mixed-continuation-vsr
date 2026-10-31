@@ -1,0 +1,43 @@
+{
+  "status": "complete_verified_development_bundle",
+  "utc": "2026-10-27T20:43:54.588684+00:00",
+  "plan_sha256": "19b36db1142d7c98924f349328091ae2e0dbde570789e477edb8eee31ff89d44",
+  "models": {
+    "VLR_B0": {
+      "predictions_path": "Research_Transfer_Full_Benchmark_2026-10-27/Development_Bundle_01/VLR_B0.jsonl",
+      "predictions_sha256": "3dd65ff2cc72d9f0a7e03ad54fd4371f4e7f29eae0928358271931af851b1954",
+      "verification_path": "Research_Transfer_Full_Benchmark_2026-10-27/Development_Bundle_01/VLR_B0_Verification.json",
+      "verification_sha256": "b7fd7b93b8b7f194a3aea8b4772d7dee2f3dd4ba08afc49a26afbcdf71fa9bce"
+    },
+    "VLR_T0_LAST": {
+      "predictions_path": "Research_Transfer_Full_Benchmark_2026-10-27/Development_Bundle_01/VLR_T0_LAST.jsonl",
+      "predictions_sha256": "b4f3f521d77e5da9c5ae06a86e6c58355bc8915aab1e35be11880b4e73270fdf",
+      "verification_path": "Research_Transfer_Full_Benchmark_2026-10-27/Development_Bundle_01/VLR_T0_LAST_Verification.json",
+      "verification_sha256": "9eabb2b85c1b0e7ca30f885a2618e0b62cb5d74c3c8e70e3ef56458405168da9"
+    },
+    "VLR_T1_LAST": {
+      "predictions_path": "Research_Transfer_Full_Benchmark_2026-10-27/Development_Bundle_01/VLR_T1_LAST.jsonl",
+      "predictions_sha256": "d7885e33c0cc2e5281e68ec7c631749d50f791cca468679ba35e575a03b525e6",
+      "verification_path": "Research_Transfer_Full_Benchmark_2026-10-27/Development_Bundle_01/VLR_T1_LAST_Verification.json",
+      "verification_sha256": "20e6dd203f5695f609da0aa00f4303aef7e86f8a0f4554298449c8fa5953889b"
+    },
+    "VLR_T0_29_LAST": {
+      "predictions_path": "Research_Transfer_Full_Benchmark_2026-10-27/Development_Bundle_01/VLR_T0_29_LAST.jsonl",
+      "predictions_sha256": "f79f9cde663e9c9576346ef14e7f46765253221531fc2433a83d4d6e01c8d70e",
+      "verification_path": "Research_Transfer_Full_Benchmark_2026-10-27/Development_Bundle_01/VLR_T0_29_LAST_Verification.json",
+      "verification_sha256": "5575d454cf2ff2f5f28b571e6800c9c71c66e3385cb931f8a287770dffb6ce53"
+    },
+    "VLR_T1_29_LAST": {
+      "predictions_path": "Research_Transfer_Full_Benchmark_2026-10-27/Development_Bundle_01/VLR_T1_29_LAST.jsonl",
+      "predictions_sha256": "9d846c1931085db05fc81e1cad8c6bc41a89d64c4a37bace31a22da4e8ff3524",
+      "verification_path": "Research_Transfer_Full_Benchmark_2026-10-27/Development_Bundle_01/VLR_T1_29_LAST_Verification.json",
+      "verification_sha256": "f9d2ed207e0d9d52b69c31ac62320a4da1abd51c5b3f065ef39fcdc68517a494"
+    },
+    "VC_NATIVE": {
+      "predictions_path": "Research_Transfer_Full_Benchmark_2026-10-27/Development_Bundle_01/VC_NATIVE.jsonl",
+      "predictions_sha256": "849582054c32e1e0e85b153166df110556897c5bdc35df13ab0c0e8988c6a851",
+      "verification_path": "Research_Transfer_Full_Benchmark_2026-10-27/Development_Bundle_01/VC_NATIVE_Verification.json",
+      "verification_sha256": "5c68178ef650fd513d5b8132c77accb5cf505a26d417a5b51056a0c945594e52"
+    }
+  }
+}

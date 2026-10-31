@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-29T20:20:48.645876+00:00",
+  "assessment_plan_sha256": "78ff15fb08be918c76ed6bcb58d26b6782237e447df867b4a06cb81010edf593",
+  "execution_code_lock_unchanged_sha256": "74d43b50799f808ce9cdddab91b00cef220b77987cff56e80f5a2756aecc7dee",
+  "code_sha256": {
+    "collect_population.py": "a3bad6232cd7473f0b201fa8facfecdbdc3ec6741e69dbe15a0091835285f1bc",
+    "paired_statistics.py": "223de2f9b55fcc6752565638cdb72a9c39eda60533e5d25bdda369fb0e41461f",
+    "summarize_population.py": "17e7b9663328a36ac167f12d0aa1fab3518ac165e3078f0f7b2d152398e3734b",
+    "verify_tools.py": "968b50402a997f687d36e3669ab81594fb6e7326319b934b0e35f86b92213d0d"
+  },
+  "regression_sha256": "7e77b1ea23fd87030e409bf7ca9e01d7b9ae2008904ac4c22c58f3669dad3f3b",
+  "new_population_assembly_verified": false,
+  "scientific_results_changed": false
+}

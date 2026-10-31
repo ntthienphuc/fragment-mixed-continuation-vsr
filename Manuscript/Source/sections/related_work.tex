@@ -1,0 +1,95 @@
+\section{Related work}
+\subsection{Learning visual speech representations}
+Continuous lip reading combines spatial analysis of the mouth with temporal and
+linguistic modeling. Sentence-level systems established the importance of learning
+over variable-length visual sequences \cite{chung2017lipreading,afouras2022deep}.
+Large-scale supervised recognition subsequently expanded the available training
+resources \cite{shillingford2019large}. Auto-AVSR uses automatically generated
+labels to exploit additional audiovisual collections \cite{ma2023autoavsr}, while
+AV-HuBERT learns audiovisual representations through masked cluster prediction
+\cite{shi2022avhubert}. These approaches address representation quality and scale.
+Our experiments instead start from existing language-specific recognizers and
+study how the presentation of supervision affects transfer under a fixed update
+budget, using the same visual backbone and source-video collection.
+
+The recognizers considered here use a hybrid CTC/attention formulation
+\cite{graves2006ctc,watanabe2017hybrid}. The two output components provide useful
+controls because changing their relative decoding weight can change substitutions,
+deletions and insertions without changing the trained model. Accordingly, we report
+both a decoder selected for each checkpoint on development data and a common
+decoder. Together, these comparisons distinguish the performance of the tuned
+system from the effect observed under a shared decoding rule.
+
+\subsection{Temporal crops and short-sequence supervision}
+Training on shorter sequences is not new to lip reading. Early sentence-level work
+used a progression in sequence difficulty \cite{chung2017lipreading}.
+Martinez et al. vary temporal context around an intact target word, improving
+robustness to frame removal in isolated-word recognition
+\cite{martinez2020lipreading}. Their BGRU comparison also illustrates that
+robustness and unperturbed accuracy can change in different directions.
+Prajwal et al. train with consecutive-word subsequences and compare increasing
+subsequence length with using different lengths together
+\cite{prajwal2022subword}. Their study is particularly relevant because it shows
+that mixed temporal scales provide an established augmentation baseline. We build
+on this setting to examine transfer under matched continuation budgets and
+whole-utterance evaluation on a different corpus.
+
+Recent word-level work also examines temporal information and augmentation.
+InfoSyncNet combines temporal modeling with time masking, mixup and word-boundary
+indicators, reporting different time-masking effects on LRW and LRW1000
+\cite{xue2025infosyncnet}. These experiments retain an isolated-word recognition
+task. FM instead changes both the visual interval and its transcript during
+continuation, then evaluates complete utterances on a destination corpus.
+
+The specific setting examined here differs in two respects. The fragment is defined
+by a fixed time interval rather than a fixed number of complete words. Its label
+contains any transcript unit that overlaps the interval, so boundary words can
+remain in the target despite incomplete visual coverage. Moreover, evaluation
+uses complete utterances from a different corpus, rather than the same fragment
+task used during continuation. These choices create a testable question about the
+interaction between context availability and transfer. We examine this fixed-time
+formulation through paired context-restoration controls and a direct comparison
+with conventional word-aligned fragments. The latter tests the crop choice within
+our continuation protocol; it is not a reimplementation of Prajwal et al.'s
+architecture or complete training pipeline. The distinction from prior work lies
+in the joint assessment of whole-utterance transfer, source performance and
+decoder dependence after continuation, rather than in temporal cropping alone.
+
+\subsection{Contextual targets and consistency learning}
+Self-distillation provides a way to use information that is available during
+training but absent from a particular input view. For example, data2vec predicts
+contextual representations of the full input from a masked view
+\cite{baevski2022data2vec}. Closer to the recognition objective, CR-CTC encourages
+agreement between framewise CTC distributions from two augmented speech views
+\cite{yao2025crctc}. Its branches share transcript supervision, with bidirectional
+consistency and stop-gradient targets at corresponding time positions.
+
+Our full-view control examines broader temporal context during fragment learning.
+The current model supplies a stop-gradient CTC target from the complete video,
+restricted to the fragment's time positions, while the student retains its
+fragment transcript. It therefore tests contextual guidance alongside the
+alternative of exposing additional context directly to the encoder. Both controls
+retain ordinary whole-utterance inference. This framing connects the experiments
+to established consistency learning while focusing the comparison on the context
+available when learning from partial speech.
+
+\subsection{Cross-corpus evaluation and multilingual evidence}
+Speaker adaptation addresses distribution shift using examples from the intended
+users. Kim et al. learn prompts from target-speaker adaptation data while
+preserving the pretrained recognizer parameters \cite{kim2025prompt}. Here,
+recognizer gradient updates use the continuation source; destination development
+data are used only for decoder calibration where the protocol permits it.
+This distinction separates source continuation from target-speaker fitting.
+
+WildVSR was introduced to examine whether strong VSR models generalize beyond
+LRS3 \cite{djilali2024wildvsr}. Its results motivate retaining an external-corpus
+assessment even when source-domain validation appears satisfactory. We use WildVSR
+as the English destination corpus and ViCocktail as the Vietnamese destination
+\cite{nguyen2025vicocktail}. The Vietnamese source is the VLR dataset
+\cite{vlr2026dataset}; English continuation uses prepared LRS2 training clips.
+The two comparisons share the intervention and whole-utterance objective, but
+they are distinct transfer settings with different initializations, tokenizers,
+training coverage and development-data availability.
+
+We analyze each corpus pair separately, examining training coverage, edit types
+and sequence length as possible explanations for their contrasting outcomes.

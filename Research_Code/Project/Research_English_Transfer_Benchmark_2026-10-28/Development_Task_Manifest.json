@@ -1,0 +1,136 @@
+{
+  "utc": "2026-10-28T01:39:41.153803+00:00",
+  "status": "all_stage_tasks_explicitly_named",
+  "stage": "development",
+  "execution_lock_sha256": "b4ce920a70ba2db8d0d2470920251b8a4f971a7760c38f28aed8e9450ac8d699",
+  "tasks": {
+    "development_EN_B0_00": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Local_01/development_EN_B0_00",
+      "verification_sha256": "cb5b4096bbb465367ea1aa0c60cc3c80702440d713c76ecf798ed38e5cdcbbdf"
+    },
+    "development_EN_B0_01": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Local_01/development_EN_B0_01",
+      "verification_sha256": "675fe227366c019330855446fa0d7375b6f8c431efeb6709e01d38473be3b767"
+    },
+    "development_EN_B0_02": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Local_01/development_EN_B0_02",
+      "verification_sha256": "18902bc309bc6b8ebf259b39e1807dc3bce6c22fadeab8acd356610e1e618868"
+    },
+    "development_EN_B0_03": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Local_01/development_EN_B0_03",
+      "verification_sha256": "10a549ca3b5c51118a1b184a2b46197eb24d2fa1e82e4fd31df4eb4ba8eeffbf"
+    },
+    "development_EN_B0_04": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_B0_04",
+      "verification_sha256": "4f239c9ad1550fa4aa1bd2f757283207c9b9750a6954491060b004349cadc289"
+    },
+    "development_EN_B0_05": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_B0_05",
+      "verification_sha256": "93ef7235679f3b0130aba222ed64dca7357cf0631c5f3100bce5b2a31a0e646c"
+    },
+    "development_EN_B0_06": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_B0_06",
+      "verification_sha256": "c22b94d54400c8ab2d5092c45b8d55a42409dee3b05d8f5f85af84459573df6a"
+    },
+    "development_EN_B0_07": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_B0_07",
+      "verification_sha256": "676b037b6085c1d49201c32ed17a50307a377853048c8c0a3e947ba4d38f944f"
+    },
+    "development_EN_T0_LAST_00": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_T0_LAST_00",
+      "verification_sha256": "b6604c01bc6ec0347cd47a4ceb438816d658b2f2a105cbd75f3e6476a1cf4ab0"
+    },
+    "development_EN_T0_LAST_01": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_T0_LAST_01",
+      "verification_sha256": "47cb108c684b73789a6b860c38847ecaed77c01d1b71fee212d10f4df701e416"
+    },
+    "development_EN_T0_LAST_02": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_T0_LAST_02",
+      "verification_sha256": "1a9a3bb4c4ae3a38f9157f2dc05c282e1e9e13bf4804720a37e87dae9bad3d78"
+    },
+    "development_EN_T0_LAST_03": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_T0_LAST_03",
+      "verification_sha256": "ad4f8449898401eb597d303b4ab13f8ad8e6a9c88b38f4e18d910e536b2a54c2"
+    },
+    "development_EN_T0_LAST_04": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_T0_LAST_04",
+      "verification_sha256": "88323eefdb1ed236b756bf5d638c91eeacc9a8cd7b93f33fb4f060cb59404a33"
+    },
+    "development_EN_T0_LAST_05": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_T0_LAST_05",
+      "verification_sha256": "37e2f31038e176b71f0714c2e2983a291101ff9c257f3c1ed71aae14fdb466ab"
+    },
+    "development_EN_T0_LAST_06": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_T0_LAST_06",
+      "verification_sha256": "c17d3b565ca441b0792e9ce71420a018e0b0d6395d46d19902e787f79363615a"
+    },
+    "development_EN_T0_LAST_07": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_T0_LAST_07",
+      "verification_sha256": "9209146f34684db146b3daddb48435f8d68c1939b6c1820caa6d22950f2e0e3c"
+    },
+    "development_EN_T1_LAST_00": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_T1_LAST_00",
+      "verification_sha256": "7c19830eb71d9d3bc46fd9eb64ec1fcb230d802cac6a467a13a8334e0641580f"
+    },
+    "development_EN_T1_LAST_01": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_T1_LAST_01",
+      "verification_sha256": "c0b78dfa678851fbc53f3c932585523dd903d652119bf0fa402e12193b0d1fc7"
+    },
+    "development_EN_T1_LAST_02": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_T1_LAST_02",
+      "verification_sha256": "6e8923701b5dff524c98a996da9ed4d5ef23973967da3c478ac6fb78777abfd0"
+    },
+    "development_EN_T1_LAST_03": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_T1_LAST_03",
+      "verification_sha256": "49a3c05e7d52ffb49b2f7d8af9d8441720cd216a15fea7c79d9fc29ac3dd46a5"
+    },
+    "development_EN_T1_LAST_04": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_T1_LAST_04",
+      "verification_sha256": "6dcc53e457b7e50322639e36a924debb3527b95ff546b4c87340cde9ac486c69"
+    },
+    "development_EN_T1_LAST_05": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_T1_LAST_05",
+      "verification_sha256": "494fe6e5070f9af7c43e11d0a43bc69bf549bef99f74f6326c28f85c814e736e"
+    },
+    "development_EN_T1_LAST_06": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_T1_LAST_06",
+      "verification_sha256": "2a7e283cb4e93551a5ce0c67fceae120cd35842172b1cbbcca42f2c432dff1d2"
+    },
+    "development_EN_T1_LAST_07": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_T1_LAST_07",
+      "verification_sha256": "791fdf9e866117209a949fb8888b511c0f6ea60909f7767b8d3d00a64795fe90"
+    },
+    "development_EN_B1_00": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_B1_00",
+      "verification_sha256": "d2cc163c59fa325ac993760dfccd693182fea89bcd01fc662eea15559d2cb465"
+    },
+    "development_EN_B1_01": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_B1_01",
+      "verification_sha256": "815f1ded5975cc646ed61564d85611e7b867e0d2392e1efe32f976b2c0ff85b7"
+    },
+    "development_EN_B1_02": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_B1_02",
+      "verification_sha256": "9310cf955b68f5f9364cdfe1c89b98723b50b1d643baa6a27ea11bd696d5d961"
+    },
+    "development_EN_B1_03": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_B1_03",
+      "verification_sha256": "1204ec64b638eaddb3c588b418cdfe8d2b425c84fe019bb90f6ab99f0e8ae093"
+    },
+    "development_EN_B1_04": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_B1_04",
+      "verification_sha256": "281b0c36d721fb1288e951d356fd154ff26aae0cd496885cb37733b5b0df8215"
+    },
+    "development_EN_B1_05": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_B1_05",
+      "verification_sha256": "a7e8959c250942fa05ba5211c10afce78001cabca0a04f53a133081c1a85c65b"
+    },
+    "development_EN_B1_06": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_B1_06",
+      "verification_sha256": "706483ea83efe283b8c06576bf5dcd2c48c8c14eada1862d85e3022c4acecd68"
+    },
+    "development_EN_B1_07": {
+      "path": "Research_English_Transfer_Benchmark_2026-10-28/Runs/Server_02/development_EN_B1_07",
+      "verification_sha256": "eb4f5102dfb2d4afaaba289b21e46a3d3e5e99a3dddca76e0e6dcec2047db2ce"
+    }
+  }
+}

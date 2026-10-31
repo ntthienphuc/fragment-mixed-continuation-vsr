@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-28T21:29:05.330815+00:00",
+  "status": "optimizer_and_rng_resume_roundtrip_exact",
+  "scope": "small dropout model; not a recognition result or GPU test",
+  "native_learning_rate_used": true,
+  "gradient_clipping_exercised": true,
+  "rejected": [
+    "changed_identity",
+    "interrupted_write_preserved",
+    "invalid_step_0",
+    "invalid_step_6001"
+  ],
+  "cuda_initialized": false,
+  "engine_sha256": "d1deb74136312d7f9737649861fbe62301e4a8d42cf7c38932c4244c3ad6cba7",
+  "test_sha256": "0326c19d7506d35ce3e8c223ed46b9525904999f091bc7ae0a8f5814b4f30f66"
+}
